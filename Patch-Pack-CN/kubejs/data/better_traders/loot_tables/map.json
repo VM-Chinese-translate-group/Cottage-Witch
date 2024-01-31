@@ -14,7 +14,7 @@
 				},
 				{
 					"function": "minecraft:set_name",
-					"name": "Jungle Explorer Map",
+					"name": "丛林探险家地图",
 					"entity": "this"
 				},
 				{
@@ -40,7 +40,7 @@
 				},
 				{
 					"function": "minecraft:set_name",
-					"name": "Desert Explorer Map",
+					"name": "沙漠探险家地图",
 					"entity": "this"
 				},
 				{
@@ -66,7 +66,7 @@
 				},
 				{
 					"function": "minecraft:set_name",
-					"name": "Tundra Explorer Map",
+					"name": "苔原探险家地图",
 					"entity": "this"
 				},
 				{
@@ -92,7 +92,7 @@
 				},
 				{
 					"function": "minecraft:set_name",
-					"name": "Swamp Explorer Map",
+					"name": "沼泽探险家地图",
 					"entity": "this"
 				},
 				{
