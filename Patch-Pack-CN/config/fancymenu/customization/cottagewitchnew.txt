@@ -109,7 +109,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   action = sethoverlabel
-  label = 可访问
+  label = 无障碍
 }
 
 customization {
