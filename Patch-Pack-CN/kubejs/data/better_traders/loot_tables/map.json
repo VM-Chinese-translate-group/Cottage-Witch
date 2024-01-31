@@ -66,7 +66,7 @@
 				},
 				{
 					"function": "minecraft:set_name",
-					"name": "苔原探险家地图",
+					"name": "冻原探险家地图",
 					"entity": "this"
 				},
 				{
