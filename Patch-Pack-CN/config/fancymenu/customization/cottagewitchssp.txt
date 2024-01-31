@@ -1,0 +1,39 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/cottagewitch/textures/mainmenu/lorebook.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = 背景由forthwist提供
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -126
+  width = 126
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 3f99d261-ece8-431c-8ed5-dbcc569970601687199156439
+  y = 143
+  alignment = left
+  height = 40
+}
+
