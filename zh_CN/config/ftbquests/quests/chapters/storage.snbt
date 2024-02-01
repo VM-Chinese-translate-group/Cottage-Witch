@@ -1,0 +1,1574 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:chest"
+	id: "20C131FAFAF3F980"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgstoragenetwork.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgitemstransport.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdrawers.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscpurple.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests0.description0}"
+				"{ftbquests.chapter.storage.quests0.description1}"
+				"{ftbquests.chapter.storage.quests0.description2}"
+			]
+			icon: "functionalstorage:oak_1"
+			id: "1838DE5E92C9C03F"
+			rewards: [
+				{
+					id: "10B66423B15FF35C"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "443D7D8BEF7A970E"
+					item: "functionalstorage:spruce_4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.storage.quests0.subtitle}"
+			tasks: [
+				{
+					id: "4B1A10444317E77B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "functionalstorage:drawer"
+						}
+					}
+					title: "{ftbquests.chapter.storage.quests0.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests0.title}"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"{ftbquests.chapter.storage.quests1.description0}"
+				"{ftbquests.chapter.storage.quests1.description1}"
+				"{ftbquests.chapter.storage.quests1.description2}"
+			]
+			id: "643038A9E2CA7D59"
+			rewards: [
+				{
+					count: 3
+					id: "376B07CA67A66A33"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.storage.quests1.subtitle}"
+			tasks: [
+				{
+					id: "7206A74D127A4316"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests1.title}"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["643038A9E2CA7D59"]
+			description: ["{ftbquests.chapter.storage.quests2.description}"]
+			id: "313DFFDB063483B7"
+			rewards: [
+				{
+					id: "292FCC80A297F6BB"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "1365D107453B0401"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "18308CF23F25BABA"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{ftbquests.chapter.storage.quests3.description0}"
+				"{ftbquests.chapter.storage.quests3.description1}"
+				"{ftbquests.chapter.storage.quests3.description2}"
+				"{ftbquests.chapter.storage.quests3.description3}"
+			]
+			id: "1F6CE1B236003A84"
+			rewards: [
+				{
+					id: "2EF9A992AA775DC7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6B34333AE81917CE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "02DB6DD885080ABE"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2BEADE1949F60C20"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+				{
+					id: "01A271C59091140F"
+					item: "functionalstorage:simple_compacting_drawer"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{ftbquests.chapter.storage.quests4.description0}"
+				"{ftbquests.chapter.storage.quests4.description1}"
+				"{ftbquests.chapter.storage.quests4.description2}"
+			]
+			id: "40EDCF93A4E5B1AA"
+			rewards: [
+				{
+					id: "37F735C8A95A8B8E"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35682075481226F2"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"{ftbquests.chapter.storage.quests5.description0}"
+				"{ftbquests.chapter.storage.quests5.description1}"
+				"{ftbquests.chapter.storage.quests5.description2}"
+				"{ftbquests.chapter.storage.quests5.description3}"
+				"{ftbquests.chapter.storage.quests5.description4}"
+			]
+			id: "0204D145FC5C3008"
+			rewards: [
+				{
+					id: "465128D4C75677B0"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40968CE9BA792258"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			description: ["{ftbquests.chapter.storage.quests6.description}"]
+			id: "58C6D8E0422110BC"
+			rewards: [
+				{
+					id: "377889882D9DFF5F"
+					item: "overweight_farming:overweight_golden_apple_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34FDE83E40FA45F1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests6.subtitle}"
+			tasks: [
+				{
+					count: 5L
+					id: "36726B34E435877E"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests6.title}"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests7.description0}"
+				"{ftbquests.chapter.storage.quests7.description1}"
+				"{ftbquests.chapter.storage.quests7.description2}"
+				"{ftbquests.chapter.storage.quests7.description3}"
+				"{ftbquests.chapter.storage.quests7.description4}"
+			]
+			id: "62D95F91881F228C"
+			rewards: [
+				{
+					id: "48464721C342CFBF"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "463FB873FA5E8629"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests8.description0}"
+				"{ftbquests.chapter.storage.quests8.description1}"
+				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
+			]
+			id: "5E3D0655F0A08890"
+			rewards: [
+				{
+					id: "2421BCEC9EF7B9BE"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204DB26B0498DCB3"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests8.subtitle}"
+			tasks: [
+				{
+					id: "31A89834BA4A5521"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests8.title}"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests9.description0}"
+				""
+				"{ftbquests.chapter.storage.quests9.description2}"
+				""
+				"{ftbquests.chapter.storage.quests9.description4}"
+				""
+				"{ftbquests.chapter.storage.quests9.description6}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.storage.quests9.description9}"
+				""
+				"{ftbquests.chapter.storage.quests9.description11}"
+				""
+				"{ftbquests.chapter.storage.quests9.description13}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.storage.quests9.description15}"
+				""
+				"{ftbquests.chapter.storage.quests9.description17}"
+				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"{ftbquests.chapter.storage.quests9.description21}"
+				""
+				"{ftbquests.chapter.storage.quests9.description23}"
+				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1B3C37BD61939C76"
+			rewards: [
+				{
+					id: "4F0820A607503EB4"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.storage.quests9.subtitle}"
+			tasks: [
+				{
+					id: "65E8A2B80E50F100"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "{ftbquests.chapter.storage.quests9.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "2268FB94B2D4789E"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests9.title}"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["{ftbquests.chapter.storage.quests10.description}"]
+			id: "681253D70C026027"
+			rewards: [
+				{
+					id: "240243DEB27A110F"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
+			subtitle: "{ftbquests.chapter.storage.quests10.subtitle}"
+			tasks: [
+				{
+					id: "2B45691AED9BE323"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["{ftbquests.chapter.storage.quests11.description}"]
+			id: "7A9A86BAA9E4A06E"
+			rewards: [
+				{
+					id: "1E928BE5FBB5FD95"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests11.subtitle}"
+			tasks: [
+				{
+					count: 4L
+					id: "38E41AF45EF1C29A"
+					item: "toms_storage:ts.trim"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"{ftbquests.chapter.storage.quests12.description0}"
+				"{ftbquests.chapter.storage.quests12.description1}"
+			]
+			id: "21A2E4CA683BD232"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "738482AB5370FCF4"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "507AD7D665822346"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "{ftbquests.chapter.storage.quests12.tasks0.title}"
+					type: "item"
+				}
+				{
+					id: "266DB9CE515A1C80"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:connector"
+						}
+					}
+					title: "{ftbquests.chapter.storage.quests12.tasks1.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests12.title}"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21A2E4CA683BD232"]
+			description: [
+				"{ftbquests.chapter.storage.quests13.description0}"
+				"{ftbquests.chapter.storage.quests13.description1}"
+			]
+			id: "383A9396EDCA0ED1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "257EB530D055D451"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests13.subtitle}"
+			tasks: [
+				{
+					id: "39246456F6D4B955"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+				{
+					id: "4138B74E75AC4B9D"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "74B9AFE8924F9CCF"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests13.title}"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["{ftbquests.chapter.storage.quests14.description}"]
+			id: "50D94EFE04154F83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "586FDFDB6BDAD89C"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.storage.quests14.subtitle}"
+			tasks: [
+				{
+					id: "12EE65D5450F2B69"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50D94EFE04154F83"]
+			description: [
+				"{ftbquests.chapter.storage.quests15.description0}"
+				"{ftbquests.chapter.storage.quests15.description1}"
+				"{ftbquests.chapter.storage.quests15.description2}"
+			]
+			id: "5E4411D5B4EFA45B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "349BEC406970C530"
+					table_id: 5161092699925703455L
+					type: "random"
+				}
+			]
+			subtitle: "{ftbquests.chapter.storage.quests15.subtitle}"
+			tasks: [
+				{
+					id: "55AE94FBC169D6F8"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"{ftbquests.chapter.storage.quests16.description0}"
+				"{ftbquests.chapter.storage.quests16.description1}"
+			]
+			id: "30027D97CE91BAF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33C3159EAC07BBAA"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B155EBB095D85A1"
+					item: "toms_storage:ts.inventory_proxy"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"{ftbquests.chapter.storage.quests17.description0}"
+				"{ftbquests.chapter.storage.quests17.description1}"
+				"{ftbquests.chapter.storage.quests17.description2}"
+			]
+			id: "15F2A54EBE6EEC56"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D9719DC75DBE9F9"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "65D436A4BFB4E9C0"
+					item: "toms_storage:ts.inventory_hopper_basic"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"{ftbquests.chapter.storage.quests18.description0}"
+				"{ftbquests.chapter.storage.quests18.description1}"
+			]
+			id: "41933F01B397F9F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA0046E741F21B4"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "65AB7B90E505E5FB"
+					item: "toms_storage:ts.level_emitter"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests19.description0}"
+				"{ftbquests.chapter.storage.quests19.description1}"
+			]
+			id: "0B1646339D14D055"
+			rewards: [
+				{
+					id: "3767778C22F62A3A"
+					item: "minecraft:white_shulker_box"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "56E9DAF2277FF804"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B1646339D14D055"]
+			description: [
+				"{ftbquests.chapter.storage.quests20.description0}"
+				"{ftbquests.chapter.storage.quests20.description1}"
+			]
+			id: "1EEB4AA9131B98DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F7ABEE64C5D9E9F"
+					table_id: 5161092699925703455L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2741D617D6F0700F"
+					item: "ring_of_enderchest:ring_of_enderchest"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests21.description0}"
+				"{ftbquests.chapter.storage.quests21.description1}"
+				"{ftbquests.chapter.storage.quests21.description2}"
+				"{ftbquests.chapter.storage.quests21.description3}"
+				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
+				"{ftbquests.chapter.storage.quests21.description5}"
+			]
+			id: "0A76B3D9CF688878"
+			min_width: 300
+			rewards: [
+				{
+					count: 10
+					id: "10E7DC7C7F53B457"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "63D4D09CF18BAD6B"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.storage.quests21.subtitle}"
+			tasks: [
+				{
+					id: "7153E46F9B5C723A"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: ["{ftbquests.chapter.storage.quests22.description}"]
+			id: "327660E1DFE7C9A0"
+			rewards: [
+				{
+					id: "2D980A1EB5CBDC3E"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1196EDFF583F21D3"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["327660E1DFE7C9A0"]
+			description: ["{ftbquests.chapter.storage.quests23.description}"]
+			id: "125AC0EEF7096532"
+			rewards: [
+				{
+					id: "69DBCB99857B5AA6"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "35E4C52DC0192E00"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["125AC0EEF7096532"]
+			description: [
+				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
+				"{ftbquests.chapter.storage.quests24.description1}"
+			]
+			id: "5E0E4D3BFE9A205F"
+			rewards: [
+				{
+					id: "7A488241F19C3AB4"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "085ADE6062A763B8"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E0E4D3BFE9A205F"]
+			description: [
+				"{ftbquests.chapter.storage.quests25.description0}"
+				"{ftbquests.chapter.storage.quests25.description1}"
+			]
+			id: "2B73F9B609ABE980"
+			rewards: [
+				{
+					id: "235AA9488102A61C"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7038BA77EA75696E"
+					item: "pipez:ultimate_upgrade"
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: ["{ftbquests.chapter.storage.quests26.description}"]
+			id: "08DC47F76CA50E40"
+			rewards: [
+				{
+					count: 3
+					id: "415FF48AEA1DA9CD"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49DC0CF8944CB20E"
+					item: "functionalstorage:ender_drawer"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"{ftbquests.chapter.storage.quests27.description0}"
+				"{ftbquests.chapter.storage.quests27.description1}"
+				"{ftbquests.chapter.storage.quests27.description2}"
+			]
+			id: "2600D0609823A031"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69ECBA42F234DFB9"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3F4C42E0D699F5B1"
+					item: {
+						Count: 1b
+						id: "functionalstorage:collector_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E2C6EDAFD6AEF06"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2359F4FB9AD3B64B"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests27.title}"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests28.description0}"
+				"{ftbquests.chapter.storage.quests28.description1}"
+				"{ftbquests.chapter.storage.quests28.description2}"
+			]
+			id: "0AC47FF8FD45B289"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F14E912D0E1ACBF"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests28.subtitle}"
+			tasks: [
+				{
+					id: "37E8405F8CFB4AB9"
+					item: {
+						Count: 1b
+						id: "luggage:luggage"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests28.title}"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"{ftbquests.chapter.storage.quests29.description0}"
+				"{ftbquests.chapter.storage.quests29.description1}"
+			]
+			id: "27A6A7ADD9B0A8AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4ABC1FE4801E166B"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "65E3D009EAD6B7C8"
+					item: "ars_elemental:ritual_tesla_coil"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests29.title}"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests30.description0}"
+				"{ftbquests.chapter.storage.quests30.description1}"
+				"{ftbquests.chapter.storage.quests30.description2}"
+			]
+			id: "4C75E1320C84AD2E"
+			rewards: [
+				{
+					id: "4B78A58555F678E1"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:silk_touch"
+									lvl: 1s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 4s
+								}
+							]
+							RepairCost: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6710599134EF4787"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "sculktransporting:guide"
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C75E1320C84AD2E"]
+			description: [
+				"{ftbquests.chapter.storage.quests31.description0}"
+				"{ftbquests.chapter.storage.quests31.description1}"
+			]
+			id: "6A2A797F0DACFD76"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0745515755F89F03"
+					table_id: 7062805133306069640L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "55B5278ACFC9C780"
+					item: "sculktransporting:sculk_emitter"
+					type: "item"
+				}
+				{
+					id: "474EA9C110EACF85"
+					item: "sculktransporting:sculk_receiver"
+					type: "item"
+				}
+				{
+					id: "7F59620DF81D4669"
+					item: "sculktransporting:sculk_barrel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests31.title}"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"{ftbquests.chapter.storage.quests32.description0}"
+				"{ftbquests.chapter.storage.quests32.description1}"
+			]
+			id: "748DCD79DE0DA182"
+			rewards: [
+				{
+					id: "62FCB1BAB3CCC701"
+					item: "sculktransporting:sculk_transmitter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25EBCD7217D7A968"
+					table_id: 7062805133306069640L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "45E10E97F3BFD348"
+					item: "sculktransporting:sculk_transmitter"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests32.title}"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"{ftbquests.chapter.storage.quests33.description0}"
+				"{ftbquests.chapter.storage.quests33.description1}"
+			]
+			id: "4CC2BF8A5B188CB6"
+			rewards: [
+				{
+					id: "7812A0D29CD2542E"
+					item: "sculktransporting:quantity_modifier_tier_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3349E7D872224343"
+					item: "sculktransporting:quantity_modifier_tier_1"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests33.title}"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: ["{ftbquests.chapter.storage.quests34.description}"]
+			id: "1857993F9598F28C"
+			rewards: [
+				{
+					id: "2DB3160BA9DBCFEC"
+					item: "sculktransporting:speed_modifier_tier_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3EACBA80934E1DA2"
+					item: "sculktransporting:speed_modifier_tier_1"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests34.title}"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "1836D76FCA8240F3"
+			invisible: true
+			secret: true
+			tasks: [
+				{
+					id: "052CF2A30ED68875"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: [
+				"{ftbquests.chapter.storage.quests36.description0}"
+				"{ftbquests.chapter.storage.quests36.description1}"
+			]
+			id: "329CC0CC1B48C600"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337B73B6EAD72E39"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149EDF51A1614C54"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4200E7C6D9AC5F1F"
+					item: "pipez:filter_destination_tool"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"{ftbquests.chapter.storage.quests37.description0}"
+				""
+				"{ftbquests.chapter.storage.quests37.description2}"
+			]
+			id: "6E8FC5FFD17FF281"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4074776ACC485743"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7DBDE13635F86F"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests37.subtitle}"
+			tasks: [
+				{
+					id: "5FD4184741B4D6F3"
+					item: "luggage:ender_luggage"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests37.title}"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.storage.quests38.description0}"
+				""
+				"{ftbquests.chapter.storage.quests38.description2}"
+				""
+				"{ftbquests.chapter.storage.quests38.description4}"
+				""
+				"{ftbquests.chapter.storage.quests38.description6}"
+				""
+				"{ftbquests.chapter.storage.quests38.description8}"
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "2AC77B6EF8DA00EA"
+			rewards: [
+				{
+					id: "0322C82302C0368C"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FAFB31A3273E794"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.storage.quests38.subtitle}"
+			tasks: [
+				{
+					id: "05E47966FD087BED"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0BDEEDCF35454286"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests38.title}"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests39.description0}"
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"{ftbquests.chapter.storage.quests39.description4}"
+				""
+				"{ftbquests.chapter.storage.quests39.description6}"
+				""
+				"{ftbquests.chapter.storage.quests39.description8}"
+				""
+				"{ftbquests.chapter.storage.quests39.description10}"
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "027E158B22DE20CF"
+			rewards: [
+				{
+					id: "7BF6C158342F0CD0"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [
+				{
+					id: "4D83884D8C097AC2"
+					title: "{ftbquests.chapter.storage.quests39.tasks0.title}"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests40.description0}"
+				""
+				"{ftbquests.chapter.storage.quests40.description2}"
+				""
+				"{ftbquests.chapter.storage.quests40.description4}"
+				""
+				"{ftbquests.chapter.storage.quests40.description6}"
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "7DD199B329192C67"
+			rewards: [
+				{
+					id: "331D07BB2D1BA4BF"
+					item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.storage.quests40.subtitle}"
+			tasks: [
+				{
+					id: "24049AE6D6301809"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "561152B3AA7139CF"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests40.title}"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7DD199B329192C67"
+				"2AC77B6EF8DA00EA"
+			]
+			description: [
+				"{ftbquests.chapter.storage.quests41.description0}"
+				""
+				"{ftbquests.chapter.storage.quests41.description2}"
+				""
+				"{ftbquests.chapter.storage.quests41.description4}"
+			]
+			id: "5795F032CB47389E"
+			rewards: [
+				{
+					id: "4E0256A4F24F2BF0"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests41.subtitle}"
+			tasks: [
+				{
+					id: "19424B20004EB2DA"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests41.title}"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests42.description0}"
+				""
+				"{ftbquests.chapter.storage.quests42.description2}"
+			]
+			id: "04580014FE5705F2"
+			rewards: [
+				{
+					id: "579B95EBBCA65FAC"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests42.subtitle}"
+			tasks: [
+				{
+					id: "5D16A56E7E0AB5DE"
+					item: {
+						Count: 1b
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests43.description0}"
+				""
+				"{ftbquests.chapter.storage.quests43.description2}"
+				""
+				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
+				""
+				"{ftbquests.chapter.storage.quests43.description6}"
+			]
+			id: "58E3A0A274BAB9B9"
+			rewards: [
+				{
+					id: "20A569CCAD8BC4AF"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests43.subtitle}"
+			tasks: [
+				{
+					id: "3799A96F56496C61"
+					item: "sophisticatedstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["{ftbquests.chapter.storage.quests44.description}"]
+			id: "25777083FCF81F3C"
+			rewards: [
+				{
+					id: "22ED4C90306B89EC"
+					item: "sophisticatedstorage:auto_smoking_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.storage.quests44.subtitle}"
+			tasks: [
+				{
+					id: "42D27C96AC638A6A"
+					item: "sophisticatedstorage:smelting_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests44.title}"
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests45.description0}"
+				""
+				"{ftbquests.chapter.storage.quests45.description2}"
+			]
+			id: "51774D15356C5ADC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "659F470CF780B9A5"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49F07E0B8DFDA184"
+					item: "sophisticatedstorage:filter_upgrade"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["{ftbquests.chapter.storage.quests46.description}"]
+			id: "3801FF70470C2994"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44FCB8025F89352A"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D54F10EE3D90E47"
+					item: "sophisticatedstorage:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F171EA1AA534811"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.storage.quests46.title}"
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"{ftbquests.chapter.storage.quests47.description0}"
+				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "204A015685DB4726"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B231070E8BC75D1"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "774785B108908F07"
+					item: "sophisticatedstorage:storage_tool"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -13.5d
+		}
+	]
+	title: "{ftbquests.chapter.storage.title}"
+}

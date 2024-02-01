@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "fishing__gathering"
+	group: "1E0017DE6773EF00"
+	icon: {
+		Count: 1b
+		id: "minecraft:fishing_rod"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4E0024DA8E387270"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgfishing.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bggathering.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["104D0C28773A1DD4"]
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests0.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests0.description1}"
+			]
+			id: "0F5E5A0B0C05ACD2"
+			rewards: [
+				{
+					count: 3
+					id: "1814749C8605B014"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36A27638B101E7BE"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "798C459CD61F966A"
+					item: "netherdepthsupgrade:blazefish"
+					type: "item"
+				}
+				{
+					id: "6C782B0CFA8D3DEE"
+					item: "netherdepthsupgrade:magmacubefish"
+					type: "item"
+				}
+				{
+					id: "5F2C45F299657EFB"
+					item: "netherdepthsupgrade:glowdine"
+					type: "item"
+				}
+				{
+					id: "2F6245F84764D7B2"
+					item: "netherdepthsupgrade:soulsucker"
+					type: "item"
+				}
+				{
+					id: "5D30B99EE265108E"
+					item: "netherdepthsupgrade:lava_pufferfish"
+					type: "item"
+				}
+				{
+					id: "261478743CC10159"
+					item: "netherdepthsupgrade:searing_cod"
+					type: "item"
+				}
+				{
+					id: "5D981D87542D1FD9"
+					item: "netherdepthsupgrade:obsidianfish"
+					type: "item"
+				}
+				{
+					id: "143742BA7EEEE35E"
+					item: "netherdepthsupgrade:wither_bonefish"
+					type: "item"
+				}
+				{
+					id: "0606924590758073"
+					item: "netherdepthsupgrade:bonefish"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests0.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests1.description}"]
+			id: "104D0C28773A1DD4"
+			rewards: [
+				{
+					id: "4CD84099301CB676"
+					item: "netherdepthsupgrade:glowdine_bucket"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.fishing__gathering.quests1.subtitle}"
+			tasks: [
+				{
+					id: "4B09404FC3251283"
+					item: {
+						Count: 1b
+						id: "netherdepthsupgrade:lava_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests1.title}"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests2.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description1}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description2}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description3}"
+			]
+			id: "2E4D1699E2A7876B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53084827437F5C3A"
+					table_id: 1279979498352596350L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5733FE4FC03C948A"
+					table_id: 7707783220386620668L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "{ftbquests.chapter.fishing__gathering.quests2.subtitle}"
+			tasks: [
+				{
+					id: "48F4CD59425BC257"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fishing_rods"
+						}
+					}
+					title: "{ftbquests.chapter.fishing__gathering.quests2.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests2.title}"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests3.description}"]
+			id: "100842B78CAFB393"
+			rewards: [
+				{
+					count: 2
+					id: "1CF283F6DD3428B3"
+					item: "better_fishing_rods:lucky_pad_fragment"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "20A04B6B1E5922B8"
+					item: "better_fishing_rods:lucky_pad"
+					type: "item"
+				}
+				{
+					id: "5BBC56B508901D6B"
+					item: "better_fishing_rods:lucky_pad_fragment"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests3.title}"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests4.description}"]
+			id: "7A31753911D1CCFC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6933C2EABDC4F6E6"
+					table_id: 1279979498352596350L
+					type: "random"
+				}
+				{
+					id: "0974F835394F997D"
+					item: "better_fishing_rods:lucky_pad"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7B3E2CE57F6AE720"
+					item: "minecraft:cod"
+					type: "item"
+				}
+				{
+					id: "34E02D42248303DC"
+					item: "minecraft:salmon"
+					type: "item"
+				}
+				{
+					id: "6D78D10E94FF6422"
+					item: "minecraft:tropical_fish"
+					type: "item"
+				}
+				{
+					id: "29B930E5EE5F787D"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests4.title}"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests5.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests5.description1}"
+			]
+			id: "015EA4B35A947259"
+			rewards: [
+				{
+					count: 5
+					id: "03531A0CBDA0CA3A"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7972CB0F2E61BE94"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests6.description}"]
+			id: "0E2CC89B895C9494"
+			rewards: [
+				{
+					count: 5
+					id: "7ABFB9AD7A6C8569"
+					item: "caupona:fig"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2ED2CB812D6410F0"
+					item: "caupona:fig"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests7.description}"]
+			id: "0D61BF5085BCEF31"
+			rewards: [
+				{
+					count: 5
+					id: "09996C7EF0181006"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F37A8C84BE53B25"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests8.description}"]
+			id: "56DF02D06E0FD715"
+			rewards: [
+				{
+					count: 5
+					id: "0753904EFE9F57BF"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E9558C833E4342B"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests9.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests9.description1}"
+			]
+			id: "5C5DF640A2605954"
+			rewards: [
+				{
+					count: 5
+					id: "26544ED98FC8DD1A"
+					item: "caupona:walnut"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F753784516464C0"
+					item: "caupona:walnut"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2093240CD42882CF"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests10.description}"]
+			id: "5A18AB9A4B6370A2"
+			rewards: [
+				{
+					count: 5
+					id: "058A1E765E08A4C8"
+					item: "caupona:wolfberries"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "746220A32EE8AA8E"
+					item: "caupona:wolfberries"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests11.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description1}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description2}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description3}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description4}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description5}"
+			]
+			icon: "farmersdelight:wild_carrots"
+			id: "2093240CD42882CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20C2ED31F2632341"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					block: "farmersdelight:wild_cabbages"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_cabbages"
+					id: "6EDA315759D3800F"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_potatoes"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_potatoes"
+					id: "2A2B8DA40D8637A9"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_carrots"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_carrots"
+					id: "608A8CD9B92FE737"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_rice"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_rice"
+					id: "1F855CF180E60103"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "farmersdelight:wild_onions"
+					block_type: 0
+					checkItem: false
+					icon: "farmersdelight:wild_onions"
+					id: "1A6CF9C2538C64F9"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_cucumbers"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_cucumbers"
+					id: "44DB742314C20457"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_corn"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_corn"
+					id: "44BBC1579C173631"
+					type: "questsadditions:break"
+					value: 1L
+				}
+				{
+					block: "culturaldelights:wild_eggplants"
+					block_type: 0
+					checkItem: false
+					icon: "culturaldelights:wild_eggplants"
+					id: "1B2A4C08C5746E55"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests11.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "60BA7A551EC7DC60"
+			invisible: true
+			secret: true
+			tasks: [
+				{
+					id: "14D15094BF4C4D63"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E4D1699E2A7876B"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests13.description}"]
+			id: "5DA91B3B409332E9"
+			rewards: [
+				{
+					id: "1D8CDCAA76D97CDB"
+					item: {
+						Count: 1b
+						id: "better_fishing_rods:golden_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04A537E4A83156B5"
+					item: "plushies:dolphin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:cod"
+					id: "4EE24F4380B9BDD6"
+					stat: "minecraft:fish_caught"
+					type: "stat"
+					value: 500
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests13.title}"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2E4D1699E2A7876B"]
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests14.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests14.description1}"
+			]
+			id: "2CAAC737A4D4FF60"
+			rewards: [
+				{
+					id: "5B6E74114EE8418E"
+					item: "better_fishing_rods:lucky_pad"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "68C6E45464091E53"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					title: "{ftbquests.chapter.fishing__gathering.quests14.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests14.title}"
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+	title: "{ftbquests.chapter.fishing__gathering.title}"
+}
