@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Sugarcane grows faster when planted on Snad! That's not a typo. It's called snad."
+      "text": "种在子沙上的甘蔗生长得更快！这并不是打错了字，它就叫做子沙。"
     }
   }

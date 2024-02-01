@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Villagers will follow you if you are holding an emerald block."
+      "text": "如果你手持绿宝石块，村民们会跟随在你后面。"
     }
   }

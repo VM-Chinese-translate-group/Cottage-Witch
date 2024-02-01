@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Hoes can harvest crops and grass in a 3x3 or 5x5 area."
+      "text": "锄头可以在3x3或5x5的区域内收割庄家或破坏杂草。"
     }
   }

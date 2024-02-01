@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Frequently forget what you were doing? Press N to take notes! You can even pin them, and they'll show up on the side of your screen, like a sticky note!"
+      "text": "经常忘记你要做些什么？按下[N]就可以做笔记！你甚至可以把笔记固定在屏幕的一侧，看起来就像便签一样！"
     }
   }

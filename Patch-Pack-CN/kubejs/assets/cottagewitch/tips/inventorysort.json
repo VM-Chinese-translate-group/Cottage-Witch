@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Press the middle mouse button in an inventory to sort it. You can also use the buttons on the sides of inventory UIs to sort, withdraw, and deposit."
+      "text": "在物品栏中按下鼠标中键可以整理背包，也可以使用物品栏边上的按钮来整理背包，快速存入或取出。"
     }
   }
