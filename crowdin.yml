@@ -1,5 +1,5 @@
 files:
   - source: kubejs
     ignore:
-      - zh_CN
+      - zh-CN
     translation: '%original_path%/zh_cn.json'
