@@ -1,3 +1,4 @@
 {
-  "nethersdelight.block.feast.use_knife": "You need to use a knife to cut this."
+  "item.portablejukebox.portable_jukebox": "Portable Jukebox",
+  "item.portablejukebox.portable_note_block": "Portable Note Block"
 }
