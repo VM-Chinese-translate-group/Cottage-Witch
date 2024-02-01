@@ -44,8 +44,8 @@
 		{
 			dependencies: ["104D0C28773A1DD4"]
 			description: [
-				"The lava pools at the base of the &cNether&r are surprisingly full of life! Using a &bspecial Fishing Rod&r, you can &areel them in&r and enjoy the fruits of your labor!"
-				"Many of the fish can either be &acooked&r or &aprocessed into other byproducts&r. Use &lJEI&r to see what can be done with each fish!"
+				"{ftbquests.chapter.fishing__gathering.quests0.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests0.description1}"
 			]
 			id: "0F5E5A0B0C05ACD2"
 			rewards: [
@@ -109,42 +109,46 @@
 					type: "item"
 				}
 			]
-			title: "Nether Fishing"
+			title: "{ftbquests.chapter.fishing__gathering.quests0.title}"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["You can now &ago fishing in lava&r! Grab yourself a &bLava Fishing Rod&r and cast your line! You'll find you can catch some &areally interesting new fish&r."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests1.description}"]
 			id: "104D0C28773A1DD4"
-			rewards: [{
-				id: "4CD84099301CB676"
-				item: "netherdepthsupgrade:glowdine_bucket"
-				type: "item"
-			}]
-			shape: "circle"
-			subtitle: "a hellish rod"
-			tasks: [{
-				id: "4B09404FC3251283"
-				item: {
-					Count: 1b
-					id: "netherdepthsupgrade:lava_fishing_rod"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "4CD84099301CB676"
+					item: "netherdepthsupgrade:glowdine_bucket"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "I've Nether Fished So Well"
+			]
+			shape: "circle"
+			subtitle: "{ftbquests.chapter.fishing__gathering.quests1.subtitle}"
+			tasks: [
+				{
+					id: "4B09404FC3251283"
+					item: {
+						Count: 1b
+						id: "netherdepthsupgrade:lava_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests1.title}"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"To get started with &aFishing&r, every good witch needs a decent &brod&r. You can't go wrong with the traditional &bFishing Rod&r, but there are &amultiple options&r for you to choose from, now!"
-				"&6Hovering over each item&r will tell you more about what they do, and &lJEI&r can show you how to craft them!"
-				"These rods will &alevel up as you use them&r, and can even &abecome dynamically enchanted&r!"
-				"In addition, there are new treasures to be fished up, and new types of fish. So what are you waiting for? Get reelin'!"
+				"{ftbquests.chapter.fishing__gathering.quests2.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description1}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description2}"
+				"{ftbquests.chapter.fishing__gathering.quests2.description3}"
 			]
 			id: "2E4D1699E2A7876B"
 			rewards: [
@@ -163,33 +167,37 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "a fisher's life for me"
-			tasks: [{
-				id: "48F4CD59425BC257"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:fishing_rods"
+			subtitle: "{ftbquests.chapter.fishing__gathering.quests2.subtitle}"
+			tasks: [
+				{
+					id: "48F4CD59425BC257"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fishing_rods"
+						}
 					}
+					title: "{ftbquests.chapter.fishing__gathering.quests2.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #forge:fishing_rods"
-				type: "item"
-			}]
-			title: "Get a Fishing Rod"
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests2.title}"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["The &bLucky Pad&r is an item which can be &6applied to your Rod via the &bSmithing Table&r. Each time you do so, it grants you &aanother level of Luck&r on your rod, which increases your Rod's bonuses."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests3.description}"]
 			id: "100842B78CAFB393"
-			rewards: [{
-				count: 2
-				id: "1CF283F6DD3428B3"
-				item: "better_fishing_rods:lucky_pad_fragment"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "1CF283F6DD3428B3"
+					item: "better_fishing_rods:lucky_pad_fragment"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "20A04B6B1E5922B8"
@@ -202,13 +210,13 @@
 					type: "item"
 				}
 			]
-			title: "Get Lucky"
+			title: "{ftbquests.chapter.fishing__gathering.quests3.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["Catch one each of the &abasic fish in vanilla&r!"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests4.description}"]
 			id: "7A31753911D1CCFC"
 			rewards: [
 				{
@@ -245,141 +253,167 @@
 					type: "item"
 				}
 			]
-			title: "Basic Fish"
+			title: "{ftbquests.chapter.fishing__gathering.quests4.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
 			description: [
-				"Persephone would surely be proud of you!"
-				"A pomegranate branch brings undiscovered wealth or new riches to the owner. You can also use dried pomegranate skins in abundance incenses."
+				"{ftbquests.chapter.fishing__gathering.quests5.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests5.description1}"
 			]
 			id: "015EA4B35A947259"
-			rewards: [{
-				count: 5
-				id: "03531A0CBDA0CA3A"
-				item: "collectorsreap:pomegranate"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7972CB0F2E61BE94"
-				item: "collectorsreap:pomegranate"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "03531A0CBDA0CA3A"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7972CB0F2E61BE94"
+					item: "collectorsreap:pomegranate"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["Write a question on a fig leaf to receive a divinatory answer. If the leaf dries out slowly, then the answer is yes. If it dries out quickly, it's no, or is a bad omen. I'm not sure how quickly fig leaves are supposed to dry, though."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests6.description}"]
 			id: "0E2CC89B895C9494"
-			rewards: [{
-				count: 5
-				id: "7ABFB9AD7A6C8569"
-				item: "caupona:fig"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2ED2CB812D6410F0"
-				item: "caupona:fig"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "7ABFB9AD7A6C8569"
+					item: "caupona:fig"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2ED2CB812D6410F0"
+					item: "caupona:fig"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["A spell for curing toothache is to drive a nail into the trunk of a lime tree - but you must thank the lime tree first!"]
+			description: ["{ftbquests.chapter.fishing__gathering.quests7.description}"]
 			id: "0D61BF5085BCEF31"
-			rewards: [{
-				count: 5
-				id: "09996C7EF0181006"
-				item: "collectorsreap:lime"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7F37A8C84BE53B25"
-				item: "collectorsreap:lime"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "09996C7EF0181006"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7F37A8C84BE53B25"
+					item: "collectorsreap:lime"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["Cooking with Portobello mushrooms can be powerful magic if you are in need of emotional healing."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests8.description}"]
 			id: "56DF02D06E0FD715"
-			rewards: [{
-				count: 5
-				id: "0753904EFE9F57BF"
-				item: "collectorsreap:portobello"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7E9558C833E4342B"
-				item: "collectorsreap:portobello"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "0753904EFE9F57BF"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7E9558C833E4342B"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
 			description: [
-				"Historically, witches danced beneath the boughs of the walnut tree."
-				"Historically, witches danced beneath the boughs of the walnut tree. It is also said that giving someone a bag of walnuts will make all their dreams come true. This works especially well if their dream was to own a bag of walnuts."
+				"{ftbquests.chapter.fishing__gathering.quests9.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests9.description1}"
 			]
 			id: "5C5DF640A2605954"
-			rewards: [{
-				count: 5
-				id: "26544ED98FC8DD1A"
-				item: "caupona:walnut"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1F753784516464C0"
-				item: "caupona:walnut"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "26544ED98FC8DD1A"
+					item: "caupona:walnut"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1F753784516464C0"
+					item: "caupona:walnut"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["It is said that wolfberry allows for deep inner processing to happen without the need to consciously confront it."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests10.description}"]
 			id: "5A18AB9A4B6370A2"
-			rewards: [{
-				count: 5
-				id: "058A1E765E08A4C8"
-				item: "caupona:wolfberries"
-				type: "item"
-			}]
-			tasks: [{
-				id: "746220A32EE8AA8E"
-				item: "caupona:wolfberries"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "058A1E765E08A4C8"
+					item: "caupona:wolfberries"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "746220A32EE8AA8E"
+					item: "caupona:wolfberries"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"Scattered around the world, you can find &bWild Crops&r growing."
-				"Find all of them to build your &alovely witchy garden&r!"
-				"Did you know that corn hung over a mirror will bring good luck to your household?"
-				"Take a small white onion and stick it full of black-headed pins. When placed in the window, this will protect against negativity."
-				"And carrots are said to promote... physical desire. *wink*"
-				"You can find &bEggplant&r in &cJungles&r, &bCucumber&r in &cSwamps&r, &bCorn&r in &cPlains&r, and &bAvocado&r in &cJungles&r."
+				"{ftbquests.chapter.fishing__gathering.quests11.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description1}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description2}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description3}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description4}"
+				"{ftbquests.chapter.fishing__gathering.quests11.description5}"
 			]
 			icon: "farmersdelight:wild_carrots"
 			id: "2093240CD42882CF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "20C2ED31F2632341"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20C2ED31F2632341"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [
@@ -456,7 +490,7 @@
 					value: 1L
 				}
 			]
-			title: "Forage Wild Crops"
+			title: "{ftbquests.chapter.fishing__gathering.quests11.title}"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -464,17 +498,19 @@
 			id: "60BA7A551EC7DC60"
 			invisible: true
 			secret: true
-			tasks: [{
-				id: "14D15094BF4C4D63"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14D15094BF4C4D63"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["If you truly wish to dedicate yourself to fishing, you may be rewarded. &6Catch 500 fish&r in order to complete this quest."]
+			description: ["{ftbquests.chapter.fishing__gathering.quests13.description}"]
 			id: "5DA91B3B409332E9"
 			rewards: [
 				{
@@ -494,14 +530,16 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				icon: "minecraft:cod"
-				id: "4EE24F4380B9BDD6"
-				stat: "minecraft:fish_caught"
-				type: "stat"
-				value: 500
-			}]
-			title: "Catch 500 Fish"
+			tasks: [
+				{
+					icon: "minecraft:cod"
+					id: "4EE24F4380B9BDD6"
+					stat: "minecraft:fish_caught"
+					type: "stat"
+					value: 500
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests13.title}"
 			x: 4.5d
 			y: 2.0d
 		}
@@ -509,34 +547,38 @@
 			can_repeat: true
 			dependencies: ["2E4D1699E2A7876B"]
 			description: [
-				"&bLucky Pads&r allow you to upgrade the luck on your &bFishing Rod&r. You can &aobtain more&r by trading in &bthe fish you've caught&r."
-				"&dThis quest is repeatable&r."
+				"{ftbquests.chapter.fishing__gathering.quests14.description0}"
+				"{ftbquests.chapter.fishing__gathering.quests14.description1}"
 			]
 			id: "2CAAC737A4D4FF60"
-			rewards: [{
-				id: "5B6E74114EE8418E"
-				item: "better_fishing_rods:lucky_pad"
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "68C6E45464091E53"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:fishes"
-					}
+			rewards: [
+				{
+					id: "5B6E74114EE8418E"
+					item: "better_fishing_rods:lucky_pad"
+					type: "item"
 				}
-				title: "Any #minecraft:fishes"
-				type: "item"
-			}]
-			title: "Deliver Fish"
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 32L
+					id: "68C6E45464091E53"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					title: "{ftbquests.chapter.fishing__gathering.quests14.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests14.title}"
 			x: 6.5d
 			y: 0.5d
 		}
 	]
-	title: "Fishing \\& Gathering"
+	title: "{ftbquests.chapter.fishing__gathering.title}"
 }

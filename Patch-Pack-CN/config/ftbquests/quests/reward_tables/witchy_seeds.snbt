@@ -3,11 +3,22 @@
 	loot_size: 1
 	order_index: 4
 	rewards: [
-		{ count: 3, item: "hexerei:sage_seed" }
-		{ item: "hexerei:belladonna_flower" }
-		{ item: "hexerei:yellow_dock_bush" }
-		{ item: "hexerei:mugwort_bush" }
-		{ item: "hexerei:mandrake_flower" }
+		{
+			count: 3
+			item: "hexerei:sage_seed"
+		}
+		{
+			item: "hexerei:belladonna_flower"
+		}
+		{
+			item: "hexerei:yellow_dock_bush"
+		}
+		{
+			item: "hexerei:mugwort_bush"
+		}
+		{
+			item: "hexerei:mandrake_flower"
+		}
 	]
-	title: "Witchy Seeds"
+	title: "{ftbquests.reward_tables.witchy_seeds.title}"
 }

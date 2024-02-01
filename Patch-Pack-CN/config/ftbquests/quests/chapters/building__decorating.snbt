@@ -36,7 +36,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The &bAdvancement Frame&r is an item which can be used to show off your achievements! Simply place this frame in your gallery and &6right click&r it to choose which advancement to display."]
+			description: ["{ftbquests.chapter.building__decorating.quests0.description}"]
 			id: "177BA74185841456"
 			rewards: [
 				{
@@ -51,20 +51,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Show off a little"
-			tasks: [{
-				id: "520945E2236F2CD7"
-				item: "advancementframes:advancement_frame"
-				type: "item"
-			}]
-			title: "Obtain an Advancement Frame"
+			subtitle: "{ftbquests.chapter.building__decorating.quests0.subtitle}"
+			tasks: [
+				{
+					id: "520945E2236F2CD7"
+					item: "advancementframes:advancement_frame"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.building__decorating.quests0.title}"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"The mod &lFantasy's Furniture&r adds beautiful and intricate furniture for you to decorate with."
-				"The crafting system is a little different from usual, however. Each recipe costs only 1 each of &bClay, Cobbled Stone, and Planks&r, and must be created in a &bFurniture Station&b, which can be &acrafted in a Smithing Table&a using a &bCrafting Table&r and &bLeather&r."
+				"{ftbquests.chapter.building__decorating.quests1.description0}"
+				"{ftbquests.chapter.building__decorating.quests1.description1}"
 			]
 			id: "7D4BC2C21F70DF65"
 			rewards: [
@@ -89,19 +91,21 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Ideas above your station"
-			tasks: [{
-				id: "0EBD3CF1F9CB7FCD"
-				item: "fantasyfurniture:furniture_station"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.building__decorating.quests1.subtitle}"
+			tasks: [
+				{
+					id: "0EBD3CF1F9CB7FCD"
+					item: "fantasyfurniture:furniture_station"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"The &bBuilding Gadget&r is a useful tool for building larger structures quickly. It &aplaces multiple blocks at once&a from your inventory. &6Shift right click a block in world&r to set that as your building block."
-				"The &bExchanging Gadget&r is a tool which will &areplace blocks in the world with a specific block from your inventory&r. As with the BG, &6shift right click the replacer block&r and then you can &6right click with the gadget&r."
+				"{ftbquests.chapter.building__decorating.quests2.description0}"
+				"{ftbquests.chapter.building__decorating.quests2.description1}"
 			]
 			id: "1AFE0FBF887D22FD"
 			rewards: [
@@ -119,7 +123,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "The Building Gadget and Exchanging Gadget"
+			subtitle: "{ftbquests.chapter.building__decorating.quests2.subtitle}"
 			tasks: [
 				{
 					id: "4060C5FB1511ED4E"
@@ -158,16 +162,16 @@
 					type: "item"
 				}
 			]
-			title: "Gadgets, Part 1"
+			title: "{ftbquests.chapter.building__decorating.quests2.title}"
 			x: 5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
 			description: [
-				"The &bCopy Paste Gadget&r is a robust and therefore complicated tool. It allows you to use &aSchematics found online&r to build automatically, and also allows you to - as you could guess - &acopy and paste structures you've built&r."
-				"In order to use it, you'll need &bPaper&r, and the &bTemplate Manager&r."
-				"I cannot put all the information in this quest description. &oMore information can be found on YouTube, at 8:12 into the \"Mod Spotlight Building Gadgets v2\" video by Direwolf20&r."
+				"{ftbquests.chapter.building__decorating.quests3.description0}"
+				"{ftbquests.chapter.building__decorating.quests3.description1}"
+				"{ftbquests.chapter.building__decorating.quests3.description2}"
 			]
 			id: "1184EA40A20DEB5D"
 			rewards: [
@@ -182,7 +186,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Copypasta but for buildings"
+			subtitle: "{ftbquests.chapter.building__decorating.quests3.subtitle}"
 			tasks: [
 				{
 					id: "329EA864CDCD816B"
@@ -208,43 +212,47 @@
 					type: "item"
 				}
 			]
-			title: "Gadgets, Part 2"
+			title: "{ftbquests.chapter.building__decorating.quests3.title}"
 			x: 7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
-			description: ["The &bDestruction Gadget&r is a dangerous tool which will &acompletely delete blocks&r. It is mostly used to clear a large area for building."]
+			description: ["{ftbquests.chapter.building__decorating.quests4.description}"]
 			id: "7CB901D8FE793DF6"
-			rewards: [{
-				id: "47CF7C0058F220DE"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "Delete! Delete! Delete!"
-			tasks: [{
-				id: "6E1F006DF7BBCF80"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:gadget_destruction"
-					tag: {
-						energy: 1000000.0d
-						fuzzy: 1b
-						overlay: 1b
-					}
+			rewards: [
+				{
+					id: "47CF7C0058F220DE"
+					table_id: 6941837675484043489L
+					type: "loot"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.building__decorating.quests4.subtitle}"
+			tasks: [
+				{
+					id: "6E1F006DF7BBCF80"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:gadget_destruction"
+						tag: {
+							energy: 1000000.0d
+							fuzzy: 1b
+							overlay: 1b
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
 			description: [
-				"&bConstruction Paste&r allows you to build with blocks you technically don't have."
-				"When you are pasting in a structure, if you are missing blocks from the build, but have &bPaste&r, it will &atake on the appearance of that block&r. When broken, it will drop &bConstruction Paste&r, however."
-				"The &bPaste Containers&r allow you to hold significantly more paste than you would be able to, otherwise."
+				"{ftbquests.chapter.building__decorating.quests5.description0}"
+				"{ftbquests.chapter.building__decorating.quests5.description1}"
+				"{ftbquests.chapter.building__decorating.quests5.description2}"
 			]
 			id: "255D49A0CC045204"
 			rewards: [
@@ -261,25 +269,27 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Don't eat the paste"
-			tasks: [{
-				id: "243D764629FA7983"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:construction_paste_container_t1"
-					tag: {
-						amount: 0
+			subtitle: "{ftbquests.chapter.building__decorating.quests5.subtitle}"
+			tasks: [
+				{
+					id: "243D764629FA7983"
+					item: {
+						Count: 1b
+						id: "buildinggadgets:construction_paste_container_t1"
+						tag: {
+							amount: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"These &bGlass Item Frames&r display items on a surface just like the normal kind, but they will &abecome invisible&r once they have an item inside them."
-				"&6Place a Banner inside&r to display its pattern on that block."
+				"{ftbquests.chapter.building__decorating.quests6.description0}"
+				"{ftbquests.chapter.building__decorating.quests6.description1}"
 			]
 			id: "72409602FE85C718"
 			rewards: [
@@ -295,7 +305,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "I've been framed!"
+			subtitle: "{ftbquests.chapter.building__decorating.quests6.subtitle}"
 			tasks: [
 				{
 					id: "639DF06AF0A0073D"
@@ -308,31 +318,35 @@
 					type: "item"
 				}
 			]
-			title: "Obtain a Glass Item Frame"
+			title: "{ftbquests.chapter.building__decorating.quests6.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
-			description: ["The &bTrowel&r will place a random block from your hotbar when you &6right click with it&r. Perfect for easily &arandomizing your build's palette&r."]
+			description: ["{ftbquests.chapter.building__decorating.quests7.description}"]
 			id: "0D02D4FAE63BABE6"
-			rewards: [{
-				id: "52E5AED76FE087F4"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "52E5AED76FE087F4"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "The builder's dream"
-			tasks: [{
-				id: "65E88FE1A733B2AB"
-				item: "quark:trowel"
-				type: "item"
-			}]
-			title: "Obtain a Trowel"
+			subtitle: "{ftbquests.chapter.building__decorating.quests7.subtitle}"
+			tasks: [
+				{
+					id: "65E88FE1A733B2AB"
+					item: "quark:trowel"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.building__decorating.quests7.title}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["Lanterns can now be placed on walls! That's it, that's the tweet."]
+			description: ["{ftbquests.chapter.building__decorating.quests8.description}"]
 			id: "567E7D29BF4EAEFA"
 			rewards: [
 				{
@@ -347,18 +361,20 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "I love lantern"
-			tasks: [{
-				id: "312129CECD99EE4F"
-				item: "minecraft:lantern"
-				type: "item"
-			}]
-			title: "Obtain a Lantern"
+			subtitle: "{ftbquests.chapter.building__decorating.quests8.subtitle}"
+			tasks: [
+				{
+					id: "312129CECD99EE4F"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.building__decorating.quests8.title}"
 			x: -4.0d
 			y: 3.0d
 		}
 		{
-			description: ["There are two types of &bFlower Box&r. One can hold 2 flowers, and the other one 3."]
+			description: ["{ftbquests.chapter.building__decorating.quests9.description}"]
 			id: "4F9A1B244734638F"
 			rewards: [
 				{
@@ -378,16 +394,18 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "4B3D31B09C746903"
-				item: "supplementaries:flower_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4B3D31B09C746903"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 2.0d
 		}
 		{
-			description: ["The Globe is a decorative item which is unique per world. When interacted with, or provided with Redstone signal, it will spin."]
+			description: ["{ftbquests.chapter.building__decorating.quests10.description}"]
 			id: "3E509A27A92746F4"
 			rewards: [
 				{
@@ -402,97 +420,111 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Time to get a globe-up (that was bad, i'm sorry)"
-			tasks: [{
-				id: "480C6E3F2F44680E"
-				item: "supplementaries:globe"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.building__decorating.quests10.subtitle}"
+			tasks: [
+				{
+					id: "480C6E3F2F44680E"
+					item: "supplementaries:globe"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 2.0d
 		}
 		{
-			description: ["Similar to the &bDisplay Case&r, the &bPedestal&r is a way to decoratively display a single item. However, when stacked, it becomes a pillar."]
+			description: ["{ftbquests.chapter.building__decorating.quests11.description}"]
 			id: "063AD4FD6E8FB943"
-			rewards: [{
-				count: 5
-				id: "326F7B47D23186AC"
-				item: "supplementaries:pedestal"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "326F7B47D23186AC"
+					item: "supplementaries:pedestal"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Don't put people on these"
-			tasks: [{
-				id: "73A92B9FA9D46C9C"
-				item: "supplementaries:pedestal"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.building__decorating.quests11.subtitle}"
+			tasks: [
+				{
+					id: "73A92B9FA9D46C9C"
+					item: "supplementaries:pedestal"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"The &bHanging Sign&r is a versatile decoration block which can hang beneath or off the side of a block."
-				"You can add text to it by &aright clicking with an empty hand&r, or you can use it as an item frame by &aright clicking it with an item&r."
+				"{ftbquests.chapter.building__decorating.quests12.description0}"
+				"{ftbquests.chapter.building__decorating.quests12.description1}"
 			]
 			id: "7E936E10896FA3D5"
-			rewards: [{
-				id: "232541D9C3D4F184"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "It opened up my eyes"
-			tasks: [{
-				id: "6CDC566DF6303032"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "supplementaries:hanging_signs"
-					}
+			rewards: [
+				{
+					id: "232541D9C3D4F184"
+					table_id: 6941837675484043489L
+					type: "random"
 				}
-				title: "Any #supplementaries:hanging_signs"
-				type: "item"
-			}]
-			title: "Obtain a Hanging Sign"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.building__decorating.quests12.subtitle}"
+			tasks: [
+				{
+					id: "6CDC566DF6303032"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "supplementaries:hanging_signs"
+						}
+					}
+					title: "{ftbquests.chapter.building__decorating.quests12.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.building__decorating.quests12.title}"
 			x: -3.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Up to two &bSign Posts&r can be placed on any fence block, in order to form directional signs!"
-				"&6Shift and right click&r the placed Sign in order to reverse the direction."
-				"If you &6right click them with a compass&r, they will point in the direction the compass points to. Useful for spawn points and Lodestones!"
+				"{ftbquests.chapter.building__decorating.quests13.description0}"
+				"{ftbquests.chapter.building__decorating.quests13.description1}"
+				"{ftbquests.chapter.building__decorating.quests13.description2}"
 			]
 			id: "0E28D4A9544EAF0E"
-			rewards: [{
-				id: "5355BCF70B7F29BE"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			subtitle: "Show the way"
-			tasks: [{
-				id: "644B3E0D6B13C8D4"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "supplementaries:sign_posts"
-					}
+			rewards: [
+				{
+					id: "5355BCF70B7F29BE"
+					table_id: 6941837675484043489L
+					type: "loot"
 				}
-				title: "Any #supplementaries:sign_posts"
-				type: "item"
-			}]
-			title: "Obtain a Sign Post"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.building__decorating.quests13.subtitle}"
+			tasks: [
+				{
+					id: "644B3E0D6B13C8D4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "supplementaries:sign_posts"
+						}
+					}
+					title: "{ftbquests.chapter.building__decorating.quests13.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.building__decorating.quests13.title}"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"The &bBlackboard&r will allow you to draw a 16x16 black and white image. Perfect for creative signage!"
-				"It will &aretain it's image when broken&r, but can be crafted with a &bWater Bucket&r to clear it."
+				"{ftbquests.chapter.building__decorating.quests14.description0}"
+				"{ftbquests.chapter.building__decorating.quests14.description1}"
 			]
 			id: "1E53C205AD76513E"
 			rewards: [
@@ -510,18 +542,20 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Finally, your schoolhouse will be complete"
-			tasks: [{
-				id: "3F88887F48083E3E"
-				item: "supplementaries:blackboard"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.building__decorating.quests14.subtitle}"
+			tasks: [
+				{
+					id: "3F88887F48083E3E"
+					item: "supplementaries:blackboard"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
-			description: ["Sick of boring old flat beds? Make a &afancy one&r! To craft a &bBed&r, you'll need planks, wool, and &ba Cushion&r!"]
+			description: ["{ftbquests.chapter.building__decorating.quests15.description}"]
 			id: "226368447EC1C9A9"
 			rewards: [
 				{
@@ -538,31 +572,35 @@
 				}
 			]
 			shape: "circle"
-			tasks: [{
-				id: "08B5B6F8E5C51649"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "handcrafted:fancy_beds"
+			tasks: [
+				{
+					id: "08B5B6F8E5C51649"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:fancy_beds"
+						}
 					}
+					title: "{ftbquests.chapter.building__decorating.quests15.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #handcrafted:fancy_beds"
-				type: "item"
-			}]
-			title: "Customize Your Bed"
+			]
+			title: "{ftbquests.chapter.building__decorating.quests15.title}"
 			x: -7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
-			description: ["Your bed might be a little bare-bones as is. Why not make a &bsheet&r and &bCushion&r to go on top? These can be &adyed any color you like&r."]
+			description: ["{ftbquests.chapter.building__decorating.quests16.description}"]
 			id: "15781BD4547097E9"
-			rewards: [{
-				id: "47EEDE998B2D4F94"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "47EEDE998B2D4F94"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "70062585A7E762AE"
@@ -573,7 +611,7 @@
 							value: "handcrafted:cushions"
 						}
 					}
-					title: "Any #handcrafted:cushions"
+					title: "{ftbquests.chapter.building__decorating.quests16.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -585,20 +623,20 @@
 							value: "handcrafted:sheets"
 						}
 					}
-					title: "Any #handcrafted:sheets"
+					title: "{ftbquests.chapter.building__decorating.quests16.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "Make Your Bed"
+			title: "{ftbquests.chapter.building__decorating.quests16.title}"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
-				"Love that \"hunting lodge\" look? Want to show off your best hunts? Want to let everyone know you really, really hate &eGoats&r?"
-				"Well, why not &adecorate your house with these attractive trophies&r."
-				"(only some animals were hurting in the making of this quest)"
+				"{ftbquests.chapter.building__decorating.quests17.description0}"
+				"{ftbquests.chapter.building__decorating.quests17.description1}"
+				"{ftbquests.chapter.building__decorating.quests17.description2}"
 			]
 			id: "30C8AAFCE9EB2BA6"
 			rewards: [
@@ -615,58 +653,64 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "get them cheevos"
-			tasks: [{
-				id: "63B16A64CB3AE4F8"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "handcrafted:trophies"
+			subtitle: "{ftbquests.chapter.building__decorating.quests17.subtitle}"
+			tasks: [
+				{
+					id: "63B16A64CB3AE4F8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:trophies"
+						}
 					}
+					title: "{ftbquests.chapter.building__decorating.quests17.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #handcrafted:trophies"
-				type: "item"
-			}]
-			title: "Trophy Unlocked"
+			]
+			title: "{ftbquests.chapter.building__decorating.quests17.title}"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
 			description: [
-				"To begin with the furniture in &lHandcrafted&r, you'll likely need some &bWooden Boards&r. These can be easily obtained by &6throwing planks on a &bSawmill&r."
-				"You can &6right click the &bHammer&r on Handcrafted blocks to &achange their appearance&r."
+				"{ftbquests.chapter.building__decorating.quests18.description0}"
+				"{ftbquests.chapter.building__decorating.quests18.description1}"
 			]
 			id: "7D82FBD000D41F84"
-			rewards: [{
-				id: "00EB12702C71E2E5"
-				item: "handcrafted:hammer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "00EB12702C71E2E5"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "4B25C89C016B4716"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "handcrafted:boards"
+			tasks: [
+				{
+					id: "4B25C89C016B4716"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:boards"
+						}
 					}
+					title: "{ftbquests.chapter.building__decorating.quests18.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #handcrafted:boards"
-				type: "item"
-			}]
-			title: "Handcraft your Home"
+			]
+			title: "{ftbquests.chapter.building__decorating.quests18.title}"
 			x: -7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
 			description: [
-				"But beds aren't the only things that can &abenefit from &bSheets&r and &bCushions&r!"
-				"For example, &6right click a &bSheet&r on a &bTable&r to give it a &atablecloth&r."
-				"And you can &aapply a &bCushion&r to a &bChair&r as well! Why not see what other items you can customize..."
+				"{ftbquests.chapter.building__decorating.quests19.description0}"
+				"{ftbquests.chapter.building__decorating.quests19.description1}"
+				"{ftbquests.chapter.building__decorating.quests19.description2}"
 			]
 			id: "32DCF4F0C230C940"
 			rewards: [
@@ -693,7 +737,7 @@
 							value: "handcrafted:tables"
 						}
 					}
-					title: "Any #handcrafted:tables"
+					title: "{ftbquests.chapter.building__decorating.quests19.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -705,11 +749,11 @@
 							value: "handcrafted:chairs"
 						}
 					}
-					title: "Any #handcrafted:chairs"
+					title: "{ftbquests.chapter.building__decorating.quests19.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "Versatile Decorations"
+			title: "{ftbquests.chapter.building__decorating.quests19.title}"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -717,24 +761,28 @@
 			hide: true
 			id: "3B14FB98F6CA73AA"
 			secret: true
-			tasks: [{
-				id: "0294DC32DD5E2333"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0294DC32DD5E2333"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["Need to clear out a lot of water at once? Why not try a &bblock of Slug Slime&r? It &aabsorbs nearby water, converting it to mucus&r. If the slime is then removed, the mucus decays as well, leaving nothing behind."]
+			description: ["{ftbquests.chapter.building__decorating.quests21.description}"]
 			id: "64973EA482E1BA7D"
-			rewards: [{
-				id: "2B14D54FC2813530"
-				item: "alexsmobs:banana_slug_slime_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2B14D54FC2813530"
+					item: "alexsmobs:banana_slug_slime_block"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "#powerscantparry"
+			subtitle: "{ftbquests.chapter.building__decorating.quests21.subtitle}"
 			tasks: [
 				{
 					id: "1B15D2919E0FB7D1"
@@ -752,26 +800,30 @@
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
-			description: ["The &bCharging Station&r will &aburn fuel in order to charge your Building Gadgets&r."]
+			description: ["{ftbquests.chapter.building__decorating.quests22.description}"]
 			id: "6D3D3329A2772A3F"
-			rewards: [{
-				count: 25
-				id: "4D5B508BB59CE983"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5EE45AA279FC7F22"
-				item: {
-					Count: 1b
-					id: "charginggadgets:charging_station"
-					tag: { }
+			rewards: [
+				{
+					count: 25
+					id: "4D5B508BB59CE983"
+					item: "minecraft:coal"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			tasks: [
+				{
+					id: "5EE45AA279FC7F22"
+					item: {
+						Count: 1b
+						id: "charginggadgets:charging_station"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 1.5d
 		}
 	]
-	title: "Building \\& Decorating"
+	title: "{ftbquests.chapter.building__decorating.title}"
 }

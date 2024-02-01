@@ -1,9 +1,24 @@
 {
 	chapter_groups: [
-		{ id: "346046A71D537172", title: "Basics" }
-		{ id: "1E0017DE6773EF00", title: "Homesteading" }
-		{ id: "2757402A47D6A081", title: "Magic and the Arcane" }
-		{ id: "5FB460EFA0A2567E", title: "Exploration" }
-		{ id: "7A9435459855DCCD", title: "Collecting" }
+		{
+			id: "346046A71D537172"
+			title: "{ftbquests.chapter_groups.chapter_groups.title0}"
+		}
+		{
+			id: "1E0017DE6773EF00"
+			title: "{ftbquests.chapter_groups.chapter_groups.title1}"
+		}
+		{
+			id: "2757402A47D6A081"
+			title: "{ftbquests.chapter_groups.chapter_groups.title2}"
+		}
+		{
+			id: "5FB460EFA0A2567E"
+			title: "{ftbquests.chapter_groups.chapter_groups.title3}"
+		}
+		{
+			id: "7A9435459855DCCD"
+			title: "{ftbquests.chapter_groups.chapter_groups.title4}"
+		}
 	]
 }

@@ -3,9 +3,18 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 3, item: "minecraft:apple" }
-		{ count: 6, item: "minecraft:sweet_berries" }
-		{ count: 3, item: "minecraft:cocoa_beans" }
+		{
+			count: 3
+			item: "minecraft:apple"
+		}
+		{
+			count: 6
+			item: "minecraft:sweet_berries"
+		}
+		{
+			count: 3
+			item: "minecraft:cocoa_beans"
+		}
 	]
-	title: "Pie Ingredients"
+	title: "{ftbquests.reward_tables.pie_ingredients.title}"
 }

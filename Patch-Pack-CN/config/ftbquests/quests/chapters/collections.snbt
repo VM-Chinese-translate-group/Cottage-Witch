@@ -6,23 +6,25 @@
 	group: "7A9435459855DCCD"
 	icon: "minecraft:bundle"
 	id: "5A00BD04AD81F733"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 7.0d
-		hover: [ ]
-		image: "cottagewitch:textures/bgcollections.png"
-		rotation: 0.0d
-		width: 11.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgcollections.png"
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests0.description}"]
 			id: "7C3C2D24D60C6C1F"
 			rewards: [
 				{
@@ -38,7 +40,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Red for passion, love, blood"
+			subtitle: "{ftbquests.chapter.collections.quests0.subtitle}"
 			tasks: [
 				{
 					id: "599F0E00B4D055FE"
@@ -111,20 +113,22 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Red"
+			title: "{ftbquests.chapter.collections.quests0.title}"
 			x: -3.5d
 			y: -0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests1.description}"]
 			id: "7E9C70F7B0CFD820"
-			rewards: [{
-				id: "4F13530A54DDB6CB"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "4F13530A54DDB6CB"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Orange for health, warmth, fortune"
+			subtitle: "{ftbquests.chapter.collections.quests1.subtitle}"
 			tasks: [
 				{
 					id: "7B508E880CEB3B9E"
@@ -162,12 +166,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Orange"
+			title: "{ftbquests.chapter.collections.quests1.title}"
 			x: -3.0d
 			y: 0.5d
 		}
 		{
-			description: ["Obtain all vanilla music discs."]
+			description: ["{ftbquests.chapter.collections.quests2.description}"]
 			id: "1FD157BDA5AF3BE9"
 			rewards: [
 				{
@@ -182,7 +186,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "I can't get this song out of my head!"
+			subtitle: "{ftbquests.chapter.collections.quests2.subtitle}"
 			tasks: [
 				{
 					id: "7451BF72E73B7EF1"
@@ -255,12 +259,12 @@
 					type: "item"
 				}
 			]
-			title: "Music Lover"
+			title: "{ftbquests.chapter.collections.quests2.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests3.description}"]
 			id: "40BBDD8D814A55C1"
 			rewards: [
 				{
@@ -318,12 +322,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Yellow"
+			title: "{ftbquests.chapter.collections.quests3.title}"
 			x: -2.5d
 			y: -0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests4.description}"]
 			id: "56F3B965C1198BE9"
 			rewards: [
 				{
@@ -387,12 +391,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Green and Cyan"
+			title: "{ftbquests.chapter.collections.quests4.title}"
 			x: -2.0d
 			y: 0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests5.description}"]
 			id: "5435D7182F5A0C8D"
 			rewards: [
 				{
@@ -435,12 +439,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Blue"
+			title: "{ftbquests.chapter.collections.quests5.title}"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests6.description}"]
 			id: "6BED02ADA79C4A8D"
 			rewards: [
 				{
@@ -498,12 +502,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Periwinkle"
+			title: "{ftbquests.chapter.collections.quests6.title}"
 			x: -1.0d
 			y: 0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests7.description}"]
 			id: "290D8441BBC918A1"
 			rewards: [
 				{
@@ -596,12 +600,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Purple"
+			title: "{ftbquests.chapter.collections.quests7.title}"
 			x: -0.5d
 			y: -0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests8.description}"]
 			id: "692725454B955B4C"
 			rewards: [
 				{
@@ -694,12 +698,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Pink"
+			title: "{ftbquests.chapter.collections.quests8.title}"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests9.description}"]
 			id: "198D780CB29A2F3B"
 			rewards: [
 				{
@@ -767,12 +771,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Magenta"
+			title: "{ftbquests.chapter.collections.quests9.title}"
 			x: 0.5d
 			y: -0.5d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests10.description}"]
 			id: "04973320B5F27BD7"
 			rewards: [
 				{
@@ -860,12 +864,12 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Black and White"
+			title: "{ftbquests.chapter.collections.quests10.title}"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
-			description: ["Mushrooms are rad as hell. Why not try collecting all of them? Then you can have a super beautiful mushroom glade."]
+			description: ["{ftbquests.chapter.collections.quests11.description}"]
 			id: "6B3AD3CDE8EC90F1"
 			rewards: [
 				{
@@ -880,7 +884,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Is fungiphilia a thing?"
+			subtitle: "{ftbquests.chapter.collections.quests11.subtitle}"
 			tasks: [
 				{
 					id: "371E746F7BA14ACE"
@@ -968,12 +972,12 @@
 					type: "item"
 				}
 			]
-			title: "Cool Mushrooms"
+			title: "{ftbquests.chapter.collections.quests11.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
-			description: ["For this quest, show your love of color by collecting each different type of wool."]
+			description: ["{ftbquests.chapter.collections.quests12.description}"]
 			id: "3F5F93D7191952F9"
 			rewards: [
 				{
@@ -1009,9 +1013,11 @@
 									-520989337
 								]
 								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlNWJkMTI5ODJiMWJhMWI5ZTYwYzI0MjY4Zjg5MWM2YTcwYTY4Yjk1ZTAzZWZlYTU4ODEzYThkZjA4M2E5ZiJ9fX0="
-									}]
+									textures: [
+										{
+											Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFlNWJkMTI5ODJiMWJhMWI5ZTYwYzI0MjY4Zjg5MWM2YTcwYTY4Yjk1ZTAzZWZlYTU4ODEzYThkZjA4M2E5ZiJ9fX0="
+										}
+									]
 								}
 							}
 							display: {
@@ -1036,9 +1042,11 @@
 									-1115540014
 								]
 								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRiMDM3OTRiOWIzZTNiNWQwN2UzYmU2OGI5NmFmODdkZjIxNWMzNzUyZTU0NzM2YzgwZjdkNTBiZDM0MzdhNCJ9fX0="
-									}]
+									textures: [
+										{
+											Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRiMDM3OTRiOWIzZTNiNWQwN2UzYmU2OGI5NmFmODdkZjIxNWMzNzUyZTU0NzM2YzgwZjdkNTBiZDM0MzdhNCJ9fX0="
+										}
+									]
 								}
 							}
 							display: {
@@ -1056,7 +1064,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Taste the rainbow"
+			subtitle: "{ftbquests.chapter.collections.quests12.subtitle}"
 			tasks: [
 				{
 					id: "7DACF9E88A51EED7"
@@ -1134,12 +1142,12 @@
 					type: "item"
 				}
 			]
-			title: "Obtain the Rainbow"
+			title: "{ftbquests.chapter.collections.quests12.title}"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
-			description: ["Can you tame one of each type of cat in the game? There are eleven. Good luck!"]
+			description: ["{ftbquests.chapter.collections.quests13.description}"]
 			id: "75AD4BD901CEA061"
 			rewards: [
 				{
@@ -1161,12 +1169,14 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "minecraft:husbandry/complete_catalogue"
-				criterion: ""
-				id: "1FA9C71585BE62EF"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/complete_catalogue"
+					criterion: ""
+					id: "1FA9C71585BE62EF"
+					type: "advancement"
+				}
+			]
 			x: 3.0d
 			y: 2.0d
 		}
@@ -1185,8 +1195,8 @@
 				"5C9725DEED609E88"
 			]
 			description: [
-				"Once you collect all the flowers, tick this box for &dthe ultimate reward&r."
-				"Ya-ha-ha!"
+				"{ftbquests.chapter.collections.quests14.description0}"
+				"{ftbquests.chapter.collections.quests14.description1}"
 			]
 			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
@@ -1205,9 +1215,11 @@
 									-1724342287
 								]
 								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU1ZWYxY2ZhNjBhM2Q2NmM5MTY0MGE0NTg5MzNiNTJlZTk3ODI4NmZhOWMyNmM3OGE0YmQxY2FjZGQ1NmRmNyJ9fX0="
-									}]
+									textures: [
+										{
+											Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU1ZWYxY2ZhNjBhM2Q2NmM5MTY0MGE0NTg5MzNiNTJlZTk3ODI4NmZhOWMyNmM3OGE0YmQxY2FjZGQ1NmRmNyJ9fX0="
+										}
+									]
 								}
 							}
 							display: {
@@ -1225,16 +1237,18 @@
 				}
 			]
 			shape: "gear"
-			tasks: [{
-				id: "3B66FE756544A418"
-				title: "Ultimate Flower Enthusiast"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3B66FE756544A418"
+					title: "{ftbquests.chapter.collections.quests14.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: 1.5d
 			y: -1.0d
 		}
 		{
-			description: ["Breed 2 of each vanilla animal in order to obtain this reward!"]
+			description: ["{ftbquests.chapter.collections.quests15.description}"]
 			id: "401E8078C11F8919"
 			rewards: [
 				{
@@ -1256,17 +1270,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "minecraft:husbandry/bred_all_animals"
-				criterion: ""
-				id: "4BF8DEAE7CD5ADB6"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/bred_all_animals"
+					criterion: ""
+					id: "4BF8DEAE7CD5ADB6"
+					type: "advancement"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
 		{
-			description: ["Collect one each of every flower in the game to earn rewards!"]
+			description: ["{ftbquests.chapter.collections.quests16.description}"]
 			id: "5C9725DEED609E88"
 			rewards: [
 				{
@@ -1295,7 +1311,7 @@
 					type: "item"
 				}
 			]
-			title: "Flower Picking: Light Blue"
+			title: "{ftbquests.chapter.collections.quests16.title}"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -1303,14 +1319,16 @@
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
 			secret: true
-			tasks: [{
-				id: "45F70564BC668A04"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "45F70564BC668A04"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	title: "Collections"
+	title: "{ftbquests.chapter.collections.title}"
 }

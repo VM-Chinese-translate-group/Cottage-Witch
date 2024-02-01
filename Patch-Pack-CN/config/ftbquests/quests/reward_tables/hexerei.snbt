@@ -3,10 +3,23 @@
 	loot_size: 3
 	order_index: 21
 	rewards: [
-		{ count: 5, item: "hexerei:seed_mixture", weight: 8.0f }
-		{ count: 3, item: "hexerei:tallow_impurity", weight: 8.0f }
-		{ item: "hexerei:blood_bottle", weight: 5.0f }
-		{ item: "hexerei:infused_fabric" }
+		{
+			count: 5
+			item: "hexerei:seed_mixture"
+			weight: 8.0f
+		}
+		{
+			count: 3
+			item: "hexerei:tallow_impurity"
+			weight: 8.0f
+		}
+		{
+			item: "hexerei:blood_bottle"
+			weight: 5.0f
+		}
+		{
+			item: "hexerei:infused_fabric"
+		}
 		{
 			item: {
 				Count: 1b
@@ -17,5 +30,5 @@
 			}
 		}
 	]
-	title: "Hexerei"
+	title: "{ftbquests.reward_tables.hexerei.title}"
 }

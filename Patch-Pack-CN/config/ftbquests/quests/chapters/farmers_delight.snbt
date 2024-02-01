@@ -6,56 +6,62 @@
 	group: "1E0017DE6773EF00"
 	icon: "farmersdelight:cooking_pot"
 	id: "1E6C7DB3D27545CE"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 10.0d
-		hover: [ ]
-		image: "cottagewitch:textures/bgfarming.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgfarming.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"You've obtained some &bseeds&r, congratulations! The first step of becoming a successful farmer is to have something to plant."
-				"As a reward, try this &bRich Soil&r. It can be crafted from &bOrganic Compost&r, and is great for planting crops on!"
-				"It will &aperiodically grant a growth boost&r to crops (when it's provided with water) and it &acannot be trampled&r. It &acan also be used to grow &bMushroom Colonies&r in complete darkness."
+				"{ftbquests.chapter.farmers_delight.quests0.description0}"
+				"{ftbquests.chapter.farmers_delight.quests0.description1}"
+				"{ftbquests.chapter.farmers_delight.quests0.description2}"
 			]
 			id: "4930ECD60EA9ED8D"
-			rewards: [{
-				count: 4
-				id: "2CB2953E77DF6618"
-				item: "farmersdelight:rich_soil"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2CB2953E77DF6618"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "A Bit Seedy..."
-			tasks: [{
-				id: "536499531C4C43D5"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:seeds"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests0.subtitle}"
+			tasks: [
+				{
+					id: "536499531C4C43D5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:seeds"
+						}
 					}
+					title: "{ftbquests.chapter.farmers_delight.quests0.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #forge:seeds"
-				type: "item"
-			}]
-			title: "Obtain some seeds"
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests0.title}"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["Mushroom colonies can be &agrown in complete darkness&r using &bRich Soil&r. If you &6harvest one with shears&r, you will get the whole colony. &6Harvest it with your hand&r and you will get up to 5 mushrooms. Hooray for mush!"]
+			description: ["{ftbquests.chapter.farmers_delight.quests1.description}"]
 			id: "435BD760D0F2E010"
 			rewards: [
 				{
@@ -70,28 +76,30 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "So happy together"
-			tasks: [{
-				id: "2A31AF7FF7ED741F"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:mushcolony"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests1.subtitle}"
+			tasks: [
+				{
+					id: "2A31AF7FF7ED741F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:mushcolony"
+						}
 					}
+					title: "{ftbquests.chapter.farmers_delight.quests1.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #forge:mushcolony"
-				type: "item"
-			}]
-			title: "Obtain a Mushroom Colony"
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests1.title}"
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"&bPies&r from this mod can be eaten one of two ways. You can place them down like a &bcake&r and eat them slice-by-slice, or you can place them on a &bCutting Board&r and use that to cut them into &bportable slices&r."
-				"When eaten, they grant you a short speed boost!"
+				"{ftbquests.chapter.farmers_delight.quests2.description0}"
+				"{ftbquests.chapter.farmers_delight.quests2.description1}"
 			]
 			id: "57B830324890E32C"
 			rewards: [
@@ -120,84 +128,98 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Tastes so good, makes a grown man cry"
-			tasks: [{
-				id: "2DD8FA7DB6BE126D"
-				item: "farmersdelight:pie_crust"
-				type: "item"
-			}]
-			title: "Make a Pie"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests2.subtitle}"
+			tasks: [
+				{
+					id: "2DD8FA7DB6BE126D"
+					item: "farmersdelight:pie_crust"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests2.title}"
 			x: -2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["&bStraw&r can be used to make &bRope&r, which is very useful. It can also be used to make &bCanvas&r, &bCompost&r, and building materials such as &bDaub&r."]
+			description: ["{ftbquests.chapter.farmers_delight.quests3.description}"]
 			id: "3AE0F1C1159FBDDE"
-			rewards: [{
-				id: "66F2801F9DFA05AC"
-				item: "farmersdelight:straw_bale"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "66F2801F9DFA05AC"
+					item: "farmersdelight:straw_bale"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Just don't draw the short one"
-			tasks: [{
-				id: "55C6E492715281CF"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
-			title: "Obtain Straw"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests3.subtitle}"
+			tasks: [
+				{
+					id: "55C6E492715281CF"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests3.title}"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			description: ["&bCanvas&r is a versatile material which can create &bMats&r, &bSigns&r, and more!"]
+			description: ["{ftbquests.chapter.farmers_delight.quests4.description}"]
 			id: "548376041885F6D1"
-			rewards: [{
-				id: "4B7C75DB02E57058"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4B7C75DB02E57058"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "A blank canvas is a powerful thing"
-			tasks: [{
-				id: "7B4B34EE649076A3"
-				item: "farmersdelight:canvas"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.farmers_delight.quests4.subtitle}"
+			tasks: [
+				{
+					id: "7B4B34EE649076A3"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			description: ["&bRope&r can be used to make tools such as the &bSafety Net&r, which &anegates falling damage when landed on&r. It can also be crafted into &bRope Arrows&r, which will unroll a length of rope to the ground beneath where the arrow lands, allowing you to climb up it."]
+			description: ["{ftbquests.chapter.farmers_delight.quests5.description}"]
 			id: "141887F26E89BAE8"
-			rewards: [{
-				id: "6858B53EC13EE0A2"
-				item: {
-					Count: 1b
-					id: "supplementaries:rope_arrow"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "6858B53EC13EE0A2"
+					item: {
+						Count: 1b
+						id: "supplementaries:rope_arrow"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			shape: "hexagon"
-			subtitle: "Always practice rope safety"
-			tasks: [{
-				id: "45328BF090DF76BC"
-				item: "farmersdelight:rope"
-				type: "item"
-			}]
-			title: "Obtain Rope"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests5.subtitle}"
+			tasks: [
+				{
+					id: "45328BF090DF76BC"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests5.title}"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			description: ["Crops can be easily compacted into Bags or Crates in order to &asave on storage space&r. &6Place 9 of each material in a Crafting Grid&r to obtain a Crate or Bag of it!"]
+			description: ["{ftbquests.chapter.farmers_delight.quests6.description}"]
 			id: "0545DF70043D964A"
 			rewards: [
 				{
@@ -257,7 +279,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Crops but compact"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests6.subtitle}"
 			tasks: [
 				{
 					id: "0B3D4A89F7573E0A"
@@ -335,21 +357,23 @@
 					type: "item"
 				}
 			]
-			title: "Compact Your Crops"
+			title: "{ftbquests.chapter.farmers_delight.quests6.title}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["Farmer's Delight adds 4 new crops: &bTomato&r, &bRice&r, &bCabbage&r, and &bOnion&r. Wild versions of these can be found while exploring, and then you can plant them in your garden at home!"]
+			description: ["{ftbquests.chapter.farmers_delight.quests7.description}"]
 			id: "2CA80140F624D0AE"
-			rewards: [{
-				id: "69ACEF4AC35DF65C"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					id: "69ACEF4AC35DF65C"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "More, give me more"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests7.subtitle}"
 			tasks: [
 				{
 					id: "7E1608CE39644619"
@@ -372,17 +396,17 @@
 					type: "item"
 				}
 			]
-			title: "Obtain the New Crops"
+			title: "{ftbquests.chapter.farmers_delight.quests7.title}"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"With this mod, crops have a small chance of spawning &agiant crops&r, similar to Stardew Valley. This is most likely to &a happen to fully grown crops exposed to Moonlight&r."
-				"Break them with a &bHoe&r to get significantly more regular crops than usual. Break them with an &bAxe&r or your hand to obtain the Crop Block itself. You can then &aCook&r them, &aPeel&r them, or place them on a &bCutting Board&r to gather the crops from them."
-				"And you even have a chance of Overweight Crops when using &bPlanters&r!"
-				"&bRich Farmland&r has an increased chance of spawning Overweight Crops."
+				"{ftbquests.chapter.farmers_delight.quests8.description0}"
+				"{ftbquests.chapter.farmers_delight.quests8.description1}"
+				"{ftbquests.chapter.farmers_delight.quests8.description2}"
+				"{ftbquests.chapter.farmers_delight.quests8.description3}"
 			]
 			id: "780D09CCF1A8D814"
 			rewards: [
@@ -397,28 +421,30 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Everyone loves a chubby carrot"
-			tasks: [{
-				id: "1F0CA54801833BEB"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:overweightcrops"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests8.subtitle}"
+			tasks: [
+				{
+					id: "1F0CA54801833BEB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:overweightcrops"
+						}
 					}
+					title: "{ftbquests.chapter.farmers_delight.quests8.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #forge:overweightcrops"
-				type: "item"
-			}]
-			title: "Overweight Crops"
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests8.title}"
 			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
-				"The &bStraw Hat&r can be bartered from &aFarmer Villagers&r. It will give you a bonus to plant growth and an extra chance at &aOverweight Crops&r!"
-				"It also gives a chance of breeding twins or triplets! ...of the animals. Not you. Probably."
+				"{ftbquests.chapter.farmers_delight.quests9.description0}"
+				"{ftbquests.chapter.farmers_delight.quests9.description1}"
 			]
 			id: "41ACB7D51D1AC9A9"
 			rewards: [
@@ -440,47 +466,53 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "It's called fashion, sweaty, look it up"
-			tasks: [{
-				id: "7355E2367EA1596C"
-				item: {
-					Count: 1b
-					id: "overweight_farming:straw_hat"
-					tag: {
-						Damage: 0
+			subtitle: "{ftbquests.chapter.farmers_delight.quests9.subtitle}"
+			tasks: [
+				{
+					id: "7355E2367EA1596C"
+					item: {
+						Count: 1b
+						id: "overweight_farming:straw_hat"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
-				"Peel your &bOverweight Crops&r to obtain different appearances, and gain &bVegetable Peels&r, which can be made into &bCompost&r or fed to &ePigs&r!"
-				"Peeled &bMelons&r can have their seeds removed with an &bAxe&r, and then juiced by &6right clicking them with a bottle&r."
+				"{ftbquests.chapter.farmers_delight.quests10.description0}"
+				"{ftbquests.chapter.farmers_delight.quests10.description1}"
 			]
 			id: "4B733744EBC620FC"
-			rewards: [{
-				count: 8
-				id: "47F29C10D0A45984"
-				item: "overweight_farming:vegetable_peels"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "47F29C10D0A45984"
+					item: "overweight_farming:vegetable_peels"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			tasks: [{
-				id: "3EF80E1AD4F90608"
-				item: "overweight_farming:peeled_overweight_carrot_block"
-				type: "item"
-			}]
-			title: "Peel A Carrot"
+			tasks: [
+				{
+					id: "3EF80E1AD4F90608"
+					item: "overweight_farming:peeled_overweight_carrot_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests10.title}"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["The &bPlanter&r is useful both as a decorative block, and as a utility. It can grow crops without the need for water, and without the danger of being trampled."]
+			description: ["{ftbquests.chapter.farmers_delight.quests11.description}"]
 			id: "3D221ECD9106F792"
 			rewards: [
 				{
@@ -507,9 +539,11 @@
 									306851943
 								]
 								Properties: {
-									textures: [{
-										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk2NDIyNDk3YTgzZWRlMzk3NGU5N2IzNWE3ODE0NzJiYmIzNzJmN2MzMjQ0YzkyMmU3MTc0M2U2YWYzOWJjYSJ9fX0="
-									}]
+									textures: [
+										{
+											Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk2NDIyNDk3YTgzZWRlMzk3NGU5N2IzNWE3ODE0NzJiYmIzNzJmN2MzMjQ0YzkyMmU3MTc0M2U2YWYzOWJjYSJ9fX0="
+										}
+									]
 								}
 							}
 							display: {
@@ -521,20 +555,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Mmm, so planty"
-			tasks: [{
-				id: "1A82E50D8BBEB46D"
-				item: "supplementaries:planter"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.farmers_delight.quests11.subtitle}"
+			tasks: [
+				{
+					id: "1A82E50D8BBEB46D"
+					item: "supplementaries:planter"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"They say not to waste your diamonds on a hoe. But you've taken this a step further."
-				"To honor your commitment, please take this reward."
+				"{ftbquests.chapter.farmers_delight.quests12.description0}"
+				"{ftbquests.chapter.farmers_delight.quests12.description1}"
 			]
 			id: "2186A6F69ADBE795"
 			rewards: [
@@ -551,18 +587,20 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "minecraft:husbandry/obtain_netherite_hoe"
-				criterion: ""
-				id: "689FF833D614619E"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/obtain_netherite_hoe"
+					criterion: ""
+					id: "689FF833D614619E"
+					type: "advancement"
+				}
+			]
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
-			description: ["Gather &6one of each kind of &bOverweight Crop&r, which can be used as decoration, or &6cut on a &bCutting Board&r."]
+			description: ["{ftbquests.chapter.farmers_delight.quests13.description}"]
 			id: "34C84EC0EC5B8A2E"
 			rewards: [
 				{
@@ -634,7 +672,7 @@
 					type: "item"
 				}
 			]
-			title: "Collect Chubby Crops"
+			title: "{ftbquests.chapter.farmers_delight.quests13.title}"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -642,8 +680,8 @@
 			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"Have you &6automated your farm&r? Then you probably know the pain of excessive crop ownership. &6Submit your crops to this quest&r to earn rewards."
-				"[Repeatable Quest]"
+				"{ftbquests.chapter.farmers_delight.quests14.description0}"
+				"{ftbquests.chapter.farmers_delight.quests14.description1}"
 			]
 			id: "6630D27FC9E3F285"
 			rewards: [
@@ -764,20 +802,22 @@
 					type: "item"
 				}
 			]
-			title: "Ship Your Crops"
+			title: "{ftbquests.chapter.farmers_delight.quests14.title}"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			description: ["Similar to &bCrates&r, many crops can be compacted into &bSacks&r. These can be used decoratively, or &aused to free up storage space&r!"]
+			description: ["{ftbquests.chapter.farmers_delight.quests15.description}"]
 			id: "2973338AB622C5D6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "380BDD48693BCD8F"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "380BDD48693BCD8F"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
 			tasks: [
 				{
 					id: "1B1F3AA7E0786E0D"
@@ -825,24 +865,26 @@
 					type: "item"
 				}
 			]
-			title: "Sack Up"
+			title: "{ftbquests.chapter.farmers_delight.quests15.title}"
 			x: 7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"There's a way to &agrow crops more quickly!&r. If you &6craft some compost&r and then &6place it near a water source&r, it will slowly turn into &bRich Soil&r. This process can be &asped up using &bTime in a Bottle&r."
-				"Once tilled, &bRich Soil&r will &agrant extra growth&r ticks to your plants. It also &acannot be trampled&r, and &adoes not require water&r."
-				"You'll also want it if you're planning on growing any &bMushroom Colonies&r."
+				"{ftbquests.chapter.farmers_delight.quests16.description0}"
+				"{ftbquests.chapter.farmers_delight.quests16.description1}"
+				"{ftbquests.chapter.farmers_delight.quests16.description2}"
 			]
 			id: "02F91E51E86F71F6"
-			rewards: [{
-				count: 5
-				id: "01F30CBF19893E1D"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "01F30CBF19893E1D"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "727B56ABB96944F2"
@@ -861,16 +903,18 @@
 		{
 			dependencies: ["02F91E51E86F71F6"]
 			description: [
-				"Much like its browner brother, &bRich Soul Soil&r is formed of &bSoil Compost&r that has been &aleft adjacent to Lava&r."
-				"You can use it to grow &bNether Crops&r more quickly!"
+				"{ftbquests.chapter.farmers_delight.quests17.description0}"
+				"{ftbquests.chapter.farmers_delight.quests17.description1}"
 			]
 			id: "60445E736AE3B5B4"
-			rewards: [{
-				count: 5
-				id: "4DBD2CF2969F8A46"
-				item: "nethersdelight:soul_compost"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "4DBD2CF2969F8A46"
+					item: "nethersdelight:soul_compost"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "04C5336A8E4F2D84"
@@ -890,81 +934,91 @@
 			id: "7814F0DBA486B635"
 			invisible: true
 			secret: true
-			tasks: [{
-				id: "4F3BAE85C8194B15"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F3BAE85C8194B15"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"The &bReaping Tool&r, known in some circles as a Scythe, allows you to perform a finicky sort of magic known as &aReaping&r."
-				"One &6right clicks&r with the &bScythe&r to reap an animal. If successful, you will &aobtain its drops without killing it&r, instead stealing its youth and transforming it into a baby. However, if you are unsuccessful, &anature takes its course&r."
-				"You can ensure &abetter chances of success&r with &bbetter materials&r, with &bNetherite&r giving you a near 100% success rate. &6Hover and hold shift&r over each tool to see the base failure rate."
-				"This ritual does not work on mobs with no baby stage, such as &eCod&r. It also does not work on &ehostile mobs&r, even if they DO have a baby stage."
-				"If you &dreap a baby animal, it does die&r, so don't be greedy! Remember, the key to sustainable agriculture is to &aharvest responsibly&r."
-				"&bReaping Tools&r can be used by &bDispensers&r."
-				"Placing a &bReaping Tool&r into an &bEnchanting Table&r results in &dUnbreaking only, 99% of the time&r. It's better to enchant it with books."
-				"&bReaping Tools&r can be enchanted with &aMending, Sharpness, and Unbreaking&r, as you might expect."
-				"However, they can also be enchanted with &aExecutioner&r, which &dcurrently has no effect&r."
+				"{ftbquests.chapter.farmers_delight.quests19.description0}"
+				"{ftbquests.chapter.farmers_delight.quests19.description1}"
+				"{ftbquests.chapter.farmers_delight.quests19.description2}"
+				"{ftbquests.chapter.farmers_delight.quests19.description3}"
+				"{ftbquests.chapter.farmers_delight.quests19.description4}"
+				"{ftbquests.chapter.farmers_delight.quests19.description5}"
+				"{ftbquests.chapter.farmers_delight.quests19.description6}"
+				"{ftbquests.chapter.farmers_delight.quests19.description7}"
+				"{ftbquests.chapter.farmers_delight.quests19.description8}"
 			]
 			id: "78CB4E7CEB48941A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3CCD4E605779C068"
-				table_id: 7049021818423122779L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "don't fear the reaper...seriously"
-			tasks: [{
-				id: "006BA9F88102C536"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:scythe"
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CCD4E605779C068"
+					table_id: 7049021818423122779L
+					type: "random"
 				}
-				title: "Any #forge:scythe"
-				type: "item"
-			}]
-			title: "Obtain a Reaping Tool"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests19.subtitle}"
+			tasks: [
+				{
+					id: "006BA9F88102C536"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:scythe"
+						}
+					}
+					title: "{ftbquests.chapter.farmers_delight.quests19.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests19.title}"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			description: [
-				"You know what's the spice of life? Variety. And you know who loves spice? You guessed it - &ebees&r."
-				"Oh, that's not what you guessed?"
+				"{ftbquests.chapter.farmers_delight.quests20.description0}"
+				"{ftbquests.chapter.farmers_delight.quests20.description1}"
 				""
-				"Well, nevermind that. Collect one of each type of &bBeehive&r, and see how much your &eBees&r will appreciate it."
+				"{ftbquests.chapter.farmers_delight.quests20.description3}"
 			]
 			id: "1FF3A036CE58CCC9"
-			rewards: [{
-				id: "3CA3A10AD6506A17"
-				item: "plushies:bee"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3CA3A10AD6506A17"
+					item: "plushies:bee"
+					type: "item"
+				}
+			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "friendsandfoes:husbandry/beehive"
-				criterion: ""
-				id: "28E5384ECA31D155"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "friendsandfoes:husbandry/beehive"
+					criterion: ""
+					id: "28E5384ECA31D155"
+					type: "advancement"
+				}
+			]
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"These &bCarts&r are useful for transporting &aitems and entities&r. &6Press \"r\"&r by default when either mounted or on foot to &ahaul the cart&r. Press R again to set it down."
-				"The &bSupply Cart&r is fairly self-explanatory. &6Shift right click the cart&r to access its inventory, and &aload it up with items&r! You can then transport those items over land. However, &abreaking the cart&r will drop its inventory."
-				"The &bAnimal Cart&r will help you &atransport entities&r! &6Right click the cart item&r onto the creature you want to move. Then, haul as normal. &aBreak the cart&r to free the animal."
+				"{ftbquests.chapter.farmers_delight.quests21.description0}"
+				"{ftbquests.chapter.farmers_delight.quests21.description1}"
+				"{ftbquests.chapter.farmers_delight.quests21.description2}"
 				"{image:cottagewitch:textures/cart.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "04BD2724E24B4125"
@@ -981,23 +1035,25 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "item and animal transport"
-			tasks: [{
-				id: "099CE793A38F980E"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:carts"
+			subtitle: "{ftbquests.chapter.farmers_delight.quests21.subtitle}"
+			tasks: [
+				{
+					id: "099CE793A38F980E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:carts"
+						}
 					}
+					title: "{ftbquests.chapter.farmers_delight.quests21.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #forge:carts"
-				type: "item"
-			}]
-			title: "Craft a Cart"
+			]
+			title: "{ftbquests.chapter.farmers_delight.quests21.title}"
 			x: 0.0d
 			y: 3.0d
 		}
 	]
-	title: "Farming \\& Gardening"
+	title: "{ftbquests.chapter.farmers_delight.title}"
 }

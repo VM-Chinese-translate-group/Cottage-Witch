@@ -6,126 +6,146 @@
 	group: "7A9435459855DCCD"
 	icon: "minecraft:spyglass"
 	id: "7401E53A08F6CC5E"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 20.0d
-		hover: [ ]
-		image: "cottagewitch:textures/bgscavengerhunt.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 20.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgscavengerhunt.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "10F079B6E31FCF17"
 			shape: "hexagon"
-			tasks: [{
-				id: "240DB763A6B7326F"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Clay Ball"
+			tasks: [
+				{
+					id: "240DB763A6B7326F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests0.title}"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
 			id: "4FDB48B5AE01AFB4"
 			shape: "hexagon"
-			tasks: [{
-				id: "5B1B295BEDB32573"
-				item: "minecraft:mangrove_propagule"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Mangrove Propagule"
+			tasks: [
+				{
+					id: "5B1B295BEDB32573"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests1.title}"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			id: "52C4175797FFE14B"
 			shape: "hexagon"
-			tasks: [{
-				id: "0ED2BE6F9B9AD02C"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Diamond"
+			tasks: [
+				{
+					id: "0ED2BE6F9B9AD02C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests2.title}"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			id: "4307E6EA2E01F82B"
 			shape: "hexagon"
-			tasks: [{
-				id: "25DA29E52479B9E1"
-				item: "minecraft:soul_lantern"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Soul Lantern"
+			tasks: [
+				{
+					id: "25DA29E52479B9E1"
+					item: "minecraft:soul_lantern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests3.title}"
 			x: -5.5d
 			y: 1.5d
 		}
 		{
 			id: "4A8A373C89D91E51"
 			shape: "hexagon"
-			tasks: [{
-				id: "7F0455D7592C49F7"
-				item: "minecraft:sweet_berries"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Sweet Berries"
+			tasks: [
+				{
+					id: "7F0455D7592C49F7"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests4.title}"
 			x: -6.0d
 			y: -1.0d
 		}
 		{
 			id: "5C44B803FBB46C7F"
 			shape: "hexagon"
-			tasks: [{
-				id: "1BC0C90AC1B99108"
-				item: "minecraft:rabbit"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Raw Rabbit"
+			tasks: [
+				{
+					id: "1BC0C90AC1B99108"
+					item: "minecraft:rabbit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests5.title}"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			id: "795033CC78FE8CCE"
 			shape: "hexagon"
-			tasks: [{
-				id: "3D5C5782C7380CC8"
-				item: "minecraft:poisonous_potato"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Poisonous Potato"
+			tasks: [
+				{
+					id: "3D5C5782C7380CC8"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests6.title}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			id: "78A818CEEFA49F95"
 			shape: "hexagon"
-			tasks: [{
-				id: "6173F49AEA558E97"
-				item: "minecraft:chorus_fruit"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Chorus Fruit"
+			tasks: [
+				{
+					id: "6173F49AEA558E97"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests7.title}"
 			x: 3.5d
 			y: 2.0d
 		}
 		{
 			id: "34D4613E61AF3AEF"
 			shape: "hexagon"
-			tasks: [{
-				id: "14868FAA4FA2474E"
-				item: "minecraft:pufferfish"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Pufferfish"
+			tasks: [
+				{
+					id: "14868FAA4FA2474E"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests8.title}"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -154,31 +174,35 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Cookies"
+			title: "{ftbquests.chapter.scavenger_hunt.quests9.title}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			id: "628D5F4ACDE2C665"
 			shape: "hexagon"
-			tasks: [{
-				id: "01BFDA7D24BAC328"
-				item: "minecraft:feather"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Feather"
+			tasks: [
+				{
+					id: "01BFDA7D24BAC328"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests10.title}"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			id: "223792FEBB2154CA"
 			shape: "hexagon"
-			tasks: [{
-				id: "4AF8E444D324758D"
-				item: "minecraft:egg"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Egg"
+			tasks: [
+				{
+					id: "4AF8E444D324758D"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests11.title}"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -197,43 +221,49 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Ink Sacs"
+			title: "{ftbquests.chapter.scavenger_hunt.quests12.title}"
 			x: 1.5d
 			y: 4.0d
 		}
 		{
 			id: "78FB1E1156B8A23C"
 			shape: "hexagon"
-			tasks: [{
-				id: "463361D76A636956"
-				item: "minecraft:magma_cream"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Magma Cream"
+			tasks: [
+				{
+					id: "463361D76A636956"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests13.title}"
 			x: -3.5d
 			y: 4.0d
 		}
 		{
 			id: "36AC202292F23D2D"
 			shape: "hexagon"
-			tasks: [{
-				id: "0DB5227198BC3EBD"
-				item: "minecraft:shroomlight"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Shroomlight"
+			tasks: [
+				{
+					id: "0DB5227198BC3EBD"
+					item: "minecraft:shroomlight"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests14.title}"
 			x: -5.5d
 			y: 3.5d
 		}
 		{
 			id: "5D7D1F5AEDE61466"
 			shape: "hexagon"
-			tasks: [{
-				id: "5E9BA533F516C40C"
-				item: "minecraft:sugar"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Sugar"
+			tasks: [
+				{
+					id: "5E9BA533F516C40C"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests15.title}"
 			x: 5.5d
 			y: 3.5d
 		}
@@ -252,31 +282,35 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Fungi"
+			title: "{ftbquests.chapter.scavenger_hunt.quests16.title}"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
 			id: "7AD80A3479D0B0A8"
 			shape: "hexagon"
-			tasks: [{
-				id: "26844384E2F80107"
-				item: "minecraft:dead_bush"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Dead Bush"
+			tasks: [
+				{
+					id: "26844384E2F80107"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests17.title}"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
 			id: "4B1050C983FA2708"
 			shape: "hexagon"
-			tasks: [{
-				id: "715C5130A014CE5E"
-				item: "minecraft:sea_pickle"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Sea Pickle"
+			tasks: [
+				{
+					id: "715C5130A014CE5E"
+					item: "minecraft:sea_pickle"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests18.title}"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -300,19 +334,21 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Flowers"
+			title: "{ftbquests.chapter.scavenger_hunt.quests19.title}"
 			x: -2.0d
 			y: 6.0d
 		}
 		{
 			id: "217230971261385C"
 			shape: "hexagon"
-			tasks: [{
-				id: "6AFCB0A09B3856AF"
-				item: "minecraft:crying_obsidian"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Crying Obsidian"
+			tasks: [
+				{
+					id: "6AFCB0A09B3856AF"
+					item: "minecraft:crying_obsidian"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests20.title}"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -331,55 +367,63 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Amethyst"
+			title: "{ftbquests.chapter.scavenger_hunt.quests21.title}"
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			id: "56DBC16948476CBE"
 			shape: "hexagon"
-			tasks: [{
-				id: "5D96F8ACF9209598"
-				item: "minecraft:end_rod"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: End Rod"
+			tasks: [
+				{
+					id: "5D96F8ACF9209598"
+					item: "minecraft:end_rod"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests22.title}"
 			x: 4.0d
 			y: -2.0d
 		}
 		{
 			id: "74A5C07E1CC1BDCB"
 			shape: "hexagon"
-			tasks: [{
-				id: "0EFE98B67BC9DDF1"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Hay Bale"
+			tasks: [
+				{
+					id: "0EFE98B67BC9DDF1"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests23.title}"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			id: "77F821E672D8FE6B"
 			shape: "hexagon"
-			tasks: [{
-				id: "75D8AD8E1737B2C2"
-				item: "minecraft:sea_lantern"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Sea Lantern"
+			tasks: [
+				{
+					id: "75D8AD8E1737B2C2"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests24.title}"
 			x: 5.5d
 			y: -4.0d
 		}
 		{
 			id: "5D51C92D31F9974B"
 			shape: "hexagon"
-			tasks: [{
-				id: "13DDD192F62DEDA8"
-				item: "minecraft:horn_coral_block"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Horn Coral Block"
+			tasks: [
+				{
+					id: "13DDD192F62DEDA8"
+					item: "minecraft:horn_coral_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests25.title}"
 			x: 0.0d
 			y: -5.5d
 		}
@@ -398,7 +442,7 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Honey"
+			title: "{ftbquests.chapter.scavenger_hunt.quests26.title}"
 			x: 6.5d
 			y: 5.0d
 		}
@@ -422,7 +466,7 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Raw Blocks"
+			title: "{ftbquests.chapter.scavenger_hunt.quests27.title}"
 			x: -6.5d
 			y: 5.0d
 		}
@@ -446,73 +490,83 @@
 					type: "item"
 				}
 			]
-			title: "Scavenger Hunt: Trio of Stews"
+			title: "{ftbquests.chapter.scavenger_hunt.quests28.title}"
 			x: -4.5d
 			y: 5.5d
 		}
 		{
 			id: "358EB6DB33F203FE"
 			shape: "hexagon"
-			tasks: [{
-				id: "1310A9BA89A52C7A"
-				item: "minecraft:powder_snow_bucket"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Powder Snow Bucket"
+			tasks: [
+				{
+					id: "1310A9BA89A52C7A"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests29.title}"
 			x: 5.0d
 			y: 5.5d
 		}
 		{
 			id: "178EB94C72B16D88"
 			shape: "hexagon"
-			tasks: [{
-				id: "3DE9D8D8227BBB9F"
-				item: "minecraft:tadpole_bucket"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Bucket of Tadpole"
+			tasks: [
+				{
+					id: "3DE9D8D8227BBB9F"
+					item: "minecraft:tadpole_bucket"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests30.title}"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			id: "5F1A07D19C09FFE6"
 			shape: "hexagon"
-			tasks: [{
-				id: "2FA6F4AC7FE40E02"
-				item: "minecraft:bell"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: Bell"
+			tasks: [
+				{
+					id: "2FA6F4AC7FE40E02"
+					item: "minecraft:bell"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests31.title}"
 			x: -3.5d
 			y: -5.5d
 		}
 		{
 			id: "0B947B43262CD036"
 			shape: "hexagon"
-			tasks: [{
-				id: "307E0C118A08D100"
-				item: "minecraft:music_disc_5"
-				type: "item"
-			}]
-			title: "Scavenger Hunt: 5 Disc"
+			tasks: [
+				{
+					id: "307E0C118A08D100"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.scavenger_hunt.quests32.title}"
 			x: 4.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"Looking for something to spend some time on? Why not &aa Scavenger Hunt?&r. Obtain these items for the ability to claim an incredible prize!"
-				"&6Click the checkbox in this quest to begin.&r. This can be done at any time."
+				"{ftbquests.chapter.scavenger_hunt.quests33.description0}"
+				"{ftbquests.chapter.scavenger_hunt.quests33.description1}"
 			]
 			id: "505C0E55270CBFBC"
 			optional: true
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Time to scavenge!"
-			tasks: [{
-				id: "7C613D3D7DD3EF30"
-				title: "Begin the Hunt"
-				type: "checkmark"
-			}]
+			subtitle: "{ftbquests.chapter.scavenger_hunt.quests33.subtitle}"
+			tasks: [
+				{
+					id: "7C613D3D7DD3EF30"
+					title: "{ftbquests.chapter.scavenger_hunt.quests33.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 1.0d
 		}
@@ -554,8 +608,8 @@
 				"74403CDD36E19E5B"
 			]
 			description: [
-				"&dCongratulations&r on collecting every item in the hunt! Please enjoy your fabulous prizes (and the sense of personal satisfaction, which is the real treasure)."
-				"The check mark above unlocks &6once all Scavenger Hunt Quests are done&r."
+				"{ftbquests.chapter.scavenger_hunt.quests34.description0}"
+				"{ftbquests.chapter.scavenger_hunt.quests34.description1}"
 			]
 			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
@@ -583,12 +637,14 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "It's finally done"
-			tasks: [{
-				id: "7F57F37B68E139CC"
-				title: "Finished!"
-				type: "checkmark"
-			}]
+			subtitle: "{ftbquests.chapter.scavenger_hunt.quests34.subtitle}"
+			tasks: [
+				{
+					id: "7F57F37B68E139CC"
+					title: "{ftbquests.chapter.scavenger_hunt.quests34.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 7.0d
 		}
@@ -596,14 +652,16 @@
 			id: "5F7EBDA2EDC4F25B"
 			invisible: true
 			secret: true
-			tasks: [{
-				id: "05714D8C6D3712E6"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05714D8C6D3712E6"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 	]
-	title: "Scavenger Hunt"
+	title: "{ftbquests.chapter.scavenger_hunt.title}"
 }

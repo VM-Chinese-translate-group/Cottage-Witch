@@ -68,8 +68,8 @@
 		{
 			dependencies: ["0AF3D2A62E51E5B2"]
 			description: [
-				"It's frustrating to have to switch from your &bNetherite Armor&r to Gold simply to appease the &ePiglins&r. Well, no more!"
-				"Now you can &agild your Netherite armor&r in a &bSmithing Station&r to enhance it with enough gold to pacify the &ePiglins&r."
+				"{ftbquests.chapter.combat__gear.quests0.description0}"
+				"{ftbquests.chapter.combat__gear.quests0.description1}"
 			]
 			id: "33EAE02ACC6CCA8B"
 			rewards: [
@@ -97,54 +97,60 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Gild your loins! Or head, or chest, or..."
-			tasks: [{
-				id: "3F88FFA9EE040D4B"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "gildednetherite:gilded_netherite_items"
+			subtitle: "{ftbquests.chapter.combat__gear.quests0.subtitle}"
+			tasks: [
+				{
+					id: "3F88FFA9EE040D4B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "gildednetherite:gilded_netherite_items"
+						}
 					}
+					title: "{ftbquests.chapter.combat__gear.quests0.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #gildednetherite:gilded_netherite_items"
-				type: "item"
-			}]
-			title: "Gild Your Netherite Gear"
+			]
+			title: "{ftbquests.chapter.combat__gear.quests0.title}"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"The &bPickarang&r is a tool which can &aremotely break blocks and return the drops to you&r."
-				"It can also be used to &agrab dropped items&r and &adamage enemies&r."
-				"You can upgrade it to the &bFlamarang&r, and both versions can be Enchanted."
+				"{ftbquests.chapter.combat__gear.quests1.description0}"
+				"{ftbquests.chapter.combat__gear.quests1.description1}"
+				"{ftbquests.chapter.combat__gear.quests1.description2}"
 			]
 			id: "5055BAE47F0F00DC"
-			rewards: [{
-				id: "240072CBB31D21BD"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			subtitle: "Seriously this is like the coolest item in the game"
-			tasks: [{
-				id: "0A710AE6C4500B69"
-				item: {
-					Count: 1b
-					id: "quark:pickarang"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "240072CBB31D21BD"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
-				type: "item"
-			}]
-			title: "Obtain a Pickarang"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests1.subtitle}"
+			tasks: [
+				{
+					id: "0A710AE6C4500B69"
+					item: {
+						Count: 1b
+						id: "quark:pickarang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests1.title}"
 			x: 5.5d
 			y: -5.0d
 		}
 		{
-			description: ["The &bDragon Scale&r is an incredibly valuable item which is obtained after defeating the Ender Dragon &6a second time&r. It can be used to &aduplicate Elytra&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests2.description}"]
 			id: "6C4B68A0370C245B"
 			rewards: [
 				{
@@ -159,122 +165,140 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "The scale of the universe"
-			tasks: [{
-				id: "7699FD548E88FFFB"
-				item: "quark:dragon_scale"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.combat__gear.quests2.subtitle}"
+			tasks: [
+				{
+					id: "7699FD548E88FFFB"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+			]
 			x: -4.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"Made from fallen &eCindershells&r, a passive mob in the Nether, this sword has a strong affinity for &bLava&r!"
-				"&6Right click the blade on Lava&r to recharge it, providing it with a damage boost and the Flame effect!"
+				"{ftbquests.chapter.combat__gear.quests3.description0}"
+				"{ftbquests.chapter.combat__gear.quests3.description1}"
 			]
 			id: "492E8ECEC74A1C20"
-			rewards: [{
-				id: "6607DDAF6AC18B8F"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "The downside is killing Cindershells"
-			tasks: [{
-				id: "7FAF8811A0C6D269"
-				item: {
-					Count: 1b
-					id: "cnb:cinder_sword"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "6607DDAF6AC18B8F"
+					item: "minecraft:lava_bucket"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests3.subtitle}"
+			tasks: [
+				{
+					id: "7FAF8811A0C6D269"
+					item: {
+						Count: 1b
+						id: "cnb:cinder_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -6.0d
 		}
 		{
-			description: ["Whether it's the Solstice or simply a Tuesday, &bFlower Crowns&r are a fabulous accessory for all genders. Find some &eMinipads&r and &6shear their blossoms&r (don't worry! they regrow!) to get ingredients for this ultra-charming piece of gear."]
+			description: ["{ftbquests.chapter.combat__gear.quests4.description}"]
 			id: "5A6FD28226BB8695"
-			rewards: [{
-				id: "2345F67B03B4695B"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "79BBFB3B5982AF81"
-				item: {
-					Count: 1b
-					id: "cnb:flower_crown"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "2345F67B03B4695B"
+					table_id: 6941837675484043489L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "79BBFB3B5982AF81"
+					item: {
+						Count: 1b
+						id: "cnb:flower_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"Have you met the &eSporelings&r? Did you know you can befriend them and carry them around on your back?"
-				"Well, you can!"
+				"{ftbquests.chapter.combat__gear.quests5.description0}"
+				"{ftbquests.chapter.combat__gear.quests5.description1}"
 			]
 			id: "21228990B5312533"
-			rewards: [{
-				id: "29BC69F0100A42F5"
-				item: "cnb:sporeling_overworld_egg"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Mushie mushie backpack"
-			tasks: [{
-				id: "5A0DBA87C51893B5"
-				item: {
-					Count: 1b
-					id: "cnb:sporeling_backpack"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "29BC69F0100A42F5"
+					item: "cnb:sporeling_overworld_egg"
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests5.subtitle}"
+			tasks: [
+				{
+					id: "5A0DBA87C51893B5"
+					item: {
+						Count: 1b
+						id: "cnb:sporeling_backpack"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -4.5d
 		}
 		{
-			description: ["You can use a &bNet&r to catch &eLizards&r and put them in your inventory!"]
+			description: ["{ftbquests.chapter.combat__gear.quests6.description}"]
 			id: "70A098603B9A8D63"
-			rewards: [{
-				id: "4F7EF935900DE95C"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			subtitle: "You could also use a mob catcher, but where's the fun in that?"
-			tasks: [{
-				id: "206CFA98ED7987EF"
-				item: {
-					Count: 1b
-					id: "cnb:entity_net"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "4F7EF935900DE95C"
+					table_id: 2068679807827730220L
+					type: "choice"
 				}
-				type: "item"
-			}]
-			title: "Lizard Net"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests6.subtitle}"
+			tasks: [
+				{
+					id: "206CFA98ED7987EF"
+					item: {
+						Count: 1b
+						id: "cnb:entity_net"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests6.title}"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"This &bHealing Tome&r was created by a shaman of the &eCactem&r, a desert-dwelling plantlike species which have a love for &bTotems of Undying&r."
-				"Trade them Totems for a chance at obtaining this reusable spell book. It's a rare chance, but if you have the Totems to spare..."
-				"Best of all, if you obtain enough Tomes, you can &6combine them for a more powerful heal&r! The books can go up to level 3."
+				"{ftbquests.chapter.combat__gear.quests7.description0}"
+				"{ftbquests.chapter.combat__gear.quests7.description1}"
+				"{ftbquests.chapter.combat__gear.quests7.description2}"
 			]
 			id: "5C653FEA59887F40"
 			rewards: [
@@ -290,30 +314,34 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Why do cactus need Totems of Undying?"
-			tasks: [{
-				id: "613821EF8BD8E40C"
-				item: "cnb:heal_spell_book_1"
-				type: "item"
-			}]
+			subtitle: "{ftbquests.chapter.combat__gear.quests7.subtitle}"
+			tasks: [
+				{
+					id: "613821EF8BD8E40C"
+					item: "cnb:heal_spell_book_1"
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"At times, &eElder Guardians&r will drop &bPearls&r, which can be used to make rather fetching jewelry."
-				"You can also get them from &6feeding Clams to &eOtters&r."
-				"Obtain clams by &afishing&r in rivers, and then &6drop them on the ground&r by some &eOtters&r, and they will &acrack them open for you&r."
-				"These &agrant bonuses&r when held in inventory, but &dcannot be worn as Curios&r."
+				"{ftbquests.chapter.combat__gear.quests8.description0}"
+				"{ftbquests.chapter.combat__gear.quests8.description1}"
+				"{ftbquests.chapter.combat__gear.quests8.description2}"
+				"{ftbquests.chapter.combat__gear.quests8.description3}"
 			]
 			id: "77E446610B522392"
-			rewards: [{
-				id: "3EFD8D8716E10397"
-				table_id: 2068679807827730220L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "3EFD8D8716E10397"
+					table_id: 2068679807827730220L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "I know what you're thinking, and no, I'm not saying it"
+			subtitle: "{ftbquests.chapter.combat__gear.quests8.subtitle}"
 			tasks: [
 				{
 					id: "203A7AE60FCD8400"
@@ -326,21 +354,23 @@
 					type: "item"
 				}
 			]
-			title: "Make Pearls into Jewelry"
+			title: "{ftbquests.chapter.combat__gear.quests8.title}"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["77E446610B522392"]
-			description: ["Upgrade to the next tier by &6adding an &bEnder Pearl&r to the Necklace!"]
+			description: ["{ftbquests.chapter.combat__gear.quests9.description}"]
 			id: "6F81FCE0DCB18FA5"
-			rewards: [{
-				id: "2BD53F618708AA4A"
-				table_id: 5036677739913042344L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "2BD53F618708AA4A"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Taking it to the next level"
+			subtitle: "{ftbquests.chapter.combat__gear.quests9.subtitle}"
 			tasks: [
 				{
 					id: "4E0722E4F7F6B4C3"
@@ -353,21 +383,23 @@
 					type: "item"
 				}
 			]
-			title: "Upgrade your Jewelry"
+			title: "{ftbquests.chapter.combat__gear.quests9.title}"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6F81FCE0DCB18FA5"]
-			description: ["To obtain the highest tier of &bPearl Necklace&r, you must combine the Tier 2 with a &bHeart of the Sea&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests10.description}"]
 			id: "1220403FE4E19BC8"
-			rewards: [{
-				id: "7D50796B6756DF97"
-				table_id: 5036677739913042344L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					id: "7D50796B6756DF97"
+					table_id: 5036677739913042344L
+					type: "choice"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Upgrade your necklace to its final form"
+			subtitle: "{ftbquests.chapter.combat__gear.quests10.subtitle}"
 			tasks: [
 				{
 					id: "21D15C8A119B5605"
@@ -380,14 +412,14 @@
 					type: "item"
 				}
 			]
-			title: "The Ultimate Accessory"
+			title: "{ftbquests.chapter.combat__gear.quests10.title}"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			description: [
-				"The &aGiant Squid&r is the natural prey of the &eCachelot Whale&r. When attacked by this predator, there is a chance it will drop one of its &bTentacles&r, which can be used to craft the &bGrappling Squok&r."
-				"By firing the Squok like a bow, the player can &6grapple to high places&r or even &6suspend themselves in midair&r with up to 4 tentacles. &6Pressing shift&r will dismount the player from the Squok, and retract the tentacles."
+				"{ftbquests.chapter.combat__gear.quests11.description0}"
+				"{ftbquests.chapter.combat__gear.quests11.description1}"
 			]
 			id: "3446350A572822BD"
 			rewards: [
@@ -415,119 +447,137 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "5F1543D4A5A1E017"
-				item: {
-					Count: 1b
-					id: "alexsmobs:squid_grapple"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5F1543D4A5A1E017"
+					item: {
+						Count: 1b
+						id: "alexsmobs:squid_grapple"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.0d
 			y: -4.0d
 		}
 		{
-			description: ["Made from parts from &eFlying Fish&r, these boots allow you to leap out the water and glide just like a fish."]
+			description: ["{ftbquests.chapter.combat__gear.quests12.description}"]
 			id: "2DEB453D0D763837"
-			rewards: [{
-				id: "24319E394A4695FC"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "461FBDC5C7F60A0D"
-				item: {
-					Count: 1b
-					id: "alexsmobs:flying_fish_boots"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "24319E394A4695FC"
+					table_id: 6941837675484043489L
+					type: "loot"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "461FBDC5C7F60A0D"
+					item: {
+						Count: 1b
+						id: "alexsmobs:flying_fish_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&bSpawners&r can now be collected with Silk Touch! The &bSpawner Key&r will allow you to right click a &bSpawner&r and alter its functionality to &aincrease range or spawns&r, etc."
-				"By default, any &bSpawners&r you pick up &awill be empty&r. You'll need to &6right click them with a spawn egg&r to assign them a mob. However, spawners collected via the &lCreate&r &bCart Assembler&r will keep their target."
+				"{ftbquests.chapter.combat__gear.quests13.description0}"
+				"{ftbquests.chapter.combat__gear.quests13.description1}"
 			]
 			id: "5D7F2F7250CB2ECB"
-			rewards: [{
-				id: "07D7E299FE106861"
-				item: "minecraft:zombified_piglin_spawn_egg"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "A different kind of farming"
-			tasks: [{
-				id: "6597472A2407A2D2"
-				item: {
-					Count: 1b
-					id: "spawnermod:spawner_key"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					id: "07D7E299FE106861"
+					item: "minecraft:zombified_piglin_spawn_egg"
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "About Spawners"
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests13.subtitle}"
+			tasks: [
+				{
+					id: "6597472A2407A2D2"
+					item: {
+						Count: 1b
+						id: "spawnermod:spawner_key"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests13.title}"
 			x: -2.5d
 			y: -5.5d
 		}
 		{
-			description: ["Did you know you can craft a &bTotem of Undying?&r. It's not cheap, but maybe it's worth the trouble!"]
+			description: ["{ftbquests.chapter.combat__gear.quests14.description}"]
 			id: "7AAD7513F2D067D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7EB05BE06489B33E"
-				table_id: 8808494820591225409L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EB05BE06489B33E"
+					table_id: 8808494820591225409L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
-			subtitle: "Touhou-tem of Undying"
-			tasks: [{
-				id: "7379F20CFDE39949"
-				item: "minecraft:totem_of_undying"
-				only_from_crafting: true
-				type: "item"
-			}]
-			title: "Craft a Totem of Undying"
+			subtitle: "{ftbquests.chapter.combat__gear.quests14.subtitle}"
+			tasks: [
+				{
+					id: "7379F20CFDE39949"
+					item: "minecraft:totem_of_undying"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests14.title}"
 			x: -4.0d
 			y: -6.5d
 		}
 		{
 			description: [
-				"The &bDisenchanter&r is a station which can &aseparate enchantments&r from gear or books."
-				"To do so will cost some &bExperience&r. And most &aCurses cannot be removed&r."
+				"{ftbquests.chapter.combat__gear.quests15.description0}"
+				"{ftbquests.chapter.combat__gear.quests15.description1}"
 			]
 			id: "195EC2CC57B6A75F"
-			rewards: [{
-				count: 10
-				id: "4A1B117A5FC22BE9"
-				item: "minecraft:book"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 10
+					id: "4A1B117A5FC22BE9"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
-			tasks: [{
-				id: "52F78AFB393CB21D"
-				item: "disenchanting:disenchanter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "52F78AFB393CB21D"
+					item: "disenchanting:disenchanter"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"A full set of Netherite Armor takes..."
-				"*counts on fingers*..."
-				"..."
-				"At least four &bNetherite&r. Anyway the important thing isn't the math, just go do it and take the reward."
+				"{ftbquests.chapter.combat__gear.quests16.description0}"
+				"{ftbquests.chapter.combat__gear.quests16.description1}"
+				"{ftbquests.chapter.combat__gear.quests16.description2}"
+				"{ftbquests.chapter.combat__gear.quests16.description3}"
 			]
 			id: "0AF3D2A62E51E5B2"
 			rewards: [
@@ -545,17 +595,19 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "minecraft:nether/netherite_armor"
-				criterion: ""
-				id: "5862E16DD2298F30"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "minecraft:nether/netherite_armor"
+					criterion: ""
+					id: "5862E16DD2298F30"
+					type: "advancement"
+				}
+			]
 			x: -7.0d
 			y: 3.0d
 		}
 		{
-			description: ["You managed to get enough &bWarden Carapaces&r to upgrade a &afull set of Netherite armor&r to the stylish and powerful &bWarden Armor&r. Nicely done, enjoy your reward!"]
+			description: ["{ftbquests.chapter.combat__gear.quests17.description}"]
 			id: "105A64813A4BA847"
 			rewards: [
 				{
@@ -656,12 +708,12 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Warden Armor"
+			title: "{ftbquests.chapter.combat__gear.quests17.title}"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
-			description: ["Obtain a &bfull set of Diamond Tools&r to earn a unique armor set!"]
+			description: ["{ftbquests.chapter.combat__gear.quests18.description}"]
 			id: "306EAF9F6F78ACC1"
 			rewards: [
 				{
@@ -778,12 +830,12 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Diamond Tools"
+			title: "{ftbquests.chapter.combat__gear.quests18.title}"
 			x: 4.0d
 			y: -6.0d
 		}
 		{
-			description: ["A full set of &bNetherite Tools&r, well! That's an achievement to be lauded. Congratulations!"]
+			description: ["{ftbquests.chapter.combat__gear.quests19.description}"]
 			id: "6C413B091C8DBE2A"
 			rewards: [
 				{
@@ -900,38 +952,42 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Netherite Tools"
+			title: "{ftbquests.chapter.combat__gear.quests19.title}"
 			x: 4.5d
 			y: -5.0d
 		}
 		{
-			description: ["The &bVine Lasso&r is crafted with the shed skins of well-fed &eAnacondas&r. It functions similarly to a &bLead&r, except it can be used even on hostile mobs - and it cannot be tied to a fence post."]
+			description: ["{ftbquests.chapter.combat__gear.quests20.description}"]
 			id: "3FFC3D4F00661CA9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "68F0DB3E444E7A5B"
-				table_id: 7049021818423122779L
-				type: "choice"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7385F6D78E988F5F"
-				item: {
-					Count: 1b
-					id: "alexsmobs:vine_lasso"
-					tag: {
-						Swinging: 0b
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68F0DB3E444E7A5B"
+					table_id: 7049021818423122779L
+					type: "choice"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7385F6D78E988F5F"
+					item: {
+						Count: 1b
+						id: "alexsmobs:vine_lasso"
+						tag: {
+							Swinging: 0b
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -6.5d
 		}
 		{
 			description: [
-				"This modpack brings some changes to &bTridents&r. Firstly, they may now &abe crafted&r, using &bTrident Fragments&r, which drop from &eElder Guardians&r."
-				"Once thrown, a trident with &bLoyalty&r will &areturn to the slot from which it departed&r."
+				"{ftbquests.chapter.combat__gear.quests21.description0}"
+				"{ftbquests.chapter.combat__gear.quests21.description1}"
 			]
 			id: "6A3F5153FB6473E1"
 			rewards: [
@@ -948,19 +1004,21 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "7F7CAA3B73FD4E69"
-				item: "bettertridents:trident_fragment"
-				type: "item"
-			}]
-			title: "Build a Trident"
+			tasks: [
+				{
+					id: "7F7CAA3B73FD4E69"
+					item: "bettertridents:trident_fragment"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests21.title}"
 			x: 5.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"Reduces both &aincoming and &doutgoing&a damage&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests22.description0}"
+				"{ftbquests.chapter.combat__gear.quests22.description1}"
 			]
 			id: "47FD547C85F350BB"
 			rewards: [
@@ -985,20 +1043,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:white_flag"
-				criterion: ""
-				id: "5A4778CD78BCEF2C"
-				type: "advancement"
-			}]
-			title: "White Flag"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:white_flag"
+					criterion: ""
+					id: "5A4778CD78BCEF2C"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests22.title}"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"This Curio &agrants you additional loot&r from chests, the further you are from spawn."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests23.description0}"
+				"{ftbquests.chapter.combat__gear.quests23.description1}"
 			]
 			id: "20B71AB01AD6CDE6"
 			rewards: [
@@ -1023,20 +1083,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:adventurers_guide"
-				criterion: ""
-				id: "54FC2ECD0C25897E"
-				type: "advancement"
-			}]
-			title: "Adventurer's Guide"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:adventurers_guide"
+					criterion: ""
+					id: "54FC2ECD0C25897E"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests23.title}"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"Increases your &aluck while fishing&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests24.description0}"
+				"{ftbquests.chapter.combat__gear.quests24.description1}"
 			]
 			id: "28402A0A69E7B8AA"
 			rewards: [
@@ -1061,20 +1123,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:anglers_trophy"
-				criterion: ""
-				id: "139A3A2EED7DBF24"
-				type: "advancement"
-			}]
-			title: "Angler's Trophy"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:anglers_trophy"
+					criterion: ""
+					id: "139A3A2EED7DBF24"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests24.title}"
 			x: 4.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"Improves the stats of &amounts and pets&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests25.description0}"
+				"{ftbquests.chapter.combat__gear.quests25.description1}"
 			]
 			id: "2A8267EAD14040DB"
 			rewards: [
@@ -1099,43 +1163,49 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:certificate_of_taming"
-				criterion: ""
-				id: "0F3385E13DAB381A"
-				type: "advancement"
-			}]
-			title: "Certificate of Taming"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:certificate_of_taming"
+					criterion: ""
+					id: "0F3385E13DAB381A"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests25.title}"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"The &bOverworld Rune&r is crafted from &aall other trinkets&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests26.description0}"
+				"{ftbquests.chapter.combat__gear.quests26.description1}"
 			]
 			id: "0C3C0190EB3C6A5F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B90E65FF28AC781"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B90E65FF28AC781"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:overworld_rune"
-				criterion: ""
-				id: "79D1E0824D9890A4"
-				type: "advancement"
-			}]
-			title: "Overworld Rune"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:overworld_rune"
+					criterion: ""
+					id: "79D1E0824D9890A4"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests26.title}"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"Bred animals &asometimes produce twins&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests27.description0}"
+				"{ftbquests.chapter.combat__gear.quests27.description1}"
 			]
 			id: "5D7AFC213FB3DCF8"
 			rewards: [
@@ -1160,20 +1230,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:idol_of_fertility"
-				criterion: ""
-				id: "39C33F1607CC6BAB"
-				type: "advancement"
-			}]
-			title: "Idol of Fertility"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:idol_of_fertility"
+					criterion: ""
+					id: "39C33F1607CC6BAB"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests27.title}"
 			x: 4.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"Occasionally grants &abetter loot while mining&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests28.description0}"
+				"{ftbquests.chapter.combat__gear.quests28.description1}"
 			]
 			id: "76559362F9123020"
 			rewards: [
@@ -1198,20 +1270,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:lucky_rock"
-				criterion: ""
-				id: "1E8642D6E089F24A"
-				type: "advancement"
-			}]
-			title: "Lucky Rock"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:lucky_rock"
+					criterion: ""
+					id: "1E8642D6E089F24A"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests28.title}"
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"Increases &aPotion Level&r, but &ddecreases Potion Duration&r."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests29.description0}"
+				"{ftbquests.chapter.combat__gear.quests29.description1}"
 			]
 			id: "17670074E6ECFB57"
 			rewards: [
@@ -1236,20 +1310,22 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:secret_ingredient"
-				criterion: ""
-				id: "096A41A47D35EBA4"
-				type: "advancement"
-			}]
-			title: "Secret Ingredient"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:secret_ingredient"
+					criterion: ""
+					id: "096A41A47D35EBA4"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests29.title}"
 			x: 5.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"Occasionally grants &adouble crops&r when harvesting."
-				"Bonuses increase and debuffs decrease with effectiveness level. You can &acraft duplicates together&r to get a chance at one with &ahigher stats&r!"
+				"{ftbquests.chapter.combat__gear.quests30.description0}"
+				"{ftbquests.chapter.combat__gear.quests30.description1}"
 			]
 			id: "44FE4CEFBB14CB63"
 			rewards: [
@@ -1274,25 +1350,29 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				advancement: "majruszsaccessories:tamed_potato_beetle"
-				criterion: ""
-				id: "2E11BE21BD1C4CC8"
-				type: "advancement"
-			}]
-			title: "Tamed Potato Beetle"
+			tasks: [
+				{
+					advancement: "majruszsaccessories:tamed_potato_beetle"
+					criterion: ""
+					id: "2E11BE21BD1C4CC8"
+					type: "advancement"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests30.title}"
 			x: 4.0d
 			y: 3.5d
 		}
 		{
-			description: ["Full Iron tools! Feels good to make progress, huh? Congrats!"]
+			description: ["{ftbquests.chapter.combat__gear.quests31.description}"]
 			id: "78311C38AC02A32C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5813058479DED3FA"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5813058479DED3FA"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1362,19 +1442,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Iron Tools"
+			title: "{ftbquests.chapter.combat__gear.quests31.title}"
 			x: 3.5d
 			y: -5.0d
 		}
 		{
-			description: ["Obtain a full set of &bIron Armor&r. Hey, it's better than Leather!"]
+			description: ["{ftbquests.chapter.combat__gear.quests32.description}"]
 			id: "3B1C91A3CD3EC221"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "043BAFB961EC4E7B"
-				table_id: 6941837675484043489L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "043BAFB961EC4E7B"
+					table_id: 6941837675484043489L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1422,12 +1504,12 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Iron Armor"
+			title: "{ftbquests.chapter.combat__gear.quests32.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			description: ["Did you know that &bSteeleaf tools&r come &apre-enchanted when you craft them&r? Pretty cool stuff."]
+			description: ["{ftbquests.chapter.combat__gear.quests33.description}"]
 			id: "6034E62A035F4F68"
 			rewards: [
 				{
@@ -1452,10 +1534,12 @@
 						id: "delightful:steeleaf_knife"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:smite"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:smite"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1467,10 +1551,12 @@
 						id: "twilightforest:steeleaf_sword"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:looting"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:looting"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1482,10 +1568,12 @@
 						id: "twilightforest:steeleaf_shovel"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1497,10 +1585,12 @@
 						id: "twilightforest:steeleaf_pickaxe"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:fortune"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:fortune"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1512,10 +1602,12 @@
 						id: "twilightforest:steeleaf_axe"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1527,21 +1619,23 @@
 						id: "twilightforest:steeleaf_hoe"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:efficiency"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "The Full Set: Steeleaf Tools"
+			title: "{ftbquests.chapter.combat__gear.quests33.title}"
 			x: 2.5d
 			y: -5.0d
 		}
 		{
-			description: ["Obtain a full set of &bSteeleaf Armor&r from the &dTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests34.description}"]
 			id: "613C677D2D70278F"
 			rewards: [
 				{
@@ -1566,10 +1660,12 @@
 						id: "twilightforest:steeleaf_helmet"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:projectile_protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:projectile_protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1581,10 +1677,12 @@
 						id: "twilightforest:steeleaf_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:blast_protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:blast_protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1596,10 +1694,12 @@
 						id: "twilightforest:steeleaf_leggings"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:fire_protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:fire_protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -1611,21 +1711,23 @@
 						id: "twilightforest:steeleaf_boots"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:feather_falling"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "The Full Set: Steeleaf Armor"
+			title: "{ftbquests.chapter.combat__gear.quests34.title}"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
-			description: ["Obtain a full set of &bGolden Everything&r to earn the right to &aPraise the Sun&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests35.description}"]
 			id: "63244E494B2159D8"
 			rewards: [
 				{
@@ -1775,19 +1877,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Golden Glory"
+			title: "{ftbquests.chapter.combat__gear.quests35.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
-			description: ["Obtain a full set of &bDiamond Armor&r to keep those cute cheeks of yours safe and sound."]
+			description: ["{ftbquests.chapter.combat__gear.quests36.description}"]
 			id: "29A6066615C12448"
-			rewards: [{
-				count: 4
-				id: "2E19F4E374E18EE9"
-				item: "minecraft:ancient_debris"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "2E19F4E374E18EE9"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -1835,40 +1939,44 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Diamond Armor"
+			title: "{ftbquests.chapter.combat__gear.quests36.title}"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
-			description: ["Ever wished you could &ashield yourself from thrown Potions&r? Well, you can. Just bring your trusty &bUmbrella!&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests37.description}"]
 			id: "14BCF2740DE93BD2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3D753C0CE2A197A6"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "2B04B7027E05E05A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:umbrellas"
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D753C0CE2A197A6"
+					table_id: 6941837675484043489L
+					type: "random"
 				}
-				title: "Any #forge:umbrellas"
-				type: "item"
-			}]
-			title: "Protect Yourself from Potions"
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2B04B7027E05E05A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:umbrellas"
+						}
+					}
+					title: "{ftbquests.chapter.combat__gear.quests37.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests37.title}"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"One of the treasured items you can find in loot chests are &bTarot Cards&r. Each grants a &astrong buff while held&r in your inventory."
-				"Can you find the whole Arcana?"
+				"{ftbquests.chapter.combat__gear.quests38.description0}"
+				"{ftbquests.chapter.combat__gear.quests38.description1}"
 			]
 			id: "66BFC51EB4E7FDFB"
 			rewards: [
@@ -1886,48 +1994,54 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "what's in the cards for you?"
-			tasks: [{
-				id: "7EEC79529BBFE411"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "tarotcards:tarot_cards"
+			subtitle: "{ftbquests.chapter.combat__gear.quests38.subtitle}"
+			tasks: [
+				{
+					id: "7EEC79529BBFE411"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tarotcards:tarot_cards"
+						}
 					}
+					title: "{ftbquests.chapter.combat__gear.quests38.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #tarotcards:tarot_cards"
-				type: "item"
-			}]
-			title: "Obtain Tarot Cards"
+			]
+			title: "{ftbquests.chapter.combat__gear.quests38.title}"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
-			description: ["Although it is difficult to make, the &bTarot Deck&r will allow you to hold &aall your cards in a single slot&r, when &aequipped as a Curio&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests39.description}"]
 			id: "5107C3DE453627D5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0F512599C36DE552"
-				table_id: 5161092699925703455L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "274933D9ACA40CD2"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 22
-						}
-					}
-					id: "tarotcards:tarot_deck"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F512599C36DE552"
+					table_id: 5161092699925703455L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "274933D9ACA40CD2"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 22
+							}
+						}
+						id: "tarotcards:tarot_deck"
+					}
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 5.5d
 		}
@@ -1935,35 +2049,41 @@
 			id: "5161948053596F24"
 			invisible: true
 			secret: true
-			tasks: [{
-				id: "546F8A9A5894527D"
-				item: "ftbquests:barrier"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "546F8A9A5894527D"
+					item: "ftbquests:barrier"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			description: ["The &bStink Ray&r can be used to create a disturbance among creatures. While passive mobs will flee the scent, &aneutral or hostile mobs will begin attacking the offending target&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests41.description}"]
 			id: "64B6E2E1C384286C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "19D0A1A4EECDFEDD"
-				table_id: 6941837675484043489L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "61A399A8C9C36074"
-				item: {
-					Count: 1b
-					id: "alexsmobs:stink_ray"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19D0A1A4EECDFEDD"
+					table_id: 6941837675484043489L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "61A399A8C9C36074"
+					item: {
+						Count: 1b
+						id: "alexsmobs:stink_ray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -6.5d
 		}
@@ -1971,45 +2091,51 @@
 			can_repeat: true
 			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
-				"Hold 2 Tarot Cards in your inventory and turn in this quest to receive a random Tarot card in exchange. You may get lucky!"
-				"This is for players who have collected many duplicates and want a shot at a different type. &dThis quest is repeatable&r."
+				"{ftbquests.chapter.combat__gear.quests42.description0}"
+				"{ftbquests.chapter.combat__gear.quests42.description1}"
 			]
 			id: "20B24E5006BC7D1B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "520EC71AF3CC06A9"
-				table_id: 7265408724434505998L
-				type: "random"
-			}]
-			shape: "pentagon"
-			subtitle: "another chance at justice"
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "6C6CC6A2E015B887"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "tarotcards:tarot_cards"
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "520EC71AF3CC06A9"
+					table_id: 7265408724434505998L
+					type: "random"
 				}
-				title: "Any #tarotcards:tarot_cards"
-				type: "item"
-			}]
-			title: "Tarot Trading"
+			]
+			shape: "pentagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests42.subtitle}"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "6C6CC6A2E015B887"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tarotcards:tarot_cards"
+						}
+					}
+					title: "{ftbquests.chapter.combat__gear.quests42.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests42.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
-			description: ["Obtain a full set of &bIronwood Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests43.description}"]
 			id: "2F0A831353FB38B9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "795550A9EA41F849"
-				table_id: 2688518876927697228L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "795550A9EA41F849"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2019,10 +2145,12 @@
 						id: "twilightforest:ironwood_helmet"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:aqua_affinity"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:aqua_affinity"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2034,10 +2162,12 @@
 						id: "twilightforest:ironwood_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2049,10 +2179,12 @@
 						id: "twilightforest:ironwood_leggings"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2064,28 +2196,32 @@
 						id: "twilightforest:ironwood_boots"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:feather_falling"
-								lvl: 1s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:feather_falling"
+									lvl: 1s
+								}
+							]
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "The Full Set: Ironwood Armor"
+			title: "{ftbquests.chapter.combat__gear.quests43.title}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
-			description: ["Obtain a full set of &bKnightmetal Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests44.description}"]
 			id: "1A3BD31918571FA9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "374DD5C850FCAC63"
-				table_id: 2688518876927697228L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "374DD5C850FCAC63"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2133,19 +2269,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Knightmetal"
+			title: "{ftbquests.chapter.combat__gear.quests44.title}"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
-			description: ["Obtain a full set of &bNaga Scale Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests45.description}"]
 			id: "55E21D193564A15D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "25BCC5AA95FEC6A2"
-				table_id: 2688518876927697228L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25BCC5AA95FEC6A2"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2155,10 +2293,12 @@
 						id: "twilightforest:naga_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:fire_protection"
-								lvl: 3s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:fire_protection"
+									lvl: 3s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2170,28 +2310,32 @@
 						id: "twilightforest:naga_leggings"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 3s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 3s
+								}
+							]
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "The Full Set: Naga Scale"
+			title: "{ftbquests.chapter.combat__gear.quests45.title}"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
-			description: ["Obtain a full set of &bFiery Metal Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests46.description}"]
 			id: "2FD288BBE179EE79"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "257876E4ED81AD41"
-				table_id: 2688518876927697228L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "257876E4ED81AD41"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2239,19 +2383,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Fiery"
+			title: "{ftbquests.chapter.combat__gear.quests46.title}"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
-			description: ["Obtain a full set of &bPhantom Knight Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests47.description}"]
 			id: "6B6E01618D3B5999"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7370B2D8F5A2E9F3"
-				table_id: 2688518876927697228L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7370B2D8F5A2E9F3"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2277,19 +2423,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Phantom"
+			title: "{ftbquests.chapter.combat__gear.quests47.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
-			description: ["Obtain a full set of &bArctic Fur Armor&r from the Yeti caves in &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests48.description}"]
 			id: "360508D2A7ACB5D6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58AA97376CEE5824"
-				table_id: 2688518876927697228L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58AA97376CEE5824"
+					table_id: 2688518876927697228L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2337,19 +2485,21 @@
 					type: "item"
 				}
 			]
-			title: "The Full Set: Arctic Fur Armor"
+			title: "{ftbquests.chapter.combat__gear.quests48.title}"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
-			description: ["Obtain a full set of &bAlpha Yeti Armor&r from the &cTwilight Forest&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests49.description}"]
 			id: "3BE446AB23DAFFFE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38F40BF04713CDFE"
-				table_id: 2688518876927697228L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38F40BF04713CDFE"
+					table_id: 2688518876927697228L
+					type: "loot"
+				}
+			]
 			shape: "hexagon"
 			tasks: [
 				{
@@ -2359,10 +2509,12 @@
 						id: "twilightforest:yeti_helmet"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2374,10 +2526,12 @@
 						id: "twilightforest:yeti_chestplate"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2389,10 +2543,12 @@
 						id: "twilightforest:yeti_leggings"
 						tag: {
 							Damage: 0
-							Enchantments: [{
-								id: "minecraft:protection"
-								lvl: 2s
-							}]
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+							]
 						}
 					}
 					type: "item"
@@ -2419,19 +2575,19 @@
 					type: "item"
 				}
 			]
-			title: "The Full Seti: The Yeti"
+			title: "{ftbquests.chapter.combat__gear.quests49.title}"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"This &bBackpack&r can be worn in the &acurios \"Back\" slot&r and opened by &6pressing B&r (by default)."
-				"It can hold a small amount of extra items and &aremains equipped when you die&r."
-				"It can be &aenchanted&r, and the &aappearance is customizable&r! Simply &6access the paint palette button&r from the menu."
+				"{ftbquests.chapter.combat__gear.quests50.description0}"
+				"{ftbquests.chapter.combat__gear.quests50.description1}"
+				"{ftbquests.chapter.combat__gear.quests50.description2}"
 				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				"Hover over each option to &asee what challenge unlocks that look&r."
-				"A note: You can equip Backpacks in more than 1 Curio slot. However, &dyou can only use the one in your Back slot&r! Any additional backpacks will not be beneficial, and &dbackpacks equipped in the generic Curio slot cannot be used&r."
-				"When you &rright click&r equip the backpack, it will &dgo in the wrong slot&r, so please equip it manually."
+				"{ftbquests.chapter.combat__gear.quests50.description4}"
+				"{ftbquests.chapter.combat__gear.quests50.description5}"
+				"{ftbquests.chapter.combat__gear.quests50.description6}"
 			]
 			id: "7B72E2C06B316F5A"
 			rewards: [
@@ -2449,26 +2605,28 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "just what you've always wanted!"
-			tasks: [{
-				id: "62D500A4711B3B3C"
-				item: "backpacked:backpack"
-				type: "item"
-			}]
-			title: "Oh my GOD a BACKPACK"
+			subtitle: "{ftbquests.chapter.combat__gear.quests50.subtitle}"
+			tasks: [
+				{
+					id: "62D500A4711B3B3C"
+					item: "backpacked:backpack"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests50.title}"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"This &bMirror&r is no ordinary piece of glass or silver. In addition to reflecting the nearest player to it, you can modify what it shows."
-				"If you &6right click it&r with an &bArmor Stand&r, you can use it to &aview sets of armor&r."
-				"Add armor by &6right clicking&r the mirror while holding a piece of armor that the &dreflection is not already wearing&r. If it's wearing a helmet, and you add a helmet, it will &aequip the reflection's gear to you&r and add the second helmet to the reflection."
+				"{ftbquests.chapter.combat__gear.quests51.description0}"
+				"{ftbquests.chapter.combat__gear.quests51.description1}"
+				"{ftbquests.chapter.combat__gear.quests51.description2}"
 				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
-				"&6Right click with empty hand&r to switch armor sets. If you accidentally store more than one set of armor, you can &6cycle through these by shift-clicking&r."
-				"You can also &6right click the mirror&r with a &bBanner&r to apply the banner pattern to the &abackground&r."
-				"And, if you'd like a more spooky option, &6right click it&r with a &bSkull&r to change the preview to a &eSkeleton!&r."
-				"All the upgrades &acan be combined&r."
+				"{ftbquests.chapter.combat__gear.quests51.description4}"
+				"{ftbquests.chapter.combat__gear.quests51.description5}"
+				"{ftbquests.chapter.combat__gear.quests51.description6}"
+				"{ftbquests.chapter.combat__gear.quests51.description7}"
 			]
 			id: "4D9EA3886EB6F73A"
 			rewards: [
@@ -2485,21 +2643,23 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "mirror, mirror, on the wall"
-			tasks: [{
-				id: "189F1468E948737D"
-				item: "magic_mirror:magic_mirror"
-				type: "item"
-			}]
-			title: "Obtain a Magic Mirror"
+			subtitle: "{ftbquests.chapter.combat__gear.quests51.subtitle}"
+			tasks: [
+				{
+					id: "189F1468E948737D"
+					item: "magic_mirror:magic_mirror"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests51.title}"
 			x: -5.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"Are you tired of the basic Luna Moth &bElytra&r and want to add some more &apizazz&r? &6Place it in a crafting grid&r and you'll get two separate wings from it."
-				"Each &bWing&r can be crafted with &bDye&r or &bBanners&r to take on their appearance."
-				"Be aware that &dModded banner patterns do not work&r!"
+				"{ftbquests.chapter.combat__gear.quests52.description0}"
+				"{ftbquests.chapter.combat__gear.quests52.description1}"
+				"{ftbquests.chapter.combat__gear.quests52.description2}"
 			]
 			id: "14D43F04E15174D2"
 			rewards: [
@@ -2522,118 +2682,136 @@
 				}
 			]
 			shape: "hexagon"
-			tasks: [{
-				id: "55616BD9A6537339"
-				item: {
-					Count: 1b
-					id: "customizableelytra:elytra_wing"
-					tag: {
-						Damage: 0
-						RepairCost: 0
+			tasks: [
+				{
+					id: "55616BD9A6537339"
+					item: {
+						Count: 1b
+						id: "customizableelytra:elytra_wing"
+						tag: {
+							Damage: 0
+							RepairCost: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "Customize Your Elytra"
+			]
+			title: "{ftbquests.chapter.combat__gear.quests52.title}"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
-			description: ["Increases &amovement speed&r. Level up by &6traveling on foot!&r"]
+			description: ["{ftbquests.chapter.combat__gear.quests53.description}"]
 			id: "3BB3A6EFFDC3488E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7EF6C836DCC39293"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6CD329C1C41E3A3E"
-				item: {
-					Count: 1b
-					id: "environmental:wanderer_boots"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EF6C836DCC39293"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6CD329C1C41E3A3E"
+					item: {
+						Count: 1b
+						id: "environmental:wanderer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: 5.5d
 		}
 		{
-			description: ["Increases &aReach Distance&r. Level up by &6placing blocks&r!"]
+			description: ["{ftbquests.chapter.combat__gear.quests54.description}"]
 			id: "703818BD93BEFE6A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5AD819643F74AE8F"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7FD06EE2C0F0B82D"
-				item: {
-					Count: 1b
-					id: "environmental:architect_belt"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AD819643F74AE8F"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7FD06EE2C0F0B82D"
+					item: {
+						Count: 1b
+						id: "environmental:architect_belt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 4.5d
 		}
 		{
-			description: ["Increases your ability to &aremain undetected&r. Level it up by &6killing mobs&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests55.description}"]
 			id: "6635831904B90118"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "41DCC57CAF7369E1"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "712BFD371B2902DF"
-				item: {
-					Count: 1b
-					id: "environmental:thief_hood"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41DCC57CAF7369E1"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "712BFD371B2902DF"
+					item: {
+						Count: 1b
+						id: "environmental:thief_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 4.5d
 		}
 		{
-			description: ["The &bHealer's Pouch&r will periodically &agrant you a speed boost&r when you're hit by an enemy. You'll be faster the more hurt you are. Level it up by &6taking damage&r."]
+			description: ["{ftbquests.chapter.combat__gear.quests56.description}"]
 			id: "55C25ED49FACC6EC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17CC9011320AD02B"
-				table_id: 8808494820591225409L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "7B474C85130006C7"
-				item: {
-					Count: 1b
-					id: "environmental:healer_pouch"
-					tag: {
-						Damage: 0
-					}
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17CC9011320AD02B"
+					table_id: 8808494820591225409L
+					type: "random"
 				}
-				type: "item"
-			}]
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7B474C85130006C7"
+					item: {
+						Count: 1b
+						id: "environmental:healer_pouch"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 5.5d
 		}
 	]
-	title: "Equipment \\& Gear"
+	title: "{ftbquests.chapter.combat__gear.title}"
 }

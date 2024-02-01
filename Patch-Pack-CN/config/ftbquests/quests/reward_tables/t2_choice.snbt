@@ -3,13 +3,30 @@
 	loot_size: 1
 	order_index: 10
 	rewards: [
-		{ count: 15, item: "ars_nouveau:source_gem" }
-		{ count: 4, item: "minecraft:emerald" }
-		{ item: "ars_nouveau:greater_experience_gem" }
-		{ item: "minecraft:diamond" }
-		{ count: 2, item: "minecraft:phantom_membrane" }
-		{ item: "minecraft:nautilus_shell" }
-		{ item: "minecraft:heart_of_the_sea" }
+		{
+			count: 15
+			item: "ars_nouveau:source_gem"
+		}
+		{
+			count: 4
+			item: "minecraft:emerald"
+		}
+		{
+			item: "ars_nouveau:greater_experience_gem"
+		}
+		{
+			item: "minecraft:diamond"
+		}
+		{
+			count: 2
+			item: "minecraft:phantom_membrane"
+		}
+		{
+			item: "minecraft:nautilus_shell"
+		}
+		{
+			item: "minecraft:heart_of_the_sea"
+		}
 		{
 			item: {
 				Count: 1b
@@ -19,9 +36,16 @@
 				}
 			}
 		}
-		{ item: "alexsmobs:cachalot_whale_tooth" }
-		{ count: 5, item: "minecraft:echo_shard" }
-		{ item: "pipez:advanced_upgrade" }
+		{
+			item: "alexsmobs:cachalot_whale_tooth"
+		}
+		{
+			count: 5
+			item: "minecraft:echo_shard"
+		}
+		{
+			item: "pipez:advanced_upgrade"
+		}
 	]
-	title: "T2 Choice"
+	title: "{ftbquests.reward_tables.t2_choice.title}"
 }

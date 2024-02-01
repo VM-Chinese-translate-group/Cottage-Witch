@@ -39,8 +39,16 @@
 				}
 			}
 		}
-		{ count: 5, item: "twilightforest:liveroot", weight: 5.0f }
-		{ count: 4, item: "twilightforest:transformation_powder", weight: 5.0f }
+		{
+			count: 5
+			item: "twilightforest:liveroot"
+			weight: 5.0f
+		}
+		{
+			count: 4
+			item: "twilightforest:transformation_powder"
+			weight: 5.0f
+		}
 		{
 			item: {
 				Count: 1b
@@ -69,14 +77,34 @@
 			}
 			weight: 3.0f
 		}
-		{ item: "twilightforest:magic_beans", weight: 3.0f }
-		{ count: 10, item: "twilightforest:reappearing_block", weight: 5.0f }
-		{ item: "twilightforest:hollow_oak_sapling" }
-		{ item: "twilightforest:time_sapling" }
-		{ item: "twilightforest:transformation_sapling" }
-		{ item: "twilightforest:mining_sapling" }
-		{ item: "twilightforest:sorting_sapling" }
-		{ item: "twilightforest:rainbow_oak_sapling", weight: 5.0f }
+		{
+			item: "twilightforest:magic_beans"
+			weight: 3.0f
+		}
+		{
+			count: 10
+			item: "twilightforest:reappearing_block"
+			weight: 5.0f
+		}
+		{
+			item: "twilightforest:hollow_oak_sapling"
+		}
+		{
+			item: "twilightforest:time_sapling"
+		}
+		{
+			item: "twilightforest:transformation_sapling"
+		}
+		{
+			item: "twilightforest:mining_sapling"
+		}
+		{
+			item: "twilightforest:sorting_sapling"
+		}
+		{
+			item: "twilightforest:rainbow_oak_sapling"
+			weight: 5.0f
+		}
 	]
-	title: "Twilight"
+	title: "{ftbquests.reward_tables.twilight.title}"
 }
