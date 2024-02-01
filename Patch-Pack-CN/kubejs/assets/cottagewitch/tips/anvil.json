@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "你可以手持铁锭右击铁砧来修复它的耐久。"
+    "text": "You can restore Anvil durability by right clicking it with an iron ingot."
   }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "烈焰棒现在像末地烛一样可以放置了！"
+    "text": "Blaze Rods are now placeable, just like End Rods!"
   }
 }

@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "现在你不需要在掉落的砂砾底部放置火把，他们会自动被挖掘！"
+      "text": "Falling gravel will now be automatically mined, without the need to place torches at the bottom!"
     }
 }

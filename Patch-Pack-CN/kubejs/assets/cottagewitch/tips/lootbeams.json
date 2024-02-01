@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "掉落物现在会有一束有颜色的高亮光来帮助你找到他们！"
+      "text": "Dropped items will be highlighted with a colored beam of light, to help you find them."
     }
   }

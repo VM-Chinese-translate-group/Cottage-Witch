@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "在多人游戏中：箱子和木桶现在是个人拾取，这意味着如果你打开一个箱子并没有拿走里面的物品，其他玩家会在这个箱子里获得属于他们自己的新战利品，被掠夺过的箱子或木桶会从金色变为银色"
+      "text": "In multiplayer: Chest and Barrel loot is PER PERSON, meaning that if you leave a looted chest intact, another user can get their own stuff from it. Looted chests and barrels will change their textures from gold to silver."
     }
   }

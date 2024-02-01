@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "试着给你的水生朋友们一个粘液球！对于某些水生动物，如 水滴鱼 或 拟态章鱼，粘液球可以让它们在陆地上生存！"
+      "text": "Try giving your aquatic friends a Slime Ball! For some, such as the Blobfish or Mimic Octopus, it will allow them to survive on land!"
     }
   }

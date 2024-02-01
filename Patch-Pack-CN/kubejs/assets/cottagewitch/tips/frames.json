@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "物品展示框可以用染料来改变颜色！"
+      "text": "Item frames can be colored using Dyes!"
     }
   }

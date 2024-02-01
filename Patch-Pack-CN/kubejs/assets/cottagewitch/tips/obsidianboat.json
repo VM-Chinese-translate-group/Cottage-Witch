@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "黑曜石船可以航行在岩浆湖上！"
+      "text": "Obsidian boats can float across lava lakes!"
     }
   }

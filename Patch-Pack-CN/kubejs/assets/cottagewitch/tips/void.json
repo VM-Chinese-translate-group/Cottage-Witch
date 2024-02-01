@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "害怕掉虚空吗？别担心！你可以获取一个虚空图腾，一旦你跌入虚空，它会立即将你传送到安全的地方。"
+      "text": "Afraid of the void? Don't be! You can obtain a Void Totem to instantly teleport you to safety, should you fall."
     }
   }

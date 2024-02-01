@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "对干草捆使用剪刀，将会制作出茅草块。"
+      "text": "Using Shears on a Hay Bale will make a Thatch block."
     }
   }

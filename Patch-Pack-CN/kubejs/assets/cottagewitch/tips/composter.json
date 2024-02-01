@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "腐肉和毒马铃薯现在可以放入堆肥桶。"
+      "text": "Rotten Flesh and Poisonous Potatoes can be placed in the Composter."
     }
   }

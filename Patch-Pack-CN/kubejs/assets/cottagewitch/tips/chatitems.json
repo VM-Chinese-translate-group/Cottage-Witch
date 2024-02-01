@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "打开物品栏时将光标悬于某样物品上，然后按[Shift+T]可以将你的物品分享到聊天栏中以便其他玩家检视。"
+    "text": "Shift+t when hovering over an item in your inventory will share that item in chat for others to check out."
   }
 }

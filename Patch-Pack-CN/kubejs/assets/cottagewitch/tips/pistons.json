@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "活塞现在可以推动带有nbt值的方块实体，比如箱子，尽管箱子中还有物品，但是，活塞仍然不能推动刷怪笼。"
+      "text": "Pistons can now push tile entities like Chests, even if they have something in their inventory. They cannot push spawners, however."
     }
   }

@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "如果营火下方放置了干草块，当你用鞘翅飞越它时，营火的烟会使你的飞行高度得到提升。"
+      "text": "If a hay bale is placed underneath a Campfire, it will grant you a height boost when you fly over it with an Elytra."
     }
   }

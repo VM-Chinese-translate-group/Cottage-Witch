@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "右击告示牌以编辑文本。"
+      "text": "Right click on a Sign to edit the text."
     }
   }

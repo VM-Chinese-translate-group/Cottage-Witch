@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "阿卡什宝典的使用方式可能让你感到困惑。拿着它右击，从界面菜单中选择一本手册。拿着它左击，可切换回阿卡什宝典。当选择了一本手册后，拿着阿卡什宝典[shift+Q]，就能将选择的这本手册从其中移除。用一本手册与阿卡什宝典合成，可将那本手册放入其中。"
+      "text": "The Akashic Tome has confusing controls. Right click it to select a book from the menu. Left click it in the air to reset it from a selected book. Crouch and throw the Tome when a book is selected to remove that book from it. Craft the Tome with a book to hold the book inside it."
     }
   }

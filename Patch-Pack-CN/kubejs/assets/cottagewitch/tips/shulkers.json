@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "如果末影螨钻进紫珀块，新的潜行者就可能会生成。"
+    "text": "New Shulkers can spawn if an Endermite burrows into a Purpur block."
   }
 }

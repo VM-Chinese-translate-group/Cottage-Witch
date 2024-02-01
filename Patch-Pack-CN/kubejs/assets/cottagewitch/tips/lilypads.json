@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "你现在可以在睡莲上放置物品了！"
+    "text": "You can now place items on Lilypads."
   }
 }

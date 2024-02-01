@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "你可以在手中有一副画的情况下，可以反复右键墙上的画来获得你想要的款式！"
+      "text": "You can cycle through paintings by right clicking one on the wall, while holding one in your hand."
     }
   }

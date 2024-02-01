@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "恶魂有时候会哭泣，这使你可以在不杀死他们的情况下收集恶魂之泪！"
+      "text": "Ghasts will sometimes cry tears without being slain, allowing you to collect them without fighting."
     }
   }

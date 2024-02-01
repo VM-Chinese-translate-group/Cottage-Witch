@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "有多种方法使敌对生物不在一片区域里生成。比如在鼠尾草燃烧盘里燃烧鼠尾草，或者你可以插下一个卓越火炬！"
+      "text": "There are multiple ways to prevent hostile spawns in an area. You can burn Sage on a Sage Burning Plate, or you can craft a Magnum Torch and place it down!"
     }
 }

@@ -1,10 +1,10 @@
 {
   "title": {
-    "text": "模组提示",
+    "text": "Modded Tips",
     "bold": true,
     "color": "green"
   },
   "tip": {
-    "text": "您可以在聊天栏中点击“成就”以在进度界面上显示它们。您也可以使用进度展示框来展示已经达成的成就。"
+    "text": "You can click Advancements in chat to bring them up in the Advancements screen. You can also display your achieved Advancements using the Advancement Frame."
   }
 }

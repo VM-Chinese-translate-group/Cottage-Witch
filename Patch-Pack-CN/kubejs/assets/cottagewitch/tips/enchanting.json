@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "模组提示",
+      "text": "Modded Tips",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "你可以通过将特定物品从附魔台中取出再放回去的方式，重新选择新的不同的附魔效果。"
+      "text": "You can reroll enchantments on a specific item by lifting it out of the Enchanting Table and placing it back in."
     }
   }
