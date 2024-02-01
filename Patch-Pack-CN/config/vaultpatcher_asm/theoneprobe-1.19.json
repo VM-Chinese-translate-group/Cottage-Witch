@@ -39,7 +39,7 @@
             },
             {
                 "k": "Things you should know about",
-                "v": "吗应该知道的关于"
+                "v": "你应该知道的关于"
             },
             {
                 "k": "side configuration settings or sneak-right click",
@@ -502,7 +502,7 @@
             },
             {
                 "key": "Scale:",
-                "value": "比例:"
+                "value": "比例："
             },
             {
                 "key": "Full transparent style",
@@ -510,7 +510,7 @@
             },
             {
                 "key": "Placement:",
-                "value": "位置:"
+                "value": "位置："
             }
         ]
     }
