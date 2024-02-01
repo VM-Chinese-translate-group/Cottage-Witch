@@ -1,11 +1,11 @@
 {
-	"block.betteramethyst.amethyst_crystal_block": "Amethyst Crystal Block",
-	"block.betteramethyst.smooth_amethyst_crystal_block": "Smooth Amethyst Crystal Block",
-	"block.betteramethyst.chiseled_amethyst_crystal_block": "Chiseled Amethyst Crystal Block",
-	"block.betteramethyst.amethyst_crystal_lamp": "Amethyst Crystal Lamp",
-	"block.betteramethyst.amethyst_bricks": "Amethyst Bricks",
-	"block.betteramethyst.amethyst_bricks_slab": "Amethyst Brick Slab",
-	"block.betteramethyst.amethyst_bricks_stairs": "Amethyst Brick Stairs",
-	"block.betteramethyst.amethyst_bricks_wall": "Amethyst Brick Wall",
-	"block.betteramethyst.amethyst_redstone_lamp": "Amethyst Redstone Lamp"
+	"block.betteramethyst.amethyst_crystal_block": "紫水晶块",
+	"block.betteramethyst.smooth_amethyst_crystal_block": "平滑紫水晶块",
+	"block.betteramethyst.chiseled_amethyst_crystal_block": "雕纹紫水晶块",
+	"block.betteramethyst.amethyst_crystal_lamp": "紫水晶灯",
+	"block.betteramethyst.amethyst_bricks": "紫水晶砖",
+	"block.betteramethyst.amethyst_bricks_slab": "紫水晶砖台阶",
+	"block.betteramethyst.amethyst_bricks_stairs": "紫水晶砖楼梯",
+	"block.betteramethyst.amethyst_bricks_wall": "紫水晶砖墙",
+	"block.betteramethyst.amethyst_redstone_lamp": "紫水晶红石灯"
 }
