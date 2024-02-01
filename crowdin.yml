@@ -1,1 +1,3 @@
-files: []
+files:
+  - source: source
+    translation: Patch-Pack_CN
