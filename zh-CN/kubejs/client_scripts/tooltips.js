@@ -1525,10 +1525,10 @@ ItemEvents.tooltip(e => {
     e.add('alexsmobs:shattered_dimensional_carver', '请勿使用！此物品存在问题。更多信息，请查阅任务说明。'
     )
 
-    e.add('alexsmobs:warped_muscle', '从下届传送门获取这个物品。'
+    e.add('alexsmobs:warped_muscle', '从下界传送门获取这个物品。'
     )
 
-    e.add('alexsmobs:hemolymph_sac', '从下届传送门获取这个物品。'
+    e.add('alexsmobs:hemolymph_sac', '从下界传送门获取这个物品。'
     )
 
 })
