@@ -1,7 +1,9 @@
 {
-	"item.ring_of_enderchest.ring_of_enderchest": "Ring of Enderchest",
-	"item.ring_of_enderchest.ring_of_enderchest.line1": "Provides player access to their Enderchest",
-	"item.ring_of_enderchest.ring_of_enderchest.line2": "Right-click to use",
-	"item.ring_of_enderchest.ring_of_enderchest.line3": "Enderchest on the Go",
-	"itemGroup.ring_of_enderchest": "Ring of Enderchest"
+	"key.categories.ring_of_enderchest": "Gobber2",
+	"ring_of_enderchest.key.toggleRingEnderchest": "Open Ring of Enderchest in Curios Slot",
+	"item.ring_of_enderchest.ring_of_enderchest": "Anel do Baú do Ender",
+	"item.ring_of_enderchest.ring_of_enderchest.line1": "Fornece acesso ao Baú do Fim do jogador",
+	"item.ring_of_enderchest.ring_of_enderchest.line2": "Botão-direito para usar",
+	"item.ring_of_enderchest.ring_of_enderchest.line3": "Baú do Ender Portátil",
+	"itemGroup.ring_of_enderchest": "Ring of Enderchest [Anel do Baú do Ender]"
 }
