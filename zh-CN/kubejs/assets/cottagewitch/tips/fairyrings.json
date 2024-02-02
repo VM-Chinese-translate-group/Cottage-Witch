@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Rarely, one can find Fairy Rings in Forest or Plains biomes. Dig down through the center of these to find Diamonds or Emeralds!"
+      "text": "有时候你能在森林或草原生物群系找到仙女之环，从它的中心往下挖可以找到钻石和绿宝石！"
     }
   }

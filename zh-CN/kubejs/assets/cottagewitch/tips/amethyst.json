@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "You can now harvest Budding Amethyst with Silk Touch!"
+      "text": "你可以使用带有精准采集附魔的工具把紫水晶母岩挖下来！"
     }
   }
