@@ -31,5 +31,5 @@ StartupEvents.registry('block', event => {
   .fullBlock(false)
   .defaultCutout()
   .hardness(1.5)
-  .displayName('女巫猫毛绒玩具')  
+  .displayName('毛绒玩具-女巫猫')  
 })
