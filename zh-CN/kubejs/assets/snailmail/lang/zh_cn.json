@@ -13,7 +13,7 @@
     "tooltip.snailmail.from": "来自：%s",
     "tooltip.snailmail.stamped": "已盖邮戳",
     "tooltip.snailmail.delivery_failed": "派送失败",
-    "modal.snailmail.no_envelope": "服务器槽位中没有信封…也许出现了错误？",
+    "modal.snailmail.no_envelope": "服务器槽位中没有信封……也许出现了错误？",
     "modal.snailmail.no_stamp": "信封还未盖上邮戳！",
     "modal.snailmail.no_address": "信封没有地址！",
     "modal.snailmail.invalid_address": "找不到与该地址名称匹配的用户：%s",
