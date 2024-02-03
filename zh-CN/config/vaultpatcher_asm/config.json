@@ -1,6 +1,6 @@
 {
   "mods": [
-    "theoneprobe-1.19"
+    "theoneprobe-1.19","ftbbackups"
   ],
   "debug_mode": {
     "is_enable": false,
