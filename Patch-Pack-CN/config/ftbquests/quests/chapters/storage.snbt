@@ -1,0 +1,1422 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 300
+	default_quest_shape: ""
+	filename: "storage"
+	group: "1E0017DE6773EF00"
+	icon: "minecraft:chest"
+	id: "20C131FAFAF3F980"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 15.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgstoragenetwork.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgitemstransport.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgdrawers.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 9.0d
+			hover: [ ]
+			image: "cottagewitch:textures/bgmiscpurple.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bStorage Drawers&r are inventory items which can hold massive amounts of a single item in one block."
+				"You can make multiple variations, holding from 1-4 items, and in many different wood types."
+				"&bFramed Drawers&r can be made to show any block texture. &6Hold shift&r while hovering over a &bFramed Drawer&r to read instructions."
+			]
+			icon: "functionalstorage:oak_1"
+			id: "1838DE5E92C9C03F"
+			rewards: [
+				{
+					id: "10B66423B15FF35C"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "443D7D8BEF7A970E"
+					item: "functionalstorage:spruce_4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "I'm an artist, not a drawer"
+			tasks: [{
+				id: "4B1A10444317E77B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			title: "Craft a Functional Storage Drawer"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"This &bStorage Upgrade&r will &aincrease the amount of items&r your Drawers can hold."
+				"There are multiple tiers of upgrades, which can be used together or mix-and-matched."
+				"Each drawer can accept 7 different upgrades."
+			]
+			id: "643038A9E2CA7D59"
+			rewards: [{
+				count: 3
+				id: "376B07CA67A66A33"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			subtitle: "We must have more storage!"
+			tasks: [{
+				id: "7206A74D127A4316"
+				item: "functionalstorage:copper_upgrade"
+				type: "item"
+			}]
+			title: "Obtain your first Storage Upgrade"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["643038A9E2CA7D59"]
+			description: ["The &bVoid Upgrade&r is useful if you have a lot of an item importing into your drawers - it will &aautomatically delete&r any items which can't fit in the drawer, preventing your game from getting too laggy."]
+			id: "313DFFDB063483B7"
+			rewards: [
+				{
+					id: "292FCC80A297F6BB"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					id: "1365D107453B0401"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18308CF23F25BABA"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"The &bCompacting Drawer&r is unique from other drawers because it allows you to access &amultiple compressions of an item&r."
+				" The usual example would be something like &bIron&r, because it will give you access to &bIron Blocks&r, &bIron Ingots&r, and &bIron Nuggets&r. If you insert 9 Iron Ingots, you can withdraw either 1 Block, 9 Ingots, or 81 Nuggets, without having to craft."
+				"However, this also works for items such as &bCrops&r, which can be withdrawn as Crates. This works with any item which has a &a3x3 compression recipe&r."
+				"The &bSimple Compacting Drawer&r does the same thing, except for items which only have 2 variations, such as crops or eggs."
+			]
+			id: "1F6CE1B236003A84"
+			rewards: [
+				{
+					id: "2EF9A992AA775DC7"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6B34333AE81917CE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "02DB6DD885080ABE"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2BEADE1949F60C20"
+					item: "functionalstorage:compacting_drawer"
+					type: "item"
+				}
+				{
+					id: "01A271C59091140F"
+					item: "functionalstorage:simple_compacting_drawer"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"The &bDrawer Controller&r is very important for hooking your &bDrawers&r up to your &aStorage Network&r."
+				"You can also use it to &aimport items&r to your drawers via a Hopper or &bPipez&r!"
+				"You will need to use a &bLinking Tool&r to connect each &bDrawer&r with the &bController&r by &6right clicking&r."
+			]
+			id: "40EDCF93A4E5B1AA"
+			rewards: [{
+				id: "37F735C8A95A8B8E"
+				item: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35682075481226F2"
+				item: "functionalstorage:storage_controller"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: [
+				"&aConfiguration Tools&r alter the function of Drawers. &6Right click on a Drawer while holding a Key&r to activate its ability."
+				"The basic mode, &bLocking&r, locks a Drawer so that it can only accept the item/s currently inside of it."
+				"The &bHide/Show Amounts&r mode toggles whether or not the amount of items contained within the Drawer is visible on its surface."
+				"The &bHide/Show Item Renders&r mode will completely hide the item image and all other labels from the front of the Drawer."
+				"The &bHide/Show Upgrades&r will show or hide what upgrades a Drawer currently contains."
+			]
+			id: "0204D145FC5C3008"
+			rewards: [{
+				id: "465128D4C75677B0"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "40968CE9BA792258"
+				item: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "LOCKING"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			description: ["Oh I know, it's such a bother... your storage is just &olousy&r with &bGolden Apples&r - well worry no more, you can &acompress them&r into crates. These &bGolden Apple Crates&r can even be used to power a &bBeacon&r!"]
+			id: "58C6D8E0422110BC"
+			rewards: [
+				{
+					id: "377889882D9DFF5F"
+					item: "overweight_farming:overweight_golden_apple_block"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "34FDE83E40FA45F1"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Some have crateness thrust upon them"
+			tasks: [{
+				count: 5L
+				id: "36726B34E435877E"
+				item: "quark:golden_apple_crate"
+				type: "item"
+			}]
+			title: "Obtain a Golden Apple Crate"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"There are a number of &ajar types&r in this modpack. This one holds liquids! Up to three buckets worth."
+				"It can hold everything from &bWater&r to &bSoups&r to even &bExperience&r."
+				"They can also function as &afish tanks&r or &acookie jars&r."
+				"Right click the jar with an empty hand to eat or drink its contents. Don't worry, you won't eat the lava."
+				"You can &aplace the jar by crouching and right clicking&r it. If you &asimply right click&r, you will instead capture small mobs such as &eSmall Slimes&r or &eBees&r."
+			]
+			id: "62D95F91881F228C"
+			rewards: [{
+				id: "48464721C342CFBF"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "463FB873FA5E8629"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"The &bBasket&r can be used as a chest, but also as a hopper! It has the &astorage capacity of a chest&r, and when dropped or thrown items land on top of it, they will &aautomatically go into its inventory&r."
+				"For example, you could &6place one upside-down&r above a &bStove&r in order to collect the finished products! Or put one at the end of a &bConveyer Belt&r."
+				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
+			]
+			id: "5E3D0655F0A08890"
+			rewards: [
+				{
+					id: "2421BCEC9EF7B9BE"
+					item: "farmersdelight:basket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "204DB26B0498DCB3"
+					table_id: 6951594928314176539L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I wonder if you could play ball with it."
+			tasks: [{
+				id: "31A89834BA4A5521"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			title: "Obtain a Basket"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"&lTom's Simple Storage&r is a mod which allows you to &aaccess all your inventory from a single interface&r. Who Tom was has been lost to legend, but his storage systems remain. &lSophisticated Storage&r is a storage solution with a focus on &aproviding lots of space in a small footprint&r. The two systems can work together!"
+				""
+				"To begin with, you'll need a &bStorage Terminal&r from &lTom's&r."
+				""
+				"Then, you need to make a choice between the &bInventory Connector&r from &lTom's&r, or a &bStorage Controller&r from &lSophisticated&r. Inventory Connectors work with both vanilla and Sophisticated containers, whereas &bStorage Controllers&r connect only to Sophisticated's containers. However, the remote capabilities of the &bStorage Controller&r are superior to those of the &bInventory Connector&r."
+				""
+				"This quest has multiple pages, &6please go to the next page&r."
+				""
+				"{@pagebreak}"
+				"The &bInventory Connector&r and &bStorage Controller&r are blocks which act as a hub, connecting all touching storages to itself. &dAll touching storages are added to the network automatically&r."
+				""
+				"With the &bStorage Controller&r you can link distant storages using a &bStorage Link&r. You can do this with the &bInventory Connector&r as well, by utilizing the &bInventory Trim, or Inventory Cables and Cable Connectors&r."
+				""
+				"The &bStorage Terminal&r is the block which lets you see, deposit, and withdraw from your network. It can later be upgraded to a &bCrafting Terminal&r, which also allows you to craft from your inventory network."
+				"{@pagebreak}"
+				"Here is an example of a &ahybrid Tom's and Sophisticated setup&r. As you can see, it &duses only inventory containers from&r &lSophisticated Storage&r, with the &bTom's Storage Terminal&r attached to the &bSophisticated's Storage Controller&r."
+				""
+				"The remote storages are connected via a &bStorage Link&r."
+				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"This is an example of a &aTom's only&r setup, with vanilla containers (though it also supports containers from Sophisticated)."
+				""
+				"The remote containers are hooked into the &bInventory Connector&r via &bCables&r and &bCable Connectors&r."
+				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1B3C37BD61939C76"
+			rewards: [{
+				id: "4F0820A607503EB4"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "networking is important"
+			tasks: [
+				{
+					id: "65E8A2B80E50F100"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "Any #forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "2268FB94B2D4789E"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "Network Interface"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["The &bCrafting Grid&r, although more expensive, is a worthy upgrade because it allows you to &acraft from JEI or the Recipe Book&r using anything in your storage network."]
+			id: "681253D70C026027"
+			rewards: [{
+				id: "240243DEB27A110F"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			subtitle: "It's not just serious - it's terminal"
+			tasks: [{
+				id: "2B45691AED9BE323"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["&bInventory Trim&r is an item which helps to fill in the gaps between connected inventories. As long as the Trim is touching both a valid inventory block, and a block in your system, it will connect all it touches to your network."]
+			id: "7A9A86BAA9E4A06E"
+			rewards: [{
+				id: "1E928BE5FBB5FD95"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "Trim and tidy"
+			tasks: [{
+				count: 4L
+				id: "38E41AF45EF1C29A"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"While &bInventory Trim&r is what the majority of people will use to connect their network, you can also do it with &bInventory Connectors&r and &bInventory Cables&r."
+				"&6Place the Connectors on the blocks you wish&r, and then &6place the cabling between them&r."
+			]
+			id: "21A2E4CA683BD232"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738482AB5370FCF4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "507AD7D665822346"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "Any #forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "266DB9CE515A1C80"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:connector"
+						}
+					}
+					title: "Any #forge:connector"
+					type: "item"
+				}
+			]
+			title: "Connected at a Distance"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["21A2E4CA683BD232"]
+			description: [
+				"&bFramed blocks&r are ones which can &atake on the appearance of another block&r."
+				"Place your &bFramed Blocks&r in the world, then &6hold the Paint Kit and shift right click&r the block you want them to look like. Then &6right click the framed block&r with the paint kit, and voila!"
+			]
+			id: "383A9396EDCA0ED1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257EB530D055D451"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "Don't be suspicious, don't be suspicious"
+			tasks: [
+				{
+					id: "39246456F6D4B955"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+				{
+					id: "4138B74E75AC4B9D"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "74B9AFE8924F9CCF"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Framed Blocks"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["The &bWireless Terminal&r is an incredibly useful item, as it allows you to access your inventory network remotely, at a &arange of 16 blocks&r."]
+			id: "50D94EFE04154F83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "586FDFDB6BDAD89C"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "We're going wireless"
+			tasks: [{
+				id: "12EE65D5450F2B69"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50D94EFE04154F83"]
+			description: [
+				"The &bAdvanced Wireless Terminal&r not only extends the range of its previous version (64 blocks instead of 16), but can be made to have &ainfinite range&r if one &6places a level 1 beacon nearby&r."
+				"If you should &6place a level 4 beacon nearby&r, then the signal can transmit &aacross dimensions&r as well!"
+				"Can be &6worn as a Belt&r and &aaccessed via a hotkey&r."
+			]
+			id: "5E4411D5B4EFA45B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "349BEC406970C530"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			subtitle: "A beacon of hope"
+			tasks: [{
+				id: "55AE94FBC169D6F8"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bInventory Proxy&r is a niche item which extends access to inventory blocks it's placed adjacent to. It specifically extends &athe face it's touching&r, "
+				"This is useful in case your inventories are hard to access due to being inside an automation system, etc."
+			]
+			id: "30027D97CE91BAF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C3159EAC07BBAA"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B155EBB095D85A1"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bInventory Hopper&r imports and exports items from your network."
+				"&6Right click it with an item&r to set the filter. This is optional when importing, but required if exporting."
+				"&6Shift right click with an empty hand&r to clear the filter."
+			]
+			id: "15F2A54EBE6EEC56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9719DC75DBE9F9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65D436A4BFB4E9C0"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"The &bLevel Emitter&r transmits a redstone signal based on the contents of an inventory."
+				"The signal is based on whether the inventory contains &amore or less than the set amount&r."
+			]
+			id: "41933F01B397F9F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA0046E741F21B4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65AB7B90E505E5FB"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"An &bEnder Chest&r is like cloud storage for your items. This inventory is accessible through any &bEnder Chest&r, anywhere in the world."
+				"It's not a bad idea to fill it with emergency items. You can &again more storage space&r by &6filling it with Shulker Boxes&r."
+			]
+			id: "0B1646339D14D055"
+			rewards: [{
+				id: "3767778C22F62A3A"
+				item: "minecraft:white_shulker_box"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56E9DAF2277FF804"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0B1646339D14D055"]
+			description: [
+				"As you could guess, the &bRing of Enderchest&r allows you to access your Ender Inventory without needing an &bEnder Chest&r."
+				"It &acannot be worn as a Curio&r but instead must be &6held and right clicked&r in order to be used."
+			]
+			id: "1EEB4AA9131B98DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7ABEE64C5D9E9F"
+				table_id: 5161092699925703455L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2741D617D6F0700F"
+				item: "ring_of_enderchest:ring_of_enderchest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The &bItem Pipe&r is a way for you to easily transfer items from one inventory to another."
+				"It can &aconnect to an individual chest, barrel, or a whole network&r via a &bInventory Connector&r."
+				"You can use a &bWrench&r (either from &lPipez&r or &lCreate&r - the one from &lSupplementaries&r doesn't work) to &achange its mode&r."
+				"&6Shift right click the wrench&r onto one side of the &bPipe&r to connect/disconnect it, and also to &aset to Extract mode&r."
+				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
+				"Once in &aExtract Mode&r, you can &6right click on the pipe&r to access its menu."
+			]
+			id: "0A76B3D9CF688878"
+			min_width: 300
+			rewards: [
+				{
+					count: 10
+					id: "10E7DC7C7F53B457"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "63D4D09CF18BAD6B"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Organize your Storage Network"
+			tasks: [{
+				id: "7153E46F9B5C723A"
+				item: "pipez:item_pipe"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: ["The &bBasic Pipe Upgrade&r allows you to set a &aRedstone Mode&r for the Pipe. You can set it to &aonly be active&r when receiving a signal, or to &astop when it receives a signal&r. By default, it will &aignore Redstone input&r."]
+			id: "327660E1DFE7C9A0"
+			rewards: [{
+				id: "2D980A1EB5CBDC3E"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1196EDFF583F21D3"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["327660E1DFE7C9A0"]
+			description: ["The &bImproved Upgrade&r gives you &aRedstone Mode&r control, and also allows you to change the &aDistribution mode&r, such as whether to deliver to the &afirst inventory&r, &aRound Robin&r, or &acompletely random&r."]
+			id: "125AC0EEF7096532"
+			rewards: [{
+				id: "69DBCB99857B5AA6"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35E4C52DC0192E00"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["125AC0EEF7096532"]
+			description: [
+				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
+				"The &bAdvanced Upgrade&r gives you access to the previous two modes, as well as &aFiltering&r. You can &awhitelist or blacklist&r selected items from being extracted by the pipes."
+			]
+			id: "5E0E4D3BFE9A205F"
+			rewards: [{
+				id: "7A488241F19C3AB4"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "085ADE6062A763B8"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E0E4D3BFE9A205F"]
+			description: [
+				"The &bUltimate Upgrade&r gives you all the previous benefits, while also transporting &aone stack at a time&r, making it the fastest option."
+				"It is also significantly more expensive."
+			]
+			id: "2B73F9B609ABE980"
+			rewards: [{
+				id: "235AA9488102A61C"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7038BA77EA75696E"
+				item: "pipez:ultimate_upgrade"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1838DE5E92C9C03F"]
+			description: ["The &bEnder Drawer&r can be &aattuned to a frequency&a using the &bLinking Tool&r. Any other &bEnder Drawer&r attuned to the same frequency will contain the &asame inventory&r."]
+			id: "08DC47F76CA50E40"
+			rewards: [{
+				count: 3
+				id: "415FF48AEA1DA9CD"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49DC0CF8944CB20E"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40EDCF93A4E5B1AA"]
+			description: [
+				"The &bCollector Upgrade&r will &apick up items&r dropped nearby."
+				"The &bPulling Upgrade&r will &apull items from a nearby inventory&r."
+				"The &bPushing Upgrade&r will... you guessed it! &aPush items&r to a nearby inventory."
+			]
+			id: "2600D0609823A031"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69ECBA42F234DFB9"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "3F4C42E0D699F5B1"
+					item: {
+						Count: 1b
+						id: "functionalstorage:collector_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E2C6EDAFD6AEF06"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2359F4FB9AD3B64B"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Lateral Upgrades"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"There are many ways to carry items with you while you adventure, but not all of them are quite as terrifying as a &bLuggage&r. It has little concern for others, and loves to &agobble up dropped items&r. And yet, it's strangely endearing."
+				"You can &6access its inventory with right click&r, and &6pick it up with shift right click&r. It &aretains its inventory&r when picked up, and it cannot die."
+				"The &eLuggage&r can &awear a collar&r, which will grant it the enchanted abilities. However, &dplacing the Luggage in your inventory will delete the collar&r, so be sure to remove it before picking it back up."
+			]
+			id: "0AC47FF8FD45B289"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F14E912D0E1ACBF"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "om nom nom nom"
+			tasks: [{
+				id: "37E8405F8CFB4AB9"
+				item: {
+					Count: 1b
+					id: "luggage:luggage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Not Exactly a Pet"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"The &eLuggage&r, when &astruck by lightning&r, will have its inventory increased."
+				"The easiest way for this to happen is to use a &aRitual of Zapping&r, for which you'll need a &bRitual Tablet&r and a &bBrazier&r. &6Place the tablet and right click&r to begin the ritual. If you want to zap &amultiple creatures&r, you must &aprovide Source&r to the ritual."
+			]
+			id: "27A6A7ADD9B0A8AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4ABC1FE4801E166B"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65E3D009EAD6B7C8"
+				item: "ars_elemental:ritual_tesla_coil"
+				type: "item"
+			}]
+			title: "Upgrade your Luggage"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Did you know that you can &aTransmit items wirelessly using &bSculk&r? The communications sent along the &amycelial sculk network&r can carry data so complex that it &amanipulates reality&r. Thus, it can take an item from one place and transfer it to another."
+				"To begin with, you'll want a &bGuidebook&r, and to &6harvest some &bSculk&r."
+				"&6Read the chapter \"Gathering Materials\"&r to begin with, to find out what you will need."
+			]
+			id: "4C75E1320C84AD2E"
+			rewards: [{
+				id: "4B78A58555F678E1"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+						]
+						RepairCost: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6710599134EF4787"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "sculktransporting:guide"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C75E1320C84AD2E"]
+			description: [
+				"The first tools you'll need are an &bEmitter&r - to send out items - and a &bReceiver&r - to, well, receive them."
+				"The &bEmitter&r must be &6placed on top of the &bSculk Barrel&r in order to function. The &bSculk Receiver&r, however, can input into &amost basic inventory blocks&r such as Chests, Barrels, and Drawers. It &acannot deposit directly&r into a &bDrawer Controller&r, but you can use &bPipez&r or &bPulling Upgrades&r to withdraw the items into your Drawers."
+			]
+			id: "6A2A797F0DACFD76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0745515755F89F03"
+				table_id: 7062805133306069640L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					id: "55B5278ACFC9C780"
+					item: "sculktransporting:sculk_emitter"
+					type: "item"
+				}
+				{
+					id: "474EA9C110EACF85"
+					item: "sculktransporting:sculk_receiver"
+					type: "item"
+				}
+				{
+					id: "7F59620DF81D4669"
+					item: "sculktransporting:sculk_barrel"
+					type: "item"
+				}
+			]
+			title: "The Sculk Network Basics"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"By default, &bEmitters&r and &bReceivers&r have to be &awithin 8 blocks of one another&r to function. However, you can &aextend that distance&r by &6placing down Sculk Transmitters&r."
+				"The &bTransmitters&r can also be configured to &aaccept or deny&r certain items placed on their sides. You can &6read more about this&r in the Guidebook."
+			]
+			id: "748DCD79DE0DA182"
+			rewards: [
+				{
+					id: "62FCB1BAB3CCC701"
+					item: "sculktransporting:sculk_transmitter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25EBCD7217D7A968"
+					table_id: 7062805133306069640L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "45E10E97F3BFD348"
+				item: "sculktransporting:sculk_transmitter"
+				type: "item"
+			}]
+			title: "Extending the Range"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: [
+				"The different levels of &bQuantity Modifiers&r will allow &bSculk Emitters&r to transfer and store up to &a64 items&r at a time!"
+				"&bReceivers&r and &bTransmitters&r cannot receive these upgrades, but will work with the items sent to them by the &bEmitter&r."
+			]
+			id: "4CC2BF8A5B188CB6"
+			rewards: [{
+				id: "7812A0D29CD2542E"
+				item: "sculktransporting:quantity_modifier_tier_1"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3349E7D872224343"
+				item: "sculktransporting:quantity_modifier_tier_1"
+				type: "item"
+			}]
+			title: "Quantity Modifiers"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A2A797F0DACFD76"]
+			description: ["As you could probably guess, &bSpeed Modifiers&r allow &bEmitters&r and &bReceivers&r to perform their tasks at higher speeds. Do note that &bTransmitters&r work as fast as they can, and can bottleneck transmission."]
+			id: "1857993F9598F28C"
+			rewards: [{
+				id: "2DB3160BA9DBCFEC"
+				item: "sculktransporting:speed_modifier_tier_1"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3EACBA80934E1DA2"
+				item: "sculktransporting:speed_modifier_tier_1"
+				type: "item"
+			}]
+			title: "Speed Modifiers"
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "1836D76FCA8240F3"
+			invisible: true
+			secret: true
+			tasks: [{
+				id: "052CF2A30ED68875"
+				item: "ftbquests:barrier"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A76B3D9CF688878"]
+			description: [
+				"The &bFilter Destination Tool&r is a multi-use tool which will allow you to &aset the destination&r of a &bfiltered item type&r."
+				"You can assign it an inventory by &6right clicking it &lon the face of the block the &bPipe&6 connects to&r. It will not work if you do not select the correct face of the inventory."
+			]
+			id: "329CC0CC1B48C600"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "337B73B6EAD72E39"
+					table_id: 6941837675484043489L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149EDF51A1614C54"
+					table_id: 3965165831041023950L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4200E7C6D9AC5F1F"
+				item: "pipez:filter_destination_tool"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AC47FF8FD45B289"]
+			description: [
+				"&eEnder Luggages&r are a tight knit group- unlike regular &eLuggages&r, every&e Ender Luggage&r you own will share the same storage space!"
+				""
+				"it's just like an &bEnder Chest&r- with feet!"
+			]
+			id: "6E8FC5FFD17FF281"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4074776ACC485743"
+					table_id: 8808494820591225409L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A7DBDE13635F86F"
+					table_id: 8035711958862449784L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A safer way to store"
+			tasks: [{
+				id: "5FD4184741B4D6F3"
+				item: "luggage:ender_luggage"
+				type: "item"
+			}]
+			title: "Not Quite A Chest"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Basic chests and barrels are fine for a while, but the canny witch knows that &athe rules of inventory space&r are meant to be broken. With a little magic, you can easily make your storage bigger - &aand smarter&r!"
+				""
+				"Let's begin with a simple &bBarrel&r. Place it in the world as usual, and then &6right click it with the &bBasic Tier Upgrade&r."
+				""
+				"Now, once you enter the inventory, you'll see some new additions."
+				""
+				"The slot to the left &aaccepts upgrades&r which allow your storage to perform certain functions."
+				""
+				"The &acog wheel&r on the right gives you access to your &astorage settings&r."
+				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "2AC77B6EF8DA00EA"
+			rewards: [
+				{
+					id: "0322C82302C0368C"
+					item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FAFB31A3273E794"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Let's get sophisticated"
+			tasks: [
+				{
+					id: "05E47966FD087BED"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "0BDEEDCF35454286"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+			]
+			title: "Upgrading Your Storage"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"Within your storage settings, you have the ability to change the way your storage behaves."
+				""
+				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
+				""
+				"Select the &aBarrel icon&r to choose whether your settings apply to &aPlayer&r - ie, &oall&r your storages  - or &aStorage&r - ie, this container only."
+				""
+				"Select the &aA/Z icon&r you can select (with &6left click&r) or deselect (with &6right click&r) slots to be auto-sorted."
+				""
+				"Select the &aBrain icon&r to &6choose slots to be locked to the item currently in them&r."
+				""
+				"Select the &aSword icon&r to choose a slot whose &aitem will be displayed&r on the front of your storage."
+				""
+				""
+				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "027E158B22DE20CF"
+			rewards: [{
+				id: "7BF6C158342F0CD0"
+				type: "xp"
+				xp: 900
+			}]
+			tasks: [{
+				id: "4D83884D8C097AC2"
+				title: "Customise Your Storage"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"There are two ways you can upgrade your storage, &alevel by level&r, or &abasic on upwards&r."
+				""
+				"Assuming you used the reward from the last quest, you'll now have an &bIron Barrel&r. You can upgrade this to &aGold tier&r with an &bIron to Gold Upgrade&r. This is taking it up &alevel by level&r."
+				""
+				"To upgrade from &aBasic upwards&r, you'll need the &bBasic to Gold&r (or other level) Upgrade. This will, as you could guess, take a &bBasic Storage&r and bring it directly to &aGold tier&r."
+				""
+				"With each tier of upgrades, &ayour storage improves&r. At Gold tier it has &amore slots and an additional upgrade slot&r on the left."
+				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "7DD199B329192C67"
+			rewards: [{
+				id: "331D07BB2D1BA4BF"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			subtitle: "beyond basic"
+			tasks: [
+				{
+					id: "24049AE6D6301809"
+					item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "561152B3AA7139CF"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+			]
+			title: "More Storage, More Upgrade"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"7DD199B329192C67"
+				"2AC77B6EF8DA00EA"
+			]
+			description: [
+				"Your Sophisticated &bBarrels&r and &bChests are capable of &aholding more than a stack per slot&r, if you use the &bStack Upgrades&r on them. The higher the tier, the more stacks each slot can hold."
+				""
+				"You can also &ause more than one Stack Upgrade&r, and they will add &amultiplicatively&r!"
+				""
+				"So if you use a &bTier 1&r and a &bTier 2&r, you will hold 2 stacks by 4 stacks, meaning 8 stacks, or &d512 items per slot&r."
+			]
+			id: "5795F032CB47389E"
+			rewards: [{
+				id: "4E0256A4F24F2BF0"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "higher and higher"
+			tasks: [{
+				id: "19424B20004EB2DA"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Stack Higher"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"&bPacking Tape&r is an incredibly helpful item which can be used to &apackage up a storage block&r for transport. Although &dit can only be used on Sophisticated Storage&r."
+				""
+				"You need to &6right click the &bTape&r onto the desired item. Then you can &6break the block&r and it will retain its inventory."
+			]
+			id: "04580014FE5705F2"
+			rewards: [{
+				id: "579B95EBBCA65FAC"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Pack it up, Pack it in"
+			tasks: [{
+				id: "5D16A56E7E0AB5DE"
+				item: {
+					Count: 1b
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"The &bVoid Upgrade&r is an item which will &aremove unwanted items from your storage&r. It will, quite simply, delete them, ensuring that your storage is both well-organized and your server un-crashed. &dIt is especially important to use this upgrade for farms&r!"
+				""
+				"You can configure it to &adelete only overflow items&r or, if you prefer, &adelete all items of specific type&r."
+				""
+				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
+				""
+				"The &bAdvanced Void Upgrade&r is capable of sorting by NBT and Damage levels."
+			]
+			id: "58E3A0A274BAB9B9"
+			rewards: [{
+				id: "20A569CCAD8BC4AF"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A Very Important Upgrade"
+			tasks: [{
+				id: "3799A96F56496C61"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["These upgrades will help you &aprocess items in your storage&r, by smelting, blasting, or smoking. The &aautomatic versions&r will do so without the player needing to manually input the items."]
+			id: "25777083FCF81F3C"
+			rewards: [{
+				id: "22ED4C90306B89EC"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "your storage has a right to due process"
+			tasks: [{
+				id: "42D27C96AC638A6A"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			title: "Process Your Inventory"
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"The &bFilter Upgrade&r is meant to be used in conjunction with &bPipez&r or other item transport system."
+				""
+				"It will &ahelp control what items get placed&r in the storage you use it on."
+			]
+			id: "51774D15356C5ADC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "659F470CF780B9A5"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "49F07E0B8DFDA184"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: ["The &bCrafting&r and &bStonecutter&r upgrades provide those &acrafting interfaces&r in the storage you place them in."]
+			id: "3801FF70470C2994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44FCB8025F89352A"
+				table_id: 6941837675484043489L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "0D54F10EE3D90E47"
+					item: "sophisticatedstorage:stonecutter_upgrade"
+					type: "item"
+				}
+				{
+					id: "5F171EA1AA534811"
+					item: "sophisticatedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Crafting Upgrades"
+			x: -2.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2AC77B6EF8DA00EA"]
+			description: [
+				"To &aremotely link Sophisticated Storages&r which are not touching the main network, you need to &6place a &bStorage Link&6 on them&r, and then &6right click the &bStorage Tool&r on the &bLink&r and the &bStorage Controller&r."
+				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
+			]
+			id: "204A015685DB4726"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B231070E8BC75D1"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "774785B108908F07"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.5d
+		}
+	]
+	title: "Storage"
+}
