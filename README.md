@@ -4,6 +4,7 @@ CurseForge|游戏版本|状态
 [链接](https://www.curseforge.com/minecraft/modpacks/cottage-witch)|1.19.2|维护中|
 # 译者
 查看贡献者列表以获得完整译者名单
+[![Crowdin](https://badges.crowdin.net/cottage-witch-chinese/localized.svg)](https://crowdin.com/project/cottage-witch-chinese)
 
 # 仓库统计数据
   ![Alt](https://repobeats.axiom.co/api/embed/7fe8c3ec8d7ef6c16ff02d490ddbfa53f58414c4.svg "Repobeats analytics image")
