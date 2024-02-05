@@ -214,7 +214,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Treasure Chest (cyan)\"}"
+								Name: "{\"text\":\"藏宝箱（青色）\"}"
 							}
 						}
 					}
@@ -267,7 +267,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Cake\"}"
+								Name: "{\"text\":\"蛋糕\"}"
 							}
 						}
 					}
@@ -391,7 +391,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Spring Chest\"}"
+								Name: "{\"text\":\"春之箱\"}"
 							}
 						}
 					}
@@ -436,7 +436,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Frog\"}"
+								Name: "{\"text\":\"青蛙\"}"
 							}
 						}
 					}
@@ -667,7 +667,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Skull Cup with Blood\"}"
+								Name: "{\"text\":\"带血骷髅头杯\"}"
 							}
 						}
 					}
@@ -716,7 +716,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Chocolate Skull\"}"
+								Name: "{\"text\":\"巧克力头\"}"
 							}
 						}
 					}

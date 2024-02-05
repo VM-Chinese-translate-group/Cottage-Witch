@@ -149,7 +149,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Mushroom with Eye\"}"
+								Name: "{\"text\":\"蘑菇大眼\"}"
 							}
 						}
 					}
@@ -977,7 +977,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Derpy Rock\"}"
+								Name: "{\"text\":\"呆傻的岩石\"}"
 							}
 						}
 					}
@@ -1120,7 +1120,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Companion Cube\"}"
+								Name: "{\"text\":\"同伴立方\"}"
 							}
 						}
 					}

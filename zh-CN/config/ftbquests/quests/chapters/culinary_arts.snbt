@@ -1004,7 +1004,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Jelly Pumpkins\"}"
+								Name: "{\"text\":\"果冻南瓜\"}"
 							}
 						}
 					}
@@ -1095,7 +1095,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Burger\"}"
+								Name: "{\"text\":\"汉堡\"}"
 							}
 						}
 					}
@@ -1268,7 +1268,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Cake\"}"
+								Name: "{\"text\":\"蛋糕\"}"
 							}
 						}
 					}
@@ -1382,7 +1382,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Bread\"}"
+								Name: "{\"text\":\"面包\"}"
 							}
 						}
 					}
@@ -1987,7 +1987,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Jar of Pickles\"}"
+								Name: "{\"text\":\"泡菜罐\"}"
 							}
 						}
 					}
@@ -2145,7 +2145,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Eye of Ender\"}"
+								Name: "{\"text\":\"末影之眼\"}"
 							}
 						}
 					}

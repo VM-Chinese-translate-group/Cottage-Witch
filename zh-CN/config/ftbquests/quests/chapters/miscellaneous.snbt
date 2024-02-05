@@ -958,7 +958,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Fancy Cube\"}"
+								Name: "{\"text\":\"精致的小方块\"}"
 							}
 						}
 					}

@@ -1021,7 +1021,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Rainbow Shulker\"}"
+								Name: "{\"text\":\"彩虹潜影盒\"}"
 							}
 						}
 					}
@@ -1050,7 +1050,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Wool (rainbow)\"}"
+								Name: "{\"text\":\"羊毛（彩虹）\"}"
 							}
 						}
 					}
@@ -1223,7 +1223,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Korok\"}"
+								Name: "{\"text\":\"克洛洛\"}"
 							}
 						}
 					}
