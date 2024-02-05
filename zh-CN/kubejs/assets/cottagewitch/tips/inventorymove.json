@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Hold shift and drag click to deposit multiple things quickly, or hold space and click to transfer an entire inventory back and forth."
+      "text": "按住[Shift]+左击可以快速存放多件物品，或者按住[空格键]再左击可以快速移放进整个物品栏。"
     }
   }

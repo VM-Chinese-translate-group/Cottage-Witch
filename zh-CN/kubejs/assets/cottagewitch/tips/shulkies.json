@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Shulker boxes preview their contents when hovered over. Right click an item on a Shulker box in your inventory to place the item easily inside."
+      "text": "当你将鼠标悬停在潜影盒上时，可以预览其内部的物品。在背包中右击一个物品并放到潜影盒上，就能轻松地把物品放入其中。"
     }
   }

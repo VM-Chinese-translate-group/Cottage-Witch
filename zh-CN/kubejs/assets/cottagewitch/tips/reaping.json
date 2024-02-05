@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "You can harvest drops from animals without killing them, by either setting up a Drygmy in your farm, or by using a Reaping tool."
+      "text": "你可以从动物身上获取掉落物，而不用杀死它们，只要在农场上放置一个德格米，或者使用收割模组中的工具。"
     }
 }

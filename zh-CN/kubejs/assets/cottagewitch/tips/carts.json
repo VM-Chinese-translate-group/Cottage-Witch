@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "You can transport items and animals using Astikor's Animal and Supply Carts!"
+      "text": "你可以用AstikorCarts模组中的“牲畜运载马车”和“马车”来运输家畜和物品！"
     }
   }

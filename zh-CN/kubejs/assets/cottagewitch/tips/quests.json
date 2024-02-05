@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "Press - to access your Quests without using the Quest Book. These are designed to guide you through the mods in the pack, and reward you while doing so!"
+      "text": "在没有任务书的情况下，按下[-]可以打开任务界面。这些任务设计是用来引导你学会使用整合包中的模组，完成任务也会有丰厚的奖励！"
     }
   }

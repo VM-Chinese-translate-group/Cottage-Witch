@@ -1,10 +1,10 @@
 {
     "title": {
-      "text": "Modded Tips",
+      "text": "模组提示",
       "bold": true,
       "color": "green"
     },
     "tip": {
-      "text": "In your Controls menu, you can bind your favourite Emotes to a key."
+      "text": "在“控制”界面中，你可以为你喜欢的表情绑定一个键位！"
     }
   }
