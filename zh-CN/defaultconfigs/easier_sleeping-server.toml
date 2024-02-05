@@ -2,11 +2,11 @@
 #Range: 0 ~ 100
 sleep_percent = 50
 #Message shown, if a player goes to bed
-sleep_message = "现在躺在床上。"
+sleep_message = "\u73B0\u5728\u8EBA\u5728\u5E8A\u4E0A\u3002"
 #Message shown, if a player leaves his bed
-wake_message = "站了起来。"
+wake_message = "\u7AD9\u4E86\u8D77\u6765\u3002"
 #Message shown, if the night was skipped
-morning_message = "(^_^)／早上好"
+morning_message = "(^_^)\uFF0F\u65E9\u4E0A\u597D"
 #If true, the time since last rest is reset for all players, if enough other players are successfully sleeping. So not every player has to sleep to prevent phantom spawning for him.
 all_players_rest = false
 #If dimension_list_type is set to SLEEP_ACTIVE, the list is the list of dimensions in which the sleep voting is active.
@@ -18,4 +18,3 @@ dimensions = ["minecraft:overworld"]
 dimension_list_type = "SLEEP_ACTIVE"
 #Block names of beds being ignored for sleep percentage.
 block_blacklist = []
-

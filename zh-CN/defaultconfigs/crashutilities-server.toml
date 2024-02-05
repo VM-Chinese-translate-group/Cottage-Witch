@@ -14,9 +14,9 @@
 	#Run a Title command on first warning
 	title = true
 	#Text to display in TitleCommand
-	titletext = "即将开始清理掉落物！"
+	titletext = "\u5373\u5C06\u5F00\u59CB\u6E05\u7406\u6389\u843D\u7269\uFF01"
 	#Text to Display in Chat when Item. First % will be replaced by Value. In red, encased in [=== 
-	warningtext = "物品将在%秒后被清除"
+	warningtext = "\u7269\u54C1\u5C06\u5728%\u79D2\u540E\u88AB\u6E05\u9664"
 
 ["Memory Checker"]
 	#Adds a Memory checker that reads currently used Memory. A command that reads out the last logged memory values, and a warning in logs when large amounts of memory get used in a small amount of time
