@@ -1506,7 +1506,7 @@
  "ftbquests.chapter.storage.quests3.description1": "很常见的一个例子：&b铁&r，因为它可以通过合成变成&b铁块&r、&b铁锭&r和&b铁粒&r，所以如果你向压缩抽屉放入9个铁锭，你能直接收回1个铁矿、9个铁锭或是81个铁粒，无需进行合成。",
  "ftbquests.chapter.storage.quests3.description2": "不过，同样的道理也可以用在&b作物&r这类物品，可以被收回为箱装作物。所以这套原理可以用在有&a3x3压缩配方&r的所有物品。",
  "ftbquests.chapter.storage.quests3.description3": "&b简单压缩抽屉&r也是做一样的事情，不同的是只能用于仅有2种压缩形式的物品，比如作物或蛋。",
- "ftbquests.chapter.storage.quests4.description0": "&b存储控制器&r十分重要，它可以将你的大量&b抽屉&r链接为一个存储网络。",
+ "ftbquests.chapter.storage.quests4.description0": "&b抽屉控制器&r十分重要，它可以将你的&b抽屉&r连接成一个&a存储网络&r。",
  "ftbquests.chapter.storage.quests4.description1": "你也可以通过它来利用漏斗或&bPipez&r模组的管道来&a导入物品&r到相应的抽屉！",
  "ftbquests.chapter.storage.quests4.description2": "在这之前，你需要用&b连接工具&r&6右击&r各个&b抽屉&r来将其连接到&b存储控制器&r以连成存储网络。",
  "ftbquests.chapter.storage.quests5.description0": "&a配置工具&r用于调整抽屉的功能。拿着工具&6潜行右击&r来切换调整的功能，再对着抽屉&6右击&r就可以开关抽屉的特定功能。",
