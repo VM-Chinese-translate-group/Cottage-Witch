@@ -1,4 +1,4 @@
-autoSwitchLanguage = false
+autoSwitchLanguage = true
 checkModPackTranslationUpdate = true
 autoDownloadVMTranslationPack = true
 autoInstallVMTranslationPack = true
