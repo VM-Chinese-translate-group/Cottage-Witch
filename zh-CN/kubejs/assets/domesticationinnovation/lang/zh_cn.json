@@ -33,7 +33,7 @@
   "message.domesticationinnovation.drum_command_1": "命令%s停留",
   "message.domesticationinnovation.drum_command_2": "命令%s跟随",
   "message.domesticationinnovation.respawn": "%s在它的床上重生了",
-  "message.domesticationinnovation.remove_respawn": "移除%s重生原木的床",
+  "message.domesticationinnovation.remove_respawn": "移除%s重生记录的床",
   "message.domesticationinnovation.goodbye": "%s将不会重生，永别了……",
   "message.domesticationinnovation.enchantments": "魔咒：",
   "message.domesticationinnovation.set_owner": "%s现在是%s的主人了",
