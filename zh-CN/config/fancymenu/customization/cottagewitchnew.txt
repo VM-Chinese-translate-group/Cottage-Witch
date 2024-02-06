@@ -38,7 +38,7 @@ element {
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   description = 使用Akliz租一台服务器来支持整合包！
-  label = 租一台服务器
+  label = 租服务器
   element_type = custom_button
   instance_identifier = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   appearance_delay = no_delay
@@ -195,7 +195,7 @@ vanilla_button {
   backgroundhovered = [source:local]kubejs/assets/cottagewitch/textures/mainmenu/miniquarkpressed.png
   restartbackgroundanimations = true
   loopbackgroundanimations = true
-  hoverlabel =快捷设置
+  hoverlabel = 快捷设置
   label = 
   element_type = vanilla_button
   instance_identifier = 376346
@@ -419,7 +419,7 @@ vanilla_button {
   [executable_block:cd368552-8ad1-4550-a2ad-5db84813c0ac-1707167929376][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
-  label = 租一台服务器
+  label = 租服务器
   element_type = vanilla_button
   instance_identifier = mc_titlescreen_realms_button
   appearance_delay = no_delay

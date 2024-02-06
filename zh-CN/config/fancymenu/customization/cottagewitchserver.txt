@@ -1,0 +1,72 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = generic_dirt_message_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1707167929383
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:7effeff8-cce4-49ba-b9d6-4fdb5b11e30f-1707167929383] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/katukitchenbg.png
+  slide = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  source = [source:local]config/paxi/resourcepacks/cottagewitch/assets/cottagewitch/textures/mainmenu/bgcorners3.png
+  element_type = image
+  instance_identifier = bda62901-2036-4ee6-98d9-03b37d5fe3f71681421719328
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 2bb70cf7-011d-4ad3-bd67-ad076ff37ec4-1707167929383
+  [loading_requirement_container_meta:2bb70cf7-011d-4ad3-bd67-ad076ff37ec4-1707167929383] = [groups:][instances:]
+}
+
+element {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 4.0
+  source = %n%加载中……%n%等的时候喝点水！
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -240
+  width = 525
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 18f6feab-6eb8-44b2-a8a3-a1c00c129a2c1681336154883
+  y = -49
+  alignment = centered
+  height = 150
+  element_type = fancymenu_customization_item_text
+}
+

@@ -30,7 +30,7 @@ element {
   [executable_block:2c4784c6-8fc9-4e62-80f2-4f0c8faac6b4-1707167929228][type:generic] = [executables:6ae97d01-9752-4ca4-b0a7-9825fcf28610-1707167929230;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
-  label = 租一台服务器
+  label = 租服务器
   element_type = custom_button
   instance_identifier = e72a7d3d-52ed-4ceb-a3fb-ca2c40efcb2a1670271052490
   appearance_delay = no_delay
@@ -324,7 +324,7 @@ vanilla_button {
   [executable_block:f86e75c1-98e8-48ac-9d95-7a3986d358c7-1707167929219][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
-  label = 租一台服务器
+  label = 租服务器
   element_type = vanilla_button
   instance_identifier = mc_titlescreen_realms_button
   appearance_delay = no_delay
