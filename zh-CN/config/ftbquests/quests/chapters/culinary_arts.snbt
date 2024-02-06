@@ -1766,10 +1766,7 @@
 			y: 6.5d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.culinary_arts.quests49.description0}"
-				"{ftbquests.chapter.culinary_arts.quests49.description1}"
-			]
+			description: ["{ftbquests.chapter.culinary_arts.quests49.description0}"]
 			id: "166F53EED3372358"
 			rewards: [
 				{

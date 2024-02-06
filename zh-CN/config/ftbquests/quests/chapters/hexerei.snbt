@@ -977,7 +977,6 @@
 			description: [
 				"{ftbquests.chapter.hexerei.quests28.description0}"
 				"{ftbquests.chapter.hexerei.quests28.description1}"
-				"{ftbquests.chapter.hexerei.quests28.description2}"
 			]
 			id: "41B2EB805FCD2C60"
 			rewards: [
