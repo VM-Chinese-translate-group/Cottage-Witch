@@ -5,10 +5,10 @@
       "item": "minecraft:chiseled_sandstone"
     },
     "title": {
-      "translate": "Labyrinth of the Serpent"
+      "translate": "蛇宫"
     },
     "description": {
-      "translate": "May the fates be on your side..."
+      "translate": "命运可能站在你这边……"
     },
     "show_toast": true,
     "announce_to_chat": true,

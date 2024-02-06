@@ -5,10 +5,10 @@
       "item": "minecraft:heart_of_the_sea"
     },
     "title": {
-      "translate": "Ruins of the Deep"
+      "translate": "深层废墟"
     },
     "description": {
-      "translate": "Do you dare to travel to the depths?"
+      "translate": "你敢去深层闯一闯吗？"
     },
     "show_toast": true,
     "announce_to_chat": true,
