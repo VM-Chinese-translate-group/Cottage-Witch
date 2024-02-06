@@ -577,7 +577,7 @@
  "ftbquests.chapter.culinary_arts.quests1.subtitle": "（嘶，它不太一样）",
  "ftbquests.chapter.culinary_arts.quests1.description0": "这个整合包的一大特性就是&a吃多种不同的食物可以提高你的生命上限&r！",
  "ftbquests.chapter.culinary_arts.quests1.description1": "你能通过检查你的&b食物清单&r知道你吃过哪些食物，它在你的&b阿卡什宝典&r，你可以&6拿着宝典右击然后选择食物清单&r来打开它。",
- "ftbquests.chapter.culinary_arts.quests1.description2": "You can also find what you've yet to eat by searching \\\"yet\\\" in the right side of your inventory screen (&lJEI&r).",
+ "ftbquests.chapter.culinary_arts.quests1.description2": "你可以在物品栏右侧的窗口中搜索“尚未”找到未食用过的食物（&lJEI&r）。（译注：该功能暂时无法使用）",
  "ftbquests.chapter.culinary_arts.quests2.title": "获得茶籽",
  "ftbquests.chapter.culinary_arts.quests2.subtitle": "一切美妙的开端",
  "ftbquests.chapter.culinary_arts.quests2.description0": "&b茶&r是一种小灌木，你可以将其种植在耕地用来生产&b茶叶&r，然后将茶叶泡成&b茶&r。让我们再念一遍&b茶&r的名字。&b茶&r。",
