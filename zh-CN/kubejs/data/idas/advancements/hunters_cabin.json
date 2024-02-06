@@ -5,10 +5,10 @@
       "item": "minecraft:leather"
     },
     "title": {
-      "translate": "Hunter's Cabin"
+      "translate": "猎人小屋"
     },
     "description": {
-      "translate": "The Huntsman of the Woods"
+      "translate": "森林猎人"
     },
     "show_toast": true,
     "announce_to_chat": true,

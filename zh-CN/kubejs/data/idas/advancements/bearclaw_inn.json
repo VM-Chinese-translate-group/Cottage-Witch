@@ -5,10 +5,10 @@
       "item": "minecraft:honey_bottle"
     },
     "title": {
-      "translate": "The Bearclaw Inn"
+      "translate": "熊爪客栈"
     },
     "description": {
-      "translate": "An Inn for a Weary Traveler"
+      "translate": "一个为疲惫的旅行者准备的客栈"
     },
     "show_toast": true,
     "announce_to_chat": true,

@@ -5,10 +5,10 @@
       "item": "supplementaries:present_red"
     },
     "title": {
-      "translate": "Winter Wagon"
+      "translate": "冬季货车"
     },
     "description": {
-      "translate": "A Festive Travelling Wagon"
+      "translate": "一辆节日旅行货车"
     },
     "show_toast": true,
     "announce_to_chat": true,

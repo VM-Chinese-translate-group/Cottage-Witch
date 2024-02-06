@@ -5,10 +5,10 @@
       "item": "create:rose_quartz"
     },
     "title": {
-      "translate": "Wizard Tower"
+      "translate": "法师尖塔"
     },
     "description": {
-      "translate": "A Mage's Spire"
+      "translate": "一个法师的尖塔"
     },
     "show_toast": true,
     "announce_to_chat": true,
