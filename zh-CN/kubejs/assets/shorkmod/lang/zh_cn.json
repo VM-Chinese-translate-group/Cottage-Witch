@@ -17,6 +17,6 @@
 	"block.shorkmod.orange_shark": "橙色鲨鱼",
 	"block.shorkmod.magenta_shark": "品红色鲨鱼",
 	"block.shorkmod.blahaj.tooltip": "最最宝贵的生物。",
-	"tooltip.shorkmod.owner.craft": "由 %s 制作",
+	"tooltip.shorkmod.owner.craft": "由%s制作",
 	"tooltip.shorkmod.owner.rename": "%2$s 的 %1$s"
 }
