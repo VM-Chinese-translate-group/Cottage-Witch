@@ -33,7 +33,7 @@
     "ftbteams.gui.transfer_ownership.confirm": "你想让%s成为队长吗？",
     "ftbteams.gui.leave": "离开团队",
     "ftbteams.gui.transfer_ownership": "让%s成为队长",
-    "ftbteams.player_already_in_party": "玩家'%s'已经在团队中了！",
+    "ftbteams.player_already_in_party": "玩家‘%s’已经在团队中了！",
     "ftbteams.message.invite_sent": "%s已邀请你加入他们的团队！",
     "ftbteams.message.joined": "%s加入了你的团队！",
     "ftbteams.gui.party_description": "介绍",
