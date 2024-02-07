@@ -5,7 +5,7 @@
   "item.reaping.netherite_reaping_tool": "下界合金收割镰",
   "item.reaping.human_meat": "可疑的肉块",
   "enchantment.reaping.executioner": "刽子手",
-  "enchantment.reaping.executioner.desc": "当收割玩家时，有概率掉落玩家的头。",
+  "enchantment.reaping.executioner.desc": "收割玩家时，有概率掉落玩家的头。",
   "enchantment.reaping.curse_of_bluntness": "迟钝诅咒",
   "enchantment.reaping.curse_of_bluntness.desc": "当动物被收割时，增加它们死亡的概率。",
   "reaping.advancements.human_meat.title": "不那么好吃…",
