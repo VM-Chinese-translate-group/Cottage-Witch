@@ -1388,7 +1388,7 @@
 						id: "minecraft:chest"
 						tag: {
 							display: {
-								Name: "{\"translate\":\"Balloon Chest\"}"
+								Name: "{\"translate\":\"气球箱\"}"
 							}
 						}
 					}
@@ -1420,7 +1420,7 @@
 						tag: {
 							balloonTYPE: 5
 							display: {
-								Name: "{\"translate\":\"Rare Balloon Chest\"}"
+								Name: "{\"translate\":\"稀有气球箱\"}"
 							}
 						}
 					}
