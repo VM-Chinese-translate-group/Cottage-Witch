@@ -107,7 +107,7 @@
  "ftbquests.chapter.ars_nouveau.quests27.description1": "&e林地行者&r会在召唤出来后漫无目的的走动，用&b支配之仗&6右击&r它，再右击一个方块，那个方块就会设为林地行者的&a家&r。",
  "ftbquests.chapter.ars_nouveau.quests28.title": "制作一块仪式之板",
  "ftbquests.chapter.ars_nouveau.quests28.subtitle": "你知道我渴望仪式，老规矩了",
- "ftbquests.chapter.ars_nouveau.quests28.description": "要想执行&a仪式&r，你需要一个仪式所对应的&b石板&r。你可以查阅你的&a法术书文档&r了解每个仪式的作用。",
+ "ftbquests.chapter.ars_nouveau.quests28.description": "要想执行&a仪式&r，你需要一个和执行的仪式相对应的&b木板&r。你可以查阅你&a法术书的说明文档&r来了解每个仪式的作用。",
  "ftbquests.chapter.ars_nouveau.quests28.tasks0.title": "任意#forge:ritual_tablets",
  "ftbquests.chapter.ars_nouveau.quests29.title": "召唤荒野奇美拉",
  "ftbquests.chapter.ars_nouveau.quests29.subtitle": "要想成为大法师，你就必须要渡过这一难。",
