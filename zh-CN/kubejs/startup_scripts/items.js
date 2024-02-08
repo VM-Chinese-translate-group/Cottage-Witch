@@ -5,7 +5,7 @@ event.create('arcane_coin').maxStackSize(64).displayName("奥术币")
 event.create('lunarcoin').texture('kubejs:item/lunar_coin').maxStackSize(64).displayName("月亮币")
 event.create('solarcoin').texture('kubejs:item/solar_coin').maxStackSize(64).displayName("太阳币")
 event.create('arcanecoin').texture('kubejs:item/arcane_coin').maxStackSize(64).displayName("奥术币")
-event.create('ticket')
+event.create('ticket').displayName("票据")
 })
 
 StartupEvents.registry('block', event => {
