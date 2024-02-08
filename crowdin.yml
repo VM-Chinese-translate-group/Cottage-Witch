@@ -1,5 +1,5 @@
 files:
-  - source: kubejs
+  - source: resourcepacks
     ignore:
       - zh-CN
     translation: '%original_path%/zh_cn.json'
