@@ -1,0 +1,6 @@
+{
+  "block.magic_mirror.magic_mirror_core": "魔镜",
+  "block.magic_mirror.magic_mirror_inactive": "魔镜（未激活）",
+  "block.magic_mirror.magic_mirror_part": "魔镜",
+  "commands.magic_mirror.debug.reflections": "反射总数：%d\n激活反射：%d"
+}

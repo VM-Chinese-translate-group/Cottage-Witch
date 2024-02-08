@@ -1,0 +1,10 @@
+{
+  "title": {
+    "text": "模组提示",
+    "bold": true,
+    "color": "green"
+  },
+  "tip": {
+    "text": "烈焰棒现在像末地烛一样可以放置了！"
+  }
+}
