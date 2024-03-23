@@ -214,7 +214,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"藏宝箱（青色）\"}"
+								Name: "{\"text\":\"Treasure Chest (cyan)\"}"
 							}
 						}
 					}
@@ -267,7 +267,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"蛋糕\"}"
+								Name: "{\"text\":\"Cake\"}"
 							}
 						}
 					}
@@ -337,7 +337,7 @@
 			optional: true
 			rewards: [
 				{
-					command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"标准任务箱\\\"}\"},SkullOwner:{Id:[I;659251375,-1690286570,-1318597454,-1078331517],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0=\"}]}}} 1"
+					command: "/give @p minecraft:player_head{display:{Name:\"{\\\"text\\\":\\\"Standard Quest Chest\\\"}\"},SkullOwner:{Id:[I;659251375,-1690286570,-1318597454,-1078331517],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZkN2ZkYjUwZjE0YzczMWM3MjdiMGUwZDE4OWI2YTg3NDMxOWZjMGQ3OWM4YTA5OWFjZmM3N2M3YjJkOTE5NiJ9fX0=\"}]}}} 1"
 					id: "10D5BD7BC58A2BF5"
 					type: "command"
 				}
@@ -391,7 +391,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"春之箱\"}"
+								Name: "{\"text\":\"Spring Chest\"}"
 							}
 						}
 					}
@@ -436,7 +436,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"青蛙\"}"
+								Name: "{\"text\":\"Frog\"}"
 							}
 						}
 					}
@@ -667,7 +667,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"带血骷髅头杯\"}"
+								Name: "{\"text\":\"Skull Cup with Blood\"}"
 							}
 						}
 					}
@@ -716,7 +716,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"巧克力头\"}"
+								Name: "{\"text\":\"Chocolate Skull\"}"
 							}
 						}
 					}

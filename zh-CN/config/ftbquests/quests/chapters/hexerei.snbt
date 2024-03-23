@@ -857,7 +857,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"曼德拉\"}"
+								Name: "{\"text\":\"Mandrake\"}"
 							}
 						}
 					}
@@ -1152,7 +1152,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"恶心的汤\"}"
+								Name: "{\"text\":\"Grub Soup\"}"
 							}
 						}
 					}
@@ -1180,7 +1180,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"月球\"}"
+								Name: "{\"text\":\"Moon\"}"
 							}
 						}
 					}

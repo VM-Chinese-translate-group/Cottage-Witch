@@ -16,7 +16,7 @@
 			image: "cottagewitch:textures/bgcollections.png"
 			rotation: 0.0d
 			width: 11.0d
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 		}
 	]
@@ -114,7 +114,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests0.title}"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -167,7 +167,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests1.title}"
-			x: -3.0d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -260,7 +260,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests2.title}"
-			x: 3.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests3.title}"
-			x: -2.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -392,7 +392,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests4.title}"
-			x: -2.0d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -440,7 +440,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests5.title}"
-			x: -1.5d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -503,7 +503,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests6.title}"
-			x: -1.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -601,7 +601,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests7.title}"
-			x: -0.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -699,7 +699,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests8.title}"
-			x: 0.0d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -772,7 +772,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests9.title}"
-			x: 0.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -865,7 +865,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests10.title}"
-			x: -1.5d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
@@ -973,7 +973,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests11.title}"
-			x: 3.0d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -1021,7 +1021,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"彩虹潜影盒\"}"
+								Name: "{\"text\":\"Rainbow Shulker\"}"
 							}
 						}
 					}
@@ -1050,7 +1050,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"羊毛（彩虹）\"}"
+								Name: "{\"text\":\"Wool (rainbow)\"}"
 							}
 						}
 					}
@@ -1143,7 +1143,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests12.title}"
-			x: 2.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -1177,7 +1177,7 @@
 					type: "advancement"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: 2.0d
 		}
 		{
@@ -1223,7 +1223,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"克洛洛\"}"
+								Name: "{\"text\":\"Korok\"}"
 							}
 						}
 					}
@@ -1244,7 +1244,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -1278,7 +1278,7 @@
 					type: "advancement"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
@@ -1312,7 +1312,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.collections.quests16.title}"
-			x: -1.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -1326,7 +1326,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 	]

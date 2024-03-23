@@ -110,7 +110,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.wildlife.quests0.title}"
-			x: -8.5d
+			x: -8.0d
 			y: -7.0d
 		}
 		{
@@ -149,7 +149,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"蘑菇大眼\"}"
+								Name: "{\"text\":\"Mushroom with Eye\"}"
 							}
 						}
 					}
@@ -614,7 +614,7 @@
 				}
 			]
 			x: -10.0d
-			y: -6.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -644,7 +644,7 @@
 			]
 			title: "{ftbquests.chapter.wildlife.quests17.title}"
 			x: -11.5d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0CED4D17E7F90678"]
@@ -853,7 +853,7 @@
 			]
 			title: "{ftbquests.chapter.wildlife.quests24.title}"
 			x: -6.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -888,8 +888,8 @@
 					type: "observation"
 				}
 			]
-			x: -9.5d
-			y: -4.0d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -977,7 +977,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"呆傻的岩石\"}"
+								Name: "{\"text\":\"Derpy Rock\"}"
 							}
 						}
 					}
@@ -1023,7 +1023,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.wildlife.quests29.title}"
-			x: -8.5d
+			x: -9.0d
 			y: -2.5d
 		}
 		{
@@ -1120,7 +1120,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"同伴立方\"}"
+								Name: "{\"text\":\"Companion Cube\"}"
 							}
 						}
 					}
@@ -1206,6 +1206,8 @@
 				"{ftbquests.chapter.wildlife.quests35.description0}"
 				"{ftbquests.chapter.wildlife.quests35.description1}"
 				"{ftbquests.chapter.wildlife.quests35.description2}"
+				""
+				"{ftbquests.chapter.wildlife.quests35.description4}"
 			]
 			id: "79630C442EB1C589"
 			rewards: [
@@ -1251,38 +1253,10 @@
 			]
 			title: "{ftbquests.chapter.wildlife.quests36.title}"
 			x: 2.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["79630C442EB1C589"]
-			description: [
-				"{ftbquests.chapter.wildlife.quests37.description0}"
-				"{ftbquests.chapter.wildlife.quests37.description1}"
-				"{ftbquests.chapter.wildlife.quests37.description2}"
-			]
-			id: "6AB1FDC1FF5E81BA"
-			rewards: [
-				{
-					count: 5
-					id: "2731BA89A6C3451B"
-					item: "minecraft:apple"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.wildlife.quests37.subtitle}"
-			tasks: [
-				{
-					id: "22B3AE4B3D416FC2"
-					item: "minecraft:wheat"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.wildlife.quests37.title}"
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			description: ["{ftbquests.chapter.wildlife.quests38.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests37.description}"]
 			id: "1661059D340835FC"
 			rewards: [
 				{
@@ -1304,7 +1278,7 @@
 			y: -7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests39.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests38.description}"]
 			id: "6B0E280BDBD4ACF5"
 			rewards: [
 				{
@@ -1325,16 +1299,16 @@
 							value: "forge:petbeds"
 						}
 					}
-					title: "{ftbquests.chapter.wildlife.quests39.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests38.tasks0.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests39.title}"
+			title: "{ftbquests.chapter.wildlife.quests38.title}"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests40.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests39.description}"]
 			id: "09827E9E92823643"
 			rewards: [
 				{
@@ -1366,7 +1340,7 @@
 			y: -6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests41.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests40.description}"]
 			id: "1C37EDEA99A890EF"
 			rewards: [
 				{
@@ -1388,9 +1362,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests42.description0}"
-				"{ftbquests.chapter.wildlife.quests42.description1}"
-				"{ftbquests.chapter.wildlife.quests42.description2}"
+				"{ftbquests.chapter.wildlife.quests41.description0}"
+				"{ftbquests.chapter.wildlife.quests41.description1}"
+				"{ftbquests.chapter.wildlife.quests41.description2}"
 			]
 			id: "5DB08A394A7B8122"
 			rewards: [
@@ -1419,8 +1393,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests43.description0}"
-				"{ftbquests.chapter.wildlife.quests43.description1}"
+				"{ftbquests.chapter.wildlife.quests42.description0}"
+				"{ftbquests.chapter.wildlife.quests42.description1}"
 			]
 			id: "0C7029D3D91202D8"
 			invisible: true
@@ -1454,7 +1428,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests43.title}"
+			title: "{ftbquests.chapter.wildlife.quests42.title}"
 			x: 11.5d
 			y: -4.5d
 		}
@@ -1474,7 +1448,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests45.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests44.description}"]
 			id: "23D702F268464D8E"
 			rewards: [
 				{
@@ -1534,30 +1508,27 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests47.description}"]
+			description: [
+				"{ftbquests.chapter.wildlife.quests46.description0}"
+				""
+				"{ftbquests.chapter.wildlife.quests46.description2}"
+			]
 			icon: "handcrafted:creeper_trophy"
 			id: "5F03012DC9E38D8D"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "402204927BD6B243"
-					table_id: 5036677739913042344L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D9F58F6BCEF3611"
-					table_id: 7049021818423122779L
-					type: "choice"
-				}
 				{
 					id: "23C411FB6E5B7932"
 					item: "handcrafted:creeper_trophy"
 					type: "item"
 				}
+				{
+					id: "2726C99582901BCA"
+					item: "creeperoverhaul:ocean_creeper_spawn_egg"
+					type: "item"
+				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.wildlife.quests47.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests46.subtitle}"
 			tasks: [
 				{
 					entity: "creeperoverhaul:badlands_creeper"
@@ -1656,7 +1627,7 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests47.title}"
+			title: "{ftbquests.chapter.wildlife.quests46.title}"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -1695,7 +1666,7 @@
 		{
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
-			description: ["{ftbquests.chapter.wildlife.quests49.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests48.description}"]
 			icon: {
 				Count: 1b
 				id: "twilightforest:creeper_skull_candle"
@@ -1770,7 +1741,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests51.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests50.description}"]
 			id: "61E2531671CC8118"
 			rewards: [
 				{
@@ -1793,7 +1764,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests52.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests51.description}"]
 			icon: "supplementaries:enderman_head"
 			id: "3EBAD94D079ACDD8"
 			rewards: [
@@ -1867,7 +1838,7 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			dependency_requirement: "one_started"
-			description: ["{ftbquests.chapter.wildlife.quests53.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests52.description}"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -2008,7 +1979,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests57.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests56.description}"]
 			id: "077E56B6A68AB3AC"
 			rewards: [
 				{
@@ -2036,8 +2007,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests58.description0}"
-				"{ftbquests.chapter.wildlife.quests58.description1}"
+				"{ftbquests.chapter.wildlife.quests57.description0}"
+				"{ftbquests.chapter.wildlife.quests57.description1}"
 			]
 			id: "43B3A6804B59565E"
 			rewards: [
@@ -2064,13 +2035,13 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests58.title}"
+			title: "{ftbquests.chapter.wildlife.quests57.title}"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests59.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests58.description}"]
 			id: "3057155A3A2B5F47"
 			repeatable: true
 			rewards: [
@@ -2106,7 +2077,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests60.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests59.description}"]
 			id: "6CD4F0A4650CBA2F"
 			rewards: [
 				{
@@ -2137,9 +2108,9 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests60.title}"
-			x: -11.0d
-			y: -3.0d
+			title: "{ftbquests.chapter.wildlife.quests59.title}"
+			x: -11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
@@ -2177,9 +2148,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests62.description0}"
-				"{ftbquests.chapter.wildlife.quests62.description1}"
-				"{ftbquests.chapter.wildlife.quests62.description2}"
+				"{ftbquests.chapter.wildlife.quests61.description0}"
+				"{ftbquests.chapter.wildlife.quests61.description1}"
+				"{ftbquests.chapter.wildlife.quests61.description2}"
 			]
 			id: "60F070208CAD2886"
 			rewards: [
@@ -2201,18 +2172,18 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests62.title}"
+			title: "{ftbquests.chapter.wildlife.quests61.title}"
 			x: -10.0d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests63.description0}"
-				"{ftbquests.chapter.wildlife.quests63.description1}"
-				"{ftbquests.chapter.wildlife.quests63.description2}"
-				"{ftbquests.chapter.wildlife.quests63.description3}"
-				"{ftbquests.chapter.wildlife.quests63.description4}"
-				"{ftbquests.chapter.wildlife.quests63.description5}"
+				"{ftbquests.chapter.wildlife.quests62.description0}"
+				"{ftbquests.chapter.wildlife.quests62.description1}"
+				"{ftbquests.chapter.wildlife.quests62.description2}"
+				"{ftbquests.chapter.wildlife.quests62.description3}"
+				"{ftbquests.chapter.wildlife.quests62.description4}"
+				"{ftbquests.chapter.wildlife.quests62.description5}"
 			]
 			id: "114EFE7EF75B22F3"
 			rewards: [
@@ -2223,7 +2194,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests63.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests62.subtitle}"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
@@ -2237,8 +2208,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests64.description0}"
-				"{ftbquests.chapter.wildlife.quests64.description1}"
+				"{ftbquests.chapter.wildlife.quests63.description0}"
+				"{ftbquests.chapter.wildlife.quests63.description1}"
 			]
 			id: "232A8F9F6388C377"
 			rewards: [
@@ -2262,8 +2233,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests65.description0}"
-				"{ftbquests.chapter.wildlife.quests65.description1}"
+				"{ftbquests.chapter.wildlife.quests64.description0}"
+				"{ftbquests.chapter.wildlife.quests64.description1}"
 			]
 			id: "2FC0EAD96E3C41D4"
 			rewards: [
@@ -2287,11 +2258,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests66.description0}"
-				"{ftbquests.chapter.wildlife.quests66.description1}"
-				"{ftbquests.chapter.wildlife.quests66.description2}"
-				"{ftbquests.chapter.wildlife.quests66.description3}"
-				"{ftbquests.chapter.wildlife.quests66.description4}"
+				"{ftbquests.chapter.wildlife.quests65.description0}"
+				"{ftbquests.chapter.wildlife.quests65.description1}"
+				"{ftbquests.chapter.wildlife.quests65.description2}"
+				"{ftbquests.chapter.wildlife.quests65.description3}"
+				"{ftbquests.chapter.wildlife.quests65.description4}"
 			]
 			id: "7A028A2ABDD3D304"
 			rewards: [
@@ -2312,16 +2283,16 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests66.title}"
+			title: "{ftbquests.chapter.wildlife.quests65.title}"
 			x: -7.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests67.description0}"
-				"{ftbquests.chapter.wildlife.quests67.description1}"
-				"{ftbquests.chapter.wildlife.quests67.description2}"
-				"{ftbquests.chapter.wildlife.quests67.description3}"
+				"{ftbquests.chapter.wildlife.quests66.description0}"
+				"{ftbquests.chapter.wildlife.quests66.description1}"
+				"{ftbquests.chapter.wildlife.quests66.description2}"
+				"{ftbquests.chapter.wildlife.quests66.description3}"
 			]
 			id: "538D45E5FE8591D6"
 			rewards: [
@@ -2346,14 +2317,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests67.title}"
+			title: "{ftbquests.chapter.wildlife.quests66.title}"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests68.description0}"
-				"{ftbquests.chapter.wildlife.quests68.description1}"
+				"{ftbquests.chapter.wildlife.quests67.description0}"
+				"{ftbquests.chapter.wildlife.quests67.description1}"
 			]
 			id: "3556685D896ADA7C"
 			rewards: [
@@ -2381,13 +2352,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests68.title}"
+			title: "{ftbquests.chapter.wildlife.quests67.title}"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests69.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests68.description}"]
 			id: "2A930C9591A317A3"
 			rewards: [
 				{
@@ -2411,7 +2382,7 @@
 		}
 		{
 			dependencies: ["0BC5E9E08677AFC5"]
-			description: ["{ftbquests.chapter.wildlife.quests70.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests69.description}"]
 			id: "2B67ECD4F68DD10B"
 			rewards: [
 				{
@@ -2446,11 +2417,11 @@
 		{
 			dependencies: ["2B67ECD4F68DD10B"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests71.description0}"
-				"{ftbquests.chapter.wildlife.quests71.description1}"
-				"{ftbquests.chapter.wildlife.quests71.description2}"
-				"{ftbquests.chapter.wildlife.quests71.description3}"
-				"{ftbquests.chapter.wildlife.quests71.description4}"
+				"{ftbquests.chapter.wildlife.quests70.description0}"
+				"{ftbquests.chapter.wildlife.quests70.description1}"
+				"{ftbquests.chapter.wildlife.quests70.description2}"
+				"{ftbquests.chapter.wildlife.quests70.description3}"
+				"{ftbquests.chapter.wildlife.quests70.description4}"
 			]
 			id: "00B06CAECE143947"
 			rewards: [
@@ -2492,8 +2463,8 @@
 		{
 			dependencies: ["34C790E76C15E41B"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests72.description0}"
-				"{ftbquests.chapter.wildlife.quests72.description1}"
+				"{ftbquests.chapter.wildlife.quests71.description0}"
+				"{ftbquests.chapter.wildlife.quests71.description1}"
 			]
 			id: "21DBD16B44D5452E"
 			rewards: [
@@ -2522,9 +2493,9 @@
 		{
 			dependencies: ["00B06CAECE143947"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests73.description0}"
-				"{ftbquests.chapter.wildlife.quests73.description1}"
-				"{ftbquests.chapter.wildlife.quests73.description2}"
+				"{ftbquests.chapter.wildlife.quests72.description0}"
+				"{ftbquests.chapter.wildlife.quests72.description1}"
+				"{ftbquests.chapter.wildlife.quests72.description2}"
 			]
 			id: "34C790E76C15E41B"
 			rewards: [
@@ -2554,9 +2525,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests74.description0}"
-				"{ftbquests.chapter.wildlife.quests74.description1}"
-				"{ftbquests.chapter.wildlife.quests74.description2}"
+				"{ftbquests.chapter.wildlife.quests73.description0}"
+				"{ftbquests.chapter.wildlife.quests73.description1}"
+				"{ftbquests.chapter.wildlife.quests73.description2}"
 			]
 			id: "09DB43154746CE4F"
 			rewards: [
@@ -2576,13 +2547,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests74.title}"
+			title: "{ftbquests.chapter.wildlife.quests73.title}"
 			x: -1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests75.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests74.description}"]
 			id: "376F0C3219E696C9"
 			repeatable: true
 			rewards: [
@@ -2607,7 +2578,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests76.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests75.description}"]
 			id: "30C49F5FE020A827"
 			rewards: [
 				{
@@ -2618,24 +2589,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests76.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests75.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:acencia_spawn_egg"
 					id: "0D9F73EE13D43265"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests76.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests75.tasks0.title}"
 					to_observe: "mythicmounts:acencia"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests76.title}"
+			title: "{ftbquests.chapter.wildlife.quests75.title}"
 			x: -5.5d
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests77.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests76.description}"]
 			id: "648A50640E91D24A"
 			rewards: [
 				{
@@ -2646,24 +2617,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests77.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests76.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:archelon_spawn_egg"
 					id: "576F2F84251A382C"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests77.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests76.tasks0.title}"
 					to_observe: "mythicmounts:archelon"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests77.title}"
+			title: "{ftbquests.chapter.wildlife.quests76.title}"
 			x: -9.0d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests78.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests77.description}"]
 			id: "21528845876CE157"
 			rewards: [
 				{
@@ -2674,24 +2645,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests78.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests77.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:colelytra_spawn_egg"
 					id: "5901AACDFB867A81"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests78.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests77.tasks0.title}"
 					to_observe: "mythicmounts:colelytra"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests78.title}"
+			title: "{ftbquests.chapter.wildlife.quests77.title}"
 			x: -10.5d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests79.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests78.description}"]
 			icon: "mythicmounts:courierbird_spawn_egg"
 			id: "65AA3625C4BFB209"
 			rewards: [
@@ -2703,23 +2674,23 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests79.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests78.subtitle}"
 			tasks: [
 				{
 					id: "2FBAAA40959B40D1"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests79.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests78.tasks0.title}"
 					to_observe: "mythicmounts:courierbird"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests79.title}"
+			title: "{ftbquests.chapter.wildlife.quests78.title}"
 			x: -11.5d
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests80.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests79.description}"]
 			id: "768B4047531DA253"
 			rewards: [
 				{
@@ -2730,24 +2701,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests80.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests79.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:direwolf_spawn_egg"
 					id: "002A96C2150A0675"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests80.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests79.tasks0.title}"
 					to_observe: "mythicmounts:direwolf"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests80.title}"
+			title: "{ftbquests.chapter.wildlife.quests79.title}"
 			x: -7.5d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests81.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests80.description}"]
 			id: "14615CB8F1735FA2"
 			rewards: [
 				{
@@ -2758,24 +2729,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests81.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests80.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:dragon_spawn_egg"
 					id: "4BDA628CE3E21F64"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests81.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests80.tasks0.title}"
 					to_observe: "mythicmounts:dragon"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests81.title}"
+			title: "{ftbquests.chapter.wildlife.quests80.title}"
 			x: -10.0d
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests82.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests81.description}"]
 			id: "7F47F7D233DC95D2"
 			rewards: [
 				{
@@ -2785,7 +2756,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.wildlife.quests82.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests81.subtitle}"
 			tasks: [
 				{
 					id: "5ACC8B4D92DD6D6C"
@@ -2793,22 +2764,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests82.title}"
+			title: "{ftbquests.chapter.wildlife.quests81.title}"
 			x: -9.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests83.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests82.description}"]
 			id: "1782885E17C84F8F"
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests83.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests82.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:geckotoalizard_spawn_egg"
 					id: "2A1BA8484B88A5D9"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests83.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests82.tasks0.title}"
 					to_observe: "mythicmounts:geckotoalizard"
 					type: "observation"
 				}
@@ -2817,7 +2788,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests84.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests83.description}"]
 			id: "493D39C87927E8B8"
 			rewards: [
 				{
@@ -2828,14 +2799,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests84.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests83.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:moth_spawn_egg"
 					id: "314834CD0700647F"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests84.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests83.tasks0.title}"
 					to_observe: "mythicmounts:moth"
 					type: "observation"
 				}
@@ -2844,7 +2815,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests85.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests84.description}"]
 			id: "50AA90B7E60328CC"
 			rewards: [
 				{
@@ -2855,14 +2826,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests85.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests84.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:griffon_spawn_egg"
 					id: "232C61F0A33F9FA5"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests85.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests84.tasks0.title}"
 					to_observe: "mythicmounts:griffon"
 					type: "observation"
 				}
@@ -2871,7 +2842,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests86.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests85.description}"]
 			id: "04BBB86977655EB7"
 			rewards: [
 				{
@@ -2882,14 +2853,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests86.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests85.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:netherbat_spawn_egg"
 					id: "5E0758AD28FDB506"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests86.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests85.tasks0.title}"
 					to_observe: "mythicmounts:netherbat"
 					type: "observation"
 				}
@@ -2898,7 +2869,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests87.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests86.description}"]
 			id: "19B9CB7C3611E68B"
 			rewards: [
 				{
@@ -2909,14 +2880,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests87.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests86.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:nightmare_spawn_egg"
 					id: "288A190F078EF8E3"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests87.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests86.tasks0.title}"
 					to_observe: "mythicmounts:nightmare"
 					type: "observation"
 				}
@@ -2925,7 +2896,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests88.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests87.description}"]
 			id: "4820853CA82E0A49"
 			rewards: [
 				{
@@ -2936,14 +2907,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests88.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests87.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:nudibranch_spawn_egg"
 					id: "3EF59979EAD2AC24"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests88.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests87.tasks0.title}"
 					to_observe: "mythicmounts:nudibranch"
 					type: "observation"
 				}
@@ -2952,7 +2923,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests89.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests88.description}"]
 			id: "4AECEC9D64050806"
 			rewards: [
 				{
@@ -2963,14 +2934,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests89.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests88.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:ridinglizard_spawn_egg"
 					id: "4FC0543C69D3E13F"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests89.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests88.tasks0.title}"
 					to_observe: "mythicmounts:ridinglizard"
 					type: "observation"
 				}
@@ -2979,7 +2950,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests90.description}"]
+			description: ["{ftbquests.chapter.wildlife.quests89.description}"]
 			id: "594C827670019E11"
 			rewards: [
 				{
@@ -2990,20 +2961,47 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests90.subtitle}"
+			subtitle: "{ftbquests.chapter.wildlife.quests89.subtitle}"
 			tasks: [
 				{
 					icon: "mythicmounts:firebird_spawn_egg"
 					id: "2B3163010EA02133"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests90.tasks0.title}"
+					title: "{ftbquests.chapter.wildlife.quests89.tasks0.title}"
 					to_observe: "mythicmounts:firebird"
 					type: "observation"
 				}
 			]
 			x: -8.0d
 			y: 5.5d
+		}
+		{
+			description: ["{ftbquests.chapter.wildlife.quests90.description}"]
+			id: "3C1AC5730A574F29"
+			rewards: [
+				{
+					count: 5
+					id: "14733F4457AA3686"
+					item: "crittersandcompanions:dragonfly_wing"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.wildlife.quests90.subtitle}"
+			tasks: [
+				{
+					icon: "crittersandcompanions:silk_cocoon"
+					id: "237BF2170AFAE280"
+					observe_type: 0
+					timer: 0L
+					to_observe: "crittersandcompanions:jumping_spider"
+					type: "observation"
+				}
+			]
+			title: "{ftbquests.chapter.wildlife.quests90.title}"
+			x: -6.0d
+			y: -2.5d
 		}
 	]
 	title: "{ftbquests.chapter.wildlife.title}"

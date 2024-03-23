@@ -1016,354 +1016,7 @@
 			y: -6.0d
 		}
 		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests22.description0}"
-				"{ftbquests.chapter.combat__gear.quests22.description1}"
-			]
-			id: "47FD547C85F350BB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5BE9A0356326EF9D"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "08A4ECE4AC4E37BB"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:white_flag"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:white_flag"
-					criterion: ""
-					id: "5A4778CD78BCEF2C"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests22.title}"
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests23.description0}"
-				"{ftbquests.chapter.combat__gear.quests23.description1}"
-			]
-			id: "20B71AB01AD6CDE6"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "34FD7AD6B6E9FC2F"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "18FE49BCB7956324"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:adventurers_guide"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:adventurers_guide"
-					criterion: ""
-					id: "54FC2ECD0C25897E"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests23.title}"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests24.description0}"
-				"{ftbquests.chapter.combat__gear.quests24.description1}"
-			]
-			id: "28402A0A69E7B8AA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4BC2AE12BE671E2F"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "1CCBBEEBAF8AEC38"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:anglers_trophy"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:anglers_trophy"
-					criterion: ""
-					id: "139A3A2EED7DBF24"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests24.title}"
-			x: 4.0d
-			y: 1.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests25.description0}"
-				"{ftbquests.chapter.combat__gear.quests25.description1}"
-			]
-			id: "2A8267EAD14040DB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5801DE974396B99A"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "689C8455157132A7"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:certificate_of_taming"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:certificate_of_taming"
-					criterion: ""
-					id: "0F3385E13DAB381A"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests25.title}"
-			x: 5.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests26.description0}"
-				"{ftbquests.chapter.combat__gear.quests26.description1}"
-			]
-			id: "0C3C0190EB3C6A5F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3B90E65FF28AC781"
-					table_id: 8808494820591225409L
-					type: "random"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:overworld_rune"
-					criterion: ""
-					id: "79D1E0824D9890A4"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests26.title}"
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests27.description0}"
-				"{ftbquests.chapter.combat__gear.quests27.description1}"
-			]
-			id: "5D7AFC213FB3DCF8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2542795296DFBBF8"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "6DE448538B4F9E94"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:idol_of_fertility"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:idol_of_fertility"
-					criterion: ""
-					id: "39C33F1607CC6BAB"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests27.title}"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests28.description0}"
-				"{ftbquests.chapter.combat__gear.quests28.description1}"
-			]
-			id: "76559362F9123020"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4713BC72D79D6310"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "0DCF79EDC94D384F"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:lucky_rock"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:lucky_rock"
-					criterion: ""
-					id: "1E8642D6E089F24A"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests28.title}"
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests29.description0}"
-				"{ftbquests.chapter.combat__gear.quests29.description1}"
-			]
-			id: "17670074E6ECFB57"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "192038D70B752CFA"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "7B846A8506266249"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:secret_ingredient"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:secret_ingredient"
-					criterion: ""
-					id: "096A41A47D35EBA4"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests29.title}"
-			x: 5.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests30.description0}"
-				"{ftbquests.chapter.combat__gear.quests30.description1}"
-			]
-			id: "44FE4CEFBB14CB63"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "02D0FBD2E1820A3E"
-					table_id: 6941837675484043489L
-					type: "loot"
-				}
-				{
-					id: "7BC8323F360678B6"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:tamed_potato_beetle"
-						tag: {
-							Bonus: {
-								Value: 0.0f
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [
-				{
-					advancement: "majruszsaccessories:tamed_potato_beetle"
-					criterion: ""
-					id: "2E11BE21BD1C4CC8"
-					type: "advancement"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests30.title}"
-			x: 4.0d
-			y: 3.5d
-		}
-		{
-			description: ["{ftbquests.chapter.combat__gear.quests31.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests22.description}"]
 			id: "78311C38AC02A32C"
 			rewards: [
 				{
@@ -1442,12 +1095,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests31.title}"
+			title: "{ftbquests.chapter.combat__gear.quests22.title}"
 			x: 3.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests32.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests23.description}"]
 			id: "3B1C91A3CD3EC221"
 			rewards: [
 				{
@@ -1504,12 +1157,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests32.title}"
+			title: "{ftbquests.chapter.combat__gear.quests23.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests33.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests24.description}"]
 			id: "6034E62A035F4F68"
 			rewards: [
 				{
@@ -1630,12 +1283,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests33.title}"
+			title: "{ftbquests.chapter.combat__gear.quests24.title}"
 			x: 2.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests34.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests25.description}"]
 			id: "613C677D2D70278F"
 			rewards: [
 				{
@@ -1722,12 +1375,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests34.title}"
+			title: "{ftbquests.chapter.combat__gear.quests25.title}"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests35.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests26.description}"]
 			id: "63244E494B2159D8"
 			rewards: [
 				{
@@ -1877,12 +1530,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests35.title}"
+			title: "{ftbquests.chapter.combat__gear.quests26.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests36.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests27.description}"]
 			id: "29A6066615C12448"
 			rewards: [
 				{
@@ -1939,12 +1592,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests36.title}"
+			title: "{ftbquests.chapter.combat__gear.quests27.title}"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests37.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests28.description}"]
 			id: "14BCF2740DE93BD2"
 			rewards: [
 				{
@@ -1965,18 +1618,18 @@
 							value: "forge:umbrellas"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests37.tasks0.title}"
+					title: "{ftbquests.chapter.combat__gear.quests28.tasks0.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests37.title}"
+			title: "{ftbquests.chapter.combat__gear.quests28.title}"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests38.description0}"
-				"{ftbquests.chapter.combat__gear.quests38.description1}"
+				"{ftbquests.chapter.combat__gear.quests29.description0}"
+				"{ftbquests.chapter.combat__gear.quests29.description1}"
 			]
 			id: "66BFC51EB4E7FDFB"
 			rewards: [
@@ -1994,7 +1647,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests38.subtitle}"
+			subtitle: "{ftbquests.chapter.combat__gear.quests29.subtitle}"
 			tasks: [
 				{
 					id: "7EEC79529BBFE411"
@@ -2005,17 +1658,17 @@
 							value: "tarotcards:tarot_cards"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests38.tasks0.title}"
+					title: "{ftbquests.chapter.combat__gear.quests29.tasks0.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests38.title}"
+			title: "{ftbquests.chapter.combat__gear.quests29.title}"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
-			description: ["{ftbquests.chapter.combat__gear.quests39.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests30.description}"]
 			id: "5107C3DE453627D5"
 			rewards: [
 				{
@@ -2026,6 +1679,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests30.subtitle}"
 			tasks: [
 				{
 					id: "274933D9ACA40CD2"
@@ -2060,7 +1714,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests41.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests32.description}"]
 			id: "64B6E2E1C384286C"
 			rewards: [
 				{
@@ -2091,8 +1745,8 @@
 			can_repeat: true
 			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
-				"{ftbquests.chapter.combat__gear.quests42.description0}"
-				"{ftbquests.chapter.combat__gear.quests42.description1}"
+				"{ftbquests.chapter.combat__gear.quests33.description0}"
+				"{ftbquests.chapter.combat__gear.quests33.description1}"
 			]
 			id: "20B24E5006BC7D1B"
 			rewards: [
@@ -2104,7 +1758,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests42.subtitle}"
+			subtitle: "{ftbquests.chapter.combat__gear.quests33.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -2117,16 +1771,16 @@
 							value: "tarotcards:tarot_cards"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests42.tasks0.title}"
+					title: "{ftbquests.chapter.combat__gear.quests33.tasks0.title}"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests42.title}"
+			title: "{ftbquests.chapter.combat__gear.quests33.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests43.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests34.description}"]
 			id: "2F0A831353FB38B9"
 			rewards: [
 				{
@@ -2207,12 +1861,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests43.title}"
+			title: "{ftbquests.chapter.combat__gear.quests34.title}"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests44.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests35.description}"]
 			id: "1A3BD31918571FA9"
 			rewards: [
 				{
@@ -2269,12 +1923,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests44.title}"
+			title: "{ftbquests.chapter.combat__gear.quests35.title}"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests45.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests36.description}"]
 			id: "55E21D193564A15D"
 			rewards: [
 				{
@@ -2321,12 +1975,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests45.title}"
+			title: "{ftbquests.chapter.combat__gear.quests36.title}"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests46.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests37.description}"]
 			id: "2FD288BBE179EE79"
 			rewards: [
 				{
@@ -2383,12 +2037,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests46.title}"
+			title: "{ftbquests.chapter.combat__gear.quests37.title}"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests47.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests38.description}"]
 			id: "6B6E01618D3B5999"
 			rewards: [
 				{
@@ -2423,12 +2077,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests47.title}"
+			title: "{ftbquests.chapter.combat__gear.quests38.title}"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests48.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests39.description}"]
 			id: "360508D2A7ACB5D6"
 			rewards: [
 				{
@@ -2485,12 +2139,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests48.title}"
+			title: "{ftbquests.chapter.combat__gear.quests39.title}"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests49.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests40.description}"]
 			id: "3BE446AB23DAFFFE"
 			rewards: [
 				{
@@ -2575,58 +2229,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests49.title}"
+			title: "{ftbquests.chapter.combat__gear.quests40.title}"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests50.description0}"
-				"{ftbquests.chapter.combat__gear.quests50.description1}"
-				"{ftbquests.chapter.combat__gear.quests50.description2}"
-				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				"{ftbquests.chapter.combat__gear.quests50.description4}"
-				"{ftbquests.chapter.combat__gear.quests50.description5}"
-				"{ftbquests.chapter.combat__gear.quests50.description6}"
-			]
-			id: "7B72E2C06B316F5A"
-			rewards: [
-				{
-					count: 15
-					id: "6FE42AC5E90113D8"
-					item: "minecraft:bamboo"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0FB0AAAB64B8D5B7"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests50.subtitle}"
-			tasks: [
-				{
-					id: "62D500A4711B3B3C"
-					item: "backpacked:backpack"
-					type: "item"
-				}
-			]
-			title: "{ftbquests.chapter.combat__gear.quests50.title}"
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{ftbquests.chapter.combat__gear.quests51.description0}"
-				"{ftbquests.chapter.combat__gear.quests51.description1}"
-				"{ftbquests.chapter.combat__gear.quests51.description2}"
+				"{ftbquests.chapter.combat__gear.quests41.description0}"
+				"{ftbquests.chapter.combat__gear.quests41.description1}"
+				"{ftbquests.chapter.combat__gear.quests41.description2}"
 				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
-				"{ftbquests.chapter.combat__gear.quests51.description4}"
-				"{ftbquests.chapter.combat__gear.quests51.description5}"
-				"{ftbquests.chapter.combat__gear.quests51.description6}"
-				"{ftbquests.chapter.combat__gear.quests51.description7}"
+				"{ftbquests.chapter.combat__gear.quests41.description4}"
+				"{ftbquests.chapter.combat__gear.quests41.description5}"
+				"{ftbquests.chapter.combat__gear.quests41.description6}"
+				"{ftbquests.chapter.combat__gear.quests41.description7}"
 			]
 			id: "4D9EA3886EB6F73A"
 			rewards: [
@@ -2643,7 +2259,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests51.subtitle}"
+			subtitle: "{ftbquests.chapter.combat__gear.quests41.subtitle}"
 			tasks: [
 				{
 					id: "189F1468E948737D"
@@ -2651,15 +2267,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests51.title}"
+			title: "{ftbquests.chapter.combat__gear.quests41.title}"
 			x: -5.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests52.description0}"
-				"{ftbquests.chapter.combat__gear.quests52.description1}"
-				"{ftbquests.chapter.combat__gear.quests52.description2}"
+				"{ftbquests.chapter.combat__gear.quests42.description0}"
+				"{ftbquests.chapter.combat__gear.quests42.description1}"
+				"{ftbquests.chapter.combat__gear.quests42.description2}"
 			]
 			id: "14D43F04E15174D2"
 			rewards: [
@@ -2696,12 +2312,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests52.title}"
+			title: "{ftbquests.chapter.combat__gear.quests42.title}"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests53.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests43.description}"]
 			id: "3BB3A6EFFDC3488E"
 			rewards: [
 				{
@@ -2729,7 +2345,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests54.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests44.description}"]
 			id: "703818BD93BEFE6A"
 			rewards: [
 				{
@@ -2757,7 +2373,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests55.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests45.description}"]
 			id: "6635831904B90118"
 			rewards: [
 				{
@@ -2785,7 +2401,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests56.description}"]
+			description: ["{ftbquests.chapter.combat__gear.quests46.description}"]
 			id: "55C25ED49FACC6EC"
 			rewards: [
 				{
@@ -2811,6 +2427,603 @@
 			]
 			x: -5.5d
 			y: 5.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests47.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests47.description2}"
+			]
+			id: "1F590EDF058BB8A8"
+			rewards: [
+				{
+					id: "3EE5B84BA839D659"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:adventurer_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47C857002217D229"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests47.subtitle}"
+			tasks: [
+				{
+					id: "134FB0E25B96E843"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:adventurer_kit"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3425A83E66A73E19"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:swimmer_guide"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests47.title}"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests48.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests48.description2}"
+			]
+			id: "5B075D9C9BE8F2AE"
+			rewards: [
+				{
+					id: "6240E89CABA84E2B"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:angler_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "707DAB33BE9A46E5"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests48.subtitle}"
+			tasks: [
+				{
+					id: "08911A4D904F0D1D"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:angler_trophy"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BF242355031973A"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:metal_lure"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02DB9C59ED67E0E9"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:unbreakable_fishing_line"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests48.title}"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests49.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests49.description2}"
+			]
+			id: "67655D11D7908671"
+			rewards: [
+				{
+					id: "37CBD619998F1D6D"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:household_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "598E4FEA003A138D"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests49.subtitle}"
+			tasks: [
+				{
+					id: "1BF93908848D3EE4"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:discount_voucher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61D5E2143070B5C8"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:dream_catcher"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E05743B5DB3C0C6"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:secret_ingredient"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests49.title}"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests50.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests50.description2}"
+			]
+			id: "6F7BC76D2BAC0926"
+			rewards: [
+				{
+					id: "1426A82F42227C92"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:miner_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6511CE8FFABF441E"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests50.subtitle}"
+			tasks: [
+				{
+					id: "2015E63A8C3A5378"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:lucky_rock"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04DD732503E8119A"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:miner_guide"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5620163336321C72"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:tool_scraps"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests50.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests51.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests51.description2}"
+			]
+			id: "68279BFDA33B6996"
+			rewards: [
+				{
+					id: "7A990DD56C2FAC21"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:nature_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0993290DEEA66068"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests51.subtitle}"
+			tasks: [
+				{
+					id: "13298A18559705F6"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:certificate_of_taming"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E73F2B2348E5938"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:idol_of_fertility"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "743357D2E65DDB0D"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:tamed_potato_beetle"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests51.title}"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests52.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests52.description2}"
+				""
+				"{ftbquests.chapter.combat__gear.quests52.description4}"
+			]
+			id: "764E268E35CCDA31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A7A54C89DD2EE17"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5360219709E9B612"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests52.subtitle}"
+			tasks: [
+				{
+					id: "4CC7EE7074A2B2FB"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:adventurer_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "595CB8B2814D445B"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:angler_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55086271BB8E141C"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:household_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38B1F910037F97A7"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:miner_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FE28FC2A781D440"
+					item: {
+						Count: 1b
+						id: "majruszsaccessories:nature_rune"
+						tag: {
+							Bonus: {
+								Boosters: [ ]
+								Value: -0.6f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests52.title}"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests53.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests53.description2}"
+				""
+				"{ftbquests.chapter.combat__gear.quests53.description4}"
+				""
+				"{ftbquests.chapter.combat__gear.quests53.description6}"
+				""
+				"{ftbquests.chapter.combat__gear.quests53.description8}"
+			]
+			id: "46B5DAA070A0675F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F1383C33161DF60"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests53.subtitle}"
+			tasks: [
+				{
+					id: "184E4042B07AE565"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:maj_cards"
+						}
+					}
+					title: "{ftbquests.chapter.combat__gear.quests53.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests53.title}"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests54.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests54.description2}"
+				""
+				"{ftbquests.chapter.combat__gear.quests54.description4}"
+			]
+			id: "24E903048FE8AC10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "607AFCD706857EDC"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests54.subtitle}"
+			tasks: [
+				{
+					id: "027324005F8E7649"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:maj_boosters"
+						}
+					}
+					title: "{ftbquests.chapter.combat__gear.quests54.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests54.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.combat__gear.quests55.description0}"
+				""
+				"{ftbquests.chapter.combat__gear.quests55.description2}"
+				""
+				"{ftbquests.chapter.combat__gear.quests55.description4}"
+			]
+			id: "40070F7DE43BA4FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "431C447A10D31000"
+					table_id: 8588988388222696349L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.combat__gear.quests55.subtitle}"
+			tasks: [
+				{
+					id: "4497F3FE4630687E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:maj_acs"
+						}
+					}
+					title: "{ftbquests.chapter.combat__gear.quests55.tasks0.title}"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.combat__gear.quests55.title}"
+			x: 4.0d
+			y: 4.0d
 		}
 	]
 	title: "{ftbquests.chapter.combat__gear.title}"

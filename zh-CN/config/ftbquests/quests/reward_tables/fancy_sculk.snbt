@@ -15,9 +15,9 @@
 			item: "minecraft:sculk_shrieker"
 			weight: 0.5f
 		}
-		{ 
-			count: 5, 
-			item: "deeperdarker:gloomy_sculk" 
+		{
+			count: 5
+			item: "deeperdarker:gloomy_sculk"
 		}
 	]
 	title: "{ftbquests.reward_tables.fancy_sculk.title}"

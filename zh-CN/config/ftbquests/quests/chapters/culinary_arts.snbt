@@ -1004,7 +1004,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"果冻南瓜\"}"
+								Name: "{\"text\":\"Jelly Pumpkins\"}"
 							}
 						}
 					}
@@ -1095,7 +1095,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"汉堡\"}"
+								Name: "{\"text\":\"Burger\"}"
 							}
 						}
 					}
@@ -1268,7 +1268,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"蛋糕\"}"
+								Name: "{\"text\":\"Cake\"}"
 							}
 						}
 					}
@@ -1382,7 +1382,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"面包\"}"
+								Name: "{\"text\":\"Bread\"}"
 							}
 						}
 					}
@@ -1766,7 +1766,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests49.description0}"]
+			description: ["{ftbquests.chapter.culinary_arts.quests49.description}"]
 			id: "166F53EED3372358"
 			rewards: [
 				{
@@ -1984,7 +1984,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"泡菜罐\"}"
+								Name: "{\"text\":\"Jar of Pickles\"}"
 							}
 						}
 					}
@@ -2142,7 +2142,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"末影之眼\"}"
+								Name: "{\"text\":\"Eye of Ender\"}"
 							}
 						}
 					}

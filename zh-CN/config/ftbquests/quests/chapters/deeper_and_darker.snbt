@@ -195,7 +195,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"监守者\"}"
+								Name: "{\"text\":\"Warden\"}"
 							}
 						}
 					}

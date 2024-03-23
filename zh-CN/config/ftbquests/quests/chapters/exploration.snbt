@@ -101,7 +101,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/say @p，你好！感谢游玩！请使用-键打开你的任务书以查看任务！"
+					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
 					id: "4B2B69209045245C"
 					team_reward: false
 					type: "command"
@@ -416,10 +416,21 @@
 		{
 			description: [
 				"{ftbquests.chapter.exploration.quests9.description0}"
-				"{ftbquests.chapter.exploration.quests9.description1}"
-				"{image:cottagewitch:textures/openparties.png width:180 height:200 align:1}"
-				"{ftbquests.chapter.exploration.quests9.description3}"
-				"{ftbquests.chapter.exploration.quests9.description4}"
+				""
+				"{ftbquests.chapter.exploration.quests9.description2}"
+				""
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				""
+				"{ftbquests.chapter.exploration.quests9.description6}"
+				""
+				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
+				""
+				"{ftbquests.chapter.exploration.quests9.description10}"
+				""
+				"{ftbquests.chapter.exploration.quests9.description12}"
+				"{ftbquests.chapter.exploration.quests9.description13}"
+				""
+				"{ftbquests.chapter.exploration.quests9.description15}"
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -451,15 +462,14 @@
 				""
 				"{ftbquests.chapter.exploration.quests10.description2}"
 				""
-				"{ftbquests.chapter.exploration.quests10.description4}"
+				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
+				"{image:cottagewitch:textures/createaparty.png width:100 height:75 align:1 fit:true}"
+				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1}"
 				""
-				"{image:cottagewitch:textures/allyadd.png width:200 height:50 align:1}"
 				""
-				"{ftbquests.chapter.exploration.quests10.description8}"
+				"{ftbquests.chapter.exploration.quests10.description9}"
 				""
-				"{ftbquests.chapter.exploration.quests10.description10}"
-				""
-				"{ftbquests.chapter.exploration.quests10.description12}"
+				"{image:cottagewitch:textures/fakeplayers.png width:871 height:342 align:1 fit:true}"
 			]
 			id: "20F9C02AF5CBE665"
 			rewards: [
