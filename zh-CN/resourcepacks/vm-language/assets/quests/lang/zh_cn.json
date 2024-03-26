@@ -454,7 +454,7 @@
  "ftbquests.chapter.combat__gear.quests53.description2": "&b反转卡&r是一张可以让任意饰品的效率奖励无效化的卡片。 ",
  "ftbquests.chapter.combat__gear.quests53.description4": "the &bGambling Card&r is a Card that redraws efficiency bonus of any accessory based on the last efficiency range. ",
  "ftbquests.chapter.combat__gear.quests53.description6": "&b移除卡&r可以返还任何配件上安装的所有&b强化&r。 ",
- "ftbquests.chapter.combat__gear.quests53.description8": "&dThere is currently a bug that breaks the texture of this tag, but it still works normally.&r",
+ "ftbquests.chapter.combat__gear.quests53.description8": "&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r",
  "ftbquests.chapter.combat__gear.quests53.tasks0.title": "任意#forge:maj_cards",
  "ftbquests.chapter.combat__gear.quests54.title": "Majrusz的强化",
  "ftbquests.chapter.combat__gear.quests54.subtitle": "boosty collins",
