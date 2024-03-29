@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "scavenger_hunt"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 20.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgscavengerhunt.png"
@@ -556,7 +556,7 @@
 				"{ftbquests.chapter.scavenger_hunt.quests33.description1}"
 			]
 			id: "505C0E55270CBFBC"
-			optional: true
+			optional: "true"
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.scavenger_hunt.quests33.subtitle}"
@@ -611,7 +611,7 @@
 				"{ftbquests.chapter.scavenger_hunt.quests34.description0}"
 				"{ftbquests.chapter.scavenger_hunt.quests34.description1}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "3CEDCDDE9BCD7F5F"
 			rewards: [
 				{
@@ -650,8 +650,8 @@
 		}
 		{
 			id: "5F7EBDA2EDC4F25B"
-			invisible: true
-			secret: true
+			invisible: "true"
+			secret: "true"
 			tasks: [
 				{
 					id: "05714D8C6D3712E6"

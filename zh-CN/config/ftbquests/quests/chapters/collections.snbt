@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "collections"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 7.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgcollections.png"
@@ -33,7 +33,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "630A1F56825F3D91"
 					table_id: 987967038148964353L
 					type: "random"
@@ -273,7 +273,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "6B64AD45AF355360"
 					table_id: 987967038148964353L
 					type: "random"
@@ -336,13 +336,13 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "66C9613881E7A3FB"
 					table_id: 6941837675484043489L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "42BF5C8C6250FDD8"
 					table_id: 987967038148964353L
 					type: "random"
@@ -405,7 +405,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3DFED648E3730DCF"
 					table_id: 987967038148964353L
 					type: "random"
@@ -453,7 +453,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2F02BF712FCA9085"
 					table_id: 987967038148964353L
 					type: "random"
@@ -516,7 +516,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "4FF4BB30501FCB3D"
 					table_id: 987967038148964353L
 					type: "random"
@@ -614,7 +614,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "699D75572A615EA1"
 					table_id: 987967038148964353L
 					type: "random"
@@ -712,7 +712,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "1A90D98E6591443C"
 					table_id: 987967038148964353L
 					type: "random"
@@ -785,7 +785,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "406DB8401AF9656E"
 					table_id: 987967038148964353L
 					type: "random"
@@ -1057,7 +1057,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "77B2E3B1C1FEEA55"
 					table_id: 987967038148964353L
 					type: "choice"
@@ -1151,13 +1151,13 @@
 			id: "75AD4BD901CEA061"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "15E9D9471927E0F8"
 					table_id: 7049021818423122779L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "78D88788724EB26F"
 					table_id: 5161092699925703455L
 					type: "choice"
@@ -1198,7 +1198,7 @@
 				"{ftbquests.chapter.collections.quests14.description0}"
 				"{ftbquests.chapter.collections.quests14.description1}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "2DDA757CE80078C3"
 			rewards: [
 				{
@@ -1230,7 +1230,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "4177C6F44B86C87A"
 					table_id: 5525848455660196930L
 					type: "choice"
@@ -1252,13 +1252,13 @@
 			id: "401E8078C11F8919"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "714631CAD91913B0"
 					table_id: 7049021818423122779L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2D9A605A8DF2FC96"
 					table_id: 7049021818423122779L
 					type: "random"
@@ -1286,13 +1286,13 @@
 			id: "5C9725DEED609E88"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7FD09028A87B535B"
 					table_id: 6941837675484043489L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "225CBA3ED518E8D8"
 					table_id: 987967038148964353L
 					type: "random"
@@ -1317,8 +1317,8 @@
 		}
 		{
 			id: "3ADA19F1E7F84DD6"
-			invisible: true
-			secret: true
+			invisible: "true"
+			secret: "true"
 			tasks: [
 				{
 					id: "45F70564BC668A04"

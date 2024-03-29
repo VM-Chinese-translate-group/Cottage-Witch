@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "fishing__gathering"
@@ -15,8 +15,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 14.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgfishing.png"
@@ -27,8 +27,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 8.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bggathering.png"
@@ -68,7 +68,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.fishing__gathering.quests0.title}"
-			x: 7.0d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -82,13 +82,13 @@
 			id: "2E4D1699E2A7876B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "53084827437F5C3A"
 					table_id: 1279979498352596350L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "18A2E48F0E5B1B1B"
 					table_id: 5667576494518007025L
 					type: "choice"
@@ -269,7 +269,7 @@
 			id: "2093240CD42882CF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "20C2ED31F2632341"
 					table_id: 6941837675484043489L
 					type: "random"
@@ -281,7 +281,7 @@
 				{
 					block: "farmersdelight:wild_cabbages"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "farmersdelight:wild_cabbages"
 					id: "6EDA315759D3800F"
 					type: "questsadditions:break"
@@ -290,7 +290,7 @@
 				{
 					block: "farmersdelight:wild_potatoes"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "farmersdelight:wild_potatoes"
 					id: "2A2B8DA40D8637A9"
 					type: "questsadditions:break"
@@ -299,7 +299,7 @@
 				{
 					block: "farmersdelight:wild_carrots"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "farmersdelight:wild_carrots"
 					id: "608A8CD9B92FE737"
 					type: "questsadditions:break"
@@ -308,7 +308,7 @@
 				{
 					block: "farmersdelight:wild_rice"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "farmersdelight:wild_rice"
 					id: "1F855CF180E60103"
 					type: "questsadditions:break"
@@ -317,7 +317,7 @@
 				{
 					block: "farmersdelight:wild_onions"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "farmersdelight:wild_onions"
 					id: "1A6CF9C2538C64F9"
 					type: "questsadditions:break"
@@ -326,7 +326,7 @@
 				{
 					block: "culturaldelights:wild_cucumbers"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "culturaldelights:wild_cucumbers"
 					id: "44DB742314C20457"
 					type: "questsadditions:break"
@@ -335,7 +335,7 @@
 				{
 					block: "culturaldelights:wild_corn"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "culturaldelights:wild_corn"
 					id: "44BBC1579C173631"
 					type: "questsadditions:break"
@@ -344,7 +344,7 @@
 				{
 					block: "culturaldelights:wild_eggplants"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					icon: "culturaldelights:wild_eggplants"
 					id: "1B2A4C08C5746E55"
 					type: "questsadditions:break"
@@ -353,7 +353,7 @@
 				{
 					block: "farmersdelight:wild_tomatoes"
 					block_type: 0
-					checkItem: false
+					checkItem: "false"
 					id: "2C5F1B4B6FC9842D"
 					type: "questsadditions:break"
 					value: 1L
@@ -365,8 +365,8 @@
 		}
 		{
 			id: "60BA7A551EC7DC60"
-			invisible: true
-			secret: true
+			invisible: "true"
+			secret: "true"
 			tasks: [
 				{
 					id: "14D15094BF4C4D63"
@@ -430,7 +430,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "36A27638B101E7BE"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -495,7 +495,7 @@
 				}
 			]
 			title: "{ftbquests.chapter.fishing__gathering.quests11.title}"
-			x: 9.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -840,7 +840,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "32088996B59152F2"
 					table_id: 5667576494518007025L
 					type: "choice"
@@ -993,7 +993,7 @@
 			id: "72AF06325F252A3D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "1B5802B3DFE88F09"
 					table_id: 1279979498352596350L
 					type: "random"
@@ -1064,13 +1064,13 @@
 			id: "4FFFF3951DA04102"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3EAEE2CF22AED240"
 					table_id: 5525848455660196930L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3B41161F41D904B2"
 					table_id: 5667576494518007025L
 					type: "choice"
@@ -1108,7 +1108,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "64BB1ED09A9722FD"
 					table_id: 5667576494518007025L
 					type: "choice"
@@ -1148,7 +1148,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5FEA2DDA228CF08C"
 					table_id: 5667576494518007025L
 					type: "choice"
@@ -1178,19 +1178,16 @@
 				"{ftbquests.chapter.fishing__gathering.quests28.description0}"
 				""
 				"{ftbquests.chapter.fishing__gathering.quests28.description2}"
+				""
+				"{ftbquests.chapter.fishing__gathering.quests28.description4}"
 			]
 			id: "4C992CD3177839C9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "26671245DE4930C5"
 					table_id: 5667576494518007025L
 					type: "choice"
-				}
-				{
-					id: "71C0306E1FC1B1F5"
-					item: "minecraft:totem_of_undying"
-					type: "item"
 				}
 			]
 			subtitle: "{ftbquests.chapter.fishing__gathering.quests28.subtitle}"
@@ -1211,6 +1208,25 @@
 			title: "{ftbquests.chapter.fishing__gathering.quests28.title}"
 			x: 0.5d
 			y: 0.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.fishing__gathering.quests29.description0}"
+				""
+				"{ftbquests.chapter.fishing__gathering.quests29.description2}"
+			]
+			id: "602AECDEE9755175"
+			subtitle: "{ftbquests.chapter.fishing__gathering.quests29.subtitle}"
+			tasks: [
+				{
+					id: "2205B9EDEE5F7A89"
+					item: "crabbersdelight:crab_trap"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.fishing__gathering.quests29.title}"
+			x: 14.5d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.fishing__gathering.title}"

@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "combat__gear"
@@ -15,8 +15,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 9.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgcurios.png"
@@ -27,8 +27,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 9.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgarmor.png"
@@ -39,8 +39,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 9.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgitemsmisc.png"
@@ -51,8 +51,8 @@
 		}
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 9.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgweaponsitems.png"
@@ -90,7 +90,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "6EB3D4E3537DF6CC"
 					table_id: 7265408724434505998L
 					type: "random"
@@ -527,7 +527,7 @@
 			id: "7AAD7513F2D067D8"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7EB05BE06489B33E"
 					table_id: 8808494820591225409L
 					type: "loot"
@@ -539,7 +539,7 @@
 				{
 					id: "7379F20CFDE39949"
 					item: "minecraft:totem_of_undying"
-					only_from_crafting: true
+					only_from_crafting: "true"
 					type: "item"
 				}
 			]
@@ -582,7 +582,7 @@
 			id: "0AF3D2A62E51E5B2"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3B6DD5B336297788"
 					table_id: 5161092699925703455L
 					type: "loot"
@@ -655,7 +655,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5F0E393288BFFE4B"
 					table_id: 5161092699925703455L
 					type: "loot"
@@ -961,7 +961,7 @@
 			id: "3FFC3D4F00661CA9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "68F0DB3E444E7A5B"
 					table_id: 7049021818423122779L
 					type: "choice"
@@ -997,7 +997,7 @@
 					xp_levels: 5
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "69C5661F50A09166"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -1020,7 +1020,7 @@
 			id: "78311C38AC02A32C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5813058479DED3FA"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -1104,7 +1104,7 @@
 			id: "3B1C91A3CD3EC221"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "043BAFB961EC4E7B"
 					table_id: 6941837675484043489L
 					type: "loot"
@@ -1166,13 +1166,13 @@
 			id: "6034E62A035F4F68"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7CB7683DA395CAF5"
 					table_id: 5036677739913042344L
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "1932DF187F981A97"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -1292,13 +1292,13 @@
 			id: "613C677D2D70278F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "6E27634C83CF6ADD"
 					table_id: 8808494820591225409L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "157534B164962891"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -1601,7 +1601,7 @@
 			id: "14BCF2740DE93BD2"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3D753C0CE2A197A6"
 					table_id: 6941837675484043489L
 					type: "random"
@@ -1634,13 +1634,13 @@
 			id: "66BFC51EB4E7FDFB"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5DCF345B1E63D9E3"
 					table_id: 8891211325592123080L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "55872EB8DC922282"
 					table_id: 7265408724434505998L
 					type: "random"
@@ -1672,7 +1672,7 @@
 			id: "5107C3DE453627D5"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "0F512599C36DE552"
 					table_id: 5161092699925703455L
 					type: "random"
@@ -1701,8 +1701,8 @@
 		}
 		{
 			id: "5161948053596F24"
-			invisible: true
-			secret: true
+			invisible: "true"
+			secret: "true"
 			tasks: [
 				{
 					id: "546F8A9A5894527D"
@@ -1718,7 +1718,7 @@
 			id: "64B6E2E1C384286C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "19D0A1A4EECDFEDD"
 					table_id: 6941837675484043489L
 					type: "random"
@@ -1742,7 +1742,7 @@
 			y: -6.5d
 		}
 		{
-			can_repeat: true
+			can_repeat: "true"
 			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
 				"{ftbquests.chapter.combat__gear.quests33.description0}"
@@ -1751,7 +1751,7 @@
 			id: "20B24E5006BC7D1B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "520EC71AF3CC06A9"
 					table_id: 7265408724434505998L
 					type: "random"
@@ -1761,7 +1761,7 @@
 			subtitle: "{ftbquests.chapter.combat__gear.quests33.subtitle}"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: "true"
 					count: 2L
 					id: "6C6CC6A2E015B887"
 					item: {
@@ -1784,7 +1784,7 @@
 			id: "2F0A831353FB38B9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "795550A9EA41F849"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -1870,7 +1870,7 @@
 			id: "1A3BD31918571FA9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "374DD5C850FCAC63"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -1932,7 +1932,7 @@
 			id: "55E21D193564A15D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "25BCC5AA95FEC6A2"
 					table_id: 2688518876927697228L
 					type: "loot"
@@ -1984,7 +1984,7 @@
 			id: "2FD288BBE179EE79"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "257876E4ED81AD41"
 					table_id: 2688518876927697228L
 					type: "loot"
@@ -2046,7 +2046,7 @@
 			id: "6B6E01618D3B5999"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7370B2D8F5A2E9F3"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -2086,7 +2086,7 @@
 			id: "360508D2A7ACB5D6"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "58AA97376CEE5824"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -2148,7 +2148,7 @@
 			id: "3BE446AB23DAFFFE"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "38F40BF04713CDFE"
 					table_id: 2688518876927697228L
 					type: "loot"
@@ -2252,7 +2252,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "2B6408B18ECCA86F"
 					table_id: 8035711958862449784L
 					type: "random"
@@ -2291,7 +2291,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "61A1D752FA2618EC"
 					table_id: 987967038148964353L
 					type: "choice"
@@ -2321,7 +2321,7 @@
 			id: "3BB3A6EFFDC3488E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7EF6C836DCC39293"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -2349,7 +2349,7 @@
 			id: "703818BD93BEFE6A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5AD819643F74AE8F"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -2377,7 +2377,7 @@
 			id: "6635831904B90118"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "41DCC57CAF7369E1"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -2405,7 +2405,7 @@
 			id: "55C25ED49FACC6EC"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "17CC9011320AD02B"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -2451,7 +2451,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "47C857002217D229"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2516,7 +2516,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "707DAB33BE9A46E5"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2595,7 +2595,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "598E4FEA003A138D"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2674,7 +2674,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "6511CE8FFABF441E"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2753,7 +2753,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "0993290DEEA66068"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2820,13 +2820,13 @@
 			id: "764E268E35CCDA31"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "7A7A54C89DD2EE17"
 					table_id: 8588988388222696349L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "5360219709E9B612"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2925,7 +2925,7 @@
 			id: "46B5DAA070A0675F"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3F1383C33161DF60"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2962,7 +2962,7 @@
 			id: "24E903048FE8AC10"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "607AFCD706857EDC"
 					table_id: 8588988388222696349L
 					type: "loot"
@@ -2999,7 +2999,7 @@
 			id: "40070F7DE43BA4FF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "431C447A10D31000"
 					table_id: 8588988388222696349L
 					type: "loot"

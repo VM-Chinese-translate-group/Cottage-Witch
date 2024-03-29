@@ -11,7 +11,7 @@
 		{
 			count: 3
 			item: "minecraft:prismarine_shard"
-			only_one: true
+			only_one: "true"
 			weight: 5.0f
 		}
 		{
@@ -46,7 +46,7 @@
 		}
 		{
 			item: "quark:diamond_heart"
-			only_one: true
+			only_one: "true"
 			weight: 5.0f
 		}
 		{

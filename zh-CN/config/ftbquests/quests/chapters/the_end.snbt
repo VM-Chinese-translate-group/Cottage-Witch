@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: "false"
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "the_end"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: false
-			dev: false
+			corner: "false"
+			dev: "false"
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgtheend.png"
@@ -69,7 +69,7 @@
 			id: "1689A10C4DBBE5B0"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3E71893970FB14C4"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -98,7 +98,7 @@
 			id: "2C24C18C174AD842"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "59D5819F6A1DF3BA"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -127,7 +127,7 @@
 			id: "468D0B739D93E018"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "317B59CE91F954A0"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -156,7 +156,7 @@
 			id: "59B0992CDA1B5797"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "57E86B80B8DABCFB"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -185,7 +185,7 @@
 			id: "3278B2F717A8F374"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "11D711C47166B750"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -214,7 +214,7 @@
 			id: "2DCD3962DBC7E1F4"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "44335C7AD6A4DF74"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -243,7 +243,7 @@
 			id: "393FED910B541631"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "798DF96B9837235D"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -272,7 +272,7 @@
 			id: "513067CD571D369E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "16866C8BC1B49A76"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -301,7 +301,7 @@
 			id: "0ED4E7CE946E5F48"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "6546FCC5018CB0A3"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -330,7 +330,7 @@
 			id: "13555E89D6122D88"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "46A71C1A85887BEC"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -359,7 +359,7 @@
 			id: "2356716DE94666CF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "45EF02BC028B69D6"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -388,7 +388,7 @@
 			id: "605D30BFA0C1C6A7"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "3353D01BC8E3691E"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -417,7 +417,7 @@
 			id: "3AADAC34ECDEF891"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "10C486355C05FB0A"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -446,7 +446,7 @@
 			id: "537CCA9E121868CC"
 			rewards: [
 				{
-					exclude_from_claim_all: true
+					exclude_from_claim_all: "true"
 					id: "58624D9FAD24CB4C"
 					table_id: 7707783220386620668L
 					type: "random"
@@ -654,7 +654,7 @@
 				"{ftbquests.chapter.the_end.quests18.description0}"
 				"{ftbquests.chapter.the_end.quests18.description1}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: "true"
 			id: "72A4C21205E75EAD"
 			rewards: [
 				{
@@ -715,8 +715,8 @@
 		}
 		{
 			id: "43C892891BB4B5BF"
-			invisible: true
-			secret: true
+			invisible: "true"
+			secret: "true"
 			tasks: [
 				{
 					id: "0C40EFA512BABADB"
@@ -731,7 +731,7 @@
 			dependencies: ["09ED0DFEB72DFD71"]
 			description: ["{ftbquests.chapter.the_end.quests20.description}"]
 			id: "26E52D95C9C75019"
-			repeatable: true
+			repeatable: "true"
 			rewards: [
 				{
 					id: "06C611660703EF32"
@@ -743,7 +743,7 @@
 			subtitle: "{ftbquests.chapter.the_end.quests20.subtitle}"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: "true"
 					id: "5E03B62FE26BC617"
 					item: "minecraft:dragon_egg"
 					type: "item"
