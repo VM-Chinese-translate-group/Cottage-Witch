@@ -1021,7 +1021,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Rainbow Shulker\"}"
+								Name: "{\"text\":\"彩虹潜影贝\"}"
 							}
 						}
 					}
@@ -1050,7 +1050,7 @@
 								}
 							}
 							display: {
-								Name: "{\"text\":\"Wool (rainbow)\"}"
+								Name: "{\"text\":\"羊毛（彩虹）\"}"
 							}
 						}
 					}
