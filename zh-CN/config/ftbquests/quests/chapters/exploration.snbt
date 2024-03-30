@@ -101,7 +101,7 @@
 				}
 				{
 					auto: "enabled"
-					command: "/say Hi, @p! Thanks for playing! Please check out your quests with the - key, or by opening your Quest Book!"
+					command: "/say 嗨，@p！感谢你的游玩！请按下“-”键或打开任务书来查看你的任务！"
 					id: "4B2B69209045245C"
 					team_reward: "false"
 					type: "command"
