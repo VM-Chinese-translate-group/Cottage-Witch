@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "farmers_delight"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgfarming.png"
@@ -228,7 +228,7 @@
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "674A15B3EAEEC114"
 					table_id: 8035711958862449784L
 					type: "random"
@@ -580,7 +580,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "679B96B27A170259"
 					table_id: 8808494820591225409L
 					type: "loot"
@@ -677,7 +677,7 @@
 			y: -1.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
 				"{ftbquests.chapter.farmers_delight.quests14.description0}"
@@ -691,13 +691,13 @@
 					xp_levels: 10
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "509497F8FDAC8759"
 					table_id: 7049021818423122779L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "5EFC02323DC65CA5"
 					table_id: 1739670786502713488L
 					type: "loot"
@@ -711,91 +711,91 @@
 			]
 			tasks: [
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "421CB73C1AE799A5"
 					item: "farmersdelight:onion_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "55035A2527029547"
 					item: "farmersdelight:carrot_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "01215F6EE4B457A4"
 					item: "farmersdelight:potato_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "13803B6E5CB2DF76"
 					item: "farmersdelight:beetroot_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "5CE060E19611C1DE"
 					item: "farmersdelight:cabbage_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "241C1EBB473D9D1B"
 					item: "farmersdelight:tomato_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "52AD3CA306639035"
 					item: "quark:apple_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "3BBA4F97ADF44CD9"
 					item: "prefab:item_carton_of_eggs"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "335176CD3CC595F9"
 					item: "culturaldelights:avocado_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "095EF4EE475C4250"
 					item: "culturaldelights:cucumber_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "6D6FE18F9E75CBC3"
 					item: "culturaldelights:corn_cob_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "30F3D5F7FA50469A"
 					item: "culturaldelights:eggplant_crate"
 					type: "item"
 				}
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 10L
 					id: "02380DC77DCD3549"
 					item: "culturaldelights:white_eggplant_crate"
@@ -812,7 +812,7 @@
 			id: "2973338AB622C5D6"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "380BDD48693BCD8F"
 					table_id: 8808494820591225409L
 					type: "loot"
@@ -932,8 +932,8 @@
 		}
 		{
 			id: "7814F0DBA486B635"
-			invisible: "true"
-			secret: "true"
+			invisible: true
+			secret: true
 			tasks: [
 				{
 					id: "4F3BAE85C8194B15"
@@ -960,7 +960,7 @@
 			id: "78CB4E7CEB48941A"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "3CCD4E605779C068"
 					table_id: 7049021818423122779L
 					type: "random"

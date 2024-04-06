@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "building__decorating"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgbuilding.png"
@@ -21,8 +21,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgdecorating.png"
@@ -559,7 +559,7 @@
 			id: "226368447EC1C9A9"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "19196EF8205FDBDC"
 					table_id: 987967038148964353L
 					type: "choice"
@@ -646,7 +646,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "67E449FE6C744545"
 					table_id: 6951594928314176539L
 					type: "random"
@@ -758,9 +758,9 @@
 			y: -1.5d
 		}
 		{
-			hide: "true"
+			hide: true
 			id: "3B14FB98F6CA73AA"
-			secret: "true"
+			secret: true
 			tasks: [
 				{
 					id: "0294DC32DD5E2333"

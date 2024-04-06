@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "twilight_forest"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 15.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgtwilightforest.png"
@@ -101,7 +101,7 @@
 			description: ["{ftbquests.chapter.twilight_forest.quests2.description}"]
 			icon: "twilightforest:raven_feather"
 			id: "3B33F8C27B3361AC"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 9
@@ -165,7 +165,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1A2A5C6AA28D867A"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -198,7 +198,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "14EA3BEAB0D5EB03"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -260,7 +260,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "238AA074016ACCDB"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -304,7 +304,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "19A5F0C7617CD80D"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -341,7 +341,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "0BA3232E56833C88"
 					table_id: 2688518876927697228L
 					type: "random"
@@ -417,7 +417,7 @@
 			y: 0.0d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["00B1A6C679547AF2"]
 			description: ["{ftbquests.chapter.twilight_forest.quests12.description}"]
 			id: "14B45702F0F82689"
@@ -437,7 +437,7 @@
 			subtitle: "{ftbquests.chapter.twilight_forest.quests12.subtitle}"
 			tasks: [
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 20L
 					id: "292E38425879D005"
 					item: "twilightforest:naga_scale"
@@ -576,7 +576,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "7B14E9612F4F61E6"
 					table_id: 2688518876927697228L
 					type: "loot"
@@ -616,7 +616,7 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["3657239C35390F17"]
 			description: ["{ftbquests.chapter.twilight_forest.quests18.description}"]
 			id: "23E5790A6CC6524C"
@@ -636,7 +636,7 @@
 			subtitle: "{ftbquests.chapter.twilight_forest.quests18.subtitle}"
 			tasks: [
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 20L
 					id: "5172110E1EBECE10"
 					item: "twilightforest:fiery_blood"
@@ -823,7 +823,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "28FEF8A4B3D9CF03"
 					table_id: 5036677739913042344L
 					type: "choice"
@@ -857,7 +857,7 @@
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "40E93A2B2452F75B"
 					table_id: 5525848455660196930L
 					type: "choice"
@@ -1169,8 +1169,8 @@
 		}
 		{
 			id: "723D12B934CAB46C"
-			invisible: "true"
-			secret: "true"
+			invisible: true
+			secret: true
 			tasks: [
 				{
 					id: "599A10FC4B6BB02E"

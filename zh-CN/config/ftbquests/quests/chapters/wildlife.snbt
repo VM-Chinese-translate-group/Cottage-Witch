@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "wildlife"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgtameable.png"
@@ -21,8 +21,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgneutral.png"
@@ -33,8 +33,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgwyldhunts.png"
@@ -45,8 +45,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgpetslivestock.png"
@@ -57,8 +57,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgmonsters.png"
@@ -69,8 +69,8 @@
 		}
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 10.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgmythicmounts.png"
@@ -207,7 +207,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1E3EF42EE4B0FDE9"
 					table_id: 1279979498352596350L
 					type: "random"
@@ -270,7 +270,7 @@
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "64C74820CE6A155B"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -466,7 +466,7 @@
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "6C1412DFA9F03CFE"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -526,7 +526,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "0089411AE895120B"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -563,7 +563,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "6EAD625A64319917"
 					table_id: 1279979498352596350L
 					type: "random"
@@ -799,7 +799,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "6E4FB43FB5542CC2"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -833,7 +833,7 @@
 					type: "choice"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "50D044AC9D6FE106"
 					table_id: 1279979498352596350L
 					type: "choice"
@@ -869,7 +869,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "6DB58B10B5C458B0"
 					table_id: 1279979498352596350L
 					type: "random"
@@ -1260,7 +1260,7 @@
 			id: "1661059D340835FC"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "592BB1DBA9CED058"
 					table_id: 223398162038636868L
 					type: "random"
@@ -1282,7 +1282,7 @@
 			id: "6B0E280BDBD4ACF5"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1B08F0B25F6A4FBF"
 					table_id: 7049021818423122779L
 					type: "random"
@@ -1369,7 +1369,7 @@
 			id: "5DB08A394A7B8122"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "214FDE6AD449E7A4"
 					table_id: 6941837675484043489L
 					type: "random"
@@ -1397,16 +1397,16 @@
 				"{ftbquests.chapter.wildlife.quests42.description1}"
 			]
 			id: "0C7029D3D91202D8"
-			invisible: "true"
+			invisible: true
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "3C1775E08B8E135B"
 					table_id: 3965165831041023950L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "03D0804CDF60B878"
 					table_id: 6951594928314176539L
 					type: "loot"
@@ -1434,8 +1434,8 @@
 		}
 		{
 			id: "61F03A15727266F2"
-			invisible: "true"
-			secret: "true"
+			invisible: true
+			secret: true
 			tasks: [
 				{
 					id: "29888A0E689F88F2"
@@ -1471,7 +1471,7 @@
 			y: 2.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: "minecraft:skeleton_skull"
 			id: "13DCE1539EEE07B8"
@@ -1634,11 +1634,11 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: "minecraft:creeper_head"
 			id: "7E36FAC9107093C2"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 5
@@ -1687,7 +1687,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "2F85A96668CE761D"
 					table_id: 5161092699925703455L
 					type: "loot"
@@ -1706,7 +1706,7 @@
 			y: 7.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: "minecraft:zombie_head"
 			id: "05C2A9D00C440EAC"
@@ -1718,7 +1718,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1DF4D16D3FBA0AAD"
 					table_id: 8808494820591225409L
 					type: "loot"
@@ -1841,7 +1841,7 @@
 			dependencies: ["43B3A6804B59565E"]
 			dependency_requirement: "one_started"
 			description: ["{ftbquests.chapter.wildlife.quests52.description}"]
-			hide_dependency_lines: "true"
+			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "twilightforest:wither_skeleton_skull_candle"
@@ -1878,11 +1878,11 @@
 			y: 7.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "12CC2182B839D954"
-			optional: "true"
+			optional: true
 			progression_mode: "flexible"
 			rewards: [
 				{
@@ -1909,7 +1909,7 @@
 			y: 6.0d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: "handcrafted:pillager_trophy"
 			id: "53D63982971E2F60"
@@ -1939,7 +1939,7 @@
 			y: 4.5d
 		}
 		{
-			can_repeat: "true"
+			can_repeat: true
 			dependencies: ["43B3A6804B59565E"]
 			icon: {
 				Count: 1b
@@ -2015,7 +2015,7 @@
 			id: "43B3A6804B59565E"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1330C08C04945E39"
 					table_id: 6941837675484043489L
 					type: "random"
@@ -2045,7 +2045,7 @@
 			dependencies: ["43B3A6804B59565E"]
 			description: ["{ftbquests.chapter.wildlife.quests58.description}"]
 			id: "3057155A3A2B5F47"
-			repeatable: "true"
+			repeatable: true
 			rewards: [
 				{
 					id: "57AEF83E18326ED4"
@@ -2117,7 +2117,7 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			id: "22628C8DC1BB807F"
-			repeatable: "true"
+			repeatable: true
 			rewards: [
 				{
 					id: "5FAF5E951EEF853D"
@@ -2299,7 +2299,7 @@
 			id: "538D45E5FE8591D6"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1C76B55071F1CB88"
 					table_id: 4747620395501175375L
 					type: "choice"
@@ -2331,7 +2331,7 @@
 			id: "3556685D896ADA7C"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1711429F0EE0C533"
 					table_id: 1510389528595555205L
 					type: "random"
@@ -2388,13 +2388,13 @@
 			id: "2B67ECD4F68DD10B"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "707AAE80F37CF965"
 					table_id: 7707783220386620668L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "03B9150888515BEB"
 					table_id: 4747620395501175375L
 					type: "random"
@@ -2434,13 +2434,13 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "6D507D2855C3E52D"
 					table_id: 5161092699925703455L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "4A06DA36E1A4F514"
 					table_id: 5036677739913042344L
 					type: "choice"
@@ -2476,7 +2476,7 @@
 					xp_levels: 5
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "3ED8C9C002E35D79"
 					table_id: 5161092699925703455L
 					type: "random"
@@ -2502,7 +2502,7 @@
 			id: "34C790E76C15E41B"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "5495D64F8DC8B823"
 					table_id: 5525848455660196930L
 					type: "choice"
@@ -2518,7 +2518,7 @@
 							gateway: "gateways:farseer_gate"
 						}
 					}
-					match_nbt: "true"
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -2542,7 +2542,7 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					consume_items: "true"
+					consume_items: true
 					count: 16L
 					id: "309E15AE217D71E6"
 					item: "minecraft:egg"
@@ -2557,7 +2557,7 @@
 			dependencies: ["43B3A6804B59565E"]
 			description: ["{ftbquests.chapter.wildlife.quests74.description}"]
 			id: "376F0C3219E696C9"
-			repeatable: "true"
+			repeatable: true
 			rewards: [
 				{
 					count: 4
@@ -2752,7 +2752,7 @@
 			id: "7F47F7D233DC95D2"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "009A2E1D70451ADB"
 					table_id: 7049021818423122779L
 					type: "loot"

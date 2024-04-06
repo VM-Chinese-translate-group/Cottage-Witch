@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "ars_nouveau"
@@ -9,8 +9,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 15.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bgarsnouveau.png"
@@ -56,7 +56,7 @@
 			id: "56A2E0152608BC39"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "2674EEDE4E9CFE68"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "73A28BAAAFED7577"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -272,7 +272,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "02C70289B501E467"
 					table_id: 2716320750821748806L
 					type: "choice"
@@ -371,7 +371,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "4C1C4896D656BA3F"
 					table_id: 2716320750821748806L
 					type: "choice"
@@ -415,7 +415,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "2A07BFFF222A3DFB"
 					table_id: 2716320750821748806L
 					type: "choice"
@@ -512,7 +512,7 @@
 			dependencies: ["0C6AA50E808EBB9F"]
 			description: ["{ftbquests.chapter.ars_nouveau.quests15.description}"]
 			id: "7A5533BEA4D6B751"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					id: "13CEE90EBA30708F"
@@ -520,7 +520,7 @@
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "76A1540A5F416978"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -631,7 +631,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1AE41ED4B755044D"
 					table_id: 2716320750821748806L
 					type: "choice"
@@ -653,7 +653,7 @@
 			dependencies: ["7A5533BEA4D6B751"]
 			description: ["{ftbquests.chapter.ars_nouveau.quests18.description}"]
 			id: "43BD92DEB06541F2"
-			optional: "true"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -800,7 +800,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "026C0C70D0E783F4"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -833,7 +833,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "51395AAB9E5F059E"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -873,7 +873,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "326BE4600F8E2BBC"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -976,7 +976,7 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "633B56363585C3CE"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -1506,7 +1506,7 @@
 			id: "52BA326D307DE192"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "2F6A813E98A1C353"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -1598,7 +1598,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "7E12B494D02CE82D"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -1646,7 +1646,7 @@
 			id: "1C29A869EC894801"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "787058777C0C6747"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -1686,7 +1686,7 @@
 			id: "6166CCA185DDB9F1"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "65F63438E276DB0C"
 					table_id: 5036677739913042344L
 					type: "choice"
@@ -1713,7 +1713,7 @@
 			id: "0070E0B930AC3ABD"
 			rewards: [
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "7F3E3D325648191C"
 					table_id: 2716320750821748806L
 					type: "random"
@@ -1836,8 +1836,8 @@
 		}
 		{
 			id: "5DF07C53B8BA59F4"
-			invisible: "true"
-			secret: "true"
+			invisible: true
+			secret: true
 			tasks: [
 				{
 					id: "61F16DD0CDACA661"

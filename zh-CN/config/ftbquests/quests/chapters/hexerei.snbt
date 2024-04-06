@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: "false"
+	default_hide_dependency_lines: false
 	default_min_width: 300
 	default_quest_shape: ""
 	filename: "hexerei"
@@ -13,8 +13,8 @@
 	images: [
 		{
 			click: ""
-			corner: "false"
-			dev: "false"
+			corner: false
+			dev: false
 			height: 15.0d
 			hover: [ ]
 			image: "cottagewitch:textures/bghexerei.png"
@@ -70,7 +70,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "1D5043A8454E6425"
 					table_id: 578597190891487109L
 					type: "random"
@@ -296,7 +296,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "2C2DB4FD1A8ECFC0"
 					table_id: 578597190891487109L
 					type: "random"
@@ -374,7 +374,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "064D57C2FD1652D0"
 					table_id: 578597190891487109L
 					type: "random"
@@ -891,7 +891,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "77C9F258E151E680"
 					table_id: 174664628969880996L
 					type: "choice"
@@ -1237,7 +1237,7 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "28F8DDE2D678294D"
 					table_id: 578597190891487109L
 					type: "random"
@@ -1264,7 +1264,7 @@
 					xp_levels: 5
 				}
 				{
-					exclude_from_claim_all: "true"
+					exclude_from_claim_all: true
 					id: "3444ADFDCFE78AFA"
 					table_id: 8808494820591225409L
 					type: "random"
@@ -1283,8 +1283,8 @@
 		}
 		{
 			id: "48F297C52E831F12"
-			invisible: "true"
-			secret: "true"
+			invisible: true
+			secret: true
 			tasks: [
 				{
 					id: "6D04AF94DDA1F2BE"

@@ -8,7 +8,7 @@
 		}
 		{
 			item: "minecraft:wither_skeleton_skull"
-			only_one: "true"
+			only_one: true
 		}
 		{
 			item: "minecraft:zombie_head"

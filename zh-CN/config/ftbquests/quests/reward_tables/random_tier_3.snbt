@@ -9,7 +9,7 @@
 		}
 		{
 			item: "minecraft:nether_star"
-			only_one: "true"
+			only_one: true
 			weight: 5.0f
 		}
 		{
@@ -19,7 +19,7 @@
 		}
 		{
 			item: "minecraft:totem_of_undying"
-			only_one: "true"
+			only_one: true
 			weight: 10.0f
 		}
 		{
