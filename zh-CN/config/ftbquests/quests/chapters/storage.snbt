@@ -1538,11 +1538,11 @@
 		}
 		{
 			description: [
-				"For an elegant and low-impact storage option, you need more than just magic- introducing Magitech, an unholy collaboration between computers and the arcane. This system is &acompatible with most storage options&r but we &dcaution you against&r combining the power of &lSophisticted Storage&r with &lRefined Storage&r as it &dcan cause lag&r. "
+				"想要一种优雅且影响低的存储方案，你需要的不仅仅是魔法——引入一下魔法科技，它是计算机和奥法间的邪恶合作。这个系统与&a大多数存储方案兼容&r，但我们&d提醒你不要&r将&l精妙存储&r的强大能力和&l精致存储&r结合使用，因为这&d会导致卡顿&r。"
 				""
-				"To begin, familiarise yourself with the basic crafting ingredients of &lRefined Storage&r: &brunic binding&r, &bsmokey quartz&r, and &billuminite&r. You will also be crafting a lot of &bRaw Runic Processors&r- &6heat them in a furnace&r to fuse their Magitech."
+				"首先，熟悉&l精致存储&r的基础合成材料：&b处理器粘合物&r，&b硅&r和&b富石英铁&r。你还将合成大量的&b未处理的处理器&r——&6在熔炉里烧炼它们&r以融入它们的魔法科技。"
 				""
-				"Oh, and take this &bsquirrel&r- &oit's a secret tool that will help us later!&r (It's not that secret, you need it for the next step.)"
+				"对了，还有这个&b松鼠&r——&o5它是一个秘密工具，以后能帮到我们！&r（其实也不算秘密，下一步你能用到它就是了。）"
 			]
 			id: "06B08459F024F1CA"
 			rewards: [
@@ -1599,9 +1599,9 @@
 		{
 			dependencies: ["06B08459F024F1CA"]
 			description: [
-				"The &bLodestone Core&r is the source from which your entire storage system &awill draw its power&r. &6Craft one&r using the &bStarbuncle Wheel&r you were given. Don't worry- they'll be fine in there!"
+				"你的整个存储系统都将从&b创造控制器&r&a汲取能量&r。用给你的&b星宝石兽跑轮&r&6合成一个&r。别担心——它们在里面不会有事的！"
 				""
-				"Every other block in your storage system will &6have to be connected to this block&r, or &6connected to another storage block&r that is connected to this block (we'll get into &awireless access&r later!). "
+				"存储系统的其他所有方块都&6需要连接至该方块&r，或者&6连接到&r与该方块相连的&6另一个存储方块&r（稍后我们将讨论&a无线访问&r！）。"
 			]
 			id: "08DD294D94AB2400"
 			rewards: [
@@ -1619,7 +1619,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "infinite power... itty bitty living space"
+			subtitle: "无限电力……微不足道的生活空间"
 			tasks: [{
 				id: "5F1D8CA8C3A7E613"
 				item: {
@@ -1639,7 +1639,7 @@
 		{
 			dependencies: ["08DD294D94AB2400"]
 			description: [
-				"Now that you have the power, you'll need a repository for holding your things! The &bGlyphic Repository&r is a block that allows you to store up to 8 Glyphstones, each capable of holding anywhere between &a1,000 and 64,000 items&r. You can connect multiple Glyphic Repositories to the system, but let's start with the &bPrimal Glyphstone&r."
+				"既然你有了电力，你就需要一个存放物品的仓库！&b磁盘驱动器&r这个方块允许你存储至多8个磁盘，每个磁盘能容纳&a1000至64000个物品&r。你可以将多个磁盘仓库连接至系统，让我们从&b1k存储磁盘&r开始吧。"
 				""
 				"To start storing things, you will first need to &6craft&r a &bPrimal Storage Glyph&r and a protective &bStone Casing&r to house it. You can craft these two items together to create a &bGlyphstone&r. Empty &bGlyphstones&r (ones that are &anot currently storing items&r) can be disassembled into their separate parts by &6shift-clicking with it in your hand&r."
 				""
