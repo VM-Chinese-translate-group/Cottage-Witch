@@ -25,13 +25,13 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests0.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests0.description1}"
+				"作为一位新手，踏上旅程之前，你必须先获得一本&b破旧的笔记本&r，这可以在你的&b阿卡什宝典&r中找到，右击并选择正确的书籍即可。"
+				"若要将你的阿卡什宝典返回初始状态，&a拿着宝典对准空气&r时&a左击&r即可。"
 			]
 			id: "18F9D7E52D49C89B"
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests0.subtitle}"
+			subtitle: "你是新生吗？"
 			tasks: [
 				{
 					id: "7B79454738304B83"
@@ -45,13 +45,13 @@
 		{
 			dependencies: ["18F9D7E52D49C89B"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests1.description0}"
+				"为了获取&b初学者法术书&r，你必须将&6破旧的笔记本从宝典中取出&r，并与&b金锭&r一起在&b工作台&r中合成。"
 				""
-				"{ftbquests.chapter.ars_nouveau.quests1.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests1.description3}"
-				"{ftbquests.chapter.ars_nouveau.quests1.description4}"
-				"{ftbquests.chapter.ars_nouveau.quests1.description5}"
-				"{ftbquests.chapter.ars_nouveau.quests1.description6}"
+				"如果想要在&b阿卡什宝典&r中取回你的&b破旧的笔记本&r，你需要&6在宝典中选择破旧的笔记本&r，然后&6潜行并扔出手上的书&r。这样你就可以将破旧的笔记本取回用于合成了。"
+				"书的名字看起来可能有些奇怪，这是正常的，你可以正常地使用它进行制作。"
+				"拥有&b初学者法术书&r之后，&6拿着它按下C键&r可以打开界面。"
+				"顶部标签是&a破旧的笔记本，是你游玩这个模组的指南&r。下一个选项卡可以让你&a创建和保存法术&r。我们稍后会解决其余问题。"
+				"请注意，&d当你拿着你的书时，请不要按下‘`’键&r。"
 			]
 			id: "56A2E0152608BC39"
 			rewards: [
@@ -62,7 +62,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests1.subtitle}"
+			subtitle: "祝初学者好运！"
 			tasks: [
 				{
 					id: "4E727483CD63FF20"
@@ -70,16 +70,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests1.title}"
+			title: "获得一本初学者法术书"
 			x: -7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["56A2E0152608BC39"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests2.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests2.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests2.description2}"
+				"如果需要创建一个法术，你必须选择一个&a形态&r（触碰，自身，弹射物）和&a效果&r（伤害，破坏）。以上这些称为&b魔符&r，以后你可以解锁更多。"
+				"举个例子，你可以&6选择弹射物和破坏&r来拥有一个远程破坏方块的方法。在左下角输入&a法术名&r，然后在右下角点击&d制作&r按钮。这会把你的法术保存在&a第一个法术槽位&r（你一共拥有10个&a法术槽位&r。"
+				"主手或副手持有法术书时右击，可以&6施放法术&r。&a按下V选择法术&r。"
 			]
 			id: "129ED1C8BBF786DF"
 			rewards: [
@@ -89,11 +89,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests2.subtitle}"
+			subtitle: "准备好了，就勾选吧。"
 			tasks: [
 				{
 					id: "5A5F4B057B05E61C"
-					title: "{ftbquests.chapter.ars_nouveau.quests2.tasks0.title}"
+					title: "创建你的第一个法术"
 					type: "checkmark"
 				}
 			]
@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["56A2E0152608BC39"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests3.description}"]
+			description: ["你可以&a升级你的法术书&r来&a学习更高级的魔符&r。"]
 			id: "276A3F8EA6F66922"
 			rewards: [
 				{
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["276A3F8EA6F66922"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests4.description}"]
+			description: ["终极魔法书！成为一位&a大法师&r并学习3级魔符！"]
 			id: "5632F590E56DD76C"
 			rewards: [
 				{
@@ -145,8 +145,8 @@
 		{
 			dependencies: ["129ED1C8BBF786DF"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests5.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests5.description1}"
+				"你的下一步是获得任意一种&a至高木&r。在许多群系中偶尔能找到这种树。"
+				"你可以用至高木来制作一个&a占卜杖&r，这可以帮助你找到&b紫晶洞&r。这是一个很重要的魔法材料，所以尽量多收集一点！"
 			]
 			id: "2E6190A66BE57ECE"
 			rewards: [
@@ -157,7 +157,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests5.subtitle}"
+			subtitle: "一个稀有树木和一个稀有宝石。"
 			tasks: [
 				{
 					id: "6AD3FC7A0F485B2F"
@@ -168,7 +168,7 @@
 							value: "forge:logs/archwood"
 						}
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quests5.tasks0.title}"
+					title: "任意#forge:logs/archwood"
 					type: "item"
 				}
 				{
@@ -183,15 +183,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests5.title}"
+			title: "获得至高木并制作一个占卜杖"
 			x: -5.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests6.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests6.description1}"
+				"像&a魔力灌注&r这样的魔法需要魔源，这是在所有生物中都有的力量。你也许需要制作一个&a魔源通道&r来收集它们，并制作一个&a魔源罐&r来保存它们。"
+				"但是我们该去哪里获得魔源？在自然界，一种办法是通过&b农艺魔源通道&r获取它，在你的牧场或农场中&6六格内放下你的魔源通道和魔源罐&r，就会缓慢地收集魔源。&d骨粉不会对魔源生产造成任何影响&r。"
 			]
 			id: "66F0429FA3DB8535"
 			rewards: [
@@ -201,7 +201,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests6.subtitle}"
+			subtitle: "一个保存宇宙能量的地方"
 			tasks: [
 				{
 					id: "2E06BD5E7EE5A1AC"
@@ -214,15 +214,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests6.title}"
+			title: "获得魔源"
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2E6190A66BE57ECE"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests7.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests7.description1}"
+				"&b灌注室&r是你创建&b魔源宝石&r的一种方法。只需在灌注室内&6放置一个紫水晶或青金石&r，然后待其缓慢转化即可。"
+				"之后也可让其&a存取魔源&r（比如&b魔源罐&r中的魔源）&r来加快速度。"
 			]
 			id: "6A1AECF9FED954C9"
 			rewards: [
@@ -239,7 +239,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests7.subtitle}"
+			subtitle: "魔力石头"
 			tasks: [
 				{
 					id: "4E238F3FCC34177D"
@@ -247,17 +247,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests7.title}"
+			title: "制作一个灌注室"
 			x: -3.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests8.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests8.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests8.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests8.description3}"
+				"下一步是制作一个&b抄写台&r。你可以在抄写台上进行&a魔法制作&r，学得新魔符。"
+				"要想查看新的魔符，可以&6手持法术书右击抄写台&r。右侧的选项卡可以选择&a按等级排序&r，找到你想要制作的魔符并选择它。"
+				"选择魔符后，收集物品并&6将其丢到台上&r。抄写台匹配物品后，台上飘着的物品将会消失。"
+				"你可能需要一些&a称为“精华”的特殊物品&r。需要用到&b奥术基座&r，并在&b灌注室&r中制作。"
 			]
 			id: "52E5A3E81A0CA5AE"
 			rewards: [
@@ -278,7 +278,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests8.subtitle}"
+			subtitle: "我可以向你解释，但墨水可能会稀释掉。"
 			tasks: [
 				{
 					id: "34EDCABBD2881C42"
@@ -286,16 +286,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests8.title}"
+			title: "获得一个抄写台"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0C6AA50E808EBB9F"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests9.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests9.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests9.description2}"
+				"&b法术羊皮纸&r是一种将法术存储在纸上的方式。它是&a一次性的&r，需要在&b抄写台&r上将法术抄录至纸上。"
+				"首先，用纸和&b法师之花纤维&r制作一个&b空白羊皮纸&r。然后，搭配上&b魔源宝石&r创造最终成品。"
+				"将羊皮纸放置在抄写台上后，&d在法术书中设定需要的法术&r，然后&6拿着法术书潜行右击抄写台&r，就可以将法术抄录到羊皮纸上。"
 			]
 			id: "02ED5F7941A9361D"
 			rewards: [
@@ -307,7 +307,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests9.subtitle}"
+			subtitle: "便携施法"
 			tasks: [
 				{
 					id: "5F79B7738D84E5F3"
@@ -324,7 +324,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests9.title}"
+			title: "制作一个法术羊皮纸"
 			x: -5.5d
 			y: 0.5d
 		}
@@ -334,9 +334,9 @@
 				"52E5A3E81A0CA5AE"
 			]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests10.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests10.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests10.description2}"
+				"在工作台上用奥术石制作一个&b奥术基座&r。"
+				"这些基座需要围绕&b灌注室&r或&b附魔装置&r放着。你可以做成“+”型或“x”型，两个都是可以的。"
+				"&6用JEI查询每个魔符的配方&r。只会消耗魔源宝石，所以不必担心昂贵的试剂。"
 			]
 			id: "57059A425BFB5179"
 			rewards: [
@@ -347,7 +347,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests10.subtitle}"
+			subtitle: "这脚踏凳挺不错的"
 			tasks: [
 				{
 					count: 4L
@@ -356,13 +356,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests10.title}"
+			title: "制作一些奥术基座"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests11.description}"]
+			description: ["&b魔源石&r是魔法制作配方的一种材料。它可以在基本的&b工作台&r上制作，只需将&b魔源宝石&r放在中间，再围一圈&b任意种类的石头&r即可。"]
 			id: "5193B0D7E5ACC0A7"
 			rewards: [
 				{
@@ -383,7 +383,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests11.subtitle}"
+			subtitle: "这也是个不错的装饰方块"
 			tasks: [
 				{
 					id: "7A0041D0CC377293"
@@ -391,7 +391,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests11.title}"
+			title: "获得一些魔源石"
 			x: -1.5d
 			y: -2.5d
 		}
@@ -401,10 +401,10 @@
 				"57059A425BFB5179"
 			]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests12.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests12.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests12.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests12.description3}"
+				"对于新手来说，我们可以制作一个&b收获之魔符&r。你也可以在&lJEI&r上查看，它需要一个&b铁锄&r和一个&b土之精华&r。"
+				"要想制作土之精华，你需要把你的&a奥术基座围着灌注室设置好&r。你需要&b泥土、种子和一个铁锭&r。&6再用每个试剂右击基座&r（顺序并不重要）。就位后，将&b魔源宝石&r放入灌注室。"
+				"如果一切正常，它就会开始制作！如果附近6格内有&b填充的魔源罐&r的话，制作就会变慢。"
+				"完成后，从灌注室中拿出来，然后&6把所有物品&r丢到你的抄写台上。接下来，拿下制作完成的&b魔符&r，并&6拿着它右击&r以解锁知识。"
 			]
 			id: "1692491D59BA0527"
 			rewards: [
@@ -421,7 +421,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests12.subtitle}"
+			subtitle: "构建法术方块"
 			tasks: [
 				{
 					id: "7B69C6C7C98F7F5C"
@@ -434,15 +434,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests12.title}"
+			title: "制作一个魔符"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1692491D59BA0527"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests13.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests13.description1}"
+				"若要继续，就需要一个&b附魔装置&r，将一个&b奥术核心&r放置在其下方，并把&b奥术基座&r围着它放置。"
+				"你可以把奥术核心埋在地下，也可以放在地上，并把基座也提高一格。"
 			]
 			id: "1300FBB6DF2AF01A"
 			rewards: [
@@ -459,7 +459,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests13.subtitle}"
+			subtitle: "一种更神秘的制作方法"
 			tasks: [
 				{
 					id: "08141C5AC9559E4D"
@@ -478,10 +478,10 @@
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests14.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests14.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests14.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests14.description3}"
+				"&b法师之花&r是一种极具魔力的植物，无法在自然界中发现。你必须用&b附魔装置&r来制作它，它需要&b魔源宝石&r及&b种子&r。"
+				"&b将魔源宝石放置&r在四个基座上（顺序无所谓），然后在&6附魔装置上放置种子&r。"
+				"法师之花在很多配方中都有用到，但尤其是&b纤维&r极具价值，可以用它制作&a注魔的布匹以及法术羊皮纸&r。"
+				"&d不要忘记阅读你的法术书左上角选项卡中的文档！&r它比这些任务给的信息更多。"
 			]
 			id: "0C6AA50E808EBB9F"
 			rewards: [
@@ -491,7 +491,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests14.subtitle}"
+			subtitle: "魔法纤维的来源"
 			tasks: [
 				{
 					id: "32E6D536A9C830B2"
@@ -504,13 +504,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests14.title}"
+			title: "制作一个法师之花种子以获得纤维"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0C6AA50E808EBB9F"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests15.description}"]
+			description: ["使用新得到的&b法师之花纤维&r去制作一套&b初学者法袍&r，它可以&a增加你可以获得的魔力&r。"]
 			id: "7A5533BEA4D6B751"
 			optional: true
 			rewards: [
@@ -526,7 +526,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests15.subtitle}"
+			subtitle: "与女巫不同，法师要穿着裤子。"
 			tasks: [
 				{
 					id: "5C9DEF3347566FEE"
@@ -573,16 +573,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests15.title}"
+			title: "获得初学者法袍"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests16.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests16.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests16.description2}"
+				"&b药水罐&r可以存储100瓶同种药水。"
+				"你可以用它来填充你的&b药水烧瓶&r，该容器可以存储8瓶同种药水。"
+				"药水烧瓶有两个变种：&a延长时效&r和&a强化&r。我想你应该猜的到都是干什么的。"
 			]
 			id: "2035BB54A9444F74"
 			rewards: [
@@ -593,7 +593,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests16.subtitle}"
+			subtitle: "药水罐、药水混合器和药水烧瓶"
 			tasks: [
 				{
 					id: "7DEF33D6263F0654"
@@ -612,15 +612,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests16.title}"
+			title: "全新的药水制作"
 			x: -5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2035BB54A9444F74"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests17.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests17.description1}"
+				"&b药水混合器&r允许你&a混合两种及以上的药水&r在一起。它从围绕在侧面的&b药水罐&r中提取药水，当&6提供魔源&r时，会输出到下方的罐子中。"
+				"一次只能使用两个药水罐，但是你可以&6在一个药水罐中填充混合过的药水&r，以添加更多的药水效果。"
 			]
 			id: "296E6CCDF530F5D5"
 			rewards: [
@@ -637,7 +637,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests17.subtitle}"
+			subtitle: "将不同的药水效果混合到一瓶药水中去！"
 			tasks: [
 				{
 					id: "3E2D57F700494C1E"
@@ -645,13 +645,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests17.title}"
+			title: "药水混合"
 			x: -5.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["7A5533BEA4D6B751"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests18.description}"]
+			description: ["该盔甲可以给予你比基础套装更多的&a魔力&r。"]
 			id: "43BD92DEB06541F2"
 			optional: true
 			rewards: [
@@ -714,13 +714,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests18.title}"
+			title: "获取法师盔甲"
 			x: -3.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["43BD92DEB06541F2"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests19.description}"]
+			description: ["最高级的盔甲，&b大法师套装&r几乎和&b下界合金&r一样好，但拥有巨额的&a魔力&r。"]
 			id: "1D9FDA3FA050DBEA"
 			rewards: [
 				{
@@ -782,15 +782,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests19.title}"
+			title: "获取大法师盔甲"
 			x: -3.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests20.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests20.description1}"
+				"&b施法法杖&r存储了一个单一法术用于施法。它自动以&a弹射物&r和&a加速&r魔符开头。"
+				"&6将它放在你的抄写台上&r，然后在你的法术书中创建你想要的法术。接着你可以拿着法术书&6潜行右击&r抄写台，将法术写入到法杖中。"
 			]
 			id: "7894B8900BF0BF51"
 			rewards: [
@@ -823,7 +823,7 @@
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests21.description}"]
+			description: ["要想制作魔法饰品，你需要先制作它们对应的平凡饰品。"]
 			id: "74996388CF70DE6A"
 			rewards: [
 				{
@@ -840,7 +840,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests21.subtitle}"
+			subtitle: "你是在好奇这些饰品吗？"
 			tasks: [
 				{
 					id: "63D4B786A87258DE"
@@ -858,13 +858,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests21.title}"
+			title: "装饰时间"
 			x: -1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["74996388CF70DE6A"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests22.description}"]
+			description: ["尽管这个名字令人担忧，但这个饰品是正面的！&b不稳定礼物腰带&r会定期&a给你随机的正面药水效果&r。"]
 			id: "3BF734AA814F7378"
 			rewards: [
 				{
@@ -892,7 +892,7 @@
 		}
 		{
 			dependencies: ["74996388CF70DE6A"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests23.description}"]
+			description: ["可惜这并不是让你在村民的交易中打折的，&b节魔之戒&r（不论高等次等）都是让你的法术减少魔力消耗的。"]
 			id: "59BE43B1B391CC33"
 			rewards: [
 				{
@@ -918,8 +918,8 @@
 				"6D58B5D08AAAAB42"
 			]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests24.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests24.description1}"
+				"&b召唤之核心&r可以让你召唤的生物持续更长时间。"
+				"它还会&a攻击附近试图伤害召唤物的敌人&r，此外，玩家释放的&a以“自身”为目标的法术，会同时作用到附近的召唤物&r与玩家身上。"
 			]
 			id: "4C28B6865EDE04DD"
 			rewards: [
@@ -942,7 +942,7 @@
 		}
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests25.description}"]
+			description: ["要继续下一步，你需要一个&b仪式火盆&r，它需要各种&b仪式之板&r才能工作。"]
 			id: "67BD14F42C133046"
 			rewards: [
 				{
@@ -964,9 +964,9 @@
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests26.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests26.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests26.description2}"
+				"这两种&b瓶子&r都有不同的效果。"
+				"&b湮灭之瓶&r会在捡起指定物品时湮灭它，换取魔力。对处理那些多余的圆石十分有用！&6潜行点击&r来开关它。&6在副手拿着物品并右击&r，可以把该物品添加到湮灭物品的列表中。"
+				"&b光之瓶&r会召唤一个跟随玩家的光源，也可以随时撤销。&6右击&r开关召唤。"
 			]
 			id: "17E37418AF2A9AE8"
 			rewards: [
@@ -995,15 +995,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests26.title}"
+			title: "特殊的瓶子"
 			x: -9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["67BD14F42C133046"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests27.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests27.description1}"
+				"&e林地行者&r是被唤醒的至高木。要想执行此仪式，&6需要将仪式火盆放置在至高树旁边&r，并用仪式之板&6右击&r它。最后&6右击仪式火盆&r开始。"
+				"&e林地行者&r会在召唤出来后漫无目的的走动，用&b支配之杖&6右击&r它，再右击一个方块，那个方块就会设为林地行者的&a家&r。"
 			]
 			id: "72CACA09D66C8B43"
 			rewards: [
@@ -1029,7 +1029,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests27.subtitle}"
+			subtitle: "一个树人从不仓促行事"
 			tasks: [
 				{
 					id: "34DCC0F881806011"
@@ -1046,13 +1046,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests27.title}"
+			title: "启蒙仪式"
 			x: 6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["67BD14F42C133046"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests28.description}"]
+			description: ["要想执行&a仪式&r，你需要一个和执行的仪式相对应的&b木板&r。你可以查阅你&a法术书的说明文档&r来了解每个仪式的作用。"]
 			id: "09C9FD92B5C2E636"
 			rewards: [
 				{
@@ -1061,7 +1061,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests28.subtitle}"
+			subtitle: "你知道我渴望仪式，老规矩了"
 			tasks: [
 				{
 					id: "1BD9267C815BB9A3"
@@ -1072,20 +1072,20 @@
 							value: "forge:ritual_tablets"
 						}
 					}
-					title: "{ftbquests.chapter.ars_nouveau.quests28.tasks0.title}"
+					title: "任意#forge:ritual_tablets"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests28.title}"
+			title: "制作一块仪式之板"
 			x: 4.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["09C9FD92B5C2E636"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests29.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests29.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests29.description2}"
+				"要想制作某些物品，你需要击败Boss——&e荒野奇美拉&r。它并不会自然生成，只能通过&a仪式&r召唤。"
+				"建议在对付该Boss前准备好二级盔甲与法术。"
+				"要召唤他，你需要先找到&e荒野猎手&r、&e荒野守卫者&r和&e荒野伏击者&r，并获得他们的&b战利品&r。"
 			]
 			id: "6D58B5D08AAAAB42"
 			rewards: [
@@ -1096,7 +1096,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests29.subtitle}"
+			subtitle: "要想成为大法师，你就必须要渡过这一难。"
 			tasks: [
 				{
 					id: "1286D5DD728E6821"
@@ -1109,18 +1109,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests29.title}"
+			title: "召唤荒野奇美拉"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["67BD14F42C133046"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests30.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests30.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests30.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests30.description3}"
-				"{ftbquests.chapter.ars_nouveau.quests30.description4}"
+				"&e使魔&r是一种可以帮助你进行魔法工作的生物。他们与&e乌鸦&r的不同之处在于，你遇见它的方式以及它们能做的事情。"
+				"首先，你必须要获得每个使魔对应的&b护符&r，不同的使魔有不同的护符获取方法。但在仪式开始之前，你需要先&6激活他们的护符&r。"
+				"你必须在使魔附近&6放置一个仪式火盆&r，再&6放入&b绑定之板&r。然后&6右击&r火盆，它会吸引&e使魔&r并制作&b绑定手稿&r，接下来你可以&6右击&r手稿来学习。之后，你就可以打开&a你的法术书的第三选项卡&r召唤使魔了！"
+				"继续阅读，了解更多关于每种使魔的信息，包括使魔模式等。"
+				"你可以用&a解除&r法术来解绑你召唤的使魔，并&a取回护符&r。"
 			]
 			id: "518A08681965283A"
 			rewards: [
@@ -1130,7 +1130,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests30.subtitle}"
+			subtitle: "自然界中的自动机器与友善的伙伴"
 			tasks: [
 				{
 					id: "3D251D863C56661A"
@@ -1138,16 +1138,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests30.title}"
+			title: "获得新的使魔"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests31.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests31.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests31.description2}"
+				"&b星宝石兽&r是一种类似松鼠的小型生物，尤其喜欢&b金粒&r。找到一只野生的星宝石兽，并丢给它一个金粒，它就会用&b星宝石兽碎片&r跟你交换，这个碎片可以用来制作星宝石兽的&b护符&r。只需&6手持护符右击地面&r，就可以召唤出已驯服的星宝石兽。"
+				"&e星宝石兽&r跟随你时，会给予你&e速度II&r。当喂给它金粒时，它会给你&a透视看到金矿脉&r的能力。"
+				"&e星宝石兽&r也能&a运输物品&r，用&b支配之杖&r把它分配到指定的容器即可。它也会&a收获完全成熟的&b魔源浆果从&r。"
 			]
 			id: "772E17A1C8332FCA"
 			rewards: [
@@ -1178,9 +1178,9 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests32.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests32.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests32.description2}"
+				"&e风转草&r看上去像一个用生番茄做成的直升飞机。一旦你找到一只野生的风转草，马上&6在它附近种一棵树&r，由此来获得它的&b碎片&r，用碎片来制作它的&b护符&r！你可以&6拿着护符右击&r任意一朵小花来召唤它。"
+				"在使魔模式下，它们会&a减少土系法术的一半魔力消耗&r。你吃下的食物也会给予你更多的饱食度。"
+				"当&e风转草&r被绑定到它的花上时，它&a会复制附近的&b有机物&r——树、花等等。但是需要给它们提供一个箱子和&b魔源&r。"
 			]
 			id: "1595CFEA592A8F90"
 			rewards: [
@@ -1203,9 +1203,9 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests33.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests33.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests33.description2}"
+				"&e德格米&r是一种长得像土地神的小型生物，带有鹿角，并且可以在野外找到。把&b荒野之角&r丢在它脚下，它会用&b德格米碎片&r跟你交换，碎片可以用来制作它的&b护符&r。拿着&6护符右击&b苔石&r来召唤它。"
+				"当跟随你时，它会增加你的土系法术的伤害，并且增加&a掉落物&r。"
+				"多个&e德格米&r可以指定到同一个&b石阵&r，它们会从附近10格内的&e生物&r身上&a收获掉落物与经验宝石&r，并且不会对它们造成任何伤害。一次收获后，它会将物品放入附近的容器中，接下来必须要用&a魔源&r充能才会进行下一次收获。"
 			]
 			id: "393D7EE8162A2FB9"
 			rewards: [
@@ -1228,10 +1228,10 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests34.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests34.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests34.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests34.description3}"
+				"&e书龙&r是一种小型的飞行动物，就像一只飞龙一样，但是翅膀是书页做的。你可以用&b书龙护符&r（由&b铁&r、&b魔源宝石&r和&b一本书&r制成）&6潜行右击&b讲台&r来召唤它。在魔法完成后，书龙就会出现在你面前。"
+				"当跟随你时，&e书龙&r会&a降低你的法术消耗并增加你的法术伤害&r。"
+				"在绑定到讲台后，它会根据你给它的&b羊皮纸&r，&a在周围区域进行施法&r，它可以&a染色&r以进行颜色编码。只有在附近有填充的&b魔源罐&r才能施放法术。"
+				"&b条目仍在制作中&r，所以该任务暂时设为&a复选框&r。"
 			]
 			id: "4006775C2145C6CD"
 			rewards: [
@@ -1241,7 +1241,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests34.subtitle}"
+			subtitle: "书中自有黄金屋"
 			tasks: [
 				{
 					id: "01072264E0E01AF4"
@@ -1255,9 +1255,9 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests35.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests35.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests35.description2}"
+				"对着一个半血以下的女巫施放&a解除&r法术，可以获得&b薇克精的碎片&r。在你制作&b护符&r后，你可以手持它，&6右击&b炼药锅&6召唤&a薇克精&r。"
+				"当薇克精跟随你时，它会&a增加使用的药水的持续时间&r。它也可以将&a负面效果作用在敌人身上&r。"
+				"当薇克精绑定到炼药锅上后，它会&a自动合成你告诉它的物品或药水&r，它从附近的容器中抽取材料，并在接收到红石信号时暂停。"
 			]
 			id: "313B15A623A19140"
 			rewards: [
@@ -1267,7 +1267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests35.subtitle}"
+			subtitle: "世界上最可爱的工作台"
 			tasks: [
 				{
 					id: "158DE1FC7F3EECFD"
@@ -1280,7 +1280,7 @@
 		}
 		{
 			dependencies: ["6A1AECF9FED954C9"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests36.description}"]
+			description: ["在提供&b羊皮纸&r、&b魔源&r和红石信号后，&b法术炮塔&r就可以施放&a触摸&r与&a弹射物&r法术。"]
 			id: "106CFEEF7A039929"
 			rewards: [
 				{
@@ -1295,7 +1295,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests36.subtitle}"
+			subtitle: "塔防时间到！"
 			tasks: [
 				{
 					id: "6DBE085A6CAA8888"
@@ -1308,7 +1308,7 @@
 		}
 		{
 			dependencies: ["6D58B5D08AAAAB42"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests37.description}"]
+			description: ["这个模组所提供的，还有更多！&b符文&r、&b巫师的武器&r、&b魔源中继器&r等等！在你的&b法术书&r中查看文档，它可以帮助你学习更多知识。"]
 			id: "08DA497A806C3600"
 			rewards: [
 				{
@@ -1363,11 +1363,11 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.ars_nouveau.quests37.subtitle}"
+			subtitle: "我~无所不能！"
 			tasks: [
 				{
 					id: "0195AE282D27384D"
-					title: "{ftbquests.chapter.ars_nouveau.quests37.tasks0.title}"
+					title: "现在去探索！"
 					type: "checkmark"
 				}
 			]
@@ -1380,9 +1380,9 @@
 				"72CACA09D66C8B43"
 			]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests38.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests38.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests38.description2}"
+				"在&b紫水晶母岩&r上，可以用&6启蒙仪式&r来召唤&b紫水晶傀儡&r。"
+				"拿着碎片&6右击&r任一方块召唤&e紫水晶傀儡&r，然后可以用你的&b支配之杖&6设定它的家&r。"
+				"&e紫水晶傀儡&r会将紫水晶块转换为&b紫水晶母岩&r，加速&a紫水晶的生长&r，并且只要设定为家的方块是容器（例如箱子或木桶），就会&a收获紫水晶簇&r。"
 			]
 			id: "01FF4033A5D2BCD3"
 			rewards: [
@@ -1405,9 +1405,9 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests39.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests39.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests39.description2}"
+				"在&a海洋生物群系&r可以找到&e海妖&r，但概率较低，你只需要给他们最喜爱的零食——&a海泡菜&r，就能获得她们的&b碎片&r。"
+				"拿着&b海妖护身符&r右击海晶石以召唤它。如果给它&b海带&r或&b珊瑚&r，&e海妖&r就会改变颜色。"
+				"只要提供了&b魔源&r，&b海妖神龛&r会生成&a钓鱼的战利品&r。如果附近有很多水生植物和动物，&e海妖&r生产的速度就会加快。"
 			]
 			id: "5A7582AFC194A690"
 			rewards: [
@@ -1430,9 +1430,9 @@
 		{
 			dependencies: ["518A08681965283A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests40.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests40.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests40.description2}"
+				"不像其它&b护符&r那样，&e弗尔兰多&r并不需要&b碎片&r，相反它只需简单的制作。"
+				"&e弗尔兰多&r会像&e林地行者&r一样&a保卫领土&r，向敌人发射自跟踪导弹。"
+				"你可以给它&b灵魂沙&r或&b岩浆块&r来改变它的外观。"
 			]
 			id: "1E18004CE618CAE6"
 			rewards: [
@@ -1455,11 +1455,11 @@
 		{
 			dependencies: ["2E6190A66BE57ECE"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests41.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests41.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests41.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests41.description3}"
-				"{ftbquests.chapter.ars_nouveau.quests41.description4}"
+				"每种&a至高树&r都会结对应的&b果实&r！你可以发现它们&a像可可豆一样长在树上&r。"
+				"&b堡垒果&r长自&a恼人至高树&r。食用时，它会给予你&a护盾&r药水效果，这是另一种形式的&a抗性提升&r。"
+				"&b霜木瓜&r长自&a奔流至高树&r。食用时，&a会让你逐渐冰冻&r。"
+				"&b门多山竹&r长自&a繁茂至高树&r。它会给予你&a康复&r药水效果，增加你食用能回复生命值的食物后回复的生命值。"
+				"&b炸弹石榴&r长自&a烈焰至高树&r。&d它的作用未知&r，因为记录这些信息的日记到此条目结束。"
 			]
 			id: "47B8DC917C985757"
 			rewards: [
@@ -1496,13 +1496,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests41.title}"
+			title: "硕果累累的劳动"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests42.description}"]
+			description: ["&b生死魔源通道&r会在附近有&e动物&r时生成魔源，当动物&a繁殖、长大或死亡时&r，也会生成魔源。"]
 			id: "52BA326D307DE192"
 			rewards: [
 				{
@@ -1525,8 +1525,8 @@
 		{
 			dependencies: ["66F0429FA3DB8535"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests43.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests43.description1}"
+				"&b菌丝魔源通道&r从&a食物&r中生成&a魔源&r。给它美味佳肴，还你大量魔源。"
+				"它也会在附近的区域&a生成蘑菇&r。"
 			]
 			id: "7E3F38817F8844ED"
 			rewards: [
@@ -1554,8 +1554,8 @@
 		{
 			dependencies: ["66F0429FA3DB8535"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests44.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests44.description1}"
+				"&b火山魔源通道&r会在提供&b热量&r时生产魔源，它会&d融化附近的方块&r，并生成&b熔岩睡莲&r。"
+				"把&b熔岩睡莲&r放置在熔岩或岩浆块上，可以改变它的颜色。"
 			]
 			id: "4F22356C80F0C6AA"
 			rewards: [
@@ -1583,7 +1583,7 @@
 		}
 		{
 			dependencies: ["66F0429FA3DB8535"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests45.description}"]
+			description: ["&b炼金魔源通道&r会在提供&b药水&r时生成魔源。组合的药水越多，生成的魔源也就越多。"]
 			id: "205A56EE169E1DC0"
 			rewards: [
 				{
@@ -1615,7 +1615,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.ars_nouveau.quests46.description}"]
+			description: ["送给&e野生的星宝石兽&r一个&b金粒&r，看看会发生什么！"]
 			id: "1AEACEEBD42A4E1B"
 			rewards: [
 				{
@@ -1640,8 +1640,8 @@
 		{
 			dependencies: ["772E17A1C8332FCA"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests47.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests47.description1}"
+				"尽管有护符控制，但&e星宝石兽&r并不是最顽强的生物，如果发生了什么不愉快的事，重新控制它们可能会很痛苦。"
+				"值得庆幸的是，&b星宝石兽存储卷轴&r可以&a保留它们的所有设置&r，只要在设置完成后，&6手持卷轴右击你的星宝石兽&r即可。"
 			]
 			id: "1C29A869EC894801"
 			rewards: [
@@ -1678,10 +1678,10 @@
 		{
 			dependencies: ["7A5533BEA4D6B751"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests48.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests48.description1}"
-				"{ftbquests.chapter.ars_nouveau.quests48.description2}"
-				"{ftbquests.chapter.ars_nouveau.quests48.description3}"
+				"&b法师套装&r有很多种选择…那我们该如何选择呢？其实，根本不用担心这些。"
+				"&b巫师兵械库&r是一个&a腰带饰品&r，可包含最多&a三套套装&r与&a快捷栏物品&r，供你在飞行中切换。"
+				"默认情况下，你&6按0&r可以拿出一套套装，但&d你需要先穿着装备加载军械库&r。"
+				"首先，&6装备好你的长袍，设置好你的快捷栏&r。然后打开圆盘菜单，并&6选择一个槽位&r来存储套装。接着再次打开圆盘菜单，&6切换到不同槽位&r。装备上你的第二套套装，然后&6重复上一步操作&r，直到三个槽位都存储好套装。现在，你可以用圆盘菜单，&a在这些套装中快速切换&r。"
 			]
 			id: "6166CCA185DDB9F1"
 			rewards: [
@@ -1703,13 +1703,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests48.title}"
+			title: "多种套装一次满足"
 			x: -5.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests49.description}"]
+			description: ["给你的&e星宝石兽&r装备一个&b星宝石储罐&r，可以让它&a往返运输流体&r。你也许希望把流体存储在&b流体罐&r中。"]
 			id: "0070E0B930AC3ABD"
 			rewards: [
 				{
@@ -1731,13 +1731,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.ars_nouveau.quests49.title}"
+			title: "星宝石兽也能运输流体！"
 			x: 6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests50.description}"]
+			description: ["&e星宝石兽&r可以使用&b书龙学位证&r来学习&e书龙&r的课程，现在它们已经足够聪明，可以在&a指定方块面进行操作&r。"]
 			id: "72E1E1A6B5BBAB5D"
 			rewards: [
 				{
@@ -1759,8 +1759,8 @@
 		{
 			dependencies: ["772E17A1C8332FCA"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests51.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests51.description1}"
+				"&b星宝石垃圾桶&r可以让你的&a星宝石兽销毁它捡到的物品&r。一定先确保设定好过滤器。"
+				"你可以通过&6物品卷轴：允许/禁止&r来设定过滤器，然后用它&6点击你的星宝石兽&r。"
 			]
 			id: "6870DE7CB25E9C8D"
 			rewards: [
@@ -1782,7 +1782,7 @@
 		}
 		{
 			dependencies: ["772E17A1C8332FCA"]
-			description: ["{ftbquests.chapter.ars_nouveau.quests52.description}"]
+			description: ["尽管它缺乏打磨，但&b星宝石鞍&r可以让你实现你梦寐以求的事情：&a骑上一只巨大的星宝石兽&r。"]
 			id: "68F7C83A4EB11B54"
 			rewards: [
 				{
@@ -1804,8 +1804,8 @@
 		{
 			dependencies: ["1300FBB6DF2AF01A"]
 			description: [
-				"{ftbquests.chapter.ars_nouveau.quests53.description0}"
-				"{ftbquests.chapter.ars_nouveau.quests53.description1}"
+				"可以将&a一个法术绑定到&b一个施法水晶&r上去，然后你就可以将它&6装备到饰品栏上&r，之后就可以通过快捷键来存取绑定的法术。"
+				"你最多可以&a装备三个水晶&r，默认的存取快捷键是&6Ctrl+1-3&r。"
 			]
 			id: "068E6BE3B5F01460"
 			rewards: [
@@ -1849,7 +1849,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.ars_nouveau.quests55.description}"]
+			description: ["你知道&e亡灵生物&r对&a剧毒孢子&r和&a生长&r法术很敏感吗？你应该找个时间测一下。"]
 			id: "1614EF9C7E462CD9"
 			rewards: [
 				{
@@ -1878,7 +1878,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.ars_nouveau.quests56.description}"]
+			description: ["&b空之编织块&r可以&a模仿天空的样子&r，所以你甚至可以在地底下看见阳光。"]
 			id: "3C9D1C2652667535"
 			rewards: [
 				{
@@ -1900,5 +1900,5 @@
 			y: -2.5d
 		}
 	]
-	title: "{ftbquests.chapter.ars_nouveau.title}"
+	title: "新生魔艺"
 }

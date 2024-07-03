@@ -24,7 +24,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.collections.quests0.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "7C3C2D24D60C6C1F"
 			rewards: [
 				{
@@ -40,7 +40,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.collections.quests0.subtitle}"
+			subtitle: "红色代表热情，爱情，鲜血"
 			tasks: [
 				{
 					id: "599F0E00B4D055FE"
@@ -113,12 +113,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests0.title}"
+			title: "采花：红色"
 			x: -4.0d
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests1.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "7E9C70F7B0CFD820"
 			rewards: [
 				{
@@ -128,7 +128,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.collections.quests1.subtitle}"
+			subtitle: "橙色代表健康，温暖，财富"
 			tasks: [
 				{
 					id: "7B508E880CEB3B9E"
@@ -166,12 +166,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests1.title}"
+			title: "采花：橙色"
 			x: -3.5d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests2.description}"]
+			description: ["获取所有的原版音乐唱片。"]
 			id: "1FD157BDA5AF3BE9"
 			rewards: [
 				{
@@ -186,7 +186,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.collections.quests2.subtitle}"
+			subtitle: "这首乐曲在我脑海中挥之不去！"
 			tasks: [
 				{
 					id: "7451BF72E73B7EF1"
@@ -259,12 +259,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests2.title}"
+			title: "音乐爱好者"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests3.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "40BBDD8D814A55C1"
 			rewards: [
 				{
@@ -322,12 +322,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests3.title}"
+			title: "采花：黄色"
 			x: -3.0d
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests4.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "56F3B965C1198BE9"
 			rewards: [
 				{
@@ -391,12 +391,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests4.title}"
+			title: "采花：绿色与青色"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests5.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "5435D7182F5A0C8D"
 			rewards: [
 				{
@@ -439,12 +439,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests5.title}"
+			title: "采花：蓝色"
 			x: -2.0d
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests6.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "6BED02ADA79C4A8D"
 			rewards: [
 				{
@@ -502,12 +502,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests6.title}"
+			title: "采花：堇色"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests7.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "290D8441BBC918A1"
 			rewards: [
 				{
@@ -600,12 +600,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests7.title}"
+			title: "采花：紫色"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests8.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "692725454B955B4C"
 			rewards: [
 				{
@@ -698,12 +698,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests8.title}"
+			title: "采花：粉红色"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests9.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "198D780CB29A2F3B"
 			rewards: [
 				{
@@ -771,12 +771,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests9.title}"
+			title: "采花：品红色"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests10.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "04973320B5F27BD7"
 			rewards: [
 				{
@@ -864,12 +864,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests10.title}"
+			title: "采花：黑色与白色"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests11.description}"]
+			description: ["蘑菇真的超级超级酷的。为什么不试着收集所有种类呢？这样你就可以拥有一个美丽至极的蘑菇林了。"]
 			id: "6B3AD3CDE8EC90F1"
 			rewards: [
 				{
@@ -884,7 +884,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.collections.quests11.subtitle}"
+			subtitle: "真菌痴迷是一种病态吗？"
 			tasks: [
 				{
 					id: "371E746F7BA14ACE"
@@ -972,12 +972,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests11.title}"
+			title: "酷炫的蘑菇"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests12.description}"]
+			description: ["在这个任务中，为了展示你对颜色的热爱，收集所有不同类型的羊毛。"]
 			id: "3F5F93D7191952F9"
 			rewards: [
 				{
@@ -1064,7 +1064,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.collections.quests12.subtitle}"
+			subtitle: "尝尝彩虹的滋味"
 			tasks: [
 				{
 					id: "7DACF9E88A51EED7"
@@ -1142,12 +1142,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests12.title}"
+			title: "获取彩虹"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests13.description}"]
+			description: ["你能在游戏里驯服每一种猫吗？一共有十一种。祝你好运！"]
 			id: "75AD4BD901CEA061"
 			rewards: [
 				{
@@ -1195,8 +1195,8 @@
 				"5C9725DEED609E88"
 			]
 			description: [
-				"{ftbquests.chapter.collections.quests14.description0}"
-				"{ftbquests.chapter.collections.quests14.description1}"
+				"当你收集了所有的花朵，勾选这个框，就能得到&d终极奖励&r。"
+				"呀哈哈！"
 			]
 			hide_dependency_lines: true
 			id: "2DDA757CE80078C3"
@@ -1240,7 +1240,7 @@
 			tasks: [
 				{
 					id: "3B66FE756544A418"
-					title: "{ftbquests.chapter.collections.quests14.tasks0.title}"
+					title: "终极花朵爱好者"
 					type: "checkmark"
 				}
 			]
@@ -1248,7 +1248,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests15.description}"]
+			description: ["为了获得这个奖励，你需要培育两对每种的原版动物！"]
 			id: "401E8078C11F8919"
 			rewards: [
 				{
@@ -1282,7 +1282,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.collections.quests16.description}"]
+			description: ["收集游戏中的每一种花朵，赢取奖励！"]
 			id: "5C9725DEED609E88"
 			rewards: [
 				{
@@ -1311,7 +1311,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.collections.quests16.title}"
+			title: "采花：淡蓝色"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -1330,5 +1330,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.collections.title}"
+	title: "收藏品"
 }

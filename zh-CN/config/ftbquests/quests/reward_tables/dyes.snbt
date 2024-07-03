@@ -68,5 +68,5 @@
 			item: "minecraft:black_dye"
 		}
 	]
-	title: "{ftbquests.reward_tables.dyes.title}"
+	title: "染料"
 }

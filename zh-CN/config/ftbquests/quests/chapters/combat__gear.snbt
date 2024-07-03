@@ -68,8 +68,8 @@
 		{
 			dependencies: ["0AF3D2A62E51E5B2"]
 			description: [
-				"{ftbquests.chapter.combat__gear.quests0.description0}"
-				"{ftbquests.chapter.combat__gear.quests0.description1}"
+				"只是为了安抚&e猪灵&r而不得不把&b下界合金盔甲&r换成金盔甲实在是一件烦人的事。不过，以后就不再需要啦！"
+				"现在你可以在&b锻造台&r上用足够的金子&a给你的下界合金盔甲镀金&r，以安抚&e猪灵&r。"
 			]
 			id: "33EAE02ACC6CCA8B"
 			rewards: [
@@ -97,7 +97,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests0.subtitle}"
+			subtitle: "全身都金闪闪的！裤子、头盔、胸甲还有…"
 			tasks: [
 				{
 					id: "3F88FFA9EE040D4B"
@@ -108,19 +108,19 @@
 							value: "gildednetherite:gilded_netherite_items"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests0.tasks0.title}"
+					title: "任意#gildednetherite:gilded_netherite_items"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests0.title}"
+			title: "给你的下界合金套装镀金"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests1.description0}"
-				"{ftbquests.chapter.combat__gear.quests1.description1}"
-				"{ftbquests.chapter.combat__gear.quests1.description2}"
+				"&b皮卡镖&r是一个可以&a远程破坏方块并把掉落物返还给你&r的工具。"
+				"它也可以用来&a捡起掉落物&r和&a攻击敌人&r。"
+				"你可以将它升级成&b界炎镖&r，这两种都可以被附魔。"
 			]
 			id: "5055BAE47F0F00DC"
 			rewards: [
@@ -131,7 +131,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests1.subtitle}"
+			subtitle: "说真的，这东西大概是游戏里最酷的物品"
 			tasks: [
 				{
 					id: "0A710AE6C4500B69"
@@ -145,12 +145,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests1.title}"
+			title: "获得一个皮卡镖"
 			x: 5.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests2.description}"]
+			description: ["&b龙鳞&r是极其宝贵的物品，可在&6第二次&r击败末影龙时获得。可用于&a复制鞘翅&r。"]
 			id: "6C4B68A0370C245B"
 			rewards: [
 				{
@@ -165,7 +165,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests2.subtitle}"
+			subtitle: "宇宙之鳞"
 			tasks: [
 				{
 					id: "7699FD548E88FFFB"
@@ -178,8 +178,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests3.description0}"
-				"{ftbquests.chapter.combat__gear.quests3.description1}"
+				"由死亡的&e烬壳龟&r制成，那是下界中的一种被动生物。这把剑很喜欢&b熔岩&r！"
+				"&6用这把剑右击熔岩&r充能，给它提供伤害加成和火焰附加！"
 			]
 			id: "492E8ECEC74A1C20"
 			rewards: [
@@ -190,7 +190,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests3.subtitle}"
+			subtitle: "然而你杀死了烬壳龟"
 			tasks: [
 				{
 					id: "7FAF8811A0C6D269"
@@ -208,7 +208,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests4.description}"]
+			description: ["无论是夏至日还是一个普通的星期二，&b花冠&r都是适合所有性别的绝佳配饰。找到一些&e迷你莲&r，&6剪掉它们的花&r（不用担心！它们的花会重新长出来！）以获取这件超极迷人的装备的原料。"]
 			id: "5A6FD28226BB8695"
 			rewards: [
 				{
@@ -236,8 +236,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests5.description0}"
-				"{ftbquests.chapter.combat__gear.quests5.description1}"
+				"你遇到&e蘑孢灵&r了吗？你知道你可以和它们交朋友，然后把它们背在背上到处走了吗？"
+				"是的，你可以！"
 			]
 			id: "21228990B5312533"
 			rewards: [
@@ -248,7 +248,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests5.subtitle}"
+			subtitle: "蘑菇蘑菇包"
 			tasks: [
 				{
 					id: "5A0DBA87C51893B5"
@@ -266,7 +266,7 @@
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests6.description}"]
+			description: ["你可以用&b网&r捕捉&e蜥蜴&r并把它放进你的物品栏！"]
 			id: "70A098603B9A8D63"
 			rewards: [
 				{
@@ -276,7 +276,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests6.subtitle}"
+			subtitle: "你也可以用生物捕捉器，但那有什么意思？"
 			tasks: [
 				{
 					id: "206CFA98ED7987EF"
@@ -290,15 +290,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests6.title}"
+			title: "捕蜥网"
 			x: -4.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests7.description0}"
-				"{ftbquests.chapter.combat__gear.quests7.description1}"
-				"{ftbquests.chapter.combat__gear.quests7.description2}"
+				"这本&b治疗法术书&r是一个&e仙人酋&r萨满创造的，仙人酋是一种栖居于沙漠之中的植物状物种，它们钟爱&b不死图腾&r。"
+				"用不死图腾和它们换取获得这个可重复使用的魔法书的机会。这是一个难得的机会，但如果你有多余的图腾……"
+				"如果你有幸获得了足够的治疗法术书，你可以&6将它们合成一本更强大的治疗法术书&r！这本书可以升到3级。"
 			]
 			id: "5C653FEA59887F40"
 			rewards: [
@@ -314,7 +314,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests7.subtitle}"
+			subtitle: "为什么仙人掌需要不死图腾？"
 			tasks: [
 				{
 					id: "613821EF8BD8E40C"
@@ -327,10 +327,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests8.description0}"
-				"{ftbquests.chapter.combat__gear.quests8.description1}"
-				"{ftbquests.chapter.combat__gear.quests8.description2}"
-				"{ftbquests.chapter.combat__gear.quests8.description3}"
+				"&e远古守卫者&r有时会掉落&b珍珠&r，可用于制作相当迷人的珠宝。"
+				"你也可以通过&6给&e水獭&6喂珍珠蚌&r来获取珍珠。"
+				"在河里&a钓鱼&r来获取珍珠蚌，然后&6把它扔在&e水獭&r旁边的&6地上&r，它们就会&a帮你打开&r。"
+				"它们在物品栏中时可提供&a巨量的增益效果&r，但&d不能当作饰品佩戴&r。"
 			]
 			id: "77E446610B522392"
 			rewards: [
@@ -341,7 +341,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests8.subtitle}"
+			subtitle: "我知道你在想什么，不，我没说"
 			tasks: [
 				{
 					id: "203A7AE60FCD8400"
@@ -354,13 +354,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests8.title}"
+			title: "把珍珠做成珠宝"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["77E446610B522392"]
-			description: ["{ftbquests.chapter.combat__gear.quests9.description}"]
+			description: ["为珍珠项链&6加一颗&b末影珍珠&r来升级到下一等级！"]
 			id: "6F81FCE0DCB18FA5"
 			rewards: [
 				{
@@ -370,7 +370,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests9.subtitle}"
+			subtitle: "把它升到下一级"
 			tasks: [
 				{
 					id: "4E0722E4F7F6B4C3"
@@ -383,13 +383,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests9.title}"
+			title: "升级你的珠宝"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6F81FCE0DCB18FA5"]
-			description: ["{ftbquests.chapter.combat__gear.quests10.description}"]
+			description: ["要获得最高级的&b珍珠项链&r，你需要将2级项链与&b海洋之心&r融合。"]
 			id: "1220403FE4E19BC8"
 			rewards: [
 				{
@@ -399,7 +399,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests10.subtitle}"
+			subtitle: "把你的项链升级到最终形态"
 			tasks: [
 				{
 					id: "21D15C8A119B5605"
@@ -412,14 +412,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests10.title}"
+			title: "终极配饰"
 			x: 1.5d
 			y: 5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests11.description0}"
-				"{ftbquests.chapter.combat__gear.quests11.description1}"
+				"&a大王乌贼&r是&e抹香鲸&r的天然猎物。当它们被这种捕食者攻击时，可能会掉落一根&b触手&r，可用于合成&b抓钩发射弩&r。"
+				"通过像弓一样发射抓钩发射弩，玩家可以&6把自己拉向高处&r，甚至可以通过发射最多4只触手来&6让自己悬浮在半空中&r。&6按下shift&r松开抓钩发射弩，并收回触手。"
 			]
 			id: "3446350A572822BD"
 			rewards: [
@@ -464,7 +464,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests12.description}"]
+			description: ["这双靴子由&e飞鱼&r制成，能让你像鱼一样跃出水面并滑翔。"]
 			id: "2DEB453D0D763837"
 			rewards: [
 				{
@@ -492,8 +492,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests13.description0}"
-				"{ftbquests.chapter.combat__gear.quests13.description1}"
+				"&b刷怪笼&r现在能被附有精准采集附魔的工具采集了！用&b刷怪笼钥匙&r右击&b刷怪笼&r能调节它的功能：&a增加范围或开关刷怪&r等。"
+				"一般情况，你采集的&b刷怪笼&r都会是空的。你需要&6手持刷怪蛋右击它&r才能改变刷怪类型。不过，通过&l机械动力&r的&b矿车装配站&r可以保留刷怪类型并采集它。"
 			]
 			id: "5D7F2F7250CB2ECB"
 			rewards: [
@@ -504,7 +504,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests13.subtitle}"
+			subtitle: "另类农业"
 			tasks: [
 				{
 					id: "6597472A2407A2D2"
@@ -518,12 +518,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests13.title}"
+			title: "关于刷怪笼"
 			x: -2.5d
 			y: -5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests14.description}"]
+			description: ["你知道你可以合成&b不死图腾&r吗？它并不便宜，但是很值！"]
 			id: "7AAD7513F2D067D8"
 			rewards: [
 				{
@@ -534,7 +534,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests14.subtitle}"
+			subtitle: "不得不——死图腾"
 			tasks: [
 				{
 					id: "7379F20CFDE39949"
@@ -543,14 +543,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests14.title}"
+			title: "合成一个不死图腾"
 			x: -4.0d
 			y: -6.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests15.description0}"
-				"{ftbquests.chapter.combat__gear.quests15.description1}"
+				"&b祛魔台&r可以&a将附魔从装备或书上分离下来&r。"
+				"这样做会消耗一些&b经验&r。绝大多数&a诅咒无法被移除&r。"
 			]
 			id: "195EC2CC57B6A75F"
 			rewards: [
@@ -574,10 +574,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests16.description0}"
-				"{ftbquests.chapter.combat__gear.quests16.description1}"
-				"{ftbquests.chapter.combat__gear.quests16.description2}"
-				"{ftbquests.chapter.combat__gear.quests16.description3}"
+				"一整套的下界合金装备需要……"
+				"*用手指数*……"
+				"……"
+				"至少4个&b下界合金&r。总之，重要的不是算数学，而是去做，去拿奖励。"
 			]
 			id: "0AF3D2A62E51E5B2"
 			rewards: [
@@ -607,7 +607,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests17.description}"]
+			description: ["你得获得足够的&b监守者甲壳&r来将你的&a全套下界合金装备&r升级成时髦且强大的&b监守者装备&r。万事俱备，好好享受你的奖励！"]
 			id: "105A64813A4BA847"
 			rewards: [
 				{
@@ -708,12 +708,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests17.title}"
+			title: "全套：监守者装备"
 			x: -2.5d
 			y: 1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests18.description}"]
+			description: ["获得&b一整套的钻石工具&r来换取一套独一无二的套装！"]
 			id: "306EAF9F6F78ACC1"
 			rewards: [
 				{
@@ -830,12 +830,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests18.title}"
+			title: "全套：钻石工具"
 			x: 4.0d
 			y: -6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests19.description}"]
+			description: ["一整套的&b下界合金工具&r，太好了！这真是一个值得称赞的成就。恭喜！"]
 			id: "6C413B091C8DBE2A"
 			rewards: [
 				{
@@ -952,12 +952,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests19.title}"
+			title: "全套：下界合金工具"
 			x: 4.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests20.description}"]
+			description: ["制作&b藤蔓套索&r需要用到吃饱的&e森蚺&r蜕下的皮。它的功能与&b拴绳&r相近，甚至可以拴敌对生物——除了不能系在栅栏上。"]
 			id: "3FFC3D4F00661CA9"
 			rewards: [
 				{
@@ -986,8 +986,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests21.description0}"
-				"{ftbquests.chapter.combat__gear.quests21.description1}"
+				"这个整合包对&b三叉戟&r做了一些变更。首先，他们现在&a是可合成的&r了，使用&e远古守卫者&r的掉落物&b三叉戟碎片&r来合成。"
+				"一旦投出，三叉戟会像附有&b忠诚&r附魔一样，&a自动按原路线返回你的物品栏&r。"
 			]
 			id: "6A3F5153FB6473E1"
 			rewards: [
@@ -1011,12 +1011,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests21.title}"
+			title: "制作一把三叉戟"
 			x: 5.0d
 			y: -6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests22.description}"]
+			description: ["全套铁工具！取得进度的感觉真好，不是吗？恭喜！"]
 			id: "78311C38AC02A32C"
 			rewards: [
 				{
@@ -1095,12 +1095,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests22.title}"
+			title: "全套：铁工具"
 			x: 3.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests23.description}"]
+			description: ["获得一整套的&b铁装备&r。哈，它可比皮革好多了！"]
 			id: "3B1C91A3CD3EC221"
 			rewards: [
 				{
@@ -1157,12 +1157,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests23.title}"
+			title: "全套：铁装备"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests24.description}"]
+			description: ["你知道&b钢叶工具&r在&a你合成它们的时候就附魔好了&r吗？这东西太酷了。"]
 			id: "6034E62A035F4F68"
 			rewards: [
 				{
@@ -1283,12 +1283,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests24.title}"
+			title: "全套：钢叶工具"
 			x: 2.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests25.description}"]
+			description: ["从&d暮色森林&r获得一整套的&b钢叶装备&r。"]
 			id: "613C677D2D70278F"
 			rewards: [
 				{
@@ -1375,12 +1375,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests25.title}"
+			title: "全套：钢叶装备"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests26.description}"]
+			description: ["获得一整套的&b金质物品&r来换取&a赞美太阳&r的权利。"]
 			id: "63244E494B2159D8"
 			rewards: [
 				{
@@ -1530,12 +1530,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests26.title}"
+			title: "全套：金色荣耀"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests27.description}"]
+			description: ["获得一整套的&b钻石装备&r来让你可爱的脸颊安然无恙。"]
 			id: "29A6066615C12448"
 			rewards: [
 				{
@@ -1592,12 +1592,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests27.title}"
+			title: "全套：钻石装备"
 			x: -2.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests28.description}"]
+			description: ["你有没有想过能&a保护自己免受投掷型药水的伤害&r？是可以的。只需要带上你值得信任的&b雨伞&r就行。"]
 			id: "14BCF2740DE93BD2"
 			rewards: [
 				{
@@ -1618,18 +1618,18 @@
 							value: "forge:umbrellas"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests28.tasks0.title}"
+					title: "任意#forge:umbrellas"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests28.title}"
+			title: "免受药水的伤害"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests29.description0}"
-				"{ftbquests.chapter.combat__gear.quests29.description1}"
+				"你可以在战利品箱中的宝藏物品找到&b塔罗牌&r。塔罗牌在背包中时，会给予你&a强力的效果&r。"
+				"你能找到所有的塔罗牌吗？"
 			]
 			id: "66BFC51EB4E7FDFB"
 			rewards: [
@@ -1647,7 +1647,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests29.subtitle}"
+			subtitle: "你有什么打算？"
 			tasks: [
 				{
 					id: "7EEC79529BBFE411"
@@ -1658,17 +1658,17 @@
 							value: "tarotcards:tarot_cards"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests29.tasks0.title}"
+					title: "任意#tarotcards:tarot_cards"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests29.title}"
+			title: "获取塔罗牌"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
-			description: ["{ftbquests.chapter.combat__gear.quests30.description}"]
+			description: ["虽然制作比较困难，但是&b塔罗牌包&r在&a装备到饰品栏后&r，可以让你把&a你所有的塔罗牌堆在一个栏位中&r。"]
 			id: "5107C3DE453627D5"
 			rewards: [
 				{
@@ -1679,7 +1679,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests30.subtitle}"
+			subtitle: "你有一个大牌组"
 			tasks: [
 				{
 					id: "274933D9ACA40CD2"
@@ -1714,7 +1714,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests32.description}"]
+			description: ["&b臭屁手枪&r可以在生物之间制造混乱。被动生物会远离气味，&a中立或敌对生物会开始攻击被喷的生物&r。"]
 			id: "64B6E2E1C384286C"
 			rewards: [
 				{
@@ -1745,8 +1745,8 @@
 			can_repeat: true
 			dependencies: ["66BFC51EB4E7FDFB"]
 			description: [
-				"{ftbquests.chapter.combat__gear.quests33.description0}"
-				"{ftbquests.chapter.combat__gear.quests33.description1}"
+				"在背包中放置两张塔罗牌，然后点击该任务，会还给你一个随机的塔罗牌。万一就中了呢！"
+				"该任务为那些收集了许多相同的塔罗牌，又想要尝试不同塔罗牌的玩家而设计。&d该任务可重复完成&r。"
 			]
 			id: "20B24E5006BC7D1B"
 			rewards: [
@@ -1758,7 +1758,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests33.subtitle}"
+			subtitle: "公平交换"
 			tasks: [
 				{
 					consume_items: true
@@ -1771,16 +1771,16 @@
 							value: "tarotcards:tarot_cards"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests33.tasks0.title}"
+					title: "任意#tarotcards:tarot_cards"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests33.title}"
+			title: "塔罗牌交易"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests34.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b铁木装备&r。"]
 			id: "2F0A831353FB38B9"
 			rewards: [
 				{
@@ -1861,12 +1861,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests34.title}"
+			title: "全套：铁木盔甲"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests35.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b骑士装备&r。"]
 			id: "1A3BD31918571FA9"
 			rewards: [
 				{
@@ -1923,12 +1923,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests35.title}"
+			title: "全套：骑士装备"
 			x: -4.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests36.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b娜迦装备&r。"]
 			id: "55E21D193564A15D"
 			rewards: [
 				{
@@ -1975,12 +1975,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests36.title}"
+			title: "全套：娜迦装备"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests37.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b炽铁装备&r。"]
 			id: "2FD288BBE179EE79"
 			rewards: [
 				{
@@ -2037,12 +2037,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests37.title}"
+			title: "全套：炽铁装备"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests38.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b幻影骑士装备&r。"]
 			id: "6B6E01618D3B5999"
 			rewards: [
 				{
@@ -2077,12 +2077,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests38.title}"
+			title: "全套：幻影装备"
 			x: -2.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests39.description}"]
+			description: ["从&c暮色森林&r的雪怪洞窟获得一整套的&b极地装备&r。"]
 			id: "360508D2A7ACB5D6"
 			rewards: [
 				{
@@ -2139,12 +2139,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests39.title}"
+			title: "全套：极地装备"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests40.description}"]
+			description: ["从&c暮色森林&r获得一整套的&b雪怪装备&r。"]
 			id: "3BE446AB23DAFFFE"
 			rewards: [
 				{
@@ -2229,20 +2229,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests40.title}"
+			title: "全套：雪怪装备"
 			x: -4.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests41.description0}"
-				"{ftbquests.chapter.combat__gear.quests41.description1}"
-				"{ftbquests.chapter.combat__gear.quests41.description2}"
+				"这面&b镜子&r不是一块普通的玻璃或银器。它除了可以反射附近的玩家，你还可以让它显示别的东西。"
+				"如果你用&b盔甲架&r&6右击它&r，你就能用它来看到&a盔甲套装的样子&r。"
+				"当镜子画面角色&d未穿戴装备&r时，手持盔甲&6右击&r镜子可以为其穿戴装备。如果它此时正戴着头盔，你也给了它一个头盔，就会先&a将它的装备穿戴在你的身上&r，再将&a你给它的头盔穿戴在它身上&r。"
 				"{image:cottagewitch:textures/magicmirror.png width:100 height:100 align:1 fit:true}"
-				"{ftbquests.chapter.combat__gear.quests41.description4}"
-				"{ftbquests.chapter.combat__gear.quests41.description5}"
-				"{ftbquests.chapter.combat__gear.quests41.description6}"
-				"{ftbquests.chapter.combat__gear.quests41.description7}"
+				"&6空手右击&r来交换你与镜子的装备。如果你不知不觉存了很多套的装备，你能&6潜行右击来循环切换每一套装备&r。"
+				"你也可以拿着一面&b旗帜&r&6右击镜子&r来将旗帜的图案应用为镜子的&a背景&r。"
+				"还有，如果你喜欢更诡异的方式，试试拿着&b骷髅头颅&r&6右击它&r来将镜子画面变成&e骷髅&r。"
+				"所有的样式升级&a可同时存在&r。"
 			]
 			id: "4D9EA3886EB6F73A"
 			rewards: [
@@ -2259,7 +2259,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests41.subtitle}"
+			subtitle: "魔镜魔镜告诉我"
 			tasks: [
 				{
 					id: "189F1468E948737D"
@@ -2267,15 +2267,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests41.title}"
+			title: "获得一块魔镜"
 			x: -5.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests42.description0}"
-				"{ftbquests.chapter.combat__gear.quests42.description1}"
-				"{ftbquests.chapter.combat__gear.quests42.description2}"
+				"你是否看厌倦了月蛾型的普通&b鞘翅&r，想要让它更加富有&a活力&r呢？试试&6把它放到工作台上&r将他分成两半。"
+				"每一片&b鞘翅翼&r都可以与&b染料&r或&b旗帜&r一起合成，来自定义外观。"
+				"不过你得知道&d改过的旗帜图案不能用于装饰&r！"
 			]
 			id: "14D43F04E15174D2"
 			rewards: [
@@ -2312,12 +2312,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests42.title}"
+			title: "定制你的鞘翅"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests43.description}"]
+			description: ["增加你的&a移动速度&r。可通过&6步行&r来升级效果！"]
 			id: "3BB3A6EFFDC3488E"
 			rewards: [
 				{
@@ -2345,7 +2345,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests44.description}"]
+			description: ["增加你的&a触及范围&r。可通过&6放置方块&r来升级效果！"]
 			id: "703818BD93BEFE6A"
 			rewards: [
 				{
@@ -2373,7 +2373,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests45.description}"]
+			description: ["增加你的&a不被发现&r的能力。可通过&6杀怪&r来升级效果！"]
 			id: "6635831904B90118"
 			rewards: [
 				{
@@ -2401,7 +2401,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.combat__gear.quests46.description}"]
+			description: ["&b医治者的药草袋&r会定期地在你被敌人打中之后，&a给予你速度提升&r。受到的伤害越高，速度就越快。它通过&6造成伤害&r来升级。"]
 			id: "55C25ED49FACC6EC"
 			rewards: [
 				{
@@ -2430,9 +2430,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests47.description0}"
+				"&b冒险者符文&r可以用&b冒险者套件&r与&b游泳者指南&r合成，一个顶俩！"
 				""
-				"{ftbquests.chapter.combat__gear.quests47.description2}"
+				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b垂钓者符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "1F590EDF058BB8A8"
 			rewards: [
@@ -2458,7 +2458,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests47.subtitle}"
+			subtitle: "冒险就在前方"
 			tasks: [
 				{
 					id: "134FB0E25B96E843"
@@ -2489,15 +2489,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests47.title}"
+			title: "冒险者符文"
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests48.description0}"
+				"将&b垂钓者勋章、金属鱼饵&r，和&b强力鱼线&r合成以获取&b垂钓者符文&r。一个顶仨！"
 				""
-				"{ftbquests.chapter.combat__gear.quests48.description2}"
+				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b垂钓者符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "5B075D9C9BE8F2AE"
 			rewards: [
@@ -2523,7 +2523,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests48.subtitle}"
+			subtitle: "钓大鱼咯"
 			tasks: [
 				{
 					id: "08911A4D904F0D1D"
@@ -2568,15 +2568,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests48.title}"
+			title: "垂钓者符文"
 			x: 5.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests49.description0}"
+				"把一个&b折扣券&r，&b捕梦网&r和一个&b秘密原料&r组合来获得一个&b皇家符文&r。一个顶三个用！"
 				""
-				"{ftbquests.chapter.combat__gear.quests49.description2}"
+				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b皇家符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "67655D11D7908671"
 			rewards: [
@@ -2602,7 +2602,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests49.subtitle}"
+			subtitle: "符在家在"
 			tasks: [
 				{
 					id: "1BF93908848D3EE4"
@@ -2647,15 +2647,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests49.title}"
+			title: "皇家符文"
 			x: 3.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests50.description0}"
+				"将&b幸运石、矿工指南，以及工具碎片&r合成以获取&b矿工符文&r。一个顶三个用！"
 				""
-				"{ftbquests.chapter.combat__gear.quests50.description2}"
+				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b矿工符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "6F7BC76D2BAC0926"
 			rewards: [
@@ -2681,7 +2681,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests50.subtitle}"
+			subtitle: "它不是矿工的壮举"
 			tasks: [
 				{
 					id: "2015E63A8C3A5378"
@@ -2726,15 +2726,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests50.title}"
+			title: "矿工符文"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests51.description0}"
+				"将&b驯服之证、繁育神像，以及驯服的马铃薯甲虫&r合成以获取&b自然符文&r。一个顶三个用！"
 				""
-				"{ftbquests.chapter.combat__gear.quests51.description2}"
+				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b自然符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "68279BFDA33B6996"
 			rewards: [
@@ -2760,7 +2760,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests51.subtitle}"
+			subtitle: "让我们超自然"
 			tasks: [
 				{
 					id: "13298A18559705F6"
@@ -2805,17 +2805,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests51.title}"
+			title: "自然符文"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests52.description0}"
+				"你做到了！你收集了所有符文！可惜你不能&a把它们全戴上&r……还是说你能？"
 				""
-				"{ftbquests.chapter.combat__gear.quests52.description2}"
+				"在&b工作台&r中，将五个符文合成：&b冒险者符文&r、&b垂钓者符文&r、&b皇家符文&r、&b矿工符文&r，以及&b自然符文&r。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests52.description4}"
+				"&b世界之魂&r可以装备在你的口袋槽位里。 "
 			]
 			id: "764E268E35CCDA31"
 			rewards: [
@@ -2833,7 +2833,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests52.subtitle}"
+			subtitle: "非凡宇宙之力"
 			tasks: [
 				{
 					id: "4CC7EE7074A2B2FB"
@@ -2906,21 +2906,21 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests52.title}"
+			title: "Minecraft之魂"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests53.description0}"
+				"将这些从&e流浪商人&r那购买的卡片&6与&1Majrusz的配件&r&6合成&r可以修饰它们。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests53.description2}"
+				"&b反转卡&r是一张可以让任意饰品的加成奖励无效化的卡片。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests53.description4}"
+				"&b赌博卡&r是一张根据最后的加成范围重新抽取加成值的卡片。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests53.description6}"
+				"&b移除卡&r可以返还任意饰品上安装的所有&b饰品配件&r。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests53.description8}"
+				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "46B5DAA070A0675F"
 			rewards: [
@@ -2932,7 +2932,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests53.subtitle}"
+			subtitle: "如你所知，但3个"
 			tasks: [
 				{
 					id: "184E4042B07AE565"
@@ -2943,21 +2943,21 @@
 							value: "forge:maj_cards"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests53.tasks0.title}"
+					title: "任意#forge:maj_cards"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests53.title}"
+			title: "Majrusz的卡片"
 			x: 6.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests54.description0}"
+				"&b饰品配件&r可为&1Majrusz的饰品&r添加额外的增益！标准的饰品只能安装一个强化——但&b符文&r和&b世界之魂&r可以安装2个甚至3个！多个强化的效果可叠加。"
 				""
-				"{ftbquests.chapter.combat__gear.quests54.description2}"
+				"&6将饰品与配件在工作台上合成&r即可安装强化。移除配件需要用&b移除卡&r。"
 				""
-				"{ftbquests.chapter.combat__gear.quests54.description4}"
+				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "24E903048FE8AC10"
 			rewards: [
@@ -2969,7 +2969,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests54.subtitle}"
+			subtitle: "成倍提升"
 			tasks: [
 				{
 					id: "027324005F8E7649"
@@ -2980,21 +2980,21 @@
 							value: "forge:maj_boosters"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests54.tasks0.title}"
+					title: "任意#forge:maj_boosters"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests54.title}"
+			title: "Majrusz的饰品配件"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.combat__gear.quests55.description0}"
+				"欢迎来到&1Majruzs的饰品&r的世界。尽管乍一看，它们可能显得无关紧要或毫无帮助，但它们真正的力量在于它们&a能够结合在一起&r。 "
 				""
-				"{ftbquests.chapter.combat__gear.quests55.description2}"
+				"&6将两个或以上的同种饰品在工作台上合成&r以增强它的力量。你可以使用&b饰品配件&r和&b卡片&r对其进行进一步的增强和修饰。"
 				""
-				"{ftbquests.chapter.combat__gear.quests55.description4}"
+				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "40070F7DE43BA4FF"
 			rewards: [
@@ -3006,7 +3006,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.combat__gear.quests55.subtitle}"
+			subtitle: "赞美Majrusz"
 			tasks: [
 				{
 					id: "4497F3FE4630687E"
@@ -3017,14 +3017,14 @@
 							value: "forge:maj_acs"
 						}
 					}
-					title: "{ftbquests.chapter.combat__gear.quests55.tasks0.title}"
+					title: "任意#forge:maj_acs"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.combat__gear.quests55.title}"
+			title: "Majrusz的饰品"
 			x: 4.0d
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.combat__gear.title}"
+	title: "武器与工具"
 }

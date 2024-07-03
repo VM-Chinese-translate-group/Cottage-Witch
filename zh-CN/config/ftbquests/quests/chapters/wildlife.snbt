@@ -85,8 +85,8 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests0.description0}"
-				"{ftbquests.chapter.wildlife.quests0.description1}"
+				"&e宙游鲟&r是一种生物，当他被驯服后，会&a在你掉入虚空时前来救援你&r。然而，他不会用其他方式保护玩家。"
+				"它可以用&6虚空鳕鱼&r驯服，这是它在自然界的主要猎物。"
 			]
 			id: "51E1C10CB6348CB6"
 			rewards: [
@@ -98,7 +98,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests0.subtitle}"
+			subtitle: "游来游去，四海为家，不是吗？"
 			tasks: [
 				{
 					icon: "alexsmobs:cosmic_cod"
@@ -109,15 +109,15 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests0.title}"
+			title: "遇见宙游鲟"
 			x: -8.0d
 			y: -7.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests1.description0}"
-				"{ftbquests.chapter.wildlife.quests1.description1}"
-				"{ftbquests.chapter.wildlife.quests1.description2}"
+				"&e蘑菇君&r居住在蘑菇岛生物群系，你可以在那里找到它。它隔几天就会掉落&b蘑菇孢子&r，你可以用这个来繁殖它们。"
+				"&b蘑菇&r可以被放置在它身上，它会记住这一种类型的蘑菇并尝试繁殖更多的这种蘑菇，或者将它们变成巨型蘑菇。"
+				"&e蘑菇君&r背上有五个蘑菇时死亡会引发爆炸，将附近的地形转化为与其菌类有关的生物群系。"
 			]
 			id: "2B24CC677B5015E5"
 			rewards: [
@@ -157,7 +157,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests1.subtitle}"
+			subtitle: "不骗你，挺可疑的"
 			tasks: [
 				{
 					icon: "alexsmobs:mungal_spores"
@@ -168,13 +168,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests1.title}"
+			title: "遇见蘑菇君"
 			x: 10.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["2B24CC677B5015E5"]
-			description: ["{ftbquests.chapter.wildlife.quests2.description}"]
+			description: ["给&e兔子&r喂食&b蘑菇孢子&r来创造一个&e蘑菇兔&r，一种相当巨大且令人紧张的中立生物，他会保护附近的区域。它可以被&b胡萝卜&r治疗，死亡掉落的&b蘑菇兔&r肉可以用作烹饪。"]
 			id: "6674937B885ABAE6"
 			rewards: [
 				{
@@ -190,14 +190,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests2.title}"
+			title: "制作一个蘑菇兔"
 			x: 9.0d
 			y: -7.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests3.description0}"
-				"{ftbquests.chapter.wildlife.quests3.description1}"
+				"&e复刻怪&r是末地城的守护者，它能够复制入侵者的盔甲，盾牌甚至武器。当被击败时，它们掉落&b复刻凝胶&r，它可以被用作制作或&a复制几乎所有物品&r，&a包括附魔&r！"
+				"简单的用8个复刻凝胶&6围绕着你想复制的物品&r，喝啊！产生的复制品将没有耐久度，但仍然是一个强大的工具。"
 			]
 			id: "7D1423F1D27CCF45"
 			rewards: [
@@ -224,12 +224,12 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests3.title}"
+			title: "遇见复刻怪"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests4.description}"]
+			description: ["&e魄罗&r是一个被动生物，有一身厚重的皮毛。它们可以被发现在被雪覆盖的生物群系，可以&a用马铃薯驯服&r。"]
 			id: "33F3FB13A3EAEF94"
 			rewards: [
 				{
@@ -245,7 +245,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests4.subtitle}"
+			subtitle: "温暖又窒息"
 			tasks: [
 				{
 					icon: "snuffles:snuffle_fluff"
@@ -256,12 +256,12 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests4.title}"
+			title: "遇见一个魄罗！"
 			x: 6.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests5.description}"]
+			description: ["嘎嘎兽是一个有点奇怪但是友好的生物，他们主要居住在沼泽中。你可以和他们交易，像村民一样！"]
 			id: "3D478BC0385C3BE1"
 			rewards: [
 				{
@@ -277,7 +277,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests5.subtitle}"
+			subtitle: "嘎嘎嘎"
 			tasks: [
 				{
 					icon: "duckling:duck_egg"
@@ -288,14 +288,14 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests5.title}"
+			title: "遇见嘎嘎兽"
 			x: 10.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests6.description0}"
-				"{ftbquests.chapter.wildlife.quests6.description1}"
+				"&e沙风怪&r是一种元素怪物，只出现在雷暴期间的沙漠中。它会将附近的实体和物品卷到空中，并且&a免疫箭矢&r。"
+				"当他被击败，它会掉落&b沙风之眼&r，可以用来制作&b含沙射之袋&r，将沙子射到敌人的脸上-或者制作一个&b造风器&r，一个在收到红石信号就可以像风扇一样工作的方块。"
 			]
 			id: "213FB54168FC881F"
 			rewards: [
@@ -319,7 +319,7 @@
 		}
 		{
 			dependencies: ["3B900109B67CF812"]
-			description: ["{ftbquests.chapter.wildlife.quests7.description}"]
+			description: ["通过&a繁殖两个寒霜潜伏者&r来获取这份奖励。"]
 			id: "2815581E43C11DFC"
 			rewards: [
 				{
@@ -342,8 +342,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests8.description0}"
-				"{ftbquests.chapter.wildlife.quests8.description1}"
+				"&b寒霜潜伏者头盔&r会让&e寒霜潜伏者&r认为玩家是他们的一员。"
+				"这必须用他们的角制作。一旦戴上头盔，你可以&6使用猪肉来使他们繁殖&r-但是注意，摘下头盔会使&d幼崽也对你产生敌意&r。"
 			]
 			id: "3B900109B67CF812"
 			rewards: [
@@ -371,7 +371,7 @@
 		}
 		{
 			dependencies: ["76AE2C92FF896611"]
-			description: ["{ftbquests.chapter.wildlife.quests9.description}"]
+			description: ["这些可以由&a制作&r获得，用于&a完全驯服&e獠牙兽&r。"]
 			id: "1278F8ABB539E261"
 			rewards: [
 				{
@@ -392,7 +392,7 @@
 			y: -7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests10.description}"]
+			description: ["&e獠牙兽&r，生成于覆雪的生物群系，可以使用鞍骑乘，但不一会就开始反抗玩家。它们可以用&b棕色蘑菇&r繁殖，但是他们的幼崽依然拥有野性。"]
 			id: "76AE2C92FF896611"
 			rewards: [
 				{
@@ -403,7 +403,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests10.subtitle}"
+			subtitle: "中立但具有自卫意识的野兽"
 			tasks: [
 				{
 					icon: "alexsmobs:spawn_egg_tusklin"
@@ -414,15 +414,15 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests10.title}"
+			title: "遇见獠牙兽"
 			x: 6.5d
 			y: -6.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests11.description0}"
-				"{ftbquests.chapter.wildlife.quests11.description1}"
-				"{ftbquests.chapter.wildlife.quests11.description2}"
+				"&e跨座兽&r是一个奇怪且充满敌意的生物，他会对你发射它的幼崽造成伤害。大部分情况下，打败他们会掉落&b玄武岩&r，但是他们会少见的掉落&b跨座晶石&r。"
+				"&b跨座晶石&r是一种可以用来合成跨板的材料，它&a可以在岩浆上冲浪&r并且可以被附魔。由于他速度快，可附魔，还可以跳，它就成为了&b黑曜石船&r的替代品！"
+				"顺带一提，&e跨座蝌蚪&r可以被装在桶里，也可以在&a水里生活&r。"
 			]
 			id: "0CED4D17E7F90678"
 			rewards: [
@@ -438,7 +438,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests11.subtitle}"
+			subtitle: "只是快速的对你发射它的宝宝"
 			tasks: [
 				{
 					icon: "alexsmobs:straddlite"
@@ -449,14 +449,14 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests11.title}"
+			title: "遇见跨座兽"
 			x: 10.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests12.description0}"
-				"{ftbquests.chapter.wildlife.quests12.description1}"
+				"&e虚空蠕虫&r是一场BOSS战，在末地向虚空中投入&b神秘蠕虫&r就可以召唤它。它可以召唤虚空水晶，具有毁灭性的攻击，还有能力开启传送门。"
+				"当他被击败后，他会掉落&b虚空蠕虫之眼&r和&b神秘蠕虫上颚&r。这些东西可以被制作成&b维度撕裂者&r：一把可以生成传送门通往玩家重生点的镐子，另外还有&b虚空蠕虫雕像&r：一个纪念品，当你给她传输红石信号时，它可以吃掉它面前的任何东西。"
 			]
 			id: "0BC5E9E08677AFC5"
 			rewards: [
@@ -473,7 +473,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.wildlife.quests12.subtitle}"
+			subtitle: "一场具有多个阶段的BOSS战"
 			tasks: [
 				{
 					id: "058D3FB324B36853"
@@ -481,14 +481,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests12.title}"
+			title: "召唤虚空蠕虫"
 			x: 6.5d
 			y: 7.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests13.description0}"
-				"{ftbquests.chapter.wildlife.quests13.description1}"
+				"&e岩磙兽&r生活在溶洞中使用滚动来粉碎猎物。他的生命值不多但是他的盔甲可以让他免受大多数攻击。"
+				"如果它掉落了&b岩壳&r，可以被制作成一个胸甲，让玩家可以变成&a可以滚动的怪物&r，并在冲刺时造成伤害。它也会使玩家在水中&a下沉&r。"
 			]
 			id: "17CAEDD5E243511D"
 			rewards: [
@@ -500,7 +500,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests13.subtitle}"
+			subtitle: "这该死的家伙别坏了我的名声"
 			tasks: [
 				{
 					icon: "alexsmobs:rocky_shell"
@@ -511,13 +511,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests13.title}"
+			title: "遇见岩磙兽"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["29BC7591898DB337"]
-			description: ["{ftbquests.chapter.wildlife.quests14.description}"]
+			description: ["该物品用于寻找世界上最稀有的生物：&e魔鳉&r，一种只会在特定世界中的一个单独区块内生成的生物。"]
 			id: "6A74504CDF6CECE2"
 			rewards: [
 				{
@@ -533,7 +533,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests14.subtitle}"
+			subtitle: "基于真实故事"
 			tasks: [
 				{
 					id: "26A11CB956E62F77"
@@ -552,8 +552,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests15.description0}"
-				"{ftbquests.chapter.wildlife.quests15.description1}"
+				"&e骷髅剑鱼&r是&e溺尸&r的常见坐骑，他们生活在沉船附近。他是一个可怕的敌人，但是击败他会给你带来不菲的回报。它掉落&b鱼骨&r，可以让玩家制作&b怪鱼寻觅器&r。"
+				"&a骷髅剑鱼&r又有很小的几率掉落&b骷髅剑鱼头骨&r。"
 			]
 			id: "29BC7591898DB337"
 			rewards: [
@@ -570,7 +570,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests15.subtitle}"
+			subtitle: "呀啊啊，什么东西有鱼腥味"
 			tasks: [
 				{
 					icon: {
@@ -587,14 +587,14 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests15.title}"
+			title: "遇见骷髅剑鱼"
 			x: 7.5d
 			y: 6.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests16.description0}"
-				"{ftbquests.chapter.wildlife.quests16.description1}"
+				"你可能发现了&e末影缓步兽&r-一个生活在末地虚空这个极端环境的微生物-。你可以在它的背上放一个鞍用于骑乘。你可能需要一个&b紫颂果钓竿&r来提升一下它缓慢的速度。"
+				"它们可以被&b紫颂果&r吸引并用它繁殖。"
 			]
 			id: "76666E9309B6892C"
 			rewards: [
@@ -605,7 +605,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests16.subtitle}"
+			subtitle: "不要迟到"
 			tasks: [
 				{
 					id: "3AEC2EE87BFD35FD"
@@ -618,8 +618,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests17.description0}"
-				"{ftbquests.chapter.wildlife.quests17.description1}"
+				"&e卷尾猴&r是一种友好的野兽，可以用&b香蕉&r驯服，香蕉在破坏丛林树叶后就有概率掉落。可以给他们喂食&b蛆&r来繁殖，蛆可以从&e苍蝇掉落&r，喂食&b鸡蛋&r后卷尾猴可以回血。"
+				"这些猴子也可以被命令&a趴在你的肩膀上&r，它们会向敌人投掷物品。如果你找到了稀有的&b古代飞镖&r，你让它装备上可以造成更多的伤害。"
 			]
 			id: "1ABF76C09E35ED92"
 			rewards: [
@@ -631,7 +631,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests17.subtitle}"
+			subtitle: "别弄错了，这可不是一般的猴子"
 			tasks: [
 				{
 					icon: "alexsmobs:banana"
@@ -642,13 +642,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests17.title}"
+			title: "遇见卷尾猴"
 			x: -11.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["0CED4D17E7F90678"]
-			description: ["{ftbquests.chapter.wildlife.quests18.description}"]
+			description: ["玩家可以用一个鞍来骑乘&e炽岩&r。"]
 			id: "295D2FB1A88B8928"
 			rewards: [
 				{
@@ -658,7 +658,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests18.subtitle}"
+			subtitle: "哦，跨越物种的禁忌之恋"
 			tasks: [
 				{
 					id: "7F7A7A4D6B6CB303"
@@ -671,11 +671,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests19.description0}"
-				"{ftbquests.chapter.wildlife.quests19.description1}"
-				"{ftbquests.chapter.wildlife.quests19.description2}"
-				"{ftbquests.chapter.wildlife.quests19.description3}"
-				"{ftbquests.chapter.wildlife.quests19.description4}"
+				"&e拟态章鱼&r是一个生活在&a温暖深海&r生物群系的难以置信的生物。它们可以被&b龙虾尾&r驯服，驯服后当有生物对它们的主人构成威胁时，它会变成怪物的形态来吓跑这些生物。"
+				"给你的章鱼一个&b墨囊&r他们就可以随机变换颜色。"
+				"给他一点&b海晶碎片&r使它变成守卫者形态。"
+				"给它一个&b河豚&r如果你想让他变成这个样子的话，啊嗯。我想知道如果你给他一个&b火药的话&r会怎么样&r？"
+				"喂给他一点&b复刻凝胶&r来教会它根据变化的形态使用对应生物的能力！"
 			]
 			id: "7BF9EE9AB6D63EE4"
 			rewards: [
@@ -687,14 +687,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests19.subtitle}"
+			subtitle: "比其他模仿者技术要好得多"
 			tasks: [
 				{
 					icon: "alexsmobs:mimic_octopus_bucket"
 					id: "6D9989ED41065321"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests19.tasks0.title}"
+					title: "遇见拟态章鱼"
 					to_observe: "alexsmobs:mimic_octopus"
 					type: "observation"
 				}
@@ -704,9 +704,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests20.description0}"
-				"{ftbquests.chapter.wildlife.quests20.description1}"
-				"{ftbquests.chapter.wildlife.quests20.description2}"
+				"这些野兽不能被驯服，但是它们可以被骑乘。"
+				"放置一个&b跨座晶石鞍&r和一个&b跨座晶石头盔&r在他们的背上，就可以有最多4名玩家骑乘这个大型生物。"
+				"它浸在水中时&a会变成更坚硬的黑曜石形态&r，可以使用&b岩浆膏&r来&a治疗&r。"
 			]
 			id: "6ECD3400B5F0FFD5"
 			rewards: [
@@ -717,14 +717,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests20.subtitle}"
+			subtitle: "别把它和岩浆块搞混了"
 			tasks: [
 				{
 					icon: "alexsmobs:spawn_egg_laviathan"
 					id: "0A39E56B919E2646"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests20.tasks0.title}"
+					title: "遇见炽岩"
 					to_observe: "alexsmobs:laviathan"
 					type: "observation"
 				}
@@ -733,7 +733,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests21.description}"]
+			description: ["&e灵翼&r是一个居住在末地的幽灵形态的生物。它会跟随持有&b灵魂之心&r的玩家（从下界的灵魂鹫获得），用栓绳将你们连接在一起，就会像气球一样被拖着走。"]
 			id: "10508E0CE1018A5C"
 			rewards: [
 				{
@@ -749,7 +749,7 @@
 					id: "29B332C8E6DA929A"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests21.tasks0.title}"
+					title: "遇见灵翼"
 					to_observe: "alexsmobs:spectre"
 					type: "observation"
 				}
@@ -759,9 +759,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests22.description0}"
-				"{ftbquests.chapter.wildlife.quests22.description1}"
-				"{ftbquests.chapter.wildlife.quests22.description2}"
+				"&e花飘飘&r是一个被动生物，它很喜欢花。"
+				"如果你给它一些就可以将它驯服，但是&d给它的花种类必须是不一样的&r不然他不会接受你的好意。"
+				"当它跟随你时将会保护你-给它一个&b花盆&r使他可以在里面休息。如果要将它带走，你只需要&6潜行右击花盆中的花飘飘&r就可以了。"
 			]
 			id: "583AB2FDE4821349"
 			rewards: [
@@ -778,7 +778,7 @@
 					id: "67DCC7D3E6337E5A"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests22.tasks0.title}"
+					title: "遇见花飘飘"
 					to_observe: "alexsmobs:flutter"
 					type: "observation"
 				}
@@ -788,8 +788,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests23.description0}"
-				"{ftbquests.chapter.wildlife.quests23.description1}"
+				"击败&e彩虹果冻&r来收集它的掉落物用于制作&b彩虹玻璃&r。你也可以&6用它右击一个实体&r来使它变成彩虹色。你可以用海绵将它擦掉如果你想的话。"
+				"我想知道如果你吃了它会发生什么？"
 			]
 			id: "48B03DF69BB3222E"
 			rewards: [
@@ -806,7 +806,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests23.subtitle}"
+			subtitle: "我要飞得更高~飞得更高~"
 			tasks: [
 				{
 					advancement: "alexsmobs:alexsmobs/rainbow_jelly"
@@ -820,9 +820,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests24.description0}"
-				"{ftbquests.chapter.wildlife.quests24.description1}"
-				"{ftbquests.chapter.wildlife.quests24.description2}"
+				"&a魔鳉&r是世界上最稀有的鱼，他们只在一个单独的区块中生存，每个世界中-只有-一个。"
+				"使用&b怪鱼寻觅器&r来找到他。或者，依靠你的超级运气。"
+				"这些鱼通常会在地下水池产卵。它们爱吃&b苔藓块&r，并且有时候会在吃完后繁殖产卵！"
 			]
 			icon: "alexsmobs:devils_hole_pupfish_bucket"
 			id: "389061C8D24B16F2"
@@ -840,7 +840,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests24.subtitle}"
+			subtitle: "说曹操曹操到……"
 			tasks: [
 				{
 					icon: "alexsmobs:devils_hole_pupfish_bucket"
@@ -851,15 +851,15 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests24.title}"
+			title: "世界上最稀有的鱼"
 			x: -6.5d
 			y: -5.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests25.description0}"
-				"{ftbquests.chapter.wildlife.quests25.description1}"
-				"{ftbquests.chapter.wildlife.quests25.description2}"
+				"&e鲶鱼&r有三种不同的大小，喜欢&a吃掉任何掉落下来的物品或者他们视野中较小的实体&r。"
+				"然而，如果它们受到任何伤害-或者遇到它们厌恶的海泡菜，&a它们会呕吐出它们的胃里面的东西&r。"
+				"可以使用&b海晶灯&r吸引它们，也可以使用&b桶&r捕捉它们。"
 			]
 			id: "2827322063C5003E"
 			rewards: [
@@ -876,14 +876,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests25.subtitle}"
+			subtitle: "饥肠辘辘的家伙"
 			tasks: [
 				{
 					icon: "alexsmobs:medium_catfish_bucket"
 					id: "0D8C18FBCF491F0B"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests25.tasks0.title}"
+					title: "遇见鲶鱼"
 					to_observe: "alexsmobs:catfish"
 					type: "observation"
 				}
@@ -893,9 +893,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests26.description0}"
-				"{ftbquests.chapter.wildlife.quests26.description1}"
-				"{ftbquests.chapter.wildlife.quests26.description2}"
+				"&a抹香鲸&r，是一种庞大的生物，栖息在冷水海洋、深海、温水深海中。"
+				"有时它们在雷暴期间会&a搁浅&r，如果你将它们&6推回大海&r，它们可能会以&b龙涎香&r作为礼物向你表示感谢。"
+				"它喜欢捕食&e大王乌贼&r，有时在捕猎过程中会掉落一颗牙齿。"
 			]
 			id: "050B9B4BC881142A"
 			rewards: [
@@ -910,7 +910,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.wildlife.quests26.subtitle}"
+			subtitle: "我和鲸鱼有个约会"
 			tasks: [
 				{
 					icon: "alexsmobs:ambergris"
@@ -921,14 +921,14 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests26.title}"
+			title: "遇见抹香鲸"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests27.description0}"
-				"{ftbquests.chapter.wildlife.quests27.description1}"
+				"&e兰寿金鱼&r是一种爱吃&b水芙蓉&r的圆胖鱼类，可以用它们来让兰寿金鱼繁殖。"
+				"兰寿金鱼有&a超过300个品种&r！"
 			]
 			id: "2CF2C4C4E1554205"
 			rewards: [
@@ -952,7 +952,7 @@
 		}
 		{
 			dependencies: ["17CAEDD5E243511D"]
-			description: ["{ftbquests.chapter.wildlife.quests28.description}"]
+			description: ["击败一只&e岩磙兽&r并获得它的壳，再加上这个小奖励！"]
 			id: "017F8C83795453E3"
 			rewards: [
 				{
@@ -998,7 +998,7 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests29.description0}"
+				"尽管有些&e大象&r体型庞大且偶尔具有攻击性，但也有一些品种是&a玲珑又友善&r的。这些&e大象&r可以通过给它们喂&b花生&r来&6驯服&r，它们会&a帮助你的花园浇水&r！"
 				"{image:cottagewitch:textures/elephant.png width:150 height:150 align:1}"
 			]
 			id: "2E69432952BEB130"
@@ -1011,7 +1011,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests29.subtitle}"
+			subtitle: "哦，我的小可爱"
 			tasks: [
 				{
 					icon: "sprout:peanut"
@@ -1022,14 +1022,14 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests29.title}"
+			title: "遇见大象"
 			x: -9.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests30.description0}"
-				"{ftbquests.chapter.wildlife.quests30.description1}"
+				"&e蜂鸟&r是一种小型鸟类，它们会为附近的植物进行授粉。"
+				"你可以使用一个装满&b水&r和&b糖&r的&b蜂鸟喂食器&r来吸引它们。"
 			]
 			id: "4916C2ED6C71E696"
 			rewards: [
@@ -1041,7 +1041,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests30.subtitle}"
+			subtitle: "蜂鸟本质上是天空中的鲨鱼"
 			tasks: [
 				{
 					id: "36CFF9FD493FDAB5"
@@ -1054,8 +1054,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests31.description0}"
-				"{ftbquests.chapter.wildlife.quests31.description1}"
+				"这个令人愉悦的物品不仅在你&6按住右键时&a播放美妙的曲调&r，还可以&e召唤附近所有非坐姿的宠物&r到你的位置。"
+				"你可以选择将你的笛子与特定的宠物绑定，在使用笛子时，通过&6潜行右击&r宠物，即可实现绑定。"
 			]
 			id: "20BAF307F1556BC5"
 			rewards: [
@@ -1073,7 +1073,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests31.subtitle}"
+			subtitle: "这真是太可爱了"
 			tasks: [
 				{
 					id: "784E27A136920288"
@@ -1092,9 +1092,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests32.description0}"
-				"{ftbquests.chapter.wildlife.quests32.description1}"
-				"{ftbquests.chapter.wildlife.quests32.description2}"
+				"驯服一只动物并与它成为朋友以获得这个成就！"
+				"你可以使用这个任务的奖励右击一个实体，将它放入你的物品栏，这样你就可以轻松地远距离运输它。你只需要&6手持笼子右击一只动物，然后再右击一个方块&r，就可以重新把那只动物放出来。"
+				"你也可以&6Shift+右击&r把笼子放下来！把最好的朋友关进笼子是非常合理的事。"
 			]
 			id: "52BC8196E858B238"
 			rewards: [
@@ -1138,7 +1138,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests32.subtitle}"
+			subtitle: "我不明白，这牛是我永远的最好的朋友？"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/tame_an_animal"
@@ -1151,7 +1151,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests33.description}"]
+			description: ["找到两只动物并喂养它们以获得这个成就并开始这些任务！"]
 			id: "3C87581273ACB6A0"
 			rewards: [
 				{
@@ -1166,7 +1166,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests33.subtitle}"
+			subtitle: "畜牧业似乎不止是畜牧"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/breed_an_animal"
@@ -1180,7 +1180,7 @@
 		}
 		{
 			dependencies: ["79630C442EB1C589"]
-			description: ["{ftbquests.chapter.wildlife.quests34.description}"]
+			description: ["&e稻草傀儡&r会感到饥饿！如果它们每天没有得到美味的苹果零食，它们的速度就会变得像蜗牛一样缓慢，最终会&a生气地坐下来直到被喂食&r。它们热爱有光泽的、闪亮的红色&b苹果&r，如果你手里拿着一个苹果，它们会跟随你！"]
 			id: "48BA2D702EE5E79A"
 			rewards: [
 				{
@@ -1189,7 +1189,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.wildlife.quests34.subtitle}"
+			subtitle: "一天一苹果，医生远离我……"
 			tasks: [
 				{
 					id: "2B166DD2285C8B03"
@@ -1197,17 +1197,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests34.title}"
+			title: "给你的稻草傀儡一个苹果"
 			x: 2.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests35.description0}"
-				"{ftbquests.chapter.wildlife.quests35.description1}"
-				"{ftbquests.chapter.wildlife.quests35.description2}"
+				"想要一些帮手帮忙收获你的作物吗？你很幸运，因为你的魔法能够创造生命！小不点&e稻草傀儡&r将帮你收获你的作物。 "
+				"尽管听起来稻草傀儡是由稻草制成的，但事实上构成它们的是干草而不是稻草。所以你要弄一个&b干草块&r和一个&b雕刻过的南瓜&r来创造出这些新朋友们！&6放下干草块，然后将雕刻南瓜放在干草块上面&r，这样你就能看着它焕发生机了。"
+				"帽子突出了傀儡的可爱。"
 				""
-				"{ftbquests.chapter.wildlife.quests35.description4}"
+				"注意：&d由于这些傀儡很容易死掉，我们禁用了可能导致它们降解/需要修复的机制&r。 "
 			]
 			id: "79630C442EB1C589"
 			rewards: [
@@ -1219,7 +1219,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.wildlife.quests35.subtitle}"
+			subtitle: "小麦是朋友，不是食物！"
 			tasks: [
 				{
 					id: "5410614320F255E3"
@@ -1227,13 +1227,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests35.title}"
+			title: "稻草傀儡：重铸"
 			x: 0.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["79630C442EB1C589"]
-			description: ["{ftbquests.chapter.wildlife.quests36.description}"]
+			description: ["帽子纯粹是装饰性的。伙计，它真的可爱过吗？"]
 			id: "000D647AEFF79D8D"
 			rewards: [
 				{
@@ -1243,7 +1243,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests36.subtitle}"
+			subtitle: "麦田中的不休者"
 			tasks: [
 				{
 					id: "3B2803CEF4CED0F0"
@@ -1251,12 +1251,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests36.title}"
+			title: "给你的稻草傀儡一个帽子"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests37.description}"]
+			description: ["&b命令鼓&r是一个允许你一次性命令多个驯服的生物的道具。"]
 			id: "1661059D340835FC"
 			rewards: [
 				{
@@ -1278,7 +1278,7 @@
 			y: -7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests38.description}"]
+			description: ["如果你的宠物身上发生了什么令人不愉快的事，&b宠物床&r允许它们在早晨&a重生&r，只要把你的宠物推上&b宠物床&r，就能&6设置它们的重生点&r。"]
 			id: "6B0E280BDBD4ACF5"
 			rewards: [
 				{
@@ -1299,16 +1299,16 @@
 							value: "forge:petbeds"
 						}
 					}
-					title: "{ftbquests.chapter.wildlife.quests38.tasks0.title}"
+					title: "任意#forge:petbeds"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests38.title}"
+			title: "给你的宠物一个床"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests39.description}"]
+			description: ["&b项圈&r可以用来为你的宠物命名，但项圈也可以通过被&a附魔&r来给你的宠物提供特殊能力。"]
 			id: "09827E9E92823643"
 			rewards: [
 				{
@@ -1340,7 +1340,7 @@
 			y: -6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests40.description}"]
+			description: ["&b宠物契约&r是一个用于&a多人模式&r的物品。你可以使用它&6右击动物&r，然后将&b契约&r交给你的朋友，当他们使用时，&a如果他们已经自行驯服过了&r，宠物将从属于他们。"]
 			id: "1C37EDEA99A890EF"
 			rewards: [
 				{
@@ -1362,9 +1362,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests41.description0}"
-				"{ftbquests.chapter.wildlife.quests41.description1}"
-				"{ftbquests.chapter.wildlife.quests41.description2}"
+				"&b归途之灯&r可以指引所有走失的宠物&a找到回家的路&r。把它放在你的基地旁，这样如果你在探索途中弄丢了宠物，你可以在那里找到它们。"
+				"如果你&a在其它维度弄丢了你的宠物&r，你就需要&6在那个维度放置一个归途之灯&r来召回它们。"
+				"在&d多人游戏&r中，你的宠物会在&a最近的归途之灯处&r重生，所以在别人地盘里时请小心。"
 			]
 			id: "5DB08A394A7B8122"
 			rewards: [
@@ -1393,8 +1393,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests42.description0}"
-				"{ftbquests.chapter.wildlife.quests42.description1}"
+				"&b淘气鬼&r是一个孤独的生物，栖息于&cy=0以下的废弃矿井&r中！他每天都在做什么是个谜，但有一点很清楚：他想玩！"
+				"如果你可以&6在15分钟内找到同一只&e淘气鬼&63次&r，他就会给你一个小礼物作为感谢。"
 			]
 			id: "0C7029D3D91202D8"
 			invisible: true
@@ -1428,7 +1428,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests42.title}"
+			title: "赢得一场躲猫猫游戏"
 			x: 11.5d
 			y: -4.5d
 		}
@@ -1448,7 +1448,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests44.description}"]
+			description: ["在袭击中或在他僻静的家里找到&e冰术师&r。然后杀了他。因为坦白说，这是他应得的。"]
 			id: "23D702F268464D8E"
 			rewards: [
 				{
@@ -1509,11 +1509,11 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests46.description0}"
+				"虽然并非所有的&e苦力怕&r都是敌对的，但如果你能击杀每一种苦力怕，那简直太酷了！就像一次世界旅行，十步杀一怕，千里不留行。"
 				""
-				"{ftbquests.chapter.wildlife.quests46.description2}"
+				"作为奖励，这儿有一只不会自然生成的&e极其稀有的苦力怕&r……也许可以把它养在水族缸里当作一种战利品奖杯？"
 				""
-				"{ftbquests.chapter.wildlife.quests46.description4}"
+				"注意：由于一些苦力怕可能比其它的更难找到，你可以选择使用&b苦力怕传送门珍珠&r&a一次性处理了它们&r。但需要警告的是——&d一旦单个苦力怕爆炸&r，传送门将会坍塌。到达最后一个波次来迎接并击败每只苦力怕！"
 			]
 			icon: "handcrafted:creeper_trophy"
 			id: "5F03012DC9E38D8D"
@@ -1530,7 +1530,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "{ftbquests.chapter.wildlife.quests46.subtitle}"
+			subtitle: "击杀每一种苦力怕"
 			tasks: [
 				{
 					entity: "creeperoverhaul:badlands_creeper"
@@ -1629,7 +1629,7 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests46.title}"
+			title: "苦力怕收藏家"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -1668,7 +1668,7 @@
 		{
 			dependencies: ["7E36FAC9107093C2"]
 			dependency_requirement: "all_started"
-			description: ["{ftbquests.chapter.wildlife.quests48.description}"]
+			description: ["如果你能成功击杀500个&e苦力怕&r，那么你将获得这个&b苦力怕刷怪蛋&r。"]
 			icon: {
 				Count: 1b
 				id: "twilightforest:creeper_skull_candle"
@@ -1743,7 +1743,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests50.description}"]
+			description: ["击败&e幻术师&r——如果你能找到他——并且获得他的宝藏！"]
 			id: "61E2531671CC8118"
 			rewards: [
 				{
@@ -1766,7 +1766,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests51.description}"]
+			description: ["击败一群&e末影人&r，拿起他们的皮肤穿上它——哦，这太过分了吗？不好意思。我很兴奋。"]
 			icon: "supplementaries:enderman_head"
 			id: "3EBAD94D079ACDD8"
 			rewards: [
@@ -1840,7 +1840,7 @@
 		{
 			dependencies: ["43B3A6804B59565E"]
 			dependency_requirement: "one_started"
-			description: ["{ftbquests.chapter.wildlife.quests52.description}"]
+			description: ["如果你击败了500只&e凋灵骷髅&r，就会获得这些奖励：一个&b凋灵骷髅刷怪蛋&r，和用来放刷怪蛋的&b刷怪笼&r。"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1981,7 +1981,7 @@
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests56.description}"]
+			description: ["杀掉全部三个&e灾厄魔法师&r。求求你了。"]
 			id: "077E56B6A68AB3AC"
 			rewards: [
 				{
@@ -2009,8 +2009,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests57.description0}"
-				"{ftbquests.chapter.wildlife.quests57.description1}"
+				"通过杀戮来证明你的勇气......等等，只有一个&e僵尸&r和一个&e骷髅&r？这似乎很容易......"
+				"也许下一个任务将会更加困难。"
 			]
 			id: "43B3A6804B59565E"
 			rewards: [
@@ -2037,13 +2037,13 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests57.title}"
+			title: "剑的第一次挥舞"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests58.description}"]
+			description: ["这个任务是可重复的。"]
 			id: "3057155A3A2B5F47"
 			repeatable: true
 			rewards: [
@@ -2079,7 +2079,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests59.description}"]
+			description: ["他是一个好孩子。别让他在太阳底下呆太久。"]
 			id: "6CD4F0A4650CBA2F"
 			rewards: [
 				{
@@ -2110,7 +2110,7 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests59.title}"
+			title: "发现雪傀儡"
 			x: -11.5d
 			y: -2.5d
 		}
@@ -2150,9 +2150,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests61.description0}"
-				"{ftbquests.chapter.wildlife.quests61.description1}"
-				"{ftbquests.chapter.wildlife.quests61.description2}"
+				"浣熊是一种可爱但心术不正的夜行生物，如果你碰巧拿着一些食物，它们就会&a向你乞求食物&r。"
+				"它们还会&a从你的容器里偷走食物&r，所以在野外建造的时候要当心！"
+				"给它一个&b鸡蛋&r并让它清洗可以&a驯服&r它。"
 			]
 			id: "60F070208CAD2886"
 			rewards: [
@@ -2174,18 +2174,18 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests61.title}"
+			title: "遇见浣熊"
 			x: -10.0d
 			y: -7.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests62.description0}"
-				"{ftbquests.chapter.wildlife.quests62.description1}"
-				"{ftbquests.chapter.wildlife.quests62.description2}"
-				"{ftbquests.chapter.wildlife.quests62.description3}"
-				"{ftbquests.chapter.wildlife.quests62.description4}"
-				"{ftbquests.chapter.wildlife.quests62.description5}"
+				"是时候玩&a羊帆起航&r游戏了！规则很简单："
+				"1. 捕获一只&e山羊&r；"
+				"2. 制作一艘&b船&r；"
+				"3. 让&e山羊&r坐到&b船&r上；"
+				"4. 让你的&e屁股&r也坐到&b船&r上；"
+				"然后你就赢了！"
 			]
 			id: "114EFE7EF75B22F3"
 			rewards: [
@@ -2196,7 +2196,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.wildlife.quests62.subtitle}"
+			subtitle: "CaptainSparklez的影响力逐步增强（译注：CaptainSparklez是知名Youtuber）"
 			tasks: [
 				{
 					advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
@@ -2210,8 +2210,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests63.description0}"
-				"{ftbquests.chapter.wildlife.quests63.description1}"
+				"美西螈是很可爱的小伙伴，他们也同样&a强大威猛&r。如果你驯服一只，当你在水下遇到威胁时，它可以&a与你并肩作战&r。"
+				"他们有时也会&a给予你生命恢复效果&r，一旦他们这样做了，那你会知道你是他们&d永远最好的朋友&r。"
 			]
 			id: "232A8F9F6388C377"
 			rewards: [
@@ -2235,8 +2235,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests64.description0}"
-				"{ftbquests.chapter.wildlife.quests64.description1}"
+				"&e蝌蚪&r，又被称为“禁忌之珠”，是一种可爱的蠕动小家伙，很容易受到&e美西螈&r的攻击。"
+				"它们也很容易受到&b桶&r的“攻击”，如果你用这种方法捕获了一只，那么你就完成了这个任务。"
 			]
 			id: "2FC0EAD96E3C41D4"
 			rewards: [
@@ -2260,11 +2260,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests65.description0}"
-				"{ftbquests.chapter.wildlife.quests65.description1}"
-				"{ftbquests.chapter.wildlife.quests65.description2}"
-				"{ftbquests.chapter.wildlife.quests65.description3}"
-				"{ftbquests.chapter.wildlife.quests65.description4}"
+				"&e板鱼&r是一种长方体身材的鱼，可以用&b热带鱼&r将其&a驯服&r。"
+				"一旦被驯服，你可以&6右击&r给它装备&b羊毛&r，这样就可以&a让它穿上毛衣&r。如果你&a给它装上&b箱子&r，他就可以帮你搬运物品。"
+				"你也可以在“颜料”槽放一个染料来&a为箱子背包染色&r。"
+				"如果你&6潜行右击&r&e板鱼&r，可以切换它的状态为坐或站。"
+				"不过，只有你拿着&b热带鱼&r的时候它们&d才会跟随你&r。"
 			]
 			id: "7A028A2ABDD3D304"
 			rewards: [
@@ -2285,16 +2285,16 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests65.title}"
+			title: "找到一只板鱼"
 			x: -7.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests66.description0}"
-				"{ftbquests.chapter.wildlife.quests66.description1}"
-				"{ftbquests.chapter.wildlife.quests66.description2}"
-				"{ftbquests.chapter.wildlife.quests66.description3}"
+				"想要来点挑战吗？为什么不给你做点&b传送门珍珠&r呢？&d在这个任务中，你可以制作任何你想要的东西&r。"
+				"对着一个方块使用&b传送门珍珠&r可以召唤出&e传送门&r。使用时需要有&a足够的空间&r，而且不能有&a其他已经存在的传送门&r。"
+				"传送门开启时，如果它&a不能够生成怪物&r，或者&a怪物出界&r，或者&a用时超出这一波的时间限制&r，都会&d落下一道闪电&r。完成挑战后，奖品将会从传送门生成。"
+				"这些&e传送门&r为强大的玩家提供了挑战的机会，同时也是获得&b怪物掉落物&r的不错途径。"
 			]
 			id: "538D45E5FE8591D6"
 			rewards: [
@@ -2319,14 +2319,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests66.title}"
+			title: "永恒之门"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests67.description0}"
-				"{ftbquests.chapter.wildlife.quests67.description1}"
+				"&e山羊&r是一种暴躁的生物。如果你偶然遇见一只，&a要小心它们的火箭头槌&r！ "
+				"然而，如果你能让它&a撞到一个硬质方块&r，如&b石头&r，它就会掉落一个&b角&r。"
 			]
 			id: "3556685D896ADA7C"
 			rewards: [
@@ -2354,13 +2354,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests67.title}"
+			title: "遇见山羊"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests68.description}"]
+			description: ["虽然&e游魂&r没有敌意，但它们确实令人毛骨悚然。杀死50个游魂，帮助他们&a摆脱痛苦&r，来换取制作&b不死之眼&r的原材料。"]
 			id: "2A930C9591A317A3"
 			rewards: [
 				{
@@ -2384,7 +2384,7 @@
 		}
 		{
 			dependencies: ["0BC5E9E08677AFC5"]
-			description: ["{ftbquests.chapter.wildlife.quests69.description}"]
+			description: ["&b维度撕裂者&r可以通过&a撕裂空间&r来传送你到&c你的出生点&r。将其对准空中并&6按住右键&r来使用。需要注意的是，它&d有些不稳定&r。"]
 			id: "2B67ECD4F68DD10B"
 			rewards: [
 				{
@@ -2419,11 +2419,11 @@
 		{
 			dependencies: ["2B67ECD4F68DD10B"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests70.description0}"
-				"{ftbquests.chapter.wildlife.quests70.description1}"
-				"{ftbquests.chapter.wildlife.quests70.description2}"
-				"{ftbquests.chapter.wildlife.quests70.description3}"
-				"{ftbquests.chapter.wildlife.quests70.description4}"
+				"你可以通过&a将维度撕裂者放入&b衣壳体&r来获得&b破裂的维度撕裂者&r。"
+				"然后它会缓慢地裂解撕裂者，但不会使其彼此分离。这是一种&a奇异且古老的魔法&r。"
+				"&b破裂的维度撕裂者&r可以将你传送到你面对的方向上距离一百万格的地方。&a通常你需要这样传送30次&r才能见到瞻远者。"
+				"不过，这会&d过于超模且对服务器造成很大的性能压力&r，所以我们建议&d不要使用撕裂者&r为好。"
+				"而是使用它来合成&b瞻远者传送门珍珠&r，它能让你在家门口就能享受到与瞻远者战斗的奢华和乐趣！"
 			]
 			id: "00B06CAECE143947"
 			rewards: [
@@ -2465,8 +2465,8 @@
 		{
 			dependencies: ["34C790E76C15E41B"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests71.description0}"
-				"{ftbquests.chapter.wildlife.quests71.description1}"
+				"&b嬗变台&r可以消耗你的经验来将&a一种物品转换为另一种物品&r。"
+				"你可以&a往嬗变台输入物品&r，则有机会将其回收为另一种物品。"
 			]
 			id: "21DBD16B44D5452E"
 			rewards: [
@@ -2495,9 +2495,9 @@
 		{
 			dependencies: ["00B06CAECE143947"]
 			description: [
-				"{ftbquests.chapter.wildlife.quests72.description0}"
-				"{ftbquests.chapter.wildlife.quests72.description1}"
-				"{ftbquests.chapter.wildlife.quests72.description2}"
+				"&b传送门珍珠&r是一种有固定流程的仪式，会&a召唤出一波又一波的敌人&r，每完成一波，或者完成整个挑战，都会给予&b奖励&r。"
+				"它会&a召唤&e瞻远者&r——一种被遗忘已久的种族，身体由在金属体内的多维精灵组成。这些个体&a非常强大&r，它的&a“死亡之瞻”&r能轻而易举地秒杀最强大的巫女。"
+				"&6按住Shift键&r，将光标浮动在珍珠上方来查看&a战斗挑战&r的信息。祝你好运！"
 			]
 			id: "34C790E76C15E41B"
 			rewards: [
@@ -2527,9 +2527,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests73.description0}"
-				"{ftbquests.chapter.wildlife.quests73.description1}"
-				"{ftbquests.chapter.wildlife.quests73.description2}"
+				"亲爱的巫师们，要小心这个任务。&e鸭子们&r可能看起来可爱无害，&d但实际并非如此&r。"
+				"在这个世界的早期，&e鸭子&r们群居于世，游荡在河流之上，不停地发出嘎嘎声。这引发了&a圣鸭战争&r，在这场战争中，巫婆们怀揣着对成功的渴望，与他们的敌人进行斗争。并且杀死了大量的鸭子。"
+				"现在，你可以&6用16个鸡蛋交换&r获得&a一只鸭子&r。但要小心不要引发另一场&a圣鸭战争&r！！"
 			]
 			id: "09DB43154746CE4F"
 			rewards: [
@@ -2549,13 +2549,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests73.title}"
+			title: "孵鸭子"
 			x: -1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["43B3A6804B59565E"]
-			description: ["{ftbquests.chapter.wildlife.quests74.description}"]
+			description: ["这个任务是可重复的。"]
 			id: "376F0C3219E696C9"
 			repeatable: true
 			rewards: [
@@ -2580,7 +2580,7 @@
 			y: 6.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests75.description}"]
+			description: ["这种难以捕捉的大型猫科动物可以在&c石岸&r和&c积雪的针叶林&r中找到。为了长久的友谊，可以用&b羊肉&r或者&b鲑鱼&r来&6驯服该坐骑&r。"]
 			id: "30C49F5FE020A827"
 			rewards: [
 				{
@@ -2591,24 +2591,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests75.subtitle}"
+			subtitle: "别把它和雪貂搞混了"
 			tasks: [
 				{
 					icon: "mythicmounts:acencia_spawn_egg"
 					id: "0D9F73EE13D43265"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests75.tasks0.title}"
+					title: "雪豹"
 					to_observe: "mythicmounts:acencia"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests75.title}"
+			title: "遇见雪豹"
 			x: -5.5d
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests76.description}"]
+			description: ["&e古巨龟&r是一种来自史前时代的古老巨龟，你可以在它的栖息地——&c温水深海&r中找到它。用&b鳕鱼&r和&b鲑鱼&r来&6驯服它&r。这只坐骑在陆地速度上的不足，在水中完全可以弥补!"]
 			id: "648A50640E91D24A"
 			rewards: [
 				{
@@ -2619,24 +2619,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests76.subtitle}"
+			subtitle: "乌龟之力"
 			tasks: [
 				{
 					icon: "mythicmounts:archelon_spawn_egg"
 					id: "576F2F84251A382C"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests76.tasks0.title}"
+					title: "古巨龟"
 					to_observe: "mythicmounts:archelon"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests76.title}"
+			title: "遇见古巨龟"
 			x: -9.0d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests77.description}"]
+			description: ["仅能在&c蘑菇岛&r找到，他们能够使用&b糖&r，&b蘑菇&r和所有的原版&b花&r来&6驯服&r。"]
 			id: "21528845876CE157"
 			rewards: [
 				{
@@ -2647,24 +2647,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests77.subtitle}"
+			subtitle: "超酷的鞘翅"
 			tasks: [
 				{
 					icon: "mythicmounts:colelytra_spawn_egg"
 					id: "5901AACDFB867A81"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests77.tasks0.title}"
+					title: "巨瓢虫"
 					to_observe: "mythicmounts:colelytra"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests77.title}"
+			title: "遇见巨瓢虫"
 			x: -10.5d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests78.description}"]
+			description: ["可以在&c丛林&r中找到这种强劲又敏捷的生物。&6小心地接近它&r，用&b甜浆果&r或&b西瓜片&e来赢得他们的好感。"]
 			icon: "mythicmounts:courierbird_spawn_egg"
 			id: "65AA3625C4BFB209"
 			rewards: [
@@ -2676,23 +2676,23 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests78.subtitle}"
+			subtitle: "Cid引以为豪的坐骑"
 			tasks: [
 				{
 					id: "2FBAAA40959B40D1"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests78.tasks0.title}"
+					title: "驮鸟"
 					to_observe: "mythicmounts:courierbird"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests78.title}"
+			title: "遇见驮鸟"
 			x: -11.5d
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests79.description}"]
+			description: ["这可不是人类最好的朋友……至少目前不是。&6可以试着给他们喂根&b骨头&r。可在任意&c针叶林群系&r中找到它。"]
 			id: "768B4047531DA253"
 			rewards: [
 				{
@@ -2703,24 +2703,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests79.subtitle}"
+			subtitle: "好孩子"
 			tasks: [
 				{
 					icon: "mythicmounts:direwolf_spawn_egg"
 					id: "002A96C2150A0675"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests79.tasks0.title}"
+					title: "恐狼"
 					to_observe: "mythicmounts:direwolf"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests79.title}"
+			title: "遇见恐狼"
 			x: -7.5d
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests80.description}"]
+			description: ["虽然它们十分罕见，但是这些野兽有时也可以在&c深处的洞穴&r中找到。要和它们做朋友，就得&6把你的珍宝拿出来&r……&b金&r、&b钻石&r又或者是&b绿宝石&r都可以。但要小心……它们可能十分&d危险&r。"]
 			id: "14615CB8F1735FA2"
 			rewards: [
 				{
@@ -2731,24 +2731,24 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests80.subtitle}"
+			subtitle: "梦……龙！"
 			tasks: [
 				{
 					icon: "mythicmounts:dragon_spawn_egg"
 					id: "4BDA628CE3E21F64"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests80.tasks0.title}"
+					title: "龙"
 					to_observe: "mythicmounts:dragon"
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests80.title}"
+			title: "遇见龙"
 			x: -10.0d
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests81.description}"]
+			description: ["制作一个&b召唤之杖&r以绑定你的坐骑（&6用召唤之杖右击你的坐骑即可！&r）。你可以用召唤之杖命令它们坐下、跟随或者闲逛……并且可以从任意地方召唤到你身边！不过要注意：&a一个召唤之杖只能绑定一个坐骑&r。"]
 			id: "7F47F7D233DC95D2"
 			rewards: [
 				{
@@ -2758,7 +2758,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.wildlife.quests81.subtitle}"
+			subtitle: "比星宝石兽更好"
 			tasks: [
 				{
 					id: "5ACC8B4D92DD6D6C"
@@ -2766,22 +2766,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests81.title}"
+			title: "哟！哟！"
 			x: -9.0d
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests82.description}"]
+			description: ["这种温顺又贪吃的蜥蜴喜欢在&c高山上的洞穴里&r休养生息，也喜欢吃&b南瓜或者看着像南瓜的东西&r。用&b南瓜&r、&b西瓜&r或者&b干草块&r来&6驯服它们&r，拥有一个自己的蜥蜴朋友。"]
 			id: "1782885E17C84F8F"
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests82.subtitle}"
+			subtitle: "节省15％以上"
 			tasks: [
 				{
 					icon: "mythicmounts:geckotoalizard_spawn_egg"
 					id: "2A1BA8484B88A5D9"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests82.tasks0.title}"
+					title: "遇见巨蜥"
 					to_observe: "mythicmounts:geckotoalizard"
 					type: "observation"
 				}
@@ -2790,7 +2790,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests83.description}"]
+			description: ["脆弱而又美丽，能带着你在空中飞行，这些飞蛾出没在&c黑森林&r地区里，&6给它们&b糖&r或者原版的&b花朵&r来赢得他们的信任。"]
 			id: "493D39C87927E8B8"
 			rewards: [
 				{
@@ -2801,14 +2801,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests83.subtitle}"
+			subtitle: "伙计，大飞蛾！"
 			tasks: [
 				{
 					icon: "mythicmounts:moth_spawn_egg"
 					id: "314834CD0700647F"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests83.tasks0.title}"
+					title: "遇见飞蛾"
 					to_observe: "mythicmounts:moth"
 					type: "observation"
 				}
@@ -2817,7 +2817,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests84.description}"]
+			description: ["有时可以看到这不一般的鸟类……或者说是哺乳动物……又或者是什么东西……飞越&c山顶&r。喂给它们&b兔肉&r或&b羊肉&r来&6驯服&r它们，它们作为你忠实的伙伴，会&a保护它们的主人&r。"]
 			id: "50AA90B7E60328CC"
 			rewards: [
 				{
@@ -2828,14 +2828,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests84.subtitle}"
+			subtitle: "30 Under 30媒体名人（译注：30 Under 30是福布斯一个榜单名）"
 			tasks: [
 				{
 					icon: "mythicmounts:griffon_spawn_egg"
 					id: "232C61F0A33F9FA5"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests84.tasks0.title}"
+					title: "遇见狮鹫"
 					to_observe: "mythicmounts:griffon"
 					type: "observation"
 				}
@@ -2844,7 +2844,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests85.description}"]
+			description: ["在&c下界的菌林&r中寻找这些蝙蝠。它们作为杂食动物，会吃各种各样的东西，从&b蘑菇&r到&b鸡蛋&r再到&b蜘蛛眼&r……&a一定要带上些小零食&r，因为它们&d对玩家充满敌意&r！"]
 			id: "04BBB86977655EB7"
 			rewards: [
 				{
@@ -2855,14 +2855,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests85.subtitle}"
+			subtitle: "逻辑混乱"
 			tasks: [
 				{
 					icon: "mythicmounts:netherbat_spawn_egg"
 					id: "5E0758AD28FDB506"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests85.tasks0.title}"
+					title: "遇见下界蝙蝠"
 					to_observe: "mythicmounts:netherbat"
 					type: "observation"
 				}
@@ -2871,7 +2871,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests86.description}"]
+			description: ["要想轻松地穿越下界，可以找一只梦魇带你走，你可以在&c灵魂沙峡谷&r和&c玄武岩三角洲&r中找到它，并且该坐骑可以&a在熔岩上行走&r。用&b骨头&r或者&b煤炭&r和它&6做朋友&r吧。"]
 			id: "19B9CB7C3611E68B"
 			rewards: [
 				{
@@ -2882,14 +2882,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests86.subtitle}"
+			subtitle: "理想中的坐骑"
 			tasks: [
 				{
 					icon: "mythicmounts:nightmare_spawn_egg"
 					id: "288A190F078EF8E3"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests86.tasks0.title}"
+					title: "遇见梦魇"
 					to_observe: "mythicmounts:nightmare"
 					type: "observation"
 				}
@@ -2898,7 +2898,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests87.description}"]
+			description: ["这些&c珊瑚礁居民&r都很友善，它们是能干的游泳运动员，还有有很多花纹和颜色！可以用&b海带&6驯服&r一只水生坐骑！"]
 			id: "4820853CA82E0A49"
 			rewards: [
 				{
@@ -2909,14 +2909,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests87.subtitle}"
+			subtitle: "我听说你喜欢水跃鱼（译注：水属性宝可梦）"
 			tasks: [
 				{
 					icon: "mythicmounts:nudibranch_spawn_egg"
 					id: "3EF59979EAD2AC24"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests87.tasks0.title}"
+					title: "遇见海蛞蝓"
 					to_observe: "mythicmounts:nudibranch"
 					type: "observation"
 				}
@@ -2925,7 +2925,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests88.description}"]
+			description: ["这种爬行类坐骑在它们的原生环境中（&c沙漠&r和&c恶地&r），以&e兔子&r与&e鸡&r作为食物。虽然它们&d对玩家充满敌意&r，但只要&6给它们&b最喜爱的肉&r，就能让它们做你最忠诚的朋友"]
 			id: "4AECEC9D64050806"
 			rewards: [
 				{
@@ -2936,14 +2936,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests88.subtitle}"
+			subtitle: "聪明的女孩"
 			tasks: [
 				{
 					icon: "mythicmounts:ridinglizard_spawn_egg"
 					id: "4FC0543C69D3E13F"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests88.tasks0.title}"
+					title: "遇见迅足蜥"
 					to_observe: "mythicmounts:ridinglizard"
 					type: "observation"
 				}
@@ -2952,7 +2952,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.wildlife.quests89.description}"]
+			description: ["这是一个极其罕见的景象，有时可以在&c有人居住的村庄中&r见到&e火鸟&r在附近飞行。据说火鸟的品味都很高，&6试试&r为它们的友谊献上&b金苹果&r。"]
 			id: "594C827670019E11"
 			rewards: [
 				{
@@ -2963,14 +2963,14 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests89.subtitle}"
+			subtitle: "好运的预兆"
 			tasks: [
 				{
 					icon: "mythicmounts:firebird_spawn_egg"
 					id: "2B3163010EA02133"
 					observe_type: 5
 					timer: 0L
-					title: "{ftbquests.chapter.wildlife.quests89.tasks0.title}"
+					title: "遇见火鸟"
 					to_observe: "mythicmounts:firebird"
 					type: "observation"
 				}
@@ -2980,9 +2980,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.wildlife.quests90.description0}"
+				"哇哦，一只&e跳蛛&r！用&b蜻蜓翅膀&r驯服它，它就会保护你。它们也会掉落&b蛛丝&r，可用于合成&b丝拴绳&r和&b丝抓钩&r。"
 				""
-				"{ftbquests.chapter.wildlife.quests90.description2}"
+				"注意：由于滞后的AI，该模组的蜻蜓不会在世界中生成。然而，你可以在&b昆虫传送门珍珠&r中找到它们——和许多其他讨厌的小虫"
 			]
 			id: "3C1AC5730A574F29"
 			rewards: [
@@ -2994,7 +2994,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.wildlife.quests90.subtitle}"
+			subtitle: "你没那么吓人，对吧？"
 			tasks: [
 				{
 					icon: "crittersandcompanions:silk_cocoon"
@@ -3005,10 +3005,10 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.wildlife.quests90.title}"
+			title: "见见跳蛛！"
 			x: -6.0d
 			y: -2.5d
 		}
 	]
-	title: "{ftbquests.chapter.wildlife.title}"
+	title: "野生动物"
 }

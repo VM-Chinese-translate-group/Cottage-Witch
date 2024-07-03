@@ -43,7 +43,7 @@
 	quests: [
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests0.description}"]
+			description: ["你现在可以&a在熔岩中钓鱼&r了！给自己弄一根&b熔岩钓竿&r然后甩勾吧！你会发现你可以钓到一些&a非常有趣的新鱼&r。"]
 			id: "104D0C28773A1DD4"
 			rewards: [
 				{
@@ -53,7 +53,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests0.subtitle}"
+			subtitle: "地狱钓竿"
 			tasks: [
 				{
 					id: "4B09404FC3251283"
@@ -67,17 +67,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests0.title}"
+			title: "我已经是个熟练的下界钓鱼佬了"
 			x: 7.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests1.description0}"
+				"虽然你也可以继续用普通的老&b钓鱼竿&r钓鱼，但如果你做根进阶版的，你的鱼获会好得多，比如一根&b铁的&r、&b金的&r，或者&b钻石的钓鱼竿&r。 "
 				""
-				"{ftbquests.chapter.fishing__gathering.quests1.description2}"
+				"乍一看，它们似乎没什么不同，但&d有了钓具盒&r你就可以对这些&b鱼竿&r可以变得多好有更深入的了解。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests1.description4}"
+				"为啥要钓鱼而不是直接潜到水里用剑砍鱼？呃，有些鱼&a不会自然生成，只能靠钓&r。"
 			]
 			id: "2E4D1699E2A7876B"
 			rewards: [
@@ -96,7 +96,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests1.subtitle}"
+			subtitle: "一切从这里开始"
 			tasks: [
 				{
 					id: "48F4CD59425BC257"
@@ -107,19 +107,19 @@
 							value: "forge:fishing_rods"
 						}
 					}
-					title: "{ftbquests.chapter.fishing__gathering.quests1.tasks0.title}"
+					title: "任意#forge:fishing_rods"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests1.title}"
+			title: "获得一根钓鱼竿"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests2.description0}"
-				"{ftbquests.chapter.fishing__gathering.quests2.description1}"
+				"珀耳塞福涅肯定会为你感到骄傲的！"
+				"石榴枝为主人带来未被发现的财富亦或新的财富。你也可以用干石榴皮来大量燃烧。"
 			]
 			id: "015EA4B35A947259"
 			rewards: [
@@ -130,7 +130,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests2.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "7972CB0F2E61BE94"
@@ -143,7 +143,7 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests3.description}"]
+			description: ["在无花果叶上写下一个问题以获得它的占卜答案。如果叶子干枯得很慢，那么答案就是肯定的。如果它很快就干枯了，就是否定的，或者是个不祥之兆。不过，我也不确定无花果叶应该干得多快。"]
 			id: "0E2CC89B895C9494"
 			rewards: [
 				{
@@ -153,7 +153,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests3.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "2ED2CB812D6410F0"
@@ -166,7 +166,7 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests4.description}"]
+			description: ["有一个治疗牙痛的咒语是把一颗钉子钉进青柠树的树干——但你必须先感谢青柠树！"]
 			id: "0D61BF5085BCEF31"
 			rewards: [
 				{
@@ -176,7 +176,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests4.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "7F37A8C84BE53B25"
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests5.description}"]
+			description: ["双孢蘑菇料理可能是你所需的疗愈心灵的强大魔法。"]
 			id: "56DF02D06E0FD715"
 			rewards: [
 				{
@@ -199,7 +199,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests5.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "7E9558C833E4342B"
@@ -212,7 +212,7 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests6.description}"]
+			description: ["历史上，女巫们在核桃树的大树枝下跳舞。还有传言说，给某人送一袋核桃可以让他所有的梦想都成真。这在他的梦想是拥有一袋核桃的情况下特别有效。"]
 			id: "5C5DF640A2605954"
 			rewards: [
 				{
@@ -222,7 +222,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests6.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "1F753784516464C0"
@@ -235,7 +235,7 @@
 		}
 		{
 			dependencies: ["2093240CD42882CF"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests7.description}"]
+			description: ["据说，枸杞能够进行深层的内心加工，而无需有意识地去面对。"]
 			id: "5A18AB9A4B6370A2"
 			rewards: [
 				{
@@ -245,7 +245,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests7.subtitle}"
+			subtitle: "真实世界的传说"
 			tasks: [
 				{
 					id: "746220A32EE8AA8E"
@@ -258,12 +258,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests8.description0}"
-				"{ftbquests.chapter.fishing__gathering.quests8.description1}"
-				"{ftbquests.chapter.fishing__gathering.quests8.description2}"
-				"{ftbquests.chapter.fishing__gathering.quests8.description3}"
-				"{ftbquests.chapter.fishing__gathering.quests8.description4}"
-				"{ftbquests.chapter.fishing__gathering.quests8.description5}"
+				"你可以在世界各地找到&b野生作物&r。"
+				"集齐它们，打造你的&a美丽魔法花园&r！"
+				"你知道挂在镜子上的玉米会给你的家庭带来好运吗？"
+				"拿一个小白洋葱，插满黑头的针，然后放在窗户上，这样可以防止负能量的侵入。"
+				"据说胡萝卜能促进……生理欲望。*眨眼*"
+				"你可以在&c丛林&r找到&b茄子&r，在&c沼泽&r找到&b黄瓜&r，在&c平原&r找到&b玉米&r，在&c丛林&r找到&b牛油果&r。"
 			]
 			icon: "farmersdelight:wild_carrots"
 			id: "2093240CD42882CF"
@@ -359,7 +359,7 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests8.title}"
+			title: "寻找野生作物"
 			x: -5.5d
 			y: 1.5d
 		}
@@ -379,7 +379,7 @@
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests10.description}"]
+			description: ["真幸运，你捡到了一个&b漂流瓶&r！上面写了什么？"]
 			id: "2CB6A1B10F4A6FAD"
 			rewards: [
 				{
@@ -403,7 +403,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests10.subtitle}"
+			subtitle: "希望有人捡到我的"
 			tasks: [
 				{
 					id: "0A5D1053C0B55403"
@@ -418,8 +418,8 @@
 			dependencies: ["104D0C28773A1DD4"]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests11.description0}"
-				"{ftbquests.chapter.fishing__gathering.quests11.description1}"
+				"惊喜的是，在&c下界&r的熔岩湖底生机勃勃！用这个&b特殊的钓竿&r，你可以&a轻松地抓住&r它们，享受你的劳动果实吧！"
+				"许多鱼可以被用于&a烹饪&r或&a加工成其他产品&r。使用&lJEI&r查看每条鱼可以做些什么！"
 			]
 			id: "0F5E5A0B0C05ACD2"
 			rewards: [
@@ -494,13 +494,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests11.title}"
+			title: "下界钓鱼"
 			x: 9.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests12.description}"]
+			description: ["这些鱼生活在&c有淡水的生物群系&r，比如河流、森林，等等等等！"]
 			id: "587057082557AAFB"
 			rewards: [
 				{
@@ -510,7 +510,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests12.subtitle}"
+			subtitle: "新鲜鱼群妙事多"
 			tasks: [
 				{
 					id: "1B3AA6BFD29D0F74"
@@ -564,13 +564,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests12.title}"
+			title: "捕获淡水鱼类"
 			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests13.description}"]
+			description: ["这些鱼可以在&c寒冷或冰封的&r生物群系中找到，比如针叶林、冰刺之地，或冷水海洋。"]
 			id: "4F417203FC109BEA"
 			rewards: [
 				{
@@ -580,7 +580,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests13.subtitle}"
+			subtitle: "特别是北极的"
 			tasks: [
 				{
 					id: "0351C799674E1C39"
@@ -623,13 +623,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests13.title}"
+			title: "捕获极地鱼类"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests14.description}"]
+			description: ["这些鱼生活在&c咸水生物群系&r中，比如温水或暖水海洋。"]
 			id: "035D2CEA29C1E96C"
 			rewards: [
 				{
@@ -639,7 +639,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests14.subtitle}"
+			subtitle: "别给我咸猪手"
 			tasks: [
 				{
 					id: "4C696880905B5BC1"
@@ -657,13 +657,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests14.title}"
+			title: "捕获咸水鱼类"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests15.description}"]
+			description: ["尽管你不能把&b金鱼&a做成鱼片&r，但你可以从中提取黄金！不过，老实说，我更愿意只是用&b物品展示框&r把它挂在墙上。"]
 			id: "444410F7447B1317"
 			rewards: [
 				{
@@ -673,7 +673,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests15.subtitle}"
+			subtitle: "你获得金奖了！"
 			tasks: [
 				{
 					id: "0BAD6FAF3881FFB1"
@@ -687,11 +687,11 @@
 		{
 			dependencies: ["2E4D1699E2A7876B"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests16.description0}"
+				"&b菇鱼&r可以在&c蘑菇岛&r中抓到。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests16.description2}"
+				"&b星壳龟&r可以在&c暮色森林&r的任何地方找到。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests16.description4}"
+				"&b箱龟&r和&b水蛭&r只有&c沼泽生物群系&r里才有。 "
 			]
 			id: "21DC6690C774EAAA"
 			rewards: [
@@ -735,13 +735,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests16.title}"
+			title: "异类"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests17.description}"]
+			description: ["这些鱼可以在&c干旱的生物群系&r附近找到，比如沙漠或高原。"]
 			id: "59ADDCF245D059EF"
 			rewards: [
 				{
@@ -751,7 +751,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests17.subtitle}"
+			subtitle: "总是在干旱区域保持谨慎"
 			tasks: [
 				{
 					id: "19F21E9E3F78886D"
@@ -774,13 +774,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests17.title}"
+			title: "捕获干旱生物群系中的鱼"
 			x: 5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests18.description}"]
+			description: ["这些鱼可以在&c丛林类的&r生物群系中找到，比如雨林或者，呃，丛林！"]
 			id: "314A3108FC061BC1"
 			rewards: [
 				{
@@ -790,7 +790,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests18.subtitle}"
+			subtitle: "欢迎来到丛林"
 			tasks: [
 				{
 					id: "223B3A8F68BE53FF"
@@ -813,18 +813,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests18.title}"
+			title: "捕获丛林鱼类"
 			x: 6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2E4D1699E2A7876B"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests19.description0}"
+				"&b钓具盒&r可用于修饰你的新&b钓鱼竿&r。只要&6把竿放在右上角的槽位中&r，你就可以给它添加&b鱼钩&r、一些&b鱼饵&r、&浮标&r，以及&b鱼线&r了。这些东西决定了你的钓鱼竿的表现。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests19.description2}"
+				"&b浮标&r和&b鱼线&r可以染色，并且&a只是单纯的外观改变&r。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests19.description4}"
+				"&b鱼饵&r既可以捕捉（鲦鱼、水蛭）也可以制作（蚯蚓）。鱼饵可以把更多的鱼引诱到你的鱼线处！它有耐久值，但可以&a附魔&r以变得更结实。"
 			]
 			id: "482A73F6470C9F3D"
 			rewards: [
@@ -847,7 +847,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests19.subtitle}"
+			subtitle: "比一个钓具箱要好"
 			tasks: [
 				{
 					id: "459DF0E74535B7A5"
@@ -861,11 +861,11 @@
 		{
 			dependencies: ["482A73F6470C9F3D"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests20.description0}"
+				"&b蚯蚓农场&r可以给你提供最基础的鱼饵。它的工作方式与&b堆肥桶&r几乎完全一样（因为它就是）。&6用有机物填充它&r以给你的&b蚯蚓&r制造栖息的堆肥。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests20.description2}"
+				"当你有了足够的堆肥，&6空手右击它&r来挖出一些&b蚯蚓&r！"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests20.description4}"
+				"而且，令人愉悦的是，你&a可以给蚯蚓附魔&r赋予它额外的耐久值，甚至可以上&a经验修补&r。"
 			]
 			id: "5D90F92A9A2E5061"
 			rewards: [
@@ -905,7 +905,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests20.subtitle}"
+			subtitle: "构成温暖"
 			tasks: [
 				{
 					id: "7FD4882318FF3EC4"
@@ -919,9 +919,9 @@
 		{
 			dependencies: ["482A73F6470C9F3D"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests21.description0}"
+				"你可以制作&b浮标&r和&b鱼线&r来个性化你的&b鱼竿&r！它们可以染成任何颜色，并且改变的仅仅是外观。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests21.description2}"
+				"注意：&b鱼线&r和&b耐久鱼线&r是不相关的东西。后者是&6装备在饰品栏中&r的。"
 			]
 			id: "59237CB30CC6F4E3"
 			rewards: [
@@ -939,7 +939,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests21.subtitle}"
+			subtitle: "交易好物"
 			tasks: [
 				{
 					id: "13511C33620DF9FA"
@@ -952,13 +952,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests21.title}"
+			title: "浮标和鱼线"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["482A73F6470C9F3D"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests22.description}"]
+			description: ["要好好钓鱼，你需要一个&b鱼钩&r。铁鱼钩可以给你的鱼竿添加&a耐久&r。默认情况下，有20%%的几率不消耗耐久。"]
 			id: "64BD120520A00D3D"
 			rewards: [
 				{
@@ -968,7 +968,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests22.subtitle}"
+			subtitle: "适合你的竿，而不是你的手！"
 			tasks: [
 				{
 					id: "7E7555C4B40A5BD2"
@@ -982,13 +982,13 @@
 		{
 			dependencies: ["64BD120520A00D3D"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests23.description0}"
+				"铁鱼钩钓不到任何鱼？&a升级你的鱼钩成&r其中之一吧！"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests23.description2}"
+				"&b金鱼钩&r：增加钓鱼时的幸运值。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests23.description4}"
+				"&b双头鱼钩&r：有几率双飞！"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests23.description6}"
+				"&b钻石鱼钩&r：增加钓鱼不消耗耐久的几率。"
 			]
 			id: "72AF06325F252A3D"
 			rewards: [
@@ -1010,26 +1010,26 @@
 							value: "forge:upgraded_hooks"
 						}
 					}
-					title: "{ftbquests.chapter.fishing__gathering.quests23.tasks0.title}"
+					title: "任意#forge:upgraded_hooks"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests23.title}"
+			title: "升级你的鱼钩！"
 			x: 3.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["64BD120520A00D3D"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests24.description0}"
+				"不同的&b鱼钩&r会提供不同的效果。有些是纯粹的升级，但这些会&a产生其他的效果&r！"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests24.description2}"
+				"&b重鱼钩&r：抛竿距离比其它鱼钩更近。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests24.description4}"
+				"&b红石鱼钩&r：给你更长的收竿反应时间，如果你无法快速做出反应，这将会很有用。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests24.description6}"
+				"&b音符鱼钩&r：鱼接近时播放音符。如果你在走神或者关闭了粒子效果，这将十分有用。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests24.description8}"
+				"&b轻鱼钩&r：可以抛得更远。"
 			]
 			id: "5D6CB31C1C98CFD5"
 			rewards: [
@@ -1050,17 +1050,17 @@
 							value: "forge:niche_hooks"
 						}
 					}
-					title: "{ftbquests.chapter.fishing__gathering.quests24.tasks0.title}"
+					title: "任意#forge:niche_hooks"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests24.title}"
+			title: "专业对口"
 			x: 5.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["64BD120520A00D3D"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests25.description}"]
+			description: ["你的&b下界之星&r是不是已经多到把你淹没了？是的，我们都是这样。制作这个鱼钩以获得耐久和幸运的提升！"]
 			id: "4FFFF3951DA04102"
 			rewards: [
 				{
@@ -1090,15 +1090,15 @@
 		{
 			dependencies: ["482A73F6470C9F3D"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests26.description0}"
+				"你不仅能钓到水生生物。有时候，你会钓上来一些&b物品&r——这可以很有意思，比如&b漂流瓶&r，也可以令人失望，比如&b浮木&r。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests26.description2}"
+				"其中的三个是战利品容器。&b盒子&r里的东西大概率&a价值不大&r——岩石、沙砾，等等等等。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests26.description4}"
+				"&b加锁盒子&r里可能有矿物或矿粒这些&a值点儿钱的东西&r。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests26.description6}"
+				"&b财宝箱&r里可能有&a更好的矿物或宝石&r。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests26.description8}"
+				"也许还能找到更大、更稀有的宝藏……"
 			]
 			id: "67815A6259CBD8E0"
 			rewards: [
@@ -1115,7 +1115,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests26.subtitle}"
+			subtitle: "战利品盒"
 			tasks: [
 				{
 					id: "62564168D9B33E6B"
@@ -1133,13 +1133,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests26.title}"
+			title: "有什么比鱼更好？"
 			x: 6.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["67815A6259CBD8E0"]
-			description: ["{ftbquests.chapter.fishing__gathering.quests27.description}"]
+			description: ["终极鱼竿！&b海王钓鱼竿&r比其它任何钓鱼竿都更加耐久且更适合附魔。它本身对鱼也更有吸引力。"]
 			id: "463B179F5C15F929"
 			rewards: [
 				{
@@ -1155,7 +1155,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests27.subtitle}"
+			subtitle: "海王自用的鱼竿"
 			tasks: [
 				{
 					id: "5D527D3F5A2CD037"
@@ -1175,11 +1175,11 @@
 		{
 			dependencies: ["2E4D1699E2A7876B"]
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests28.description0}"
+				"鱼都在哪儿……？&l水产业模组&r的鱼&a不会在世界中自然生成&r，你只能&6把它们钓起来&r。 "
 				""
-				"{ftbquests.chapter.fishing__gathering.quests28.description2}"
+				"不过别担心，它们不是死鱼——只是睡着了！&6将那条鱼与水桶合成&r以立即唤醒它。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests28.description4}"
+				"如果你喜欢更多的披萨之类的东西，你可以&6用闪电击中一条死鱼&r以获得它跳动的心脏。确保你准备了桶——否则最后你&d会获得一条熟鱼&r！"
 			]
 			id: "4C992CD3177839C9"
 			rewards: [
@@ -1190,7 +1190,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests28.subtitle}"
+			subtitle: "唤醒它们的灵魂"
 			tasks: [
 				{
 					id: "78AAD73436389F71"
@@ -1201,22 +1201,22 @@
 							value: "forge:aquafish"
 						}
 					}
-					title: "{ftbquests.chapter.fishing__gathering.quests28.tasks0.title}"
+					title: "任意#forge:aquafish"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests28.title}"
+			title: "让它们活起来"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.fishing__gathering.quests29.description0}"
+				"要开始你的&a螃蟹之旅&r，你需要一个&b捕蟹笼&r。将它放置在水中并&a用饵料填充它&r以吸引生物。"
 				""
-				"{ftbquests.chapter.fishing__gathering.quests29.description2}"
+				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
 			]
 			id: "602AECDEE9755175"
-			subtitle: "{ftbquests.chapter.fishing__gathering.quests29.subtitle}"
+			subtitle: "这是个陷阱！"
 			tasks: [
 				{
 					id: "2205B9EDEE5F7A89"
@@ -1224,10 +1224,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.fishing__gathering.quests29.title}"
+			title: "捉螃蟹新手"
 			x: 14.5d
 			y: -1.0d
 		}
 	]
-	title: "{ftbquests.chapter.fishing__gathering.title}"
+	title: "钓鱼与采集"
 }

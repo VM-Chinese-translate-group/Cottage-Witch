@@ -33,7 +33,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests0.title}"
+			title: "寻宝游戏：黏土球"
 			x: -3.0d
 			y: 2.0d
 		}
@@ -47,7 +47,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests1.title}"
+			title: "寻宝游戏：红树胎生苗"
 			x: -1.5d
 			y: 4.0d
 		}
@@ -61,7 +61,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests2.title}"
+			title: "寻宝游戏：钻石"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -75,7 +75,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests3.title}"
+			title: "寻宝游戏：灵魂灯笼"
 			x: -5.5d
 			y: 1.5d
 		}
@@ -89,7 +89,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests4.title}"
+			title: "寻宝游戏：甜浆果"
 			x: -6.0d
 			y: -1.0d
 		}
@@ -103,7 +103,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests5.title}"
+			title: "寻宝游戏：生兔肉"
 			x: 3.5d
 			y: 4.0d
 		}
@@ -117,7 +117,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests6.title}"
+			title: "寻宝游戏：毒马铃薯"
 			x: 6.0d
 			y: -1.0d
 		}
@@ -131,7 +131,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests7.title}"
+			title: "寻宝游戏：紫颂果"
 			x: 3.5d
 			y: 2.0d
 		}
@@ -145,7 +145,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests8.title}"
+			title: "寻宝游戏：河豚"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -174,7 +174,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests9.title}"
+			title: "寻宝游戏：曲奇"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -188,7 +188,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests10.title}"
+			title: "寻宝游戏：羽毛"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests11.title}"
+			title: "寻宝游戏：鸡蛋"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -221,7 +221,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests12.title}"
+			title: "寻宝游戏：墨囊"
 			x: 1.5d
 			y: 4.0d
 		}
@@ -235,7 +235,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests13.title}"
+			title: "寻宝游戏：岩浆膏"
 			x: -3.5d
 			y: 4.0d
 		}
@@ -249,7 +249,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests14.title}"
+			title: "寻宝游戏：菌光体"
 			x: -5.5d
 			y: 3.5d
 		}
@@ -263,7 +263,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests15.title}"
+			title: "寻宝游戏：糖"
 			x: 5.5d
 			y: 3.5d
 		}
@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests16.title}"
+			title: "寻宝游戏：下界菌"
 			x: 2.5d
 			y: -4.0d
 		}
@@ -296,7 +296,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests17.title}"
+			title: "寻宝游戏：枯萎的灌木"
 			x: -2.5d
 			y: -4.0d
 		}
@@ -310,7 +310,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests18.title}"
+			title: "寻宝游戏：海泡菜"
 			x: 0.0d
 			y: -3.5d
 		}
@@ -334,7 +334,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests19.title}"
+			title: "寻宝游戏：花"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -348,7 +348,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests20.title}"
+			title: "寻宝游戏：哭泣的黑曜石"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -367,7 +367,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests21.title}"
+			title: "寻宝游戏：紫水晶"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -381,7 +381,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests22.title}"
+			title: "寻宝游戏：末地烛"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -395,7 +395,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests23.title}"
+			title: "寻宝游戏：干草块"
 			x: -5.5d
 			y: -4.0d
 		}
@@ -409,7 +409,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests24.title}"
+			title: "寻宝游戏：海晶灯"
 			x: 5.5d
 			y: -4.0d
 		}
@@ -423,7 +423,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests25.title}"
+			title: "寻宝游戏：鹿角珊瑚块"
 			x: 0.0d
 			y: -5.5d
 		}
@@ -442,7 +442,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests26.title}"
+			title: "寻宝游戏：蜂蜜"
 			x: 6.5d
 			y: 5.0d
 		}
@@ -466,7 +466,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests27.title}"
+			title: "寻宝游戏：粗矿"
 			x: -6.5d
 			y: 5.0d
 		}
@@ -490,7 +490,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests28.title}"
+			title: "寻宝游戏：炖菜"
 			x: -4.5d
 			y: 5.5d
 		}
@@ -504,7 +504,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests29.title}"
+			title: "寻宝游戏：细雪桶"
 			x: 5.0d
 			y: 5.5d
 		}
@@ -518,7 +518,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests30.title}"
+			title: "寻宝游戏：蝌蚪桶"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -532,7 +532,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests31.title}"
+			title: "寻宝游戏：钟"
 			x: -3.5d
 			y: -5.5d
 		}
@@ -546,24 +546,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.scavenger_hunt.quests32.title}"
+			title: "寻宝游戏：5号唱片"
 			x: 4.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.scavenger_hunt.quests33.description0}"
-				"{ftbquests.chapter.scavenger_hunt.quests33.description1}"
+				"想找点事做吗？为什么不来玩玩&a寻宝游戏&r呢？拿到这些物品可以得到令人难以置信的奖励！"
+				"&6点击任务中的复选框来开始游戏&r。游戏可随时完成。"
 			]
 			id: "505C0E55270CBFBC"
 			optional: true
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.scavenger_hunt.quests33.subtitle}"
+			subtitle: "寻宝时间到！"
 			tasks: [
 				{
 					id: "7C613D3D7DD3EF30"
-					title: "{ftbquests.chapter.scavenger_hunt.quests33.tasks0.title}"
+					title: "开始寻宝"
 					type: "checkmark"
 				}
 			]
@@ -608,8 +608,8 @@
 				"74403CDD36E19E5B"
 			]
 			description: [
-				"{ftbquests.chapter.scavenger_hunt.quests34.description0}"
-				"{ftbquests.chapter.scavenger_hunt.quests34.description1}"
+				"&d恭喜你&r收集到了游戏要求的所有物品！请尽情享受你得到的丰厚奖品（以及你自己的满足感，这才是真正的财富）。"
+				"&6当所有寻宝游戏任务完成时&r上方的复选标记将会解锁。"
 			]
 			hide_dependency_lines: true
 			id: "3CEDCDDE9BCD7F5F"
@@ -637,11 +637,11 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.scavenger_hunt.quests34.subtitle}"
+			subtitle: "到此为止"
 			tasks: [
 				{
 					id: "7F57F37B68E139CC"
-					title: "{ftbquests.chapter.scavenger_hunt.quests34.tasks0.title}"
+					title: "已完成！"
 					type: "checkmark"
 				}
 			]
@@ -663,5 +663,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.scavenger_hunt.title}"
+	title: "寻宝游戏"
 }

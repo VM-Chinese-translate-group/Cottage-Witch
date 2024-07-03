@@ -109,7 +109,7 @@
 	quests: [
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["{ftbquests.chapter.culinary_arts.quests0.description}"]
+			description: ["来一份&b热带炖菜&r，享受来自海滩的美味！正宗的蟹肉、洋葱加上椰壳盛的稻米——完美！"]
 			id: "5A2B514B4EB8EF23"
 			rewards: [
 				{
@@ -119,7 +119,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests0.subtitle}"
+			subtitle: "如果你喜欢椰林飘香"
 			tasks: [
 				{
 					id: "166AA75156D284E6"
@@ -127,15 +127,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests0.title}"
+			title: "烹饪一些热带炖菜"
 			x: -9.5d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests1.description0}"
-				"{ftbquests.chapter.culinary_arts.quests1.description1}"
-				"{ftbquests.chapter.culinary_arts.quests1.description2}"
+				"这个整合包的一大特性就是&a吃多种不同的食物可以提高你的生命上限&r！"
+				"你能通过检查你的&b食物清单&r知道你吃过哪些食物，它在你的&b阿卡什宝典&r，你可以&6拿着宝典右击然后选择食物清单&r来打开它。"
+				"你可以在物品栏右侧的窗口中搜索“尚未”找到未食用过的食物（&lJEI&r）。（译注：该功能暂时无法使用）"
 			]
 			id: "6EFFB8ED37DC8A47"
 			optional: true
@@ -153,7 +153,7 @@
 			]
 			shape: "rsquare"
 			size: 2.5d
-			subtitle: "{ftbquests.chapter.culinary_arts.quests1.subtitle}"
+			subtitle: "（嘶，它不太一样）"
 			tasks: [
 				{
 					id: "257597C327C3C41E"
@@ -161,15 +161,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests1.title}"
+			title: "生活调味料"
 			x: -7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["644439D23D454629"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests2.description0}"
-				"{ftbquests.chapter.culinary_arts.quests2.description1}"
+				"&b茶&r是一种小灌木，你可以将其种植在耕地用来生产&b茶叶&r，然后将茶叶泡成&b茶&r。让我们再念一遍&b茶&r的名字。&b茶&r。"
+				"你需要做个&b水壶&r来泡茶，制作它需要一些&b皮革&r、&b桶&r和&b铜锭&r。"
 			]
 			id: "1266B799DAB9CCC7"
 			rewards: [
@@ -184,7 +184,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests2.subtitle}"
+			subtitle: "一切美妙的开端"
 			tasks: [
 				{
 					id: "47CC68B6AFC0A820"
@@ -192,15 +192,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests2.title}"
+			title: "获得茶籽"
 			x: 0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests3.description0}"
-				"{ftbquests.chapter.culinary_arts.quests3.description1}"
+				"&b咖啡豆&r可以在下界的&a玄武岩三角洲&r找到。"
+				"什么，你对咖啡来自于下界很惊讶？你为什么会认为它好得可怕？"
 			]
 			id: "057B67AD7B2265D2"
 			rewards: [
@@ -217,7 +217,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests3.subtitle}"
+			subtitle: "没有咖啡会死星人"
 			tasks: [
 				{
 					id: "3F4D9EABFDAF7C4D"
@@ -225,13 +225,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests3.title}"
+			title: "获得咖啡豆"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests4.description}"]
+			description: ["玫瑰果茶会给你短暂的&a生命恢复&r！"]
 			id: "678A9A223F78E44A"
 			rewards: [
 				{
@@ -246,7 +246,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests4.subtitle}"
+			subtitle: "玫瑰花没有谎言"
 			tasks: [
 				{
 					id: "137E5F78BD0D4BD5"
@@ -259,8 +259,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests5.description0}"
-				"{ftbquests.chapter.culinary_arts.quests5.description1}"
+				"为了泡茶，必须将&b水壶&r放在热源上。你可以使用&b营火&r、&b岩浆块&r或其他热源。"
+				"手持&b水桶&r或3个&b水瓶&r&6右击&r&b水壶&r使它添满水。然后，&6右击&r来将你的原材料放在里面！"
 			]
 			id: "644439D23D454629"
 			rewards: [
@@ -273,7 +273,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.culinary_arts.quests5.subtitle}"
+			subtitle: "这可不是一个烹饪锅"
 			tasks: [
 				{
 					id: "0AF70C91FA3DAF6E"
@@ -281,15 +281,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests5.title}"
+			title: "获得一个水壶"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests6.description0}"
-				"{ftbquests.chapter.culinary_arts.quests6.description1}"
+				"红茶是单宁含量最高的茶叶，使其最耐热，味道也最浓郁。"
+				"噢！这也会给你大量的&a咖啡冲击&r效果。"
 			]
 			id: "016F0B2B8A127F3F"
 			rewards: [
@@ -301,7 +301,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests6.subtitle}"
+			subtitle: "大吉岭红茶你好呀"
 			tasks: [
 				{
 					id: "6E1AD95B6C735FC3"
@@ -314,7 +314,7 @@
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests7.description}"]
+			description: ["黄茶，被大多数人称为乌龙茶，是一种泥土味的茶，具有&a抗性提升&r效果。"]
 			id: "65ADB03870DFBDAC"
 			rewards: [
 				{
@@ -324,7 +324,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests7.subtitle}"
+			subtitle: "哦哦哦，乌龙！"
 			tasks: [
 				{
 					id: "3EC32AB3C0AB3AC9"
@@ -337,7 +337,7 @@
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests8.description}"]
+			description: ["这茶色泽明亮，带有青草芳香味，味道鲜美！它还赋予你&a速度&r效果。"]
 			id: "55D8EDF7F7770CB8"
 			rewards: [
 				{
@@ -347,7 +347,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests8.subtitle}"
+			subtitle: "绿色代表清新，细腻，愉悦！"
 			tasks: [
 				{
 					id: "433BC0AE1F0F4F4D"
@@ -360,7 +360,7 @@
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests9.description}"]
+			description: ["为一个阳光明媚的下午野餐冲泡一些令人愉快的蒲公英茶。它会给你&d舒适&r效果，这可以使你&a在饱食度未满的情况下依然可以恢复生命值&r"]
 			id: "57AED567481E56A9"
 			rewards: [
 				{
@@ -370,7 +370,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests9.subtitle}"
+			subtitle: "捕 公 鹰"
 			tasks: [
 				{
 					id: "493FEF3F3EEFFBB1"
@@ -383,7 +383,7 @@
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests10.description}"]
+			description: ["做一些脓眼茶。喝下它，它使你变得虚弱，但是也会随机将一个已有的效果延长15秒。所以它好极了，不是吗？"]
 			id: "2FC8613FDF6B824F"
 			rewards: [
 				{
@@ -399,7 +399,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests10.subtitle}"
+			subtitle: "这对你来说不太好"
 			tasks: [
 				{
 					id: "6BCF2EC47CE3F092"
@@ -412,7 +412,7 @@
 		}
 		{
 			dependencies: ["40C1DBE20E401EF9"]
-			description: ["{ftbquests.chapter.culinary_arts.quests11.description}"]
+			description: ["与蘑菇菌落生长环境非常相似，&b下界菌落&r可以使用&b灵魂沃土&r在&a完全黑暗&r的环境中生长。如果你&6用剪刀收割&r一个，你会得到整个菌落。&6用手收割&r最多可收获5个真菌。我听说他们很享受被收获的感觉。"]
 			id: "57742DD8F99DBAF1"
 			rewards: [
 				{
@@ -428,7 +428,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests11.subtitle}"
+			subtitle: "我觉得你肯定是个有趣的哥们"
 			tasks: [
 				{
 					id: "1CEF4F2B55F8948D"
@@ -439,17 +439,17 @@
 							value: "forge:funguscolony"
 						}
 					}
-					title: "{ftbquests.chapter.culinary_arts.quests11.tasks0.title}"
+					title: "任意#forge:funguscolony"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests11.title}"
+			title: "获得一丛下界菌落"
 			x: 7.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["507ACD6D650DECA2"]
-			description: ["{ftbquests.chapter.culinary_arts.quests12.description}"]
+			description: ["你是战利品猎手么？好，那看看这个雅致而粗犷的装饰物吧——&b疣猪兽挂饰&r。"]
 			id: "41CEA7DC3EEF0F49"
 			rewards: [
 				{
@@ -459,7 +459,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests12.subtitle}"
+			subtitle: "没有人能像加斯顿那样制作战利品！（译注：原文改自美女与野兽歌词）"
 			tasks: [
 				{
 					id: "01F081161A9DD7EC"
@@ -467,13 +467,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests12.title}"
+			title: "制作一个疣猪兽挂饰"
 			x: 11.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["507ACD6D650DECA2"]
-			description: ["{ftbquests.chapter.culinary_arts.quests13.description}"]
+			description: ["你也可以用&b疣猪兽皮&r制成灵魂&b肥料&r，它会渐渐转化为&b灵魂沃土&r。只需要&6把它放在熔岩旁边即可&r。"]
 			id: "40C1DBE20E401EF9"
 			rewards: [
 				{
@@ -482,7 +482,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests13.subtitle}"
+			subtitle: "灵魂养料？这只是一种情绪"
 			tasks: [
 				{
 					id: "6C186627FBFF9BF6"
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["773834D44C436587"]
-			description: ["{ftbquests.chapter.culinary_arts.quests14.description}"]
+			description: ["&b疣猪兽皮&r可以用于烹饪，或者在&b砧板&r上清理干净制成&b皮革&r。"]
 			id: "507ACD6D650DECA2"
 			rewards: [
 				{
@@ -505,7 +505,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests14.subtitle}"
+			subtitle: "疣猪兽，隐蔽！"
 			tasks: [
 				{
 					id: "3469C9CCEC7F9270"
@@ -518,7 +518,7 @@
 		}
 		{
 			dependencies: ["773834D44C436587"]
-			description: ["{ftbquests.chapter.culinary_arts.quests15.description}"]
+			description: ["坦率地说，这块发霉的肉很恶心。但如果你想完成所有任务，你&6必须把它做出来&r。哇哈哈哈。"]
 			id: "21DDAC7010761BB0"
 			rewards: [
 				{
@@ -528,7 +528,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests15.subtitle}"
+			subtitle: "你为什么要做这个？"
 			tasks: [
 				{
 					id: "30C86F641D8F4E4E"
@@ -540,7 +540,7 @@
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests16.description}"]
+			description: ["用你可靠的&b刀&r杀死&e疣猪兽&r，可以获得&b疣猪兽腰肉&r、&b疣猪兽皮&r，有时还可以获得&b火腿&r！这些东西可以用于烹饪。"]
 			id: "773834D44C436587"
 			optional: true
 			rewards: [
@@ -553,7 +553,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.culinary_arts.quests16.subtitle}"
+			subtitle: "捆上它"
 			tasks: [
 				{
 					id: "695DBF55095C94CE"
@@ -566,7 +566,7 @@
 		}
 		{
 			dependencies: ["773834D44C436587"]
-			description: ["{ftbquests.chapter.culinary_arts.quests17.description}"]
+			description: ["要获得&b炽足兽肉片&r，你需要用&b刀&r杀死&e炽足兽&r。这很悲惨，真的。但是如果你这么干了，你可以&6直接烹饪它&r，或者将肉片放在&b砧板&r上以获取&b炽足兽肉末&r，它可以用来制作别的东西。"]
 			id: "21A12DEE3432EF7F"
 			rewards: [
 				{
@@ -577,7 +577,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests17.subtitle}"
+			subtitle: "冷血！"
 			tasks: [
 				{
 					id: "402DC0AD3D35C05F"
@@ -590,7 +590,7 @@
 		}
 		{
 			dependencies: ["773834D44C436587"]
-			description: ["{ftbquests.chapter.culinary_arts.quests18.description}"]
+			description: ["给自己做一个&b生填馅疣猪兽&r然后把它和2份&b下界沙拉&6一起放在&b厨锅&r里，制成&b填馅疣猪兽&r，它可以放下来，作为最放纵的盛宴的主菜食用！"]
 			id: "236484A484723F55"
 			rewards: [
 				{
@@ -606,12 +606,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests18.title}"
+			title: "给一个疣猪兽填馅"
 			x: 7.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests19.description}"]
+			description: ["&b枪药草&r生长在下界。它们长得像竹子，但是黑色的，顶端生有发光的小球。&d采集它们时请小心点&r！你需要用&b剪刀&r来采集&b枪药珠&r。"]
 			id: "76BB908C21246B36"
 			rewards: [
 				{
@@ -621,7 +621,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests19.subtitle}"
+			subtitle: "不要操之过急"
 			tasks: [
 				{
 					id: "6750441E49D21045"
@@ -629,13 +629,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests19.title}"
+			title: "获取一些枪药珠"
 			x: 12.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["76BB908C21246B36"]
-			description: ["{ftbquests.chapter.culinary_arts.quests20.description}"]
+			description: ["这顿饭营养丰富，但无论你怎么吹，它都不会冷却下来。"]
 			id: "0B8ABF32A9C31887"
 			rewards: [
 				{
@@ -651,7 +651,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests20.subtitle}"
+			subtitle: "热门话题，来啦！"
 			tasks: [
 				{
 					id: "14E3F3C39D06D3BC"
@@ -665,8 +665,8 @@
 		{
 			dependencies: ["76BB908C21246B36"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests21.description0}"
-				"{ftbquests.chapter.culinary_arts.quests21.description1}"
+				"&b枪药草杆&r获取自&b枪药草&r，但必须&6用刀采集&r。可在砧板上切碎成&b火药&r，或者用于&a制作特别的&b枪药草火把&r。"
+				"&b枪药草杆&r也可以&a在&b灵魂沃土&a上种植&r。"
 			]
 			id: "3975B8BC61249AF4"
 			rewards: [
@@ -676,7 +676,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests21.subtitle}"
+			subtitle: "别抬杠，不然就拿到这杆子"
 			tasks: [
 				{
 					id: "19F2200461C2C9E8"
@@ -690,8 +690,8 @@
 		{
 			dependencies: ["236484A484723F55"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests22.description0}"
-				"{ftbquests.chapter.culinary_arts.quests22.description1}"
+				"在你狼吞虎咽吃掉&b填馅疣猪兽&r之前，你得先&6切下最好的佳肴&r——&b耳朵&r。美味！"
+				"然后，你可以&6用碗点击填馅疣猪兽&r，&a从剩下的食物中盛一碗菜肴&r。不要浪费！"
 			]
 			id: "4FEE0688A44D8421"
 			rewards: [
@@ -701,7 +701,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests22.subtitle}"
+			subtitle: "他甚至分割了烤兽！"
 			tasks: [
 				{
 					id: "5A8775E9AF7F69FD"
@@ -724,14 +724,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests22.title}"
+			title: "切一下填馅疣猪兽"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.culinary_arts.quests23.description}"]
+			description: ["这个模组的&b刀&r能使&a从动物额外掉落物品&r，例如&b羽毛&r或&b皮革&r。同样的，&a当破坏玻璃时也会掉落额外的物品&r。这将会使你的农业发展得更轻松。"]
 			id: "4F8BE51C9D3C16A2"
 			rewards: [
 				{
@@ -747,7 +747,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests23.subtitle}"
+			subtitle: "你的第一大杀器"
 			tasks: [
 				{
 					id: "1013400BF2BCA148"
@@ -758,20 +758,20 @@
 							value: "farmersdelight:tools/knives"
 						}
 					}
-					title: "{ftbquests.chapter.culinary_arts.quests23.tasks0.title}"
+					title: "任意#farmersdelight:tools/knives"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests23.title}"
+			title: "获得一把刀"
 			x: -11.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests24.description0}"
-				"{ftbquests.chapter.culinary_arts.quests24.description1}"
-				"{ftbquests.chapter.culinary_arts.quests24.description2}"
-				"{ftbquests.chapter.culinary_arts.quests24.description3}"
+				"&b厨锅&r可以让你做出独特的馅料和美味的菜肴！你品尝的食物越多，&a生命值就会越高&r，这对宅家的冒险巫师来说，可是一个重要的工具。"
+				"将&b厨锅&r放在&b火&r、&b营火&r、&b岩浆块&r或&b炉灶&r等热源的上方，再加热它。然后&6把原料放进去&r。"
+				"你也要有东西来装做好的菜肴，比如&b碗&r、&b瓶子&r或是&b南瓜&r。"
+				"即使&b厨锅&r被破坏，其中物品也会被保留。"
 			]
 			id: "2615CD06E32EC741"
 			rewards: [
@@ -795,7 +795,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.culinary_arts.quests24.subtitle}"
+			subtitle: "虽然叫这个名字，但它不是下厨用的。"
 			tasks: [
 				{
 					id: "3745E18A47EF78E3"
@@ -803,15 +803,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests24.title}"
+			title: "获得一口厨锅"
 			x: -9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests25.description0}"
-				"{ftbquests.chapter.culinary_arts.quests25.description1}"
+				"&b炉灶&r是一个非常有用的工具。由于你与生俱来的魔力，它永远充满燃料！你最多可以&6把6种食物&r放在烤架上烹饪。它们烤好后会弹出为物品！你可以在上面&6放置一个倒置的&b篮子&r来自动收集它们。"
+				"&b炉灶&r还可以作为&b厨锅&r的热源，但如果你这么做了，烤架上就不能放东西了。"
 			]
 			id: "492DDC880E65C534"
 			rewards: [
@@ -822,7 +822,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests25.subtitle}"
+			subtitle: "史蒂夫的炉子"
 			tasks: [
 				{
 					id: "4449EF43300452B9"
@@ -830,15 +830,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests25.title}"
+			title: "制作一台炉灶"
 			x: -6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7557E8749BF869DF"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests26.description0}"
-				"{ftbquests.chapter.culinary_arts.quests26.description1}"
+				"&6把原木放在砧板上，然后用斧子右击它&r以获取&b树皮&r。"
+				"它可以用来&b堆肥&r，&b造纸&r，甚至是&a酿造啤酒&r。"
 			]
 			id: "1984CA53390BA48B"
 			rewards: [
@@ -849,7 +849,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests26.subtitle}"
+			subtitle: "你剥错树了……嘿嘿"
 			tasks: [
 				{
 					id: "6D57AF047F1836C3"
@@ -863,8 +863,8 @@
 		{
 			dependencies: ["4F8BE51C9D3C16A2"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests27.description0}"
-				"{ftbquests.chapter.culinary_arts.quests27.description1}"
+				"你可以用&b砧板&r准备更高级的食材，比如&b培根&r或者&b鱼片&r。只需要&6将物品放在砧板上&r然后用刀&6右击它&r即可。"
+				"这可不是&b砧板&r的唯一用途！用&b原木&r（用&b斧子&r）做做实验，或者甚至是不要的&b皮革盔甲&r（用&b剪刀&r）也行！"
 			]
 			id: "7557E8749BF869DF"
 			rewards: [
@@ -875,7 +875,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests27.subtitle}"
+			subtitle: "重现老式砧板"
 			tasks: [
 				{
 					id: "4F456D411C163AA8"
@@ -883,13 +883,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests27.title}"
+			title: "获得一块砧板"
 			x: -12.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["{ftbquests.chapter.culinary_arts.quests28.description}"]
+			description: ["&b狗粮&r，以及它的朋友，&b马食&r，可以给使用者提供药水效果，比如&a速度&r，&a抗性提升&r，或者&a跳跃提升&r。"]
 			id: "3A6AAE50897DE597"
 			rewards: [
 				{
@@ -899,7 +899,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests28.subtitle}"
+			subtitle: "额……也许你应该吃一口试试……吃吧……"
 			tasks: [
 				{
 					id: "394855991D625C6F"
@@ -912,7 +912,7 @@
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["{ftbquests.chapter.culinary_arts.quests29.description}"]
+			description: ["你可以在&b厨锅&r中制作&b肉丸意面&r。食用全套套餐，比如这个，可以给你提供&a滋养&r效果，让你在一段时间内&a不掉饥饿值和饱和度&r。这在你去危险的地方时很有用，因为它可以让你持续回血！"]
 			id: "0E2749D8FEEF0D49"
 			rewards: [
 				{
@@ -927,7 +927,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests29.subtitle}"
+			subtitle: "意面触手"
 			tasks: [
 				{
 					id: "172CAB10518E2360"
@@ -935,13 +935,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests29.title}"
+			title: "做顿好菜"
 			x: -10.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["{ftbquests.chapter.culinary_arts.quests30.description}"]
+			description: ["制作&b热可可&r要用到&b瓶装牛奶&r。虽然&b瓶装牛奶&r可以移除你身上的一个效果，无论是正面的还是负面的——&b热可可&r&a只会移除负面效果&r！我一直知道瑞士小姐（译注：一个可可粉品牌）知道她在做什么。"]
 			id: "6A71E1C275F02732"
 			rewards: [
 				{
@@ -952,7 +952,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests30.subtitle}"
+			subtitle: "治愈你的病"
 			tasks: [
 				{
 					id: "65057C003DB715B6"
@@ -960,15 +960,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests30.title}"
+			title: "做点热可可"
 			x: -10.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests31.description0}"
-				"{ftbquests.chapter.culinary_arts.quests31.description1}"
+				"一些食物，比如&b火腿&r和&b牧羊人派&r，需要&6放置在世界中&r才能食用。它们也极好地装点了你的（视觉）盛宴！"
+				"食用它们还需要用到&b碗&r，所以，来，拿着这个。"
 			]
 			id: "5F2C26D1C6302016"
 			rewards: [
@@ -1012,7 +1012,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests31.subtitle}"
+			subtitle: "新的蛋糕是填馅南瓜"
 			tasks: [
 				{
 					id: "3A9D9E271D952C74"
@@ -1020,13 +1020,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests31.title}"
+			title: "制作可放置的菜品"
 			x: -8.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["{ftbquests.chapter.culinary_arts.quests32.description}"]
+			description: ["你可以使用&b橡子&r制作&b坚果酱&r。把它和新鲜出炉的&b果酱&r和一些&b面包&r组合在一起，然后就能得到一份营养丰富、美味可口的午餐。"]
 			id: "1F80DCFD23DD5592"
 			rewards: [
 				{
@@ -1036,7 +1036,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests32.subtitle}"
+			subtitle: "低落与快乐时的经典一餐"
 			tasks: [
 				{
 					id: "51F7EE88D16F9C6F"
@@ -1054,13 +1054,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests32.title}"
+			title: "美味的花生果酱"
 			x: -8.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1556BE457F25FA9F"]
-			description: ["{ftbquests.chapter.culinary_arts.quests33.description}"]
+			description: ["啊，终于做好了！终极大餐。蔬菜、蛋白质、乳制品、谷物……用一顿营养全面的大餐来吸引客人。"]
 			id: "0C69D56AA7884F5B"
 			rewards: [
 				{
@@ -1115,7 +1115,7 @@
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["{ftbquests.chapter.culinary_arts.quests34.description}"]
+			description: ["这个任务只是为了让你做&b烤棉花糖饼干&r之后……能得到更多！"]
 			id: "63A2968E78D4A9A7"
 			rewards: [
 				{
@@ -1125,7 +1125,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests34.subtitle}"
+			subtitle: "烤制的美味"
 			tasks: [
 				{
 					id: "18B430FC14DF3E99"
@@ -1138,7 +1138,7 @@
 		}
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
-			description: ["{ftbquests.chapter.culinary_arts.quests35.description}"]
+			description: ["我不知道是谁先开始吃&b末影珍珠&r的，但是嘿……为什么不来点呢？"]
 			id: "1A9E6F1B730A4F17"
 			rewards: [
 				{
@@ -1148,7 +1148,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests35.subtitle}"
+			subtitle: "高维生物的……花蜜？"
 			tasks: [
 				{
 					id: "1255A03F5F6FFD32"
@@ -1162,8 +1162,8 @@
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests36.description0}"
-				"{ftbquests.chapter.culinary_arts.quests36.description1}"
+				"把精心准备的一级&b抹茶&r加入大量的糖并制成拿铁，有什么不对的吗？"
+				"嗯，如果你这么说，那就是不对。"
 			]
 			id: "118197B7B107DB7D"
 			rewards: [
@@ -1175,7 +1175,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests36.subtitle}"
+			subtitle: "抹茶？拿下！"
 			tasks: [
 				{
 					id: "6850101F53C46A4F"
@@ -1189,8 +1189,8 @@
 		{
 			dependencies: ["6EFFB8ED37DC8A47"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests37.description0}"
-				"{ftbquests.chapter.culinary_arts.quests37.description1}"
+				"通往终极汉堡之路的第一步——不起眼的&b汉堡包&r。"
+				"卑微的汉堡（humbleburger），或者如果你想，Hambumble？我不知道。"
 			]
 			id: "717B733896BBB2AA"
 			rewards: [
@@ -1201,7 +1201,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests37.subtitle}"
+			subtitle: "奖励只是奖励，别多想"
 			tasks: [
 				{
 					id: "462DF8DCBA008581"
@@ -1214,7 +1214,7 @@
 		}
 		{
 			dependencies: ["717B733896BBB2AA"]
-			description: ["{ftbquests.chapter.culinary_arts.quests38.description}"]
+			description: ["加入&b奶酪&r之后比原来好两倍，这个汉堡还能更好……"]
 			id: "1556BE457F25FA9F"
 			rewards: [
 				{
@@ -1224,7 +1224,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests38.subtitle}"
+			subtitle: "芝士奶酪汉堡"
 			tasks: [
 				{
 					id: "093DC4B94272690F"
@@ -1236,7 +1236,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests39.description}"]
+			description: ["吃一大堆蛋糕！这是你应得的美味款待。（译注：吃70片蛋糕）"]
 			icon: "minecraft:cake"
 			id: "78A59A17FEDDE305"
 			rewards: [
@@ -1279,7 +1279,7 @@
 				{
 					id: "23C5964D9AF61295"
 					stat: "minecraft:eat_cake_slice"
-					title: "{ftbquests.chapter.culinary_arts.quests39.tasks0.title}"
+					title: "让他们吃蛋糕"
 					type: "stat"
 					value: 70
 				}
@@ -1289,7 +1289,7 @@
 		}
 		{
 			dependencies: ["0E2749D8FEEF0D49"]
-			description: ["{ftbquests.chapter.culinary_arts.quests40.description}"]
+			description: ["&6把所有的食物吃一遍&r来达成这一成就！你可以在JEI或你的仓库中搜索“食物”，但只有&l农夫乐事&r&d模组&r中的食物是有效的。"]
 			id: "706D91D3C11487E5"
 			rewards: [
 				{
@@ -1357,7 +1357,7 @@
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["{ftbquests.chapter.culinary_arts.quests41.description}"]
+			description: ["&b煎锅&r让你可以随时随地做饭！只需要&6站在热源附近&r然后&6添加食材&r即可！"]
 			id: "7E532A89B21B20D1"
 			rewards: [
 				{
@@ -1403,7 +1403,7 @@
 		}
 		{
 			dependencies: ["717B733896BBB2AA"]
-			description: ["{ftbquests.chapter.culinary_arts.quests42.description}"]
+			description: ["素食主义者？不必担心，我们已经考虑到了！为什么不做一些美味的&a素食&r呢？"]
 			id: "181F5C00C8DE417B"
 			rewards: [
 				{
@@ -1486,7 +1486,7 @@
 		}
 		{
 			dependencies: ["5F2C26D1C6302016"]
-			description: ["{ftbquests.chapter.culinary_arts.quests43.description}"]
+			description: ["许多食物都可以&6被放置下来并食用&r。来把每种都做一个，展示你作为厨房女巫的能力。"]
 			id: "6C75BE906A574DAE"
 			rewards: [
 				{
@@ -1567,13 +1567,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests43.title}"
+			title: "丰富多彩的可放置食物"
 			x: -7.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["{ftbquests.chapter.culinary_arts.quests44.description}"]
+			description: ["谁不喜欢派呢？&6制作所有种类的派和蛋糕&r，最后你就有了一席豪华的盛宴！"]
 			id: "42DD1CCF09065C51"
 			rewards: [
 				{
@@ -1651,13 +1651,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests44.title}"
+			title: "甜点狂热"
 			x: -9.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["1266B799DAB9CCC7"]
-			description: ["{ftbquests.chapter.culinary_arts.quests45.description}"]
+			description: ["&b杜鹃花茶&r是享受杜鹃花之美的极佳方式！"]
 			id: "43936FB55988472C"
 			rewards: [
 				{
@@ -1668,7 +1668,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests45.subtitle}"
+			subtitle: "备好杜鹃花"
 			tasks: [
 				{
 					id: "2C0EC7F97028F2F7"
@@ -1695,10 +1695,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests47.description0}"
-				"{ftbquests.chapter.culinary_arts.quests47.description1}"
-				"{ftbquests.chapter.culinary_arts.quests47.description2}"
-				"{ftbquests.chapter.culinary_arts.quests47.description3}"
+				"你知道你可以用&a&l机械动力&r&a来自动化你的厨房&r吗？可以的！"
+				"用&b烹饪指南&r右击&b烈焰人燃烧室&r来&6制造一个烈焰人炉灶&r。"
+				"按住“w”来思索&b烹饪指南&r的更多信息。"
+				"请确保&b烹饪指南&r不是在&b阿卡什宝典&r里的！这个过程会&b消耗这本书&r。查询&a教程任务&r以了解如何将一本书从&b阿卡什宝典&r中移出。"
 			]
 			id: "1C7D5C2C8C201E83"
 			rewards: [
@@ -1723,15 +1723,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests47.title}"
+			title: "机械动力厨房"
 			x: -0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["6347F33BF36A112E"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests48.description0}"
-				"{ftbquests.chapter.culinary_arts.quests48.description1}"
+				"是时候发挥发酵桶的作用了！&b蜂蜜酒&r提供&d暖心&r效果，可增强所有受到的治愈效果。"
+				"&b米酒&r提供&d满足&r效果，这使得饥饿值可以像生命值一样自动回复。"
 			]
 			id: "6DF8D73EB3A4C0B6"
 			rewards: [
@@ -1748,7 +1748,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests48.subtitle}"
+			subtitle: "聚会之王"
 			tasks: [
 				{
 					id: "433D4EB8693BD179"
@@ -1761,12 +1761,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests48.title}"
+			title: "酿点酒"
 			x: 12.5d
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests49.description}"]
+			description: ["要开起一家酿酒厂，你首先需要一个&b发酵桶&r和一些&b酒杯&r。把酒杯放入发酵桶，再加一些&b水&r和&a原料&r，比如用小麦酿造啤酒，用蜂蜜酿造蜂蜜酒。"]
 			id: "166F53EED3372358"
 			rewards: [
 				{
@@ -1802,16 +1802,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests49.title}"
+			title: "获得一个发酵桶"
 			x: 9.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["166F53EED3372358"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests50.description0}"
-				"{ftbquests.chapter.culinary_arts.quests50.description1}"
-				"{ftbquests.chapter.culinary_arts.quests50.description2}"
+				"在&b发酵桶&r周围放上&b岩浆块&r可以提高酿造温度，然后开始酿造新的啤酒吧！岩浆块放得越多，酿造温度就越高。"
+				"基于这个方法，你还可以生产&b奶酪&r和&b软糖&r。"
+				"你也可以通过在周围放上&b冰块&r来&a冷却&r你的&b发酵桶&r！这样，你就可以生产出&b泡菜&r之类的东西。"
 			]
 			id: "6347F33BF36A112E"
 			rewards: [
@@ -1822,7 +1822,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests50.subtitle}"
+			subtitle: "热起来了！"
 			tasks: [
 				{
 					count: 4L
@@ -1831,17 +1831,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests50.title}"
+			title: "加热冷却你的桶"
 			x: 11.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6347F33BF36A112E"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests51.description0}"
-				"{ftbquests.chapter.culinary_arts.quests51.description1}"
-				"{ftbquests.chapter.culinary_arts.quests51.description2}"
-				"{ftbquests.chapter.culinary_arts.quests51.description3}"
+				"奶酪可以用发酵桶来生产，但是必须&a在吃之前让它成熟一段时间&r。所以，得把奶酪放在外面让它自然成熟。"
+				"奶酪成熟后，你可以先把它放在&b砧板&r上切成&b奶酪切块&r，然后再去烹饪它。"
+				"&d警告&r——在奶酪完全成熟之前，信息框中会显示“Fully Grown”。需等待至文字消失。"
+				"你也可以使用机械动力的&6批量缠魂&r&a快速熟成奶酪&r。灵魂使奶酪快速熟成，也使其更加&l美味&r。"
 			]
 			icon: "brewinandchewin:scarlet_cheese_wheel"
 			id: "0593C1D467DB38E3"
@@ -1853,7 +1853,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests51.subtitle}"
+			subtitle: "这不是个很酪的双关……"
 			tasks: [
 				{
 					id: "03C6E2D0B6499D1B"
@@ -1866,13 +1866,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests51.title}"
+			title: "制作一些奶酪"
 			x: 10.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["0593C1D467DB38E3"]
-			description: ["{ftbquests.chapter.culinary_arts.quests52.description}"]
+			description: ["你有没有吃过好吃到令人害怕的千层面？嗯，&a你在等什么？&r"]
 			id: "72DD11780E330689"
 			rewards: [
 				{
@@ -1900,7 +1900,7 @@
 		}
 		{
 			dependencies: ["0593C1D467DB38E3"]
-			description: ["{ftbquests.chapter.culinary_arts.quests53.description}"]
+			description: ["这场&b炼药锅&r盛装的奇异盛宴&a简直是太棒了&r！"]
 			id: "20AE2593886C2EE5"
 			rewards: [
 				{
@@ -1910,7 +1910,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests53.subtitle}"
+			subtitle: "今夜我们在地狱享用晚宴"
 			tasks: [
 				{
 					id: "219D5144E677F616"
@@ -1923,7 +1923,7 @@
 		}
 		{
 			dependencies: ["6347F33BF36A112E"]
-			description: ["{ftbquests.chapter.culinary_arts.quests54.description}"]
+			description: ["要制作&b软糖&r，你的&b发酵桶&r需要升到&a最高温度&r。"]
 			id: "263A248387E583B4"
 			rewards: [
 				{
@@ -1934,7 +1934,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests54.subtitle}"
+			subtitle: "捏造它"
 			tasks: [
 				{
 					id: "2F00523C9A20A8D1"
@@ -1942,13 +1942,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests54.title}"
+			title: "做点软糖"
 			x: 10.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6347F33BF36A112E"]
-			description: ["{ftbquests.chapter.culinary_arts.quests55.description}"]
+			description: ["&b泡菜&r需要在一个&a又好又冷&r的发酵桶中腌制。"]
 			id: "0672E8DC36A5BFFA"
 			rewards: [
 				{
@@ -1999,14 +1999,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests55.title}"
+			title: "腌点泡菜"
 			x: 12.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests56.description0}"
-				"{ftbquests.chapter.culinary_arts.quests56.description1}"
+				"当你获得一颗&b龙蛋&r后，你可以用它来合成一颗&b滋补龙蛋&r。"
+				"这个东西只能在&b砧板&r上用&a极其锋利&r的&b下界之星&r切割。切开龙蛋可以获得高级餐品所需的&a许多原料&r。"
 			]
 			id: "4264920573ADC879"
 			rewards: [
@@ -2025,15 +2025,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests56.title}"
+			title: "不太一样的龙蛋"
 			x: 5.5d
 			y: 11.25d
 		}
 		{
 			dependencies: ["4264920573ADC879"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests57.description0}"
-				"{ftbquests.chapter.culinary_arts.quests57.description1}"
+				"要品尝龙蛋白的那种肆无忌惮的味觉体验，你需要一个合适的容器。"
+				"合成&b半个龙蛋壳&r。"
 			]
 			id: "16ECF08D421359AC"
 			rewards: [
@@ -2058,16 +2058,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests57.title}"
+			title: "一个蛋壳碗"
 			x: 5.5d
 			y: 12.75d
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests58.description0}"
+				"&b龙肉炖&r……还有什么能比&c吃掉你的敌人&r更能显示你的力量？"
 				""
-				"{ftbquests.chapter.culinary_arts.quests58.description2}"
+				"太过分了吗？太过分了，不是吗？"
 			]
 			id: "10BD344DE9BF9D75"
 			rewards: [
@@ -2090,7 +2090,7 @@
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
-			description: ["{ftbquests.chapter.culinary_arts.quests59.description}"]
+			description: ["这道梦幻般的蒸菜可以&a满足你那野性的梦&r……或是，至少可以&a给你一些不错的效果&r。"]
 			id: "43110B76D590F312"
 			rewards: [
 				{
@@ -2112,7 +2112,7 @@
 		}
 		{
 			dependencies: ["16ECF08D421359AC"]
-			description: ["{ftbquests.chapter.culinary_arts.quests60.description}"]
+			description: ["制作&b什锦沙拉&r以取得该进度。"]
 			id: "25C3A6BEFE246C3A"
 			rewards: [
 				{
@@ -2166,7 +2166,7 @@
 				"43110B76D590F312"
 				"10BD344DE9BF9D75"
 			]
-			description: ["{ftbquests.chapter.culinary_arts.quests61.description}"]
+			description: ["真的祝贺你，你做熟了&a这个游戏中最具魔法的食物&r！名副其实的厨房之巫！"]
 			id: "224C1B2D30B8E7DF"
 			rewards: [
 				{
@@ -2188,7 +2188,7 @@
 			y: 14.25d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests62.description}"]
+			description: ["这茶大抵是&c潜影森林&r中&a最有用的东西&r，它可以&a清除漂浮效果&r！你可能想要做……一点儿……"]
 			id: "7CDFDA310DE2A4E4"
 			rewards: [
 				{
@@ -2198,7 +2198,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.culinary_arts.quests62.subtitle}"
+			subtitle: "脚踏实地"
 			tasks: [
 				{
 					id: "6A0AFA1484FD16DD"
@@ -2210,7 +2210,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests63.description}"]
+			description: ["不喜欢红豆馅？为啥不试试往你的&b米糕&r里放&b紫颂果&r？"]
 			id: "456D45D35A596109"
 			rewards: [
 				{
@@ -2231,7 +2231,7 @@
 			y: 15.0d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests64.description}"]
+			description: ["鲜为人知的是，&e潜影贝&r有点像个&b蛋&r！自然而然的，它们&a尝起来也像蛋&r。因此，它们可以作为你均衡膳食的美味加料。"]
 			id: "6CA036FC470C17EA"
 			rewards: [
 				{
@@ -2252,7 +2252,7 @@
 			y: 16.0d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests65.description}"]
+			description: ["虽然很难做，但&b龙息紫颂汤&r提供的多种效果让它值得一试！"]
 			id: "482A2BB52514C35B"
 			rewards: [
 				{
@@ -2273,7 +2273,7 @@
 			y: 15.0d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests66.description}"]
+			description: ["&b龙蛋液&r。听起来令人垂涎三尺，不是吗？你&o可以&r直接……但为什么不先&a烹饪一下它&r呢？"]
 			id: "28D201EE3AA699C2"
 			rewards: [
 				{
@@ -2296,8 +2296,8 @@
 		{
 			dependencies: ["0AB07DA9AF0FB294"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests67.description0}"
-				"{ftbquests.chapter.culinary_arts.quests67.description1}"
+				"你也可以&a在食物中添加香料&r！其中一种香料是&b醋&r，它是通过将&b甜浆果&r&a放在带有&b花盆&a的陶缸中静置转化&r而成的。"
+				"在食物中添加香料可以&a增加它提供的饱和度&r。"
 			]
 			id: "6FB77462CDE121E0"
 			rewards: [
@@ -2327,9 +2327,9 @@
 		{
 			dependencies: ["1C80130EFE5C2FFC"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests68.description0}"
-				"{ftbquests.chapter.culinary_arts.quests68.description1}"
-				"{ftbquests.chapter.culinary_arts.quests68.description2}"
+				"&b陶缸&r用于&a静置转化&r，就是把&a原料和其他物品&r放进去然后&6静置它们&r，最多需要一个&a游戏日&r。"
+				"每个配方都需要所有的食材，以及一个用来盛放产物的容器，有时还需要一个额外的东西（比如&a制作油舟需要放铁砧&r）。&d若材料不齐，静置转化就不会开始&r。"
+				"可使用&b时间之瓶&r加速。"
 			]
 			id: "0AB07DA9AF0FB294"
 			rewards: [
@@ -2345,7 +2345,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.culinary_arts.quests68.subtitle}"
+			subtitle: "百炼成缸"
 			tasks: [
 				{
 					id: "125177A658995C81"
@@ -2356,30 +2356,30 @@
 							value: "forge:dolium"
 						}
 					}
-					title: "{ftbquests.chapter.culinary_arts.quests68.tasks0.title}"
+					title: "任意#forge:dolium"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests68.title}"
+			title: "获取一个陶缸"
 			x: -5.5d
 			y: 13.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests69.description0}"
-				"{ftbquests.chapter.culinary_arts.quests69.description1}"
-				"{ftbquests.chapter.culinary_arts.quests69.description2}"
+				"&l分茶&r是一个采用自由风格菜谱的厨艺模组。"
+				"对于绝大多数菜谱，你只需要放入&a一定比例&r的原料，比如确保你放入了&a“很多牛肉”&r和&a“一些蔬菜”&r，并且&a“不放鱼”&r，等等。"
+				"你可以查阅&b指南&r或&lJEI&r获取菜谱。"
 				"{image:cottagewitch:textures/cauponajei.png width:100 height:80 align:1 fit:true}"
-				"{ftbquests.chapter.culinary_arts.quests69.description4}"
+				"在查阅&b炖菜和汤&r时，请确保你&6点击了图标&r以获取它们的菜谱。"
 				""
 				"{image:cottagewitch:textures/cauponarecipe.png width:100 height:90 align:1 fit:true}"
-				"{ftbquests.chapter.culinary_arts.quests69.description7}"
-				"{ftbquests.chapter.culinary_arts.quests69.description8}"
-				"{ftbquests.chapter.culinary_arts.quests69.description9}"
-				"{ftbquests.chapter.culinary_arts.quests69.description10}"
-				"{ftbquests.chapter.culinary_arts.quests69.description11}"
+				"A）这是&b汤底&r。例如，要做&b钉子汤&r，你需要&6煮开水&r。"
+				"B）这是&a食材与液体的比例&r。例如，3个以上的食材配1桶/4碗液体。"
+				"C）这是&a产物&r，或者说这个菜谱会做出来什么。"
+				"D）这些是&a不可添加的&r食材。"
+				"E和F）这些是&a食材之间的比例&r，例如，很多&b牛肉&r和至少一个&b蔬菜&r。"
 				""
-				"{ftbquests.chapter.culinary_arts.quests69.description13}"
+				"现在你知道如何阅读菜谱了，来做点菜吧！"
 			]
 			id: "1C80130EFE5C2FFC"
 			rewards: [
@@ -2417,8 +2417,8 @@
 		{
 			dependencies: ["1C80130EFE5C2FFC"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests70.description0}"
-				"{ftbquests.chapter.culinary_arts.quests70.description1}"
+				"&b灶台&r是一种有用且美观的&a热源&r，可用来加热&b汤锅、煎锅和地暖&r。"
+				"严格来说，&b灶台&r并不是这个模组唯一&a可用的热源&r。不过，它非常漂亮。"
 			]
 			id: "50C95EB7CBDC346C"
 			rewards: [
@@ -2445,19 +2445,19 @@
 							value: "caupona:stoves"
 						}
 					}
-					title: "{ftbquests.chapter.culinary_arts.quests70.tasks0.title}"
+					title: "任意#caupona:stoves"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests70.title}"
+			title: "获得一个灶台"
 			x: -4.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["50C95EB7CBDC346C"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests71.description0}"
-				"{ftbquests.chapter.culinary_arts.quests71.description1}"
+				"要炒菜，你需要两样东西：一个&b煎锅或石头&r，以及一个&b油舟&r。"
+				"煎锅必须&6放置在热源上面&r。&b油舟&r必须&a紧邻煎锅&r放置。你可以使用&6Shift+右击&r来放置它。"
 			]
 			id: "71C8716D1914B882"
 			rewards: [
@@ -2478,22 +2478,22 @@
 							value: "forge:cookingpans"
 						}
 					}
-					title: "{ftbquests.chapter.culinary_arts.quests71.tasks0.title}"
+					title: "任意#forge:cookingpans"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests71.title}"
+			title: "获得一个煎锅"
 			x: -3.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["71C8716D1914B882"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests72.description0}"
+				"&b油舟&r是制作&a炒菜&r不可或缺的东西。它通过&a静置转化&r合成，这是一种独特的工艺，就是&6把东西放进&b陶缸&r，然后&6只是把它放在一边&r即可。"
 				""
 				"{image:cottagewitch:textures/gravyboat.png width:100 height:100 align:1 fit:true}"
-				"{ftbquests.chapter.culinary_arts.quests72.description3}"
-				"{ftbquests.chapter.culinary_arts.quests72.description4}"
+				"如图所示，&b陶缸&r中有&a至少8个&b核桃&r，一个&b铁砧&r，以及一个&b玻璃瓶&r（也可以用空油舟）。所有东西齐全方可开始&a静置转化&r。注意这&d需要很长时间&r。大多数静置转化需要&d一个游戏日&r。"
+				"你可以使用&b时间之瓶&r加速。"
 			]
 			id: "2DFE677856208F14"
 			rewards: [
@@ -2528,8 +2528,8 @@
 		{
 			dependencies: ["50C95EB7CBDC346C"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests73.description0}"
-				"{ftbquests.chapter.culinary_arts.quests73.description1}"
+				"要制作它，你需要一个&b黏土缸&r，然后&6放进熔炉烧制&r。&b汤锅&r用于制作&a汤、炖菜和肉冻&r。"
+				"放下来之后，你可以用&b牛奶桶或水桶&r，或者装有任意原料的&b碗&r&6右击&r以&a装满陶锅&r。"
 			]
 			id: "3502E25C90113657"
 			rewards: [
@@ -2551,22 +2551,22 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests73.title}"
+			title: "获得一个汤锅"
 			x: -2.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["3502E25C90113657"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests74.description0}"
+				"现在你已经准备好做饭了，来试试做点&b罗宋汤&r吧。就像你奶奶做的那样。"
 				""
 				"{image:cottagewitch:textures/borscht.png width:100 height:60 align:1 fit:true}"
-				"{ftbquests.chapter.culinary_arts.quests74.description3}"
-				"{ftbquests.chapter.culinary_arts.quests74.description4}"
-				"{ftbquests.chapter.culinary_arts.quests74.description5}"
-				"{ftbquests.chapter.culinary_arts.quests74.description6}"
-				"{ftbquests.chapter.culinary_arts.quests74.description7}"
-				"{ftbquests.chapter.culinary_arts.quests74.description8}"
+				"如你所见，这是一种&a什么食材都可以放的&r，&b甜菜根&r含量很高的&a蔬菜汤&r。"
+				"确保你&a至少放了3个&b甜菜根&r和&a至少一个&b其它蔬菜&r（或者再放一个&b甜菜根&r）。"
+				"不过，你也可以&d放更多&r！如果你用&b9个甜菜根&r来制作，它可以给你提供&a更多饱和度&r。"
+				"这里有一个&dbug&r，就是当你把鼠标放在它上面时，&d它无法显示正确的饱和度&r。不过，吃的时候它是正确的。"
+				"炖菜也可以使用&6Shift+右击&a放置下来&r！"
+				"另外，在9种原料中加上药水可以&a给你的食物添加&b药水&r。"
 			]
 			id: "1A24E1B112A913B5"
 			rewards: [
@@ -2603,13 +2603,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.culinary_arts.quests74.title}"
+			title: "炖个菜"
 			x: -2.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["1A24E1B112A913B5"]
-			description: ["{ftbquests.chapter.culinary_arts.quests75.description}"]
+			description: ["如果把汤放在&b汤锅&r或者&b陶缸&r中很长时间，它就会&a转化为肉冻&r。这是一种&a存储炖菜&r的好方法，因为&b碗&r不能堆叠。"]
 			id: "2B95A3784844A835"
 			rewards: [
 				{
@@ -2632,8 +2632,8 @@
 		{
 			dependencies: ["2B95A3784844A835"]
 			description: [
-				"{ftbquests.chapter.culinary_arts.quests76.description0}"
-				"{ftbquests.chapter.culinary_arts.quests76.description1}"
+				"要&a解冻&b肉冻&r，你可以&6把它放在&b汤锅&r&6里&r让它转化，也可以使用&b便携式火盆&r。"
+				"&b火盆&r可以在旅途中制作，但它需要&b一碗水&r和一些&b鲜活木炭&r才能工作。"
 			]
 			id: "17005FF934CF893E"
 			rewards: [
@@ -2673,7 +2673,7 @@
 		}
 		{
 			dependencies: ["2DFE677856208F14"]
-			description: ["{ftbquests.chapter.culinary_arts.quests77.description}"]
+			description: ["为了检验你的炒菜技巧，为什么不做点&b炒根茎&r呢？这道菜由&a植物的根茎（比如&b胡萝卜&r或&b马铃薯&a）制成&r。"]
 			id: "07EB926AC767EEEE"
 			rewards: [
 				{
@@ -2716,7 +2716,7 @@
 			y: 14.5d
 		}
 		{
-			description: ["{ftbquests.chapter.culinary_arts.quests78.description}"]
+			description: ["要获取&b龙牙&r，你必须&6用&b刀&6击杀&e末影龙&r。"]
 			id: "7E256574E63296C9"
 			rewards: [
 				{
@@ -2737,5 +2737,5 @@
 			y: 15.0d
 		}
 	]
-	title: "{ftbquests.chapter.culinary_arts.title}"
+	title: "烹饪艺术"
 }

@@ -85,11 +85,11 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests0.description0}"
-				"{ftbquests.chapter.exploration.quests0.description1}"
-				"{ftbquests.chapter.exploration.quests0.description2}"
-				"{ftbquests.chapter.exploration.quests0.description3}"
-				"{ftbquests.chapter.exploration.quests0.description4}"
+				"祝贺你第一次进入主世界！有你在这真是太好了。你可以&6将这些任务作为一种指南&r来帮助你游玩你可能不熟悉的模组！"
+				"这个任务为你提供了一个&b阿卡什宝典&r，它容纳了整合包中模组的指南书。"
+				"它也会给你一个&b麻布袋&r，这就是一个破产版的&b潜影盒&r——嘿，总比什么都没有好！"
+				"&l如果你丢失了你的阿卡什宝典&r，你可以使用一本&b书&r和一根&b木棍&r轻松地&6制作一本新&r的宝典。"
+				"&lJEI&r是你最有用的工具，这个模组出现于物品栏屏幕右侧。它将允许你查找整合包中的所有物品及其合成配方。&6请探索一下，看看它能提供些什么帮助&r！"
 			]
 			icon: "minecraft:grass_block"
 			id: "6C6635F6D9644BB7"
@@ -190,7 +190,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.exploration.quests0.subtitle}"
+			subtitle: "欢迎！"
 			tasks: [
 				{
 					dimension: "minecraft:overworld"
@@ -198,15 +198,15 @@
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests0.title}"
+			title: "世界创造完毕"
 			x: -3.0d
 			y: 2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests1.description0}"
-				"{ftbquests.chapter.exploration.quests1.description1}"
-				"{ftbquests.chapter.exploration.quests1.description2}"
+				"所以，你死了。人终有一死！别担心，你所有的物品都完好无损地放在你死亡地点旁的&a坟墓&r里。"
+				"你可以使用你的&b坟墓定位器&r来定位您的最后一次死亡地点，或者查看自动生成在那里的&a小地图记号&r。到达后，&6右击你的坟墓&r以收回你所有的物品和装备。"
+				"但是你的&a经验&r会掉到坟墓附近，不要忘记将它们收集起来！"
 			]
 			id: "47643C0C8D4BCBD9"
 			rewards: [
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.exploration.quests1.subtitle}"
+			subtitle: "给不幸死亡女巫的笔记"
 			tasks: [
 				{
 					id: "412E4F0BC4FEF92B"
@@ -241,14 +241,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests1.title}"
+			title: "第一滴血"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests2.description0}"
-				"{ftbquests.chapter.exploration.quests2.description1}"
+				"让我们面对现实吧，有时你想马上住在一个可爱的屋子里。在原版生存中，你很少有资源去建造它。"
+				"所以，如果你想要一个&a预制的初始小屋&r，那么&6勾选这个任务&r，并&6领取奖励&r。如果你并不想要，你可以直接忽视这个任务！这两种方法都是可以的。：）"
 			]
 			id: "21AD64E594528F4D"
 			rewards: [
@@ -258,11 +258,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.exploration.quests2.subtitle}"
+			subtitle: "可爱的初始小屋礼包"
 			tasks: [
 				{
 					id: "76B325FD29C28A89"
-					title: "{ftbquests.chapter.exploration.quests2.tasks0.title}"
+					title: "为自己建造一栋房子"
 					type: "checkmark"
 				}
 			]
@@ -272,8 +272,8 @@
 		{
 			can_repeat: true
 			description: [
-				"{ftbquests.chapter.exploration.quests3.description0}"
-				"{ftbquests.chapter.exploration.quests3.description1}"
+				"你想要一个蘑菇帽么？太酷了！勾选上面这个标记。"
+				"要小心，因为如果你把它放在地上，&d它会变成南瓜&r。你也不想当一位无头骑士吧。"
 			]
 			id: "3DFB7EF14F053582"
 			rewards: [
@@ -293,17 +293,17 @@
 			tasks: [
 				{
 					id: "5D42AEB901AE8033"
-					title: "{ftbquests.chapter.exploration.quests3.tasks0.title}"
+					title: "我想要一个蘑菇帽！！"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests3.title}"
+			title: "蘑菇帽"
 			x: -5.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
-			description: ["{ftbquests.chapter.exploration.quests4.description}"]
+			description: ["恭喜你欺骗了死神！很遗憾的是你没保住你的不死图腾。"]
 			id: "76D5DB6E94816C80"
 			rewards: [
 				{
@@ -327,7 +327,7 @@
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
-			description: ["{ftbquests.chapter.exploration.quests5.description}"]
+			description: ["50次死亡，这才刚刚开始……是吧？不管怎样，&6拿着这个不死图腾&r，看起来你需要它。"]
 			id: "3FAE926346F1E576"
 			rewards: [
 				{
@@ -336,7 +336,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.exploration.quests5.subtitle}"
+			subtitle: "你死了"
 			tasks: [
 				{
 					id: "08BCF1C0F17EF916"
@@ -345,13 +345,13 @@
 					value: 50
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests5.title}"
+			title: "死亡50次"
 			x: 2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["47643C0C8D4BCBD9"]
-			description: ["{ftbquests.chapter.exploration.quests6.description}"]
+			description: ["哇哦，你在这么久的时间都没有死亡记录！干得漂亮朋友，保持住！"]
 			id: "2508051D98B7CB06"
 			rewards: [
 				{
@@ -369,12 +369,12 @@
 					value: 999999
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests6.title}"
+			title: "生存技巧"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.exploration.quests7.description}"]
+			description: ["赶时间去某个地方？为什么不试试&a黏液弹弓&r？对着地面使用&b黏液弹弓&6并拉动&r，释放后将会把玩家往反方向射出，你可以通过这种方式来&a在空中停留一段时间&r！&b黏液靴子&r使你还可以……你知道的……&a不会受到摔落伤害而死亡&r。一对合拍的搭档！"]
 			id: "7232C9D413054886"
 			rewards: [
 				{
@@ -388,11 +388,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.exploration.quests7.subtitle}"
+			subtitle: "沾满黏液的交通工具"
 			tasks: [
 				{
 					id: "474CE1AAC07815BD"
-					title: "{ftbquests.chapter.exploration.quests7.tasks0.title}"
+					title: "“飞翔”的唯一办法"
 					type: "checkmark"
 				}
 			]
@@ -415,22 +415,22 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests9.description0}"
+				"如果你希望你的基地一直处于加载状态，即使你不在那，你需要&a加载区块&r。"
 				""
-				"{ftbquests.chapter.exploration.quests9.description2}"
+				"打开你的物品栏，看看屏幕左上角。点击&a地图图标&r可进入&aFTB区块&r界面。"
 				""
 				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
 				""
-				"{ftbquests.chapter.exploration.quests9.description6}"
+				"选择&b认领区块&r，&6左击&r一个区块来认领它。&b右击&r区块以取消认领。&6shift左击你已认领的区块&r以&a在你不在里面的时候持续加载它&r。按住&6shift右击&r以取消持续加载。"
 				""
 				"{image:cottagewitch:textures/claimchunks.png width:200 height:120 align:1}"
 				""
-				"{ftbquests.chapter.exploration.quests9.description10}"
+				"当一个区块被认领时，&d其他服务器成员无法破坏其中的方块或与方块进行交互&r。要授予某人你的区块的权限，你需要&a把他们或是他们的队伍添加为盟友&r。"
 				""
-				"{ftbquests.chapter.exploration.quests9.description12}"
-				"{ftbquests.chapter.exploration.quests9.description13}"
+				"强制加载一个区块可以&a确保你不在时基地一直处于加载状态&r。不过这会对性能造成显著影响，所以请&d谨慎行事&r！"
+				"当一个区块被认领时，&d其他服务器成员无法破坏其中的方块或与方块进行交互&r。要授予某人你的区块的权限，你需要&a把他们或是他们的队伍添加为盟友&r。"
 				""
-				"{ftbquests.chapter.exploration.quests9.description15}"
+				"&d注意：这个整合包目前既有FTB区块模组又有OPEN PAC模组。我们建议使用FTB区块来认领，因为OPEN PAC正在渐渐被淘汰。"
 			]
 			id: "26D8EAD9D892805E"
 			min_width: 350
@@ -443,31 +443,31 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.exploration.quests9.subtitle}"
+			subtitle: "当你离开时，你的基地会被持续加载"
 			tasks: [
 				{
 					id: "4FA4B92C6339251C"
-					title: "{ftbquests.chapter.exploration.quests9.tasks0.title}"
+					title: "认领并加载区块"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests9.title}"
+			title: "认领并加载区块"
 			x: 3.75d
 			y: 7.5d
 		}
 		{
 			dependencies: ["26D8EAD9D892805E"]
 			description: [
-				"{ftbquests.chapter.exploration.quests10.description0}"
+				"你可以使用FTB团队模组将别的玩家添加进你的队伍，这样你们就可以在需要的情况下&a共享任务进度&r，并&a拥有你认领的区块的权限&r了。"
 				""
-				"{ftbquests.chapter.exploration.quests10.description2}"
+				"团队界面可以从&c物品栏界面左上角&r进入。在那里可以&a建立队伍&r。你可以邀请其他人加入队伍，如果你们想共享任务进度的话。如果不想，你可以在&b管理盟友&r界面将其他人添加为盟友。"
 				""
 				"{image:cottagewitch:textures/ftbmenu.png width:200 height:150 align:1}"
 				"{image:cottagewitch:textures/createaparty.png width:100 height:75 align:1 fit:true}"
 				"{image:cottagewitch:textures/manageallies.png width:200 height:150 align:1}"
 				""
 				""
-				"{ftbquests.chapter.exploration.quests10.description9}"
+				"请注意，&d为了部署者能在声明的区块里工作&r，你必须要通过FTB队伍&6允许伪装玩家&r。按下E然后点左上角的“我的团队”。然后点右上角的齿轮，你就能看到在这个菜单里："
 				""
 				"{image:cottagewitch:textures/fakeplayers.png width:871 height:342 align:1 fit:true}"
 			]
@@ -488,7 +488,7 @@
 			tasks: [
 				{
 					id: "5D2FC3F7E82A27A3"
-					title: "{ftbquests.chapter.exploration.quests10.tasks0.title}"
+					title: "添加盟友"
 					type: "checkmark"
 				}
 			]
@@ -497,38 +497,38 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests11.description0}"
-				"{ftbquests.chapter.exploration.quests11.description1}"
+				"这个整合包添加了许多新的音效。为了帮你过滤掉那些你不喜欢的声音，包里添加了一个&a超级消音器&r。"
+				"&6按F6打开菜单&r。在这里，你可以点击&a最近&r以查看你最近听到了什么。你可以播放该声音以确认它是你不喜欢的那个，然后&6让它闭嘴！&r"
 			]
 			id: "171D4EACF7B9F4D5"
 			shape: "gear"
-			subtitle: "{ftbquests.chapter.exploration.quests11.subtitle}"
+			subtitle: "选择性失聪。字面意义上的。"
 			tasks: [
 				{
 					id: "4B25469609B1A60C"
-					title: "{ftbquests.chapter.exploration.quests11.tasks0.title}"
+					title: "超级消音器"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests11.title}"
+			title: "超级消音器"
 			x: 3.0d
 			y: 9.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests12.description0}"
-				"{ftbquests.chapter.exploration.quests12.description1}"
-				"{ftbquests.chapter.exploration.quests12.description2}"
-				"{ftbquests.chapter.exploration.quests12.description3}"
+				"这个整合包有许多的建筑装饰相关的模组值得你研究。&d它们大部分都没有相关的任务&r。"
+				"那么你如何知道它们的存在呢？那当然是用&lJEI&r啦。&6打开你的物品栏&r，你的右边就会出现一个物品列表。你可以在右下角搜索物品。输入&d@&r模组名称以查找该模组中的物品。"
+				"例如，你可以&a搜索“@another”以查看别样家具模组中的所有物品。&6左击物品&r以查看其合成配方。&6右击物品&r以查看其用途。"
+				"这可以让你看到如何制作游戏中的任意一个物品！"
 			]
 			id: "226D1B09B2958EFC"
 			shape: "gear"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.exploration.quests12.subtitle}"
+			subtitle: "简单略过"
 			tasks: [
 				{
 					id: "70ED8357EEA2ACA4"
-					title: "{ftbquests.chapter.exploration.quests12.tasks0.title}"
+					title: "了解模组们"
 					type: "checkmark"
 				}
 			]
@@ -537,11 +537,11 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests13.description0}"
+				"当你的屏幕看起来是这样时，你可能会想知道所有那些任务在哪里："
 				"{image:cottagewitch:textures/questmenu.png width:100 height:70 align:1 fit:true}"
-				"{ftbquests.chapter.exploration.quests13.description2}"
+				"看到&a左边栏上的箭头&r了吗？&6将鼠标悬停在上面&r即可显示所有任务章节。"
 				"{image:cottagewitch:textures/questmenu2.png width:100 height:70 align:1 fit:true}"
-				"{ftbquests.chapter.exploration.quests13.description4}"
+				"请确保你&6点击了右上角的图钉&r以保持此侧栏永久展开！"
 			]
 			id: "51383D499E0DF0DA"
 			min_width: 350
@@ -557,7 +557,7 @@
 			tasks: [
 				{
 					id: "11A03582B84195D4"
-					title: "{ftbquests.chapter.exploration.quests13.tasks0.title}"
+					title: "固定任务章节栏"
 					type: "checkmark"
 				}
 			]
@@ -567,9 +567,9 @@
 		{
 			dependencies: ["51383D499E0DF0DA"]
 			description: [
-				"{ftbquests.chapter.exploration.quests14.description0}"
-				"{ftbquests.chapter.exploration.quests14.description1}"
-				"{ftbquests.chapter.exploration.quests14.description2}"
+				"你知道你可以&a固定任务&r，使它们&a显示在你的主屏幕上&r吗？你可以！"
+				"只是&d需要注意这会与你固定的笔记重叠&r。"
+				"还有，也许我应该提到，你也可以&a将笔记固定&r在你的屏幕上！&6按N以访问你的笔记菜单&r。"
 			]
 			id: "1E43FCEBA416DCFF"
 			rewards: [
@@ -583,20 +583,20 @@
 			tasks: [
 				{
 					id: "65C18F6415665884"
-					title: "{ftbquests.chapter.exploration.quests14.tasks0.title}"
+					title: "固定一个任务或笔记"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.exploration.quests14.title}"
+			title: "固定其他东西"
 			x: 7.5d
 			y: 9.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.exploration.quests15.description0}"
-				"{ftbquests.chapter.exploration.quests15.description1}"
-				"{ftbquests.chapter.exploration.quests15.description2}"
-				"{ftbquests.chapter.exploration.quests15.description3}"
+				"要阅读你的&b阿卡什宝典&r中的书籍，手持宝典&6右击&r，然后&6选择你想看的书&r即可。"
+				"要&a将阿卡什宝典恢复&r到常规形态，&6手持它并对着空气左击&r即可。"
+				"要&a从宝典中移出一本书&r，你需要&6潜行并扔出&r它（默认键位是Q）。"
+				"要&a添加一本书&r，你需要&6将这本书与&b宝典&6合成&r。"
 			]
 			id: "5B1C86C4A7C3351F"
 			rewards: [
@@ -610,7 +610,7 @@
 			tasks: [
 				{
 					id: "0D6469F8CB52A79E"
-					title: "{ftbquests.chapter.exploration.quests15.tasks0.title}"
+					title: "阿卡什的使用方法"
 					type: "checkmark"
 				}
 			]
@@ -618,6 +618,6 @@
 			y: 10.0d
 		}
 	]
-	subtitle: ["{ftbquests.chapter.exploration.subtitle}"]
-	title: "{ftbquests.chapter.exploration.title}"
+	subtitle: ["这里可以帮助你开始游玩"]
+	title: "一切的开始"
 }

@@ -91,5 +91,5 @@
 			item: "aquaculture:tuna_bucket"
 		}
 	]
-	title: "{ftbquests.reward_tables.aquaculture_fish.title}"
+	title: "水产业模组的鱼"
 }

@@ -380,5 +380,5 @@
 			item: "environmental:music_disc_leaving_home"
 		}
 	]
-	title: "{ftbquests.reward_tables.music_discs.title}"
+	title: "音乐唱片奖励"
 }

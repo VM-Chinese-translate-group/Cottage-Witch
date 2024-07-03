@@ -32,5 +32,5 @@
 			item: "minecraft:sticky_piston"
 		}
 	]
-	title: "{ftbquests.reward_tables.redstone.title}"
+	title: "红石"
 }

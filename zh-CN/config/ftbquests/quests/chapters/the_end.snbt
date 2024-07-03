@@ -25,8 +25,8 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.the_end.quests0.description0}"
-				"{ftbquests.chapter.the_end.quests0.description1}"
+				"通常情况下，想要去&d末地&r就需要原版的&b末影之眼&r，通往末地既要寻找传送门又要填满末地传送门。然而，魔法已经改变了这个世界，这使得我们更难去往最后的维度。"
+				"取而代之的是，需要16种用不同方式找到的末影之眼（你需要找到其中的12颗）。&6查看接下来的任务&r以获取更多关于获取末影之眼的信息。"
 			]
 			id: "19ED6330FD3E968C"
 			rewards: [
@@ -44,7 +44,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.the_end.quests0.subtitle}"
+			subtitle: "我已经看到末地了"
 			tasks: [
 				{
 					id: "52571EA0A052EBB4"
@@ -55,17 +55,17 @@
 							value: "forge:eyes"
 						}
 					}
-					title: "{ftbquests.chapter.the_end.quests0.tasks0.title}"
+					title: "任意#forge:eyes"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_end.quests0.title}"
+			title: "获得末影之眼"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests1.description}"]
+			description: ["这些新物品中的第一个就被叫做&b远古之眼&r，它曾经属于现已灭绝的大沙虫之一。这只蜡黄的眼睛可以在&d沙漠神殿&r的箱子里找到。"]
 			id: "1689A10C4DBBE5B0"
 			rewards: [
 				{
@@ -94,7 +94,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests2.description}"]
+			description: ["&b下界之眼&r曾经属于一个恶魔，但在天境和下界之战中失去了它。它可以在箱子里被找到——你猜一下是哪里的箱子——是&d下界要塞&r的。"]
 			id: "2C24C18C174AD842"
 			rewards: [
 				{
@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests3.description}"]
+			description: ["&b寒冰之眼&r曾经属于一位冰术师，可以在&d冰屋的隐藏地下室&r中找到。"]
 			id: "468D0B739D93E018"
 			rewards: [
 				{
@@ -152,7 +152,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests4.description}"]
+			description: ["&b无赖之眼&r可以在&d丛林神庙&r中找到，并且它还被赋予了祖先的红石智慧。"]
 			id: "59B0992CDA1B5797"
 			rewards: [
 				{
@@ -181,7 +181,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests5.description}"]
+			description: ["&b漆黑之眼&r曾经有人看到在宏伟的黑珍珠号上看到过，但是现在被掩埋在地底的&d掩埋的宝藏&r中。"]
 			id: "3278B2F717A8F374"
 			rewards: [
 				{
@@ -210,7 +210,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests6.description}"]
+			description: ["开始一个&a袭击&r可能是获得&b魔力之眼&r最简单的方式，因为这颗眼睛&e唤魔者&r才有了强大力量。"]
 			id: "2DCD3962DBC7E1F4"
 			rewards: [
 				{
@@ -239,7 +239,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests7.description}"]
+			description: ["据说是由最早的铁匠锻造而成，&b迷离之眼&r据说可以在地壳深处的&d废弃矿井&r中找到。"]
 			id: "393FED910B541631"
 			rewards: [
 				{
@@ -268,7 +268,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests8.description}"]
+			description: ["有许多关于&b腐化之眼&r的谣言，其中就有说它能给持有者带来无尽的财富。然而，拥有它的贪婪国王最后也不知所踪，所以那些谣言并非真实。传闻它被保存在&d劫掠者前哨站&r的某处。"]
 			id: "513067CD571D369E"
 			rewards: [
 				{
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests9.description}"]
+			description: ["你也许能猜到&b守卫者之眼&r的位置了。在波涛汹涌的海面下，在&e远古守卫者&r的肚子里。"]
 			id: "0ED4E7CE946E5F48"
 			rewards: [
 				{
@@ -326,7 +326,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests10.description}"]
+			description: ["想要获得&b女巫之眼&r，你必须&d杀死一个邪恶女巫&r并且获得&b巫瞳&r，然后把它和&b末影之眼&r合成在一起。"]
 			id: "13555E89D6122D88"
 			rewards: [
 				{
@@ -355,7 +355,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests11.description}"]
+			description: ["&b诅咒之眼&r可以在&d堡垒遗迹&r中的宝藏室的箱子找到。它是一个强大的破坏性神器，猪灵将会用它们的生命来捍卫。"]
 			id: "2356716DE94666CF"
 			rewards: [
 				{
@@ -384,7 +384,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests12.description}"]
+			description: ["&b邪恶之眼&r象征着庇护，它会凝视着持有者的敌人。这可以从&d大师级别的牧师&r那购买。"]
 			id: "605D30BFA0C1C6A7"
 			rewards: [
 				{
@@ -413,7 +413,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests13.description}"]
+			description: ["据说这只眼睛受到亡灵的青睐。&b不死之眼&r可以用一个&b不死之魂&r合成，不死之魂需要靠击杀&e骷髅马&r来获得，或者大量&e幽灵&r。"]
 			id: "3AADAC34ECDEF891"
 			rewards: [
 				{
@@ -442,7 +442,7 @@
 		}
 		{
 			dependencies: ["19ED6330FD3E968C"]
-			description: ["{ftbquests.chapter.the_end.quests14.description}"]
+			description: ["&b异国之眼&r与亚特兰蒂斯密切联系着——传说人们用它来寻找沉没的城市，但没有人回来证实过这一说法。&6用水中的物品合成它&r。"]
 			id: "537CCA9E121868CC"
 			rewards: [
 				{
@@ -472,10 +472,10 @@
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
 			description: [
-				"{ftbquests.chapter.the_end.quests15.description0}"
-				"{ftbquests.chapter.the_end.quests15.description1}"
-				"{ftbquests.chapter.the_end.quests15.description2}"
-				"{ftbquests.chapter.the_end.quests15.description3}"
+				"你做到了！你通关了。恭喜你，你现在可以回家了。"
+				"……"
+				"……"
+				"……额，你还是呆着吧。这……哦对！你可以看看别的任务，趁你现在还在这里！"
 			]
 			id: "2499CAE3934539A8"
 			rewards: [
@@ -572,7 +572,7 @@
 		}
 		{
 			dependencies: ["2499CAE3934539A8"]
-			description: ["{ftbquests.chapter.the_end.quests16.description}"]
+			description: ["你杀了两头末影龙？哇哦，你真厉害。"]
 			id: "73EAABCF703B9DC9"
 			rewards: [
 				{
@@ -582,7 +582,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.the_end.quests16.subtitle}"
+			subtitle: "好吧，这太过分了"
 			tasks: [
 				{
 					entity: "minecraft:ender_dragon"
@@ -598,8 +598,8 @@
 		{
 			dependencies: ["19ED6330FD3E968C"]
 			description: [
-				"{ftbquests.chapter.the_end.quests17.description0}"
-				"{ftbquests.chapter.the_end.quests17.description1}"
+				"你找到了去往&d末地&r的路，恭喜你。并祝你好运，你的旅途将会继续下去。"
+				"记住如果你想要探索虚空，你可以坐上你的&b扫帚&r，或者驯服一只&e末地鲸&r。"
 			]
 			icon: "minecraft:end_stone"
 			id: "09ED0DFEB72DFD71"
@@ -621,7 +621,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.the_end.quests17.subtitle}"
+			subtitle: "哈哈，我到了？“末地”？"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
@@ -629,7 +629,7 @@
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.the_end.quests17.title}"
+			title: "终焉之始"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -651,8 +651,8 @@
 				"393FED910B541631"
 			]
 			description: [
-				"{ftbquests.chapter.the_end.quests18.description0}"
-				"{ftbquests.chapter.the_end.quests18.description1}"
+				"你可能只需要12颗&b眼睛&r去进入&c末地&r，但如果你收集了所有的眼睛，你将获得大量奖励。"
+				"只要你&6收集了所有的眼睛&r，你就可以勾选这个按钮并获得一套特别的护甲。"
 			]
 			hide_dependency_lines: true
 			id: "72A4C21205E75EAD"
@@ -706,7 +706,7 @@
 			tasks: [
 				{
 					id: "1B27633C39539B20"
-					title: "{ftbquests.chapter.the_end.quests18.tasks0.title}"
+					title: "获得每种末影之眼"
 					type: "checkmark"
 				}
 			]
@@ -729,7 +729,7 @@
 		}
 		{
 			dependencies: ["09ED0DFEB72DFD71"]
-			description: ["{ftbquests.chapter.the_end.quests20.description}"]
+			description: ["在&b蛋&r里面游泳？这听起来不太好，你可以&a用&b龙蛋&r交换&b龙首&r。"]
 			id: "26E52D95C9C75019"
 			repeatable: true
 			rewards: [
@@ -740,7 +740,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.the_end.quests20.subtitle}"
+			subtitle: "你个书呆子"
 			tasks: [
 				{
 					consume_items: true
@@ -749,10 +749,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.the_end.quests20.title}"
+			title: "主宰末地"
 			x: 3.5d
 			y: 2.0d
 		}
 	]
-	title: "{ftbquests.chapter.the_end.title}"
+	title: "末路之地"
 }

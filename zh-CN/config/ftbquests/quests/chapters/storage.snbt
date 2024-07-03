@@ -73,9 +73,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests0.description0}"
-				"{ftbquests.chapter.storage.quests0.description1}"
-				"{ftbquests.chapter.storage.quests0.description2}"
+				"&b存储抽屉&r可以在一个方块中存储大量同种物品。"
+				"你可以制作多种样式，容纳1-4种物品，并且还有多种木制纹理。"
+				"&b镶框抽屉&r可以用任意方块纹理来装饰，当鼠标放在&b镶框抽屉&r上时&6按住shift键&r可以看到相关说明。"
 			]
 			icon: "functionalstorage:oak_1"
 			id: "1838DE5E92C9C03F"
@@ -94,7 +94,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.storage.quests0.subtitle}"
+			subtitle: "我是艺术家，不是抽屉匠！"
 			tasks: [
 				{
 					id: "4B1A10444317E77B"
@@ -105,20 +105,20 @@
 							value: "functionalstorage:drawer"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests0.tasks0.title}"
+					title: "任意#functionalstorage:drawer"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests0.title}"
+			title: "合成一个功能性存储抽屉"
 			x: 9.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["40EDCF93A4E5B1AA"]
 			description: [
-				"{ftbquests.chapter.storage.quests1.description0}"
-				"{ftbquests.chapter.storage.quests1.description1}"
-				"{ftbquests.chapter.storage.quests1.description2}"
+				"这个&b存储升级&r可以&a增加&r你的抽屉可容纳的&a物品数量&r。"
+				"有多种等级的升级，它们可以同时使用或混搭使用。"
+				"每个抽屉可以插入7个不同的升级。"
 			]
 			id: "643038A9E2CA7D59"
 			rewards: [
@@ -129,7 +129,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests1.subtitle}"
+			subtitle: "我们需要更多的空间！"
 			tasks: [
 				{
 					id: "7206A74D127A4316"
@@ -137,13 +137,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests1.title}"
+			title: "获得你的首个存储升级"
 			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["643038A9E2CA7D59"]
-			description: ["{ftbquests.chapter.storage.quests2.description}"]
+			description: ["如果你有太多的物品要导入你的抽屉，那&b虚空升级&r十分有用——它能&a自动清除&r抽屉装不下的物品，避免游戏延迟过大。"]
 			id: "313DFFDB063483B7"
 			rewards: [
 				{
@@ -171,10 +171,10 @@
 		{
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
-				"{ftbquests.chapter.storage.quests3.description0}"
-				"{ftbquests.chapter.storage.quests3.description1}"
-				"{ftbquests.chapter.storage.quests3.description2}"
-				"{ftbquests.chapter.storage.quests3.description3}"
+				"&b压缩抽屉&r与其他抽屉不同，因为它能让你存放并获取&a一种物品的不同压缩形式&r。"
+				"经典的例子是&b铁&r，它可以变成&b铁块&r、&b铁锭&r和&b铁粒&r。如果你向压缩抽屉里放入9个铁锭，你可以直接取出1个铁块、9个铁锭或是81个铁粒，而无需进行合成。"
+				"不过，这也可以用在&b作物&r这类物品，它们可以以箱装作物的形式取出。这可以用于所有有&a3x3压缩配方&r的物品。"
+				"&b简单压缩抽屉&r也具有同样的功能，除非是仅有2种压缩形式的物品，比如作物或鸡蛋。"
 			]
 			id: "1F6CE1B236003A84"
 			rewards: [
@@ -213,9 +213,9 @@
 		{
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
-				"{ftbquests.chapter.storage.quests4.description0}"
-				"{ftbquests.chapter.storage.quests4.description1}"
-				"{ftbquests.chapter.storage.quests4.description2}"
+				"&b存储控制器&r十分重要，它可以将你的&b抽屉&r连接成一个&a存储网络&r。"
+				"你也可以通过它来利用漏斗或&bPipez模组的管道&r&a将物品导入&r你的抽屉！"
+				"你需要用&b连接工具&r&6右击&r各个&b抽屉&r来将它们连接到&b控制器&r。"
 			]
 			id: "40EDCF93A4E5B1AA"
 			rewards: [
@@ -245,11 +245,11 @@
 		{
 			dependencies: ["1838DE5E92C9C03F"]
 			description: [
-				"{ftbquests.chapter.storage.quests5.description0}"
-				"{ftbquests.chapter.storage.quests5.description1}"
-				"{ftbquests.chapter.storage.quests5.description2}"
-				"{ftbquests.chapter.storage.quests5.description3}"
-				"{ftbquests.chapter.storage.quests5.description4}"
+				"&a配置工具&r用于调整抽屉的功能。拿着工具&6潜行右击&r来切换调整的功能，再对着抽屉&6右击&r就可以开关抽屉的特定功能。"
+				"初始的模式，&b锁定&r模式，可以锁定抽屉，使它只能接收当前存在其中的物品。"
+				"&b隐藏/显示数量&r模式，用于开关抽屉上的内容物数量的数字显示。"
+				"&b隐藏/显示物品渲染&r模式，用于开关抽屉上的物品图标以及其他标签的显示。"
+				"&b隐藏/显示升级渲染&r模式，用于开关抽屉已安装的升级的显示。"
 			]
 			id: "0204D145FC5C3008"
 			rewards: [
@@ -277,7 +277,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.storage.quests6.description}"]
+			description: ["哦我知道的，它真的是个大麻烦……你的存储系统里&o塞满了&r&b金苹果&r——不过别担心，你可以&a将它们&r压缩成箱装的。这些&b箱装金苹果&r甚至可以用来给&b信标&r充能！"]
 			id: "58C6D8E0422110BC"
 			rewards: [
 				{
@@ -293,7 +293,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests6.subtitle}"
+			subtitle: "有些人对他们很粗鲁。"
 			tasks: [
 				{
 					count: 5L
@@ -302,17 +302,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests6.title}"
+			title: "获得箱装金苹果"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests7.description0}"
-				"{ftbquests.chapter.storage.quests7.description1}"
-				"{ftbquests.chapter.storage.quests7.description2}"
-				"{ftbquests.chapter.storage.quests7.description3}"
-				"{ftbquests.chapter.storage.quests7.description4}"
+				"这个整合包有很多种&a玻璃罐&r。这一种可以用来装流体！最多装三桶。"
+				"它可以装任何的流体，无论是&b水&r还是&b汤&r，甚至是&b经验&r都可以装。"
+				"它也可以作为&a鱼缸&r或是&a饼干罐&r。"
+				"空手右击玻璃罐可以吃食用其中物品。别担心，你不会喝到熔岩。"
+				"你可以&a潜行右击来放置玻璃罐&r。&a单独右击&r可抓捕一些如&e小史莱姆&r或&e蜜蜂&r这样的小生物。"
 			]
 			id: "62D95F91881F228C"
 			rewards: [
@@ -335,8 +335,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests8.description0}"
-				"{ftbquests.chapter.storage.quests8.description1}"
+				"&b篮子&r可以用来当箱子，也可以当漏斗！它有着&a箱子的存储容量&r，当掉落物落在它的顶部（译注：开口那面）时，它们会&a自动进入它的物品栏&r。"
+				"举个例子，你可以&6把它上下颠倒地放置&r在&b炉灶&r的上方，这样就可以自动收集烤熟的食物了！或者是把它放在&b传送带&r的末尾。"
 				"{image:cottagewitch:textures/basket.png width:100 height:100 align:1}"
 			]
 			id: "5E3D0655F0A08890"
@@ -354,7 +354,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests8.subtitle}"
+			subtitle: "不知道能不能用来打篮球。"
 			tasks: [
 				{
 					id: "31A89834BA4A5521"
@@ -362,37 +362,37 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests8.title}"
+			title: "获得一个篮子"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests9.description0}"
+				"&lTom的简易存储&r模组能够让你实现&a从单个界面访问你所有的存储空间&r。Tom是谁已湮没在传说中，但他的存储系统保留了下来。&l精妙存储&r同样是一个聚焦于&a在小面积内提供巨量存储空间&r的存储方案。这两套系统可以协同工作！"
 				""
-				"{ftbquests.chapter.storage.quests9.description2}"
+				"首先，你需要一个&lTom的&r&b存储终端&r。"
 				""
-				"{ftbquests.chapter.storage.quests9.description4}"
+				"然后，你需要在这两者之间做个选择——&lTom的&r&b存储整合器&r或是&l精妙存储&r的&b存储控制器&r。存储整合器支持原版与精妙存储的容器，而&b存储控制器&r只支持精妙存储的容器。不过，&b存储控制器&r的远程功能要比&b存储整合器&r的更优越。"
 				""
-				"{ftbquests.chapter.storage.quests9.description6}"
+				"此任务有多页，&6请翻到下一页&r。"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.storage.quests9.description9}"
+				"&b存储整合器&r与&b存储控制器&r的功能类似集线器，同所有与其相邻的存储方块进行连接。&d所有相邻的存储方块均会自动加入网络&r。"
 				""
-				"{ftbquests.chapter.storage.quests9.description11}"
+				"使用&b存储控制器&r配合&b存储链接&r可以连接到远处的存储容器。&b存储整合器&r通过&b存储桥接器、存储线缆和存储线缆连接器&r也能达到相同的效果。"
 				""
-				"{ftbquests.chapter.storage.quests9.description13}"
+				"通过&b存储终端&r可以查看与存取网络内物品。它之后可以升级为&b合成终端&r，可以直接使用网络内的物品进行合成。"
 				"{@pagebreak}"
-				"{ftbquests.chapter.storage.quests9.description15}"
+				"下方是&aTom的简易存储与精妙存储搭配使用&r的样例。如图所示，这个结构&d仅使用了&r&l精妙存储&r&d的存储容器&r和安装在&b精妙存储的存储控制器&r上的&bTom的简易存储的存储终端&r。"
 				""
-				"{ftbquests.chapter.storage.quests9.description17}"
+				"远程存储使用&b存储链接&r进行连接。"
 				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
 				""
 				"{@pagebreak}"
-				"{ftbquests.chapter.storage.quests9.description21}"
+				"下方是&a仅使用Tom的简易存储&r的样例，使用原版存储容器（尽管它同样支持精妙存储的存储容器）。"
 				""
-				"{ftbquests.chapter.storage.quests9.description23}"
+				"远程容器通过&b存储线缆&r和&b存储线缆连接器&r连接至&b存储整合器&r。"
 				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "1B3C37BD61939C76"
@@ -405,7 +405,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.storage.quests9.subtitle}"
+			subtitle: "网络是不可或缺的一部分"
 			tasks: [
 				{
 					id: "65E8A2B80E50F100"
@@ -416,7 +416,7 @@
 							value: "forge:inventory_controllers"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests9.tasks0.title}"
+					title: "任意#forge:inventory_controllers"
 					type: "item"
 				}
 				{
@@ -425,13 +425,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests9.title}"
+			title: "网络接口"
 			x: -0.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
-			description: ["{ftbquests.chapter.storage.quests10.description}"]
+			description: ["&b合成终端&r，虽然比较贵，但很值得升级，因为它可以让你直接用存储网络中的物品&a通过JEI或是配方书进行合成&r。"]
 			id: "681253D70C026027"
 			rewards: [
 				{
@@ -440,7 +440,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests10.subtitle}"
+			subtitle: "终到的端口——终端"
 			tasks: [
 				{
 					id: "2B45691AED9BE323"
@@ -453,7 +453,7 @@
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
-			description: ["{ftbquests.chapter.storage.quests11.description}"]
+			description: ["&b存储桥接器&r用于填充两个连接的存储方块之间的空隙。只要桥接器一端连接可用的存储方块，另一端连接网络中的方块，它就可以将所有与之相接的方块连入存储网络。"]
 			id: "7A9A86BAA9E4A06E"
 			rewards: [
 				{
@@ -463,7 +463,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests11.subtitle}"
+			subtitle: "整整齐齐"
 			tasks: [
 				{
 					count: 4L
@@ -478,8 +478,8 @@
 		{
 			dependencies: ["1B3C37BD61939C76"]
 			description: [
-				"{ftbquests.chapter.storage.quests12.description0}"
-				"{ftbquests.chapter.storage.quests12.description1}"
+				"大多数人使用&b存储桥接器&r来连接他们的网络，但你也可以使用&b存储整合器&r和&b存储线缆&r进行连接。"
+				"&6将整合器放在你想连接的方块上&r，然后&6在它们中间放上线缆&r。"
 			]
 			id: "21A2E4CA683BD232"
 			rewards: [
@@ -501,7 +501,7 @@
 							value: "forge:inventory_controllers"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests12.tasks0.title}"
+					title: "任意#forge:inventory_controllers"
 					type: "item"
 				}
 				{
@@ -513,19 +513,19 @@
 							value: "forge:connector"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests12.tasks1.title}"
+					title: "任意#forge:connector"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests12.title}"
+			title: "远程连接"
 			x: -3.0d
 			y: -14.0d
 		}
 		{
 			dependencies: ["21A2E4CA683BD232"]
 			description: [
-				"{ftbquests.chapter.storage.quests13.description0}"
-				"{ftbquests.chapter.storage.quests13.description1}"
+				"&b镶框方块&r可以&a呈现另一种方块的外观&r。"
+				"放置你的&b镶框方块&r，然后&6拿着喷涂工具并潜行右击&r你要伪装成的方块。&6右击镶框方块&r将其喷涂成对应方块的样子，然后就能看到效果！"
 			]
 			id: "383A9396EDCA0ED1"
 			rewards: [
@@ -537,7 +537,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests13.subtitle}"
+			subtitle: "别多想，没毛病"
 			tasks: [
 				{
 					id: "39246456F6D4B955"
@@ -561,13 +561,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests13.title}"
+			title: "镶框方块"
 			x: -4.5d
 			y: -14.0d
 		}
 		{
 			dependencies: ["1B3C37BD61939C76"]
-			description: ["{ftbquests.chapter.storage.quests14.description}"]
+			description: ["&b无线终端&r是一个非常有用的物品，它可以让你&a在16格范围内&r远程地访问你的库存网络中的物品。"]
 			id: "50D94EFE04154F83"
 			rewards: [
 				{
@@ -577,7 +577,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests14.subtitle}"
+			subtitle: "我们处于无线状态"
 			tasks: [
 				{
 					id: "12EE65D5450F2B69"
@@ -591,9 +591,9 @@
 		{
 			dependencies: ["50D94EFE04154F83"]
 			description: [
-				"{ftbquests.chapter.storage.quests15.description0}"
-				"{ftbquests.chapter.storage.quests15.description1}"
-				"{ftbquests.chapter.storage.quests15.description2}"
+				"&b高级无线终端&r与普通版本相比不只是扩展了有效范围（16格变成64格），而且可以扩展为&a无限的有效范围&r，只要&6在旁边搭建一座一级信标&r。"
+				"如果你&6在旁边建了一座4级信标&r，那无线信号将可以&a跨维度&r传输了！"
+				"将它&6装备在“腰带”饰品栏&r后可以&a用快捷键打开&r。"
 			]
 			id: "5E4411D5B4EFA45B"
 			rewards: [
@@ -604,7 +604,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests15.subtitle}"
+			subtitle: "希望灯塔"
 			tasks: [
 				{
 					id: "55AE94FBC169D6F8"
@@ -618,8 +618,8 @@
 		{
 			dependencies: ["1B3C37BD61939C76"]
 			description: [
-				"{ftbquests.chapter.storage.quests16.description0}"
-				"{ftbquests.chapter.storage.quests16.description1}"
+				"&b存储代理器&r是一个极好的物品，它扩展了对其相邻容器的访问，特别是&a放置的那面&r，"
+				"当容器因为在自动化系统内等因素导致访问困难时，它能够发挥很大的作用。"
 			]
 			id: "30027D97CE91BAF0"
 			rewards: [
@@ -644,9 +644,9 @@
 		{
 			dependencies: ["1B3C37BD61939C76"]
 			description: [
-				"{ftbquests.chapter.storage.quests17.description0}"
-				"{ftbquests.chapter.storage.quests17.description1}"
-				"{ftbquests.chapter.storage.quests17.description2}"
+				"&b存储漏斗&r可以从你的网络中输入和输出物品。"
+				"&6手持物品右击它&r以设置过滤名单。对于输入来说，这是选择性的，但输出则一定要设置过滤名单。"
+				"&6空手Shift+右击&r以清除过滤名单。"
 			]
 			id: "15F2A54EBE6EEC56"
 			rewards: [
@@ -671,8 +671,8 @@
 		{
 			dependencies: ["1B3C37BD61939C76"]
 			description: [
-				"{ftbquests.chapter.storage.quests18.description0}"
-				"{ftbquests.chapter.storage.quests18.description1}"
+				"&b存储状态发信器&r可根据存储容器的内容物来发出红石信号。"
+				"这个信号是根据存储容器中内容物的数量&a是多于还是少于设定数量&r来发出的。"
 			]
 			id: "41933F01B397F9F0"
 			rewards: [
@@ -696,8 +696,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests19.description0}"
-				"{ftbquests.chapter.storage.quests19.description1}"
+				"&b末影箱&r就像是在云端存储你的物品。它的物品栏可以通往任何一个&b末影箱&r，无论你在何处。"
+				"用应急物品装满它并不是一个坏主意。你可以通过&6装潜影盒&r来&a获得更多空间&r。"
 			]
 			id: "0B1646339D14D055"
 			rewards: [
@@ -721,8 +721,8 @@
 		{
 			dependencies: ["0B1646339D14D055"]
 			description: [
-				"{ftbquests.chapter.storage.quests20.description0}"
-				"{ftbquests.chapter.storage.quests20.description1}"
+				"你应该可以猜到&b末影箱之环&r可以让你在没有&b末影箱&r的情况下打开末影物品栏。"
+				"它&a不能当作饰品佩戴&r，所以必须&6按住右键&r来使用它。"
 			]
 			id: "1EEB4AA9131B98DC"
 			rewards: [
@@ -746,12 +746,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests21.description0}"
-				"{ftbquests.chapter.storage.quests21.description1}"
-				"{ftbquests.chapter.storage.quests21.description2}"
-				"{ftbquests.chapter.storage.quests21.description3}"
+				"&b物品管道&r能够轻松的把物品从一个容器传输到另一个容器。"
+				"它可以通过&b存储整合器&r来&a连接单独的箱子、木桶甚至是整个网络&r。"
+				"你可以使用&b扳手&r（&lPipez&r和&l机械动力&r的都可以，不过&l锦致装饰&r的不行）来&a改变它的模式&r。"
+				"&6手持扳手潜行右击&b管道&r的一个面，来连接它或者取消它的连接，也可以&a设为提取模式&r。"
 				"{image:cottagewitch:textures/depositextract.png width:300 height:150 align:1}"
-				"{ftbquests.chapter.storage.quests21.description5}"
+				"在&a提取模式&r下，你可以&6右击管道&r来打开它的菜单。"
 			]
 			id: "0A76B3D9CF688878"
 			min_width: 300
@@ -770,7 +770,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.storage.quests21.subtitle}"
+			subtitle: "管理你的存储网络"
 			tasks: [
 				{
 					id: "7153E46F9B5C723A"
@@ -783,7 +783,7 @@
 		}
 		{
 			dependencies: ["0A76B3D9CF688878"]
-			description: ["{ftbquests.chapter.storage.quests22.description}"]
+			description: ["&b基础管道升级&r可以让你为管道设置&a红石模式&r。可以设置为充能时&a开启&r，或者设置为充能时&a关闭&r。默认情况下是&a忽略红石输入&r的。"]
 			id: "327660E1DFE7C9A0"
 			rewards: [
 				{
@@ -804,7 +804,7 @@
 		}
 		{
 			dependencies: ["327660E1DFE7C9A0"]
-			description: ["{ftbquests.chapter.storage.quests23.description}"]
+			description: ["&a进阶管道升级&r不仅可以设置&a红石模式&r，还可以更改&a分配模式&r，例如&a最近优先&r、&a轮询调度&r和&a随机分配&r。"]
 			id: "125AC0EEF7096532"
 			rewards: [
 				{
@@ -827,7 +827,7 @@
 			dependencies: ["125AC0EEF7096532"]
 			description: [
 				"{image:cottagewitch:textures/pipezscreen.png width:200 height:200 align:1}"
-				"{ftbquests.chapter.storage.quests24.description1}"
+				"&b高级管道升级&r不仅可以让你设置前两种模式，还额外能设置&a过滤模式&r。你可以将管道提取的指定物品列入&a白名单或黑名单&r。"
 			]
 			id: "5E0E4D3BFE9A205F"
 			rewards: [
@@ -850,8 +850,8 @@
 		{
 			dependencies: ["5E0E4D3BFE9A205F"]
 			description: [
-				"{ftbquests.chapter.storage.quests25.description0}"
-				"{ftbquests.chapter.storage.quests25.description1}"
+				"&b终极管道升级&b提供前者所有模式设置，同时也允许&a一次运输一组物品&r，让它成为最快的选择。"
+				"它的造价也明显更贵。"
 			]
 			id: "2B73F9B609ABE980"
 			rewards: [
@@ -873,7 +873,7 @@
 		}
 		{
 			dependencies: ["1838DE5E92C9C03F"]
-			description: ["{ftbquests.chapter.storage.quests26.description}"]
+			description: ["&b末影抽屉&r可以用&b连接工具&r&a调谐到某一频率&r。其他&b末影抽屉&r调谐到同一频率就可以有&a共享的物品栏&r。"]
 			id: "08DC47F76CA50E40"
 			rewards: [
 				{
@@ -897,9 +897,9 @@
 		{
 			dependencies: ["40EDCF93A4E5B1AA"]
 			description: [
-				"{ftbquests.chapter.storage.quests27.description0}"
-				"{ftbquests.chapter.storage.quests27.description1}"
-				"{ftbquests.chapter.storage.quests27.description2}"
+				"&b收集升级&a会&a拾取附近掉落的物品&r。"
+				"&b抽入升级&r会&a从最近的容器中抽取物品&r。"
+				"&b输出升级&r会……你应该猜到了！会&a将物品输出&r到最近的容器中。"
 			]
 			id: "2600D0609823A031"
 			rewards: [
@@ -945,15 +945,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests27.title}"
+			title: "运输升级"
 			x: 8.5d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests28.description0}"
-				"{ftbquests.chapter.storage.quests28.description1}"
-				"{ftbquests.chapter.storage.quests28.description2}"
+				"当你冒险的途中会有许多方式为你存储物品，但并非所有的方法有像&b行李箱&r一样好。它不管别的，只爱喜欢&a吞食地上的物品&r。然而，它也非常地可爱。"
+				"你可以&6右击打开它的物品栏&r，也可以&6shift+右击&r把它捡起来。它会捡起物品并&a保留物品栏&r，而且它还不会死。"
+				"&e行李箱&r可以&a佩戴项圈&r，而且该项圈是已经被附魔是。然而，&d从物品栏中放置行李箱将会删除项圈&r，所以确保你在捡起行李箱之前已经移除了项圈。（注：该项圈相关的特性在现版本中不再适用）"
 			]
 			id: "0AC47FF8FD45B289"
 			rewards: [
@@ -965,7 +965,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests28.subtitle}"
+			subtitle: "奥姆奥姆奥姆奥姆（吃东西的声音）"
 			tasks: [
 				{
 					id: "37E8405F8CFB4AB9"
@@ -977,15 +977,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests28.title}"
+			title: "并不是真正的宠物"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0AC47FF8FD45B289"]
 			description: [
-				"{ftbquests.chapter.storage.quests29.description0}"
-				"{ftbquests.chapter.storage.quests29.description1}"
+				"当&e行李箱&r&a被闪电击中&r时，将会扩充它的物品栏。"
+				"触发雷击最简单的方式就是&a唤雷仪式&r，你还需要准备&b仪式之板&r和&b仪式火盆&r。&6放置仪式之板并右击&r开始仪式。如果你想要雷击&a多个造物&r，你必须给仪式&a提供魔源&r。"
 			]
 			id: "27A6A7ADD9B0A8AE"
 			rewards: [
@@ -1003,15 +1003,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests29.title}"
+			title: "升级你的行李箱"
 			x: -2.0d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests30.description0}"
-				"{ftbquests.chapter.storage.quests30.description1}"
-				"{ftbquests.chapter.storage.quests30.description2}"
+				"你知道你可以&a通过&bSculk transporting模组&a无线传输物品&r吗？通过&a幽匿菌丝网络&r进行的通信居然可以携带如此复杂的信息，以至于它&a可以操纵现实&r。因此，它可以将一个物品从一处传输到另一处。"
+				"首先，你需要一本&b指南&r，还需要去&6采集一些&b幽匿块&r。"
+				"&6阅读章节“材料收集”&r以了解你需要什么材料。"
 			]
 			id: "4C75E1320C84AD2E"
 			rewards: [
@@ -1061,8 +1061,8 @@
 		{
 			dependencies: ["4C75E1320C84AD2E"]
 			description: [
-				"{ftbquests.chapter.storage.quests31.description0}"
-				"{ftbquests.chapter.storage.quests31.description1}"
+				"你需要的第一个工具是&b发信器&r——用于发送物品——以及一个&b接收器&r——用于，呃，接收它们。"
+				"&b发信器&r必须&6放置在&b幽匿桶&b上面&r才能正常工作。不过，&b幽匿接收器&r可以输出到&a最基本的存储方块中&r，比如箱子、木桶和抽屉。它&a无法直接将物品存入&b抽屉控制器&r中，但你可以使用&bPipez模组的管道&r或者&b拉取升级&r来将物品存入你的抽屉。"
 			]
 			id: "6A2A797F0DACFD76"
 			rewards: [
@@ -1090,15 +1090,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests31.title}"
+			title: "幽匿网络的基础设施"
 			x: -7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
 			description: [
-				"{ftbquests.chapter.storage.quests32.description0}"
-				"{ftbquests.chapter.storage.quests32.description1}"
+				"初始状态下，&b发信器&r和&b接收器&r必须&a相距8格以内&r才能工作。不过，你可以&6放置幽匿传输器&r来&a扩展这个距离&r。"
+				"&b传输器&r也可以&a接收或拒绝接收&r放在它侧面上的特定物品。你可以在指南中&6了解更多相关信息&r。"
 			]
 			id: "748DCD79DE0DA182"
 			rewards: [
@@ -1121,15 +1121,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests32.title}"
+			title: "扩展范围"
 			x: -7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
 			description: [
-				"{ftbquests.chapter.storage.quests33.description0}"
-				"{ftbquests.chapter.storage.quests33.description1}"
+				"给&b幽匿发信器&r安装不同等级的&b数量组件&r可以让它一次性传输和存储多达&a64个物品&r！"
+				"&b接收器&r和&b传输器&r不能安装这些升级，但它们可以传输与接收&b发信器&r发送给它们的物品。"
 			]
 			id: "4CC2BF8A5B188CB6"
 			rewards: [
@@ -1147,13 +1147,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests33.title}"
+			title: "数量组件"
 			x: -8.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6A2A797F0DACFD76"]
-			description: ["{ftbquests.chapter.storage.quests34.description}"]
+			description: ["你大抵能猜到，&b速度组件&r可以让&b发信器&r和&b接收器&r以更快的速度工作。请注意，&b传输器&r只能以它最快的速度工作，可能成为传输速度的瓶颈。"]
 			id: "1857993F9598F28C"
 			rewards: [
 				{
@@ -1170,7 +1170,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests34.title}"
+			title: "速度组件"
 			x: -8.5d
 			y: 2.5d
 		}
@@ -1191,8 +1191,8 @@
 		{
 			dependencies: ["0A76B3D9CF688878"]
 			description: [
-				"{ftbquests.chapter.storage.quests36.description0}"
-				"{ftbquests.chapter.storage.quests36.description1}"
+				"&b过滤器目标工具&r是一个多功能的工具，可用于给&b筛选出的物品种类&a设置目的地&r。"
+				"你可以通过&6手持它右击&l存储方块连接&bPipez管道&6的那面&r来为它指定存储容器。如果你选择的存储容器的面不正确，它就不会工作。"
 			]
 			id: "329CC0CC1B48C600"
 			rewards: [
@@ -1222,9 +1222,9 @@
 		{
 			dependencies: ["0AC47FF8FD45B289"]
 			description: [
-				"{ftbquests.chapter.storage.quests37.description0}"
+				"&e末影行李箱&r是紧密联系在一起的团体——不像常规的&e行李箱&r那样，每个你自己的&e末影行李箱&r将会共享存储空间！"
 				""
-				"{ftbquests.chapter.storage.quests37.description2}"
+				"就像是带脚的&b末影箱&r！"
 			]
 			id: "6E8FC5FFD17FF281"
 			rewards: [
@@ -1242,7 +1242,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests37.subtitle}"
+			subtitle: "更安全的存储方式"
 			tasks: [
 				{
 					id: "5FD4184741B4D6F3"
@@ -1250,21 +1250,21 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests37.title}"
+			title: "不完全是箱子"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests38.description0}"
+				"基础的箱子和木桶还够用，但聪明伶俐的女巫知道，&a物品栏空间的规则&r就是用来打破的。只需施点魔法，你就可以轻易地让存储变大——&a还更智能&r！"
 				""
-				"{ftbquests.chapter.storage.quests38.description2}"
+				"让我们从简单的&b木桶&r开始。像平常一样，将木桶放在地上，然后拿着&b基础升级&r对它&6右击&r。"
 				""
-				"{ftbquests.chapter.storage.quests38.description4}"
+				"现在，你再打开木桶的物品栏，你可以发现多了些东西。"
 				""
-				"{ftbquests.chapter.storage.quests38.description6}"
+				"左边的物品槽用来&a放置升级&r，可以让你的存储拥有相应的功能。"
 				""
-				"{ftbquests.chapter.storage.quests38.description8}"
+				"点击右边的&a齿轮按钮&r可以打开你的&a存储设置&r。"
 				"{image:cottagewitch:textures/sophstorage.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "2AC77B6EF8DA00EA"
@@ -1282,7 +1282,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.storage.quests38.subtitle}"
+			subtitle: "让我们把他们复杂化"
 			tasks: [
 				{
 					id: "05E47966FD087BED"
@@ -1295,24 +1295,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests38.title}"
+			title: "升级你的存储"
 			x: -0.5d
 			y: -16.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests39.description0}"
+				"在存储设置中，你可以更改存储的行为方式。"
 				""
 				"{image:cottagewitch:textures/sophsettings.png width:100 height:70 align:1 fit:true}"
 				""
-				"{ftbquests.chapter.storage.quests39.description4}"
+				"点击&a木桶图标&r来选择你的设置是生效到&a玩家&r（你的&o所有&r存储设备），还是&a存储&r（仅这个容器生效）。"
 				""
-				"{ftbquests.chapter.storage.quests39.description6}"
+				"点击&aA/Z图标&r，你可以选择（&6左击&r）或反选（&6右击&r）物品槽来决定哪个槽位的物品不可被整理。"
 				""
-				"{ftbquests.chapter.storage.quests39.description8}"
+				"点击&a大脑图标&r然后&6选择已有物品的槽位来将其锁定使其不可被其他类型物品覆盖&r。"
 				""
-				"{ftbquests.chapter.storage.quests39.description10}"
+				"点击&a剑图标&r然后选择一个物品槽来&a将其物品显示&r在你的存储设备的前端面板。"
 				""
 				""
 				"{image:cottagewitch:textures/sophbarreldisplayy.png width:100 height:100 align:1 fit:true}"
@@ -1328,7 +1328,7 @@
 			tasks: [
 				{
 					id: "4D83884D8C097AC2"
-					title: "{ftbquests.chapter.storage.quests39.tasks0.title}"
+					title: "个性化你的存储"
 					type: "checkmark"
 				}
 			]
@@ -1338,13 +1338,13 @@
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests40.description0}"
+				"这里有两种升级你的存储的方式——&a逐级升级&r和&a跨级升级&r。"
 				""
-				"{ftbquests.chapter.storage.quests40.description2}"
+				"假如你用了上个任务给的奖励，那你现在已经有了&b铁木桶&r。你可以用&b铁->金升级&r将它升级到&a金木桶&r。这就叫&a逐级升级&r。"
 				""
-				"{ftbquests.chapter.storage.quests40.description4}"
+				"若要直接从&a基础&r开始升级，你需要&b基础->金&r（或其他等级）升级。正如你的猜测，对&b基础存储&r使用可以直接将其升到&a金级别&r。"
 				""
-				"{ftbquests.chapter.storage.quests40.description6}"
+				"每次升高一级，&a你的存储设备会得到提升&r。金级别在左边&a会有额外的升级插槽&r。"
 				"{image:cottagewitch:textures/sophgold.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "7DD199B329192C67"
@@ -1355,7 +1355,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests40.subtitle}"
+			subtitle: "超出基础范畴"
 			tasks: [
 				{
 					id: "24049AE6D6301809"
@@ -1368,7 +1368,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests40.title}"
+			title: "更多存储，更多升级"
 			x: -3.0d
 			y: -16.5d
 		}
@@ -1378,11 +1378,11 @@
 				"2AC77B6EF8DA00EA"
 			]
 			description: [
-				"{ftbquests.chapter.storage.quests41.description0}"
+				"你那些精妙的&b木桶&r和&b箱子&r的&a每一个物品槽都可以放超过一组的物品&r，只要你使用&b堆叠升级&r。升级级别越高，每个槽就能存越多组物品。"
 				""
-				"{ftbquests.chapter.storage.quests41.description2}"
+				"你可以&a使用多个的堆叠升级&r，存储空间将&a成倍增加&r！"
 				""
-				"{ftbquests.chapter.storage.quests41.description4}"
+				"如果你同时用&b堆叠升级T1&r和&b堆叠升级T2&r，那一个物品槽就可以装2组乘以4组等于8组，即&d512个物品&r。"
 			]
 			id: "5795F032CB47389E"
 			rewards: [
@@ -1393,7 +1393,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests41.subtitle}"
+			subtitle: "越来越多"
 			tasks: [
 				{
 					id: "19424B20004EB2DA"
@@ -1401,16 +1401,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests41.title}"
+			title: "堆得更多"
 			x: -4.5d
 			y: -16.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests42.description0}"
+				"&b包装带&r是一个很有用的东西，它可以用来&a打包存储方块&r以便于搬运。虽然&d它只支持精妙存储的容器&r。"
 				""
-				"{ftbquests.chapter.storage.quests42.description2}"
+				"你需要&6用包装带右击&r要打包的容器。然后&6破坏它&r就可以仍保留其内部的物品。"
 			]
 			id: "04580014FE5705F2"
 			rewards: [
@@ -1427,7 +1427,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests42.subtitle}"
+			subtitle: "把它装起来，装进去"
 			tasks: [
 				{
 					id: "5D16A56E7E0AB5DE"
@@ -1447,13 +1447,13 @@
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests43.description0}"
+				"&b虚空升级&r可以&a清除你的存储容器中多余的物品&r。它可以简单干脆地清除它们，以确保你的存储设备和服务器正常运作。&d这个升级对你的农场来说尤其重要&r！"
 				""
-				"{ftbquests.chapter.storage.quests43.description2}"
+				"你可以设置它&a只清除溢出的物品&r，或者如果你想的话，它也可以只&a清除特定类型的所有物品&r。"
 				""
 				"{image:cottagewitch:textures/voidoverflow.png width:100 height:30 align:1 fit:true}"
 				""
-				"{ftbquests.chapter.storage.quests43.description6}"
+				"&b高级虚空升级&r能够按NBT和耐久排序。"
 			]
 			id: "58E3A0A274BAB9B9"
 			rewards: [
@@ -1464,7 +1464,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests43.subtitle}"
+			subtitle: "非常重要的升级"
 			tasks: [
 				{
 					id: "3799A96F56496C61"
@@ -1477,7 +1477,7 @@
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
-			description: ["{ftbquests.chapter.storage.quests44.description}"]
+			description: ["这些升级可以帮助你&a处理你的存储容器里的物品&r，可以烧炼、高温烧炼和烟熏。&a自动版本的升级&r能够不需要玩家手动输入物品。"]
 			id: "25777083FCF81F3C"
 			rewards: [
 				{
@@ -1487,7 +1487,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests44.subtitle}"
+			subtitle: "你的存储设备有权获得正当程序"
 			tasks: [
 				{
 					id: "42D27C96AC638A6A"
@@ -1495,16 +1495,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests44.title}"
+			title: "处理你的库存"
 			x: 1.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests45.description0}"
+				"&b过滤升级&r可以用来与&bPipez模组&r等物品运输系统协同运作。"
 				""
-				"{ftbquests.chapter.storage.quests45.description2}"
+				"若使用它，它能&a控制被放入&r存储的&a物品&r。"
 			]
 			id: "51774D15356C5ADC"
 			rewards: [
@@ -1528,7 +1528,7 @@
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
-			description: ["{ftbquests.chapter.storage.quests46.description}"]
+			description: ["&b合成升级&r和&b切石机升级&r可以在存储容器中提供一个对应功能的&a工作面板&r。"]
 			id: "3801FF70470C2994"
 			rewards: [
 				{
@@ -1551,14 +1551,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests46.title}"
+			title: "合成升级"
 			x: -2.5d
 			y: -18.5d
 		}
 		{
 			dependencies: ["2AC77B6EF8DA00EA"]
 			description: [
-				"{ftbquests.chapter.storage.quests47.description0}"
+				"要&a远程连接精妙存储&r中未接触到主网络的存储容器，你需要&6在它们上面放一个&b存储链接&r，然后用&b存储工具&r&6右击&r&b存储链接&6和&b存储控制器&r。"
 				"{image:cottagewitch:textures/linkedstorage.png width:100 height:80 align:1 fit:true}"
 			]
 			id: "204A015685DB4726"
@@ -1583,13 +1583,13 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests48.description0}"
+				"这不是孩子的玩具——这个东西是多用途的重型背包！它可以安装&a大量独特的升级&r，而且&6将它与越来越贵的矿物合成&r可以增加背包的存储空间，这真是喜欢外出的巫师的终极存储方案。"
 				""
-				"{ftbquests.chapter.storage.quests48.description2}"
+				"你可以&6Shift+右击&r它将它放下来/拾起来。按&6b&a打开背包&r，&a可装备在&b背饰槽&r以节省存储空间。该绑定键可能与背包绑定键&d重复&r。"
 				""
-				"{ftbquests.chapter.storage.quests48.description4}"
+				"背包只能在&c末地城&r的战利品中找到，使它成为游戏后期的珍贵战利品。 "
 				""
-				"{ftbquests.chapter.storage.quests48.description6}"
+				"注意：尽管你背着它可以阻止别人打开你的背包，&d但当背包放在地上或箱子里的时候并没有什么有效的防盗手段。&r "
 			]
 			id: "09D1FD5320857872"
 			rewards: [
@@ -1601,7 +1601,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.storage.quests48.subtitle}"
+			subtitle: "终于！"
 			tasks: [
 				{
 					id: "599CD822D620424A"
@@ -1622,20 +1622,20 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests48.title}"
+			title: "更精妙的背包"
 			x: -0.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
 			description: [
-				"{ftbquests.chapter.storage.quests49.description0}"
+				"不想为了收集水或者熔岩而带一大堆的桶？&b储罐升级&r让你可以&6将流体以桶为单位存进或取出储罐&r，仅仅牺牲几个格子的空间就可以存储大量的流体。&b堆叠升级&r也可以增加储罐容量。"
 				""
-				"{ftbquests.chapter.storage.quests49.description2}"
+				"带着你的经验修补工具来一次深度采矿之旅？考虑下装备储罐与&b经验泵&r来按需存储与提取经验吧。请记住，在使用经验泵之前，你需要&d完全排空之前装的流体&r。"
 				""
-				"{ftbquests.chapter.storage.quests49.description4}"
+				"想要获得这些大多数的升级，我们建议&6查看一下每个设置标签&r。 "
 				""
-				"{ftbquests.chapter.storage.quests49.description6}"
+				"你对于每个升级的设置将会保留，&a即使你又卸载了该升级。&r"
 			]
 			id: "68CA96592DA978BC"
 			rewards: [
@@ -1646,7 +1646,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests49.subtitle}"
+			subtitle: "你有驼峰了"
 			tasks: [
 				{
 					id: "69ADA8A42F3B1210"
@@ -1657,11 +1657,11 @@
 							value: "forge:sophb_fluid"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests49.tasks0.title}"
+					title: "任意#forge:sophb_fluid"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests49.title}"
+			title: "带上流体"
 			x: -2.0d
 			y: -2.5d
 		}
@@ -1680,7 +1680,7 @@
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
-			description: ["{ftbquests.chapter.storage.quests51.description}"]
+			description: ["升级背包时，你会解锁升级插槽。就像&l精妙存储&r一样，这些插槽可以用来安装&b堆叠升级&r来&a增加堆叠数量&r，或者安装&b压缩升级&r来&a自动压缩物品&r，以最大限度地增加存储空间。"]
 			id: "53CE2F944DFC7725"
 			rewards: [
 				{
@@ -1690,7 +1690,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests51.subtitle}"
+			subtitle: "玛丽·波平斯从这里什么也得不到"
 			tasks: [
 				{
 					id: "17561BF6F61D5C41"
@@ -1701,22 +1701,22 @@
 							value: "forge:sophb_inventory"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests51.tasks0.title}"
+					title: "任意#forge:sophb_inventory"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests51.title}"
+			title: "物品栏管理"
 			x: -2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
 			description: [
-				"{ftbquests.chapter.storage.quests52.description0}"
+				"这些升级可以帮你随身携带你的工作坊。它们的功能都写在上面了……&b工作台&r，&b铁砧&r，&b熔炉&r……谁需要基地啊？你可以过上真正的探险家生活了。"
 				""
-				"{ftbquests.chapter.storage.quests52.description2}"
+				"想要获得这些大多数的升级，我们建议&6查看一下每个设置标签&r。 "
 				""
-				"{ftbquests.chapter.storage.quests52.description4}"
+				"你对于每个升级的设置将会保留，&a即使你又卸载了该升级。&r"
 			]
 			id: "5449147F0A9D80C9"
 			rewards: [
@@ -1727,7 +1727,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests52.subtitle}"
+			subtitle: "靠背包生活"
 			tasks: [
 				{
 					id: "5B47695F4C669BC7"
@@ -1738,24 +1738,24 @@
 							value: "forge:sophb_utility"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests52.tasks0.title}"
+					title: "任意#forge:sophb_utility"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests52.title}"
+			title: "效用升级"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
 			description: [
-				"{ftbquests.chapter.storage.quests53.description0}"
+				"你还没厌倦总是要&a打开背包拿物品&r吗？难道每次你饿的时候都需要&a把食物放进嘴里&r不烦人吗？谁在挖方块时有那个时间&a总是在斧子和镐子之间切来切去&r啊？"
 				""
-				"{ftbquests.chapter.storage.quests53.description2}"
+				"给自己弄一个可以完成所有这一切的背包吧，安上这些升级。再也不用浪费时间&a拿下一组方块&r或者甚至是&a打开你的背包来补充方块了。&r你很忙，有更重要的事情要做。"
 				""
-				"{ftbquests.chapter.storage.quests53.description4}"
+				"想要获得这些大多数的升级，我们建议&6查看一下每个设置标签&r。 "
 				""
-				"{ftbquests.chapter.storage.quests53.description6}"
+				"你对于每个升级的设置将会保留，&a即使你又卸载了该升级。&r"
 			]
 			id: "4BA960F4630EFF4C"
 			rewards: [
@@ -1766,7 +1766,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests53.subtitle}"
+			subtitle: "“我什么也不想做”——Docm77"
 			tasks: [
 				{
 					id: "0C0AC49F5C800257"
@@ -1777,24 +1777,24 @@
 							value: "forge:sophb_quick"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests53.tasks0.title}"
+					title: "任意#forge:sophb_quick"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests53.title}"
+			title: "快捷升级"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["09D1FD5320857872"]
 			description: [
-				"{ftbquests.chapter.storage.quests54.description0}"
+				"你做到了。你做出了完美的背包。现实中一根无限长的杠杆也没法把这个背包撬起来。 "
 				""
-				"{ftbquests.chapter.storage.quests54.description2}"
+				"&d就是别把它弄丢了。&r"
 			]
 			id: "3C6CA784B036DD53"
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests54.subtitle}"
+			subtitle: "现在这个背包是一个关键"
 			tasks: [
 				{
 					id: "2188019138E0AB5B"
@@ -1808,15 +1808,15 @@
 		{
 			dependencies: ["09D1FD5320857872"]
 			description: [
-				"{ftbquests.chapter.storage.quests55.description0}"
+				"这些升级赋予了你的背包在它皮革包裹的范围以外工作的能力！"
 				""
-				"{ftbquests.chapter.storage.quests55.description2}"
-				"{ftbquests.chapter.storage.quests55.description3}"
-				"{ftbquests.chapter.storage.quests55.description4}"
+				"&6拾取升级&r可以使你捡起的物品优先存入背包，而不是你的物品栏。 "
+				"&6磁铁升级&r可以自动将附近的掉落物吸进背包！ "
+				"&6唱片机升级&r能让你成为那种总带着蓝牙音箱的背包客，伴随着麻辣鸡抚慰人心的曲调，在旅途中为之祈福。"
 				""
-				"{ftbquests.chapter.storage.quests55.description6}"
+				"想要获得这些大多数的升级，我们建议&6查看一下每个设置标签&r。 "
 				""
-				"{ftbquests.chapter.storage.quests55.description8}"
+				"你对于每个升级的设置将会保留，&a即使你又卸载了该升级。&r"
 			]
 			id: "2363831930C80C6A"
 			rewards: [
@@ -1827,7 +1827,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.storage.quests55.subtitle}"
+			subtitle: "让他们知道你来了"
 			tasks: [
 				{
 					id: "3AF886787A580E00"
@@ -1838,22 +1838,22 @@
 							value: "forge:sophb_environmental"
 						}
 					}
-					title: "{ftbquests.chapter.storage.quests55.tasks0.title}"
+					title: "任意#forge:sophb_environmental"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests55.title}"
+			title: "环境升级"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.storage.quests56.description0}"
-				"{ftbquests.chapter.storage.quests56.description1}"
+				"&b背包&r可以被装备在&a饰品栏的“背饰”物品槽&r，然后&6按“B”键&r可以直接打开背包（默认）。"
+				"它可以被&a附魔&r，而且外观也可以自定义！只需简单&6点击调色板按钮&r就可打开设置菜单。"
 				"{image:cottagewitch:textures/backpacked.png width:100 height:50 align:1 fit:true}"
-				"{ftbquests.chapter.storage.quests56.description3}"
-				"{ftbquests.chapter.storage.quests56.description4}"
-				"{ftbquests.chapter.storage.quests56.description5}"
+				"悬浮光标以&a查看解锁外观需要进行的挑战&r。"
+				"注：虽然不止一个饰品栏可以装备背包，但是&d只有“背饰”槽的背包是可以使用的（译注：指可用快捷键打开）&r！其他的背包不会生效，而且&d背包装备在通用饰品栏一样不可用&r。"
+				"当你使用&r右击&r以装备背包时，它将会被&d放置到错误的饰品栏&r，所以请正确地装备它。"
 			]
 			id: "7B72E2C06B316F5A"
 			rewards: [
@@ -1870,7 +1870,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.storage.quests56.subtitle}"
+			subtitle: "这正是你一直想要的！"
 			tasks: [
 				{
 					id: "62D500A4711B3B3C"
@@ -1878,10 +1878,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.storage.quests56.title}"
+			title: "哇塞，一个背包"
 			x: -0.5d
 			y: -7.0d
 		}
 	]
-	title: "{ftbquests.chapter.storage.title}"
+	title: "存储"
 }

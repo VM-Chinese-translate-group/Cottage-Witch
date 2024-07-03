@@ -58,5 +58,5 @@
 			weight: 40.0f
 		}
 	]
-	title: "{ftbquests.reward_tables.random_tier_3.title}"
+	title: "随机 Tier 3"
 }

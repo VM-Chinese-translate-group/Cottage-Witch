@@ -47,5 +47,5 @@
 			item: "pipez:advanced_upgrade"
 		}
 	]
-	title: "{ftbquests.reward_tables.t2_choice.title}"
+	title: "T2 奖励选择"
 }

@@ -85,5 +85,5 @@
 			item: "quark:crab_bucket"
 		}
 	]
-	title: "{ftbquests.reward_tables.buckets.title}"
+	title: "桶"
 }

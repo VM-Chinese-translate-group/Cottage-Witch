@@ -26,9 +26,9 @@
 		{
 			dependencies: ["399D55B3452588FF"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests0.description0}"
-				"{ftbquests.chapter.twilight_forest.quests0.description1}"
-				"{ftbquests.chapter.twilight_forest.quests0.description2}"
+				"欢迎来到暮色森林！这个维度可能很难导航，尽管它的&a主要地标性建筑以网格的形式&r方便地排列着。"
+				"在这里的第一件事，就是你需要一个&b魔法地图&r，所以因为它，你还需要找到一个&e乌鸦羽毛&r。"
+				"请记住！&6如果你迷路了或走进一个无法进入的区域，就去寻找哥布林&r。他们将携带之前冒险家的日记，里面会有你下一个目标的线索。"
 			]
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			id: "730964D8E1FD059F"
@@ -44,7 +44,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests0.subtitle}"
+			subtitle: "进入一个充满微光的区域"
 			tasks: [
 				{
 					dimension: "twilightforest:twilight_forest"
@@ -52,14 +52,14 @@
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests0.title}"
+			title: "到达暮色森林"
 			x: -10.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests1.description0}"
-				"{ftbquests.chapter.twilight_forest.quests1.description1}"
+				"&d暮色森林&r是一个充满神秘和奇异生物的黑夜维度，不管是友好的，还是敌对的。自由地穿越这个维度是很难的——你必须逐一征服每个挑战才能前进。"
+				"要&a造出传送门&r，你必须&6挖一个3x3x1（或2x2x1）的洞，再将内部充满水&r。然后，&6用花或蘑菇围绕池水&r。最后，&6丢一个钻石进去&r。要小心，开启传送门的时候可能会很危险！"
 			]
 			id: "399D55B3452588FF"
 			rewards: [
@@ -84,7 +84,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.twilight_forest.quests1.subtitle}"
+			subtitle: "将它扔进清澈的水池里，然后迅速退后"
 			tasks: [
 				{
 					id: "546DCCE3B330C33A"
@@ -92,13 +92,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests1.title}"
+			title: "获得一个传送门的钥匙"
 			x: -10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			description: ["{ftbquests.chapter.twilight_forest.quests2.description}"]
+			description: ["&e乌鸦&r是一种生物，它们常常会聚集在暮色森林的&a黑曜石柱&r附近。它可以被&6杀死，以获取它的羽毛&r，这些羽毛对制作&b魔法地图核心&r很重要。"]
 			icon: "twilightforest:raven_feather"
 			id: "3B33F8C27B3361AC"
 			optional: true
@@ -110,7 +110,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests2.subtitle}"
+			subtitle: "遗憾的是，你必须杀死它"
 			tasks: [
 				{
 					id: "28457D6369D12841"
@@ -120,15 +120,15 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests2.title}"
+			title: "找到一只乌鸦"
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B33F8C27B3361AC"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests3.description0}"
-				"{ftbquests.chapter.twilight_forest.quests3.description1}"
+				"使用一个&b乌鸦羽毛&r，&b萤石粉&r和&b火炬浆果&r（可在暮色森林的洞穴找到）来制作&b魔法地图核心&r。"
+				"你可以用&b纸&r把它包起来一圈，制作出一张魔法地图，它将对你在&d暮色森林&r的探险非常有用。"
 			]
 			id: "0F55C73877E7FD90"
 			rewards: [
@@ -140,7 +140,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests3.subtitle}"
+			subtitle: "来吧，集中注意力！"
 			tasks: [
 				{
 					id: "57C05D993313671F"
@@ -154,8 +154,8 @@
 		{
 			dependencies: ["730964D8E1FD059F"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests4.description0}"
-				"{ftbquests.chapter.twilight_forest.quests4.description1}"
+				"暮光森林中的一个特色就是&a树篱迷宫&r。这是一个充满刷怪笼和宝箱的迷宫！"
+				"它不记入，也不需要，其他任何森林的进度。"
 			]
 			id: "03102B4CD0BE7031"
 			rewards: [
@@ -172,7 +172,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests4.subtitle}"
+			subtitle: "现在你也可以成为绿野女巫！"
 			tasks: [
 				{
 					id: "2AED38B113D31F29"
@@ -180,15 +180,15 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests4.title}"
+			title: "寻找一个树篱迷宫"
 			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests5.description0}"
-				"{ftbquests.chapter.twilight_forest.quests5.description1}"
+				"&b矿石磁铁&r有时可以在&d矿山&r中找到。当使用时，将会从地下&a拉出整个矿脉&r！只需&6在瞄准地面时按住右键&r，矿石就会被移动到你身边！"
+				"它可以用耐久或经验修补来附魔。"
 			]
 			id: "5B5DB6950BD9BC15"
 			rewards: [
@@ -205,7 +205,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests5.subtitle}"
+			subtitle: "我是个矿石磁铁"
 			tasks: [
 				{
 					id: "37BFCF9F22551ED3"
@@ -219,15 +219,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests5.title}"
+			title: "获得一块矿石磁铁"
 			x: -7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests6.description0}"
-				"{ftbquests.chapter.twilight_forest.quests6.description1}"
+				"&b钢叶&r是一种材料，可以用来制作预先附魔的盔甲，比铁微好一点。"
+				"此外，当落在钢叶块上时，会减少25%%的摔落伤害。"
 			]
 			id: "6A5281FA52C785C6"
 			rewards: [
@@ -238,7 +238,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests6.subtitle}"
+			subtitle: "钢铁意志"
 			tasks: [
 				{
 					id: "15FF51EB8323D171"
@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			description: ["{ftbquests.chapter.twilight_forest.quests7.description}"]
+			description: ["要获得它们，你需要破坏树下的&a活根&r。这个物品可以与&b铁&r和&b金&r结合，以制造出&b铁木&r，它可以用来制作有预先附魔的装备。"]
 			id: "2ACCE2B7760206C9"
 			rewards: [
 				{
@@ -267,7 +267,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests7.subtitle}"
+			subtitle: "这些根...它们是活的！"
 			tasks: [
 				{
 					id: "7EC630320EED692D"
@@ -275,15 +275,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests7.title}"
+			title: "获得活根"
 			x: -6.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests8.description0}"
-				"{ftbquests.chapter.twilight_forest.quests8.description1}"
+				"&6右击&r时，&b孔雀羽扇&r是可以发出一股强劲的风的物品。"
+				"你可以用这个在战斗中获得优势，甚至在跳跃或使用&b鞘翅&r时，在半空中给自己一个高度上的提升！"
 			]
 			id: "62A0D663EF2B58C1"
 			rewards: [
@@ -311,7 +311,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests8.subtitle}"
+			subtitle: "华丽但也非常有用的"
 			tasks: [
 				{
 					id: "6640CC33AA28C74F"
@@ -325,13 +325,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests8.title}"
+			title: "获得孔雀羽扇"
 			x: -5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			description: ["{ftbquests.chapter.twilight_forest.quests9.description}"]
+			description: ["&b月光蠕虫女王&r是一个...物品...里面装满了月光蠕虫。当你&6右击她&r时，她会放出月光蠕虫——要么直接附着在方块表面上，要么像箭一样射出去。月光蠕虫除了&a作为光源&r之外没有别的用处。你可以用&b火炬浆果&r和她合成，来补充她的数量，得到...更多的虫子。耶。"]
 			id: "79B6B78157E7D32C"
 			rewards: [
 				{
@@ -348,7 +348,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests9.subtitle}"
+			subtitle: "你可能想要坐下来听这个"
 			tasks: [
 				{
 					id: "36DCC9327A7A9CEB"
@@ -367,7 +367,7 @@
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
-			description: ["{ftbquests.chapter.twilight_forest.quests10.description}"]
+			description: ["游戏中最宝贵的物品之一，&b拆解台&r允许你&a用经验等级&r回收已制作物品的材料。&6将不需要的物品放置在左侧的槽&r，然后&6点击中心的任意一个成分&r来回收它。"]
 			id: "7D15924C5AEAC669"
 			rewards: [
 				{
@@ -377,7 +377,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests10.subtitle}"
+			subtitle: "不可合成的东西很好吃。等等……"
 			tasks: [
 				{
 					id: "4C765C9C13A943A9"
@@ -391,9 +391,9 @@
 		{
 			dependencies: ["3B33F8C27B3361AC"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests11.description0}"
-				"{ftbquests.chapter.twilight_forest.quests11.description1}"
-				"{ftbquests.chapter.twilight_forest.quests11.description2}"
+				"你必须面对的第一个boss是能够破坏方块的&e娜迦&r。它是一条有长尾巴的蛇，当你对它造成伤害时，它的长度会逐渐缩短。"
+				"如果玩家逃出庭院的范围，娜迦会回到中心。"
+				"一旦你打败了它，&6一定要搜刮它生成的箱子&r，因为你需要里面的&b娜迦奖杯&r。"
 			]
 			icon: "twilightforest:naga_trophy"
 			id: "00B1A6C679547AF2"
@@ -404,7 +404,7 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests11.subtitle}"
+			subtitle: "烦死你附近的娜迦"
 			tasks: [
 				{
 					id: "5736708CDA636001"
@@ -412,14 +412,14 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests11.title}"
+			title: "找到一个娜迦庭院"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["00B1A6C679547AF2"]
-			description: ["{ftbquests.chapter.twilight_forest.quests12.description}"]
+			description: ["在&d暮光森林&r中击败&e娜迦&r，获取它的鳞片。然后，用这些鳞片换取战利品！"]
 			id: "14B45702F0F82689"
 			rewards: [
 				{
@@ -434,7 +434,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests12.subtitle}"
+			subtitle: "一个利用无用的鳞片的机会"
 			tasks: [
 				{
 					consume_items: true
@@ -444,18 +444,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests12.title}"
+			title: "交付任务：20个娜迦鳞片"
 			x: -3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["00B1A6C679547AF2"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests13.description0}"
-				"{ftbquests.chapter.twilight_forest.quests13.description1}"
-				"{ftbquests.chapter.twilight_forest.quests13.description2}"
-				"{ftbquests.chapter.twilight_forest.quests13.description3}"
-				"{ftbquests.chapter.twilight_forest.quests13.description4}"
+				"&d巫妖塔&r里住着暮色森林的不死贵族。它的&a城堡&r充满了怪物，但也有很多战利品。"
+				"建议在袭击这个结构之前做好充分准备。"
+				"在塔顶，你会发现被法术护盾环绕的&e巫妖&r。&6你必须先反弹他的魔法打败他（第一形态）&r，然后才能用武力结束这场战斗。"
+				"并要小心他在战斗中召唤的幻影！"
+				"击败&e巫妖&r后，你可以进入&d雪怪巢穴&r，&d黑暗森林&r和&d暮色沼泽&r。"
 			]
 			id: "1B8E61A0872EEA1C"
 			rewards: [
@@ -465,13 +465,13 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests13.subtitle}"
+			subtitle: "我的巫妖在哪里？"
 			tasks: [
 				{
 					icon: "twilightforest:lich_tower_miniature_structure"
 					id: "7D62DCC45EBECA2C"
 					structure: "twilightforest:lich_tower"
-					title: "{ftbquests.chapter.twilight_forest.quests13.tasks0.title}"
+					title: "找到一个巫妖塔"
 					type: "structure"
 				}
 			]
@@ -481,8 +481,8 @@
 		{
 			dependencies: ["1B8E61A0872EEA1C"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests14.description0}"
-				"{ftbquests.chapter.twilight_forest.quests14.description1}"
+				"&d暮色沼泽&r的深处有一个迷宫，里面住着许多恶毒的生物，最终要面对凶猛的&e牛头人&r和&e米诺菇&r。"
+				"米诺菇会掉落&b牛头人沙拉酱肉&r，吃了之后，你就能免疫&d火焰沼泽&r的诅咒，从而继续前进。"
 			]
 			id: "6016A3D8B7FD7A14"
 			rewards: [
@@ -492,13 +492,13 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests14.subtitle}"
+			subtitle: "不幸的是，这里没有哥布林王..."
 			tasks: [
 				{
 					icon: "twilightforest:minoshroom_trophy"
 					id: "70BEC1A7AAC7CDF0"
 					structure: "twilightforest:labyrinth"
-					title: "{ftbquests.chapter.twilight_forest.quests14.tasks0.title}"
+					title: "发现迷宫"
 					type: "structure"
 				}
 			]
@@ -508,9 +508,9 @@
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests15.description0}"
-				"{ftbquests.chapter.twilight_forest.quests15.description1}"
-				"{ftbquests.chapter.twilight_forest.quests15.description2}"
+				"&b保管符咒&r将牺牲自己，保护你的物品不受损失！"
+				"第一级，青铜，可以保留你&a手持的物品&r。铁可以保留你&a手持的物品和盔甲&r。金可以保留&a你的整个物品栏！"
+				"如果你不想找回你坟墓的物品，或者你可能会死在虚空里，这个就会很有用。"
 			]
 			id: "7B609119699B446D"
 			rewards: [
@@ -521,7 +521,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests15.subtitle}"
+			subtitle: "保管你的魅力"
 			tasks: [
 				{
 					id: "103B0AD74DB72227"
@@ -535,9 +535,9 @@
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests16.description0}"
-				"{ftbquests.chapter.twilight_forest.quests16.description1}"
-				"{ftbquests.chapter.twilight_forest.quests16.description2}"
+				"&e九头蛇&r是一种可怕的敌人，它只有一个弱点：能喷火的大嘴！"
+				"最好在拥有&a抗火&r的情况下进行这场战斗，并确保你将攻击集中在&a九头蛇那张开的嘴巴&r上！你可以使用&b远程武器&r，或者用剑来&a反弹它的火球&r回击它。"
+				"一旦你击败了九头蛇，你就完成了一个任务，你就可以去挑战暮色高地。"
 			]
 			id: "3657239C35390F17"
 			rewards: [
@@ -548,13 +548,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests16.subtitle}"
+			subtitle: "砍掉一头，长出两个！"
 			tasks: [
 				{
 					icon: "twilightforest:hydra_trophy"
 					id: "2FFCBE1976CCD735"
 					structure: "twilightforest:hydra_lair"
-					title: "{ftbquests.chapter.twilight_forest.quests16.tasks0.title}"
+					title: "找到一个九头蛇巢穴"
 					type: "structure"
 				}
 			]
@@ -564,8 +564,8 @@
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests17.description0}"
-				"{ftbquests.chapter.twilight_forest.quests17.description1}"
+				"破坏迷宫坚硬的方块可能需要花一点力气。除非你获得了这个战利品：&b迷宫破坏者&r。"
+				"迷宫破坏者相比其他工具可以更快速地挖掘迷宫方块，而且消耗的耐久度更少。它可以在迷宫的箱子被找到。"
 			]
 			id: "187BD92930BA8670"
 			rewards: [
@@ -583,7 +583,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests17.subtitle}"
+			subtitle: "为什么你要破坏一个完美无瑕的迷宫呢？"
 			tasks: [
 				{
 					id: "43F651AEFE00109D"
@@ -611,14 +611,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests17.title}"
+			title: "获得一把迷宫破坏者"
 			x: -1.5d
 			y: 4.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["3657239C35390F17"]
-			description: ["{ftbquests.chapter.twilight_forest.quests18.description}"]
+			description: ["杀死几只九头蛇，用它们的鲜血换取有价值的东西！"]
 			id: "23E5790A6CC6524C"
 			rewards: [
 				{
@@ -633,7 +633,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests18.subtitle}"
+			subtitle: "使用多余血液的一个机会"
 			tasks: [
 				{
 					consume_items: true
@@ -643,18 +643,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests18.title}"
+			title: "交付任务：20瓶炽热的血液"
 			x: 3.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests19.description0}"
-				"{ftbquests.chapter.twilight_forest.quests19.description1}"
-				"{ftbquests.chapter.twilight_forest.quests19.description2}"
-				"{ftbquests.chapter.twilight_forest.quests19.description3}"
-				"{ftbquests.chapter.twilight_forest.quests19.description4}"
+				"在&d黑暗森林&r的幽暗深处，可以找到地精骑士要塞，其内部充斥着茫茫多的&e哥布林&r，如果你没有前面BOSS的&b战利品&r，你将不被允许进入。"
+				"你可以在这里使用&b迷宫地图&r来确保你不会迷失方向，因为这个建筑非常大。"
+				"建议用&6火把来标记你的路线&r以免重复回到相同的地方。"
+				"在这个要塞的尽头包含一场与&e幻影骑士&r的战斗。它们不会跟着你离开它们的房间，你如果直接冲进去它们将蜂拥而至向你发起攻击。&6如果你需要治疗的话，建议走出这个房间再进行&r。"
+				"一旦你击败了他们，你就可以挑战&d黑暗高塔&r了。"
 			]
 			id: "10C91592DCBC6FBD"
 			rewards: [
@@ -665,13 +665,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests19.subtitle}"
+			subtitle: "最好多带点火把"
 			tasks: [
 				{
 					icon: "twilightforest:knight_phantom_trophy"
 					id: "3A8E49C2219C6265"
 					structure: "twilightforest:knight_stronghold"
-					title: "{ftbquests.chapter.twilight_forest.quests19.tasks0.title}"
+					title: "找到地精骑士要塞"
 					type: "structure"
 				}
 			]
@@ -681,8 +681,8 @@
 		{
 			dependencies: ["10C91592DCBC6FBD"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests20.description0}"
-				"{ftbquests.chapter.twilight_forest.quests20.description1}"
+				"生命符咒本质上是一个不死图腾。没升级的版本将在你死亡时给予你4颗心的治疗和几秒钟的生命恢复效果。"
+				"升级后的版本会让你满血复活，并且获得生命恢复，抗火和抗性提升。"
 			]
 			id: "495574D50B0E4B4E"
 			rewards: [
@@ -693,7 +693,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.twilight_forest.quests20.subtitle}"
+			subtitle: "更加迷人"
 			tasks: [
 				{
 					id: "7DD0FF8C91053DDE"
@@ -707,10 +707,10 @@
 		{
 			dependencies: ["10C91592DCBC6FBD"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests21.description0}"
-				"{ftbquests.chapter.twilight_forest.quests21.description1}"
-				"{ftbquests.chapter.twilight_forest.quests21.description2}"
-				"{ftbquests.chapter.twilight_forest.quests21.description3}"
+				"在&d黑暗森林&r的中心，你可以找到黑暗高塔。这是一个巨大的建筑，充满了各种怪物，被一只危险的&e暮色恶魂&r统治。"
+				"有四个较小的塔楼，每个都有一把&b塔钥匙&r。这些钥匙可以用作开启中心的高塔。这里有非常多的挑战，所以做好长线作战的准备。"
+				"为了击败&e暮色恶魂&r，你必须在附近房间的恶魂陷阱旁击败它的&e迷你幽灵&r。然后你可以在这头怪物靠近的时候激活陷阱。"
+				"暮色恶魂是进入&d暮色高地&r必须要击杀的三个BOSS之一。"
 			]
 			id: "5C463B10FDE8CEF2"
 			rewards: [
@@ -721,13 +721,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests21.subtitle}"
+			subtitle: "我不会害怕恶魂"
 			tasks: [
 				{
 					icon: "twilightforest:ur_ghast_trophy"
 					id: "130652635D0C4E6D"
 					structure: "twilightforest:dark_tower"
-					title: "{ftbquests.chapter.twilight_forest.quests21.tasks0.title}"
+					title: "找到黑暗高塔"
 					type: "structure"
 				}
 			]
@@ -737,9 +737,9 @@
 		{
 			dependencies: ["6016A3D8B7FD7A14"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests22.description0}"
-				"{ftbquests.chapter.twilight_forest.quests22.description1}"
-				"{ftbquests.chapter.twilight_forest.quests22.description2}"
+				"雪怪巢穴可以在积雪森林中被找到，里面居住着很多&e雪怪&r（它们是中立生物）和一个&e雪怪首领&r，这是你在这个区域必须面对的BOSS。"
+				"与敌人短兵相接非常危险，即使使用远程攻击也必须要&a小心冰柱坠落&r！"
+				"杀死这个首领将允许你进入&d暮色冰川&r。"
 			]
 			id: "41CBB146259DAF34"
 			rewards: [
@@ -749,7 +749,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests22.subtitle}"
+			subtitle: "准备好了吗？不是在问雪怪"
 			tasks: [
 				{
 					icon: "twilightforest:alpha_yeti_trophy"
@@ -758,16 +758,16 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests22.title}"
+			title: "找到雪怪巢穴"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["41CBB146259DAF34"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests23.description0}"
-				"{ftbquests.chapter.twilight_forest.quests23.description1}"
-				"{ftbquests.chapter.twilight_forest.quests23.description2}"
+				"&e冰雪女王&r可以在&d极光宫殿&r的顶部被找到，这是一座危险的宫殿，充满了冰系的怪物和滑溜的跑酷。"
+				"冰雪女王有三个阶段，你不能在她&a冰川王座&r那一面对他造成伤害，所以她只有上半身可以被攻击。"
+				"当她被击杀时，你已经获得了的三分之一张前往&d暮色高地&r的门票。"
 			]
 			id: "2C905E4DE5051CC5"
 			rewards: [
@@ -790,13 +790,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests23.subtitle}"
+			subtitle: "这里某处有个艾莎的笑话"
 			tasks: [
 				{
 					icon: "twilightforest:snow_queen_trophy"
 					id: "75D978C04D89D204"
 					structure: "twilightforest:aurora_palace"
-					title: "{ftbquests.chapter.twilight_forest.quests23.tasks0.title}"
+					title: "找到极光宫殿"
 					type: "structure"
 				}
 			]
@@ -810,10 +810,10 @@
 				"5C463B10FDE8CEF2"
 			]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests24.description0}"
-				"{ftbquests.chapter.twilight_forest.quests24.description1}"
-				"{ftbquests.chapter.twilight_forest.quests24.description2}"
-				"{ftbquests.chapter.twilight_forest.quests24.description3}"
+				"最终你爬上了暮色高地！这听起来有些奇怪，但是你得听我的：你需要找到一些&b魔豆&r。"
+				"你可以在地下杀死一些&e洞穴巨魔&r获得一些，或者在普通黑曜石围绕的宝箱中找到。"
+				"然后，找到一大片在&e巨人&r的云上小屋下方的&b肥沃泥土&r。你需要击败他们来获得&b巨人镐&r。"
+				"然后，你可以&6返回地下使用巨人镐&r打开巨型黑曜石宝库。这会需要一点时间。"
 			]
 			id: "2A52CFAE2D88AC1D"
 			rewards: [
@@ -829,7 +829,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests24.subtitle}"
+			subtitle: "你做到了！"
 			tasks: [
 				{
 					biome: "twilightforest:highlands"
@@ -838,16 +838,16 @@
 					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests24.title}"
+			title: "最后一站：暮色高地！"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2A52CFAE2D88AC1D"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests25.description0}"
-				"{ftbquests.chapter.twilight_forest.quests25.description1}"
-				"{ftbquests.chapter.twilight_forest.quests25.description2}"
+				"在&c荆棘丛&r的中心，坐落着一座城堡，在那里居住着最终的大boss—— 一个强大到足以轻易打败监守者的哥布林（1024生命值）"
+				"然而，是否要击败这个生物完全取决于你。因为它&a并没有任何奖励等待着你&r。没有半点荣誉。这个任务只会给予你唯一的奖励。"
+				"那么，考虑到这一点，你还会挑战他们吗？"
 			]
 			id: "2B8E1553C1487EBA"
 			rewards: [
@@ -863,7 +863,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.twilight_forest.quests25.subtitle}"
+			subtitle: "吃力不讨好的任务"
 			tasks: [
 				{
 					icon: {
@@ -878,7 +878,7 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests25.title}"
+			title: "进入终焉城堡"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -905,7 +905,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests26.title}"
+			title: "击败娜迦"
 			x: -3.5d
 			y: -3.0d
 		}
@@ -932,7 +932,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests27.title}"
+			title: "击败巫妖"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -954,7 +954,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests28.title}"
+			title: "击杀幻影骑士"
 			x: 1.0d
 			y: -3.0d
 		}
@@ -976,7 +976,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests29.title}"
+			title: "击败暮色恶魂"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -998,7 +998,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests30.title}"
+			title: "尝尝牛头人沙拉酱肉"
 			x: -3.5d
 			y: 2.0d
 		}
@@ -1062,15 +1062,15 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests33.title}"
+			title: "击败极光宫殿的冰雪女王"
 			x: 8.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["730964D8E1FD059F"]
 			description: [
-				"{ftbquests.chapter.twilight_forest.quests34.description0}"
-				"{ftbquests.chapter.twilight_forest.quests34.description1}"
+				"找到一只&e谜题羊&r，你会发现它似乎缺了点什么。"
+				"也许你可以给它一些&a更多的羊毛&r。具体来说，&6每种颜色的羊毛各一块&r。"
 			]
 			id: "4EAE4C40B444930A"
 			rewards: [
@@ -1095,7 +1095,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests34.title}"
+			title: "完成谜题羊的挑战"
 			x: -6.75d
 			y: 2.25d
 		}
@@ -1106,7 +1106,7 @@
 				"761DD39F82235893"
 				"4EAE4C40B444930A"
 			]
-			description: ["{ftbquests.chapter.twilight_forest.quests35.description}"]
+			description: ["当你完成了&e终焉城堡&r任务，获得了&b余烬之灯&r，甚至&6完成了&e谜题羊&r的挑战，你就会得到这套独一无二的盔甲。穿上它，骄傲地炫耀吧！"]
 			id: "25CB8D0869249D24"
 			rewards: [
 				{
@@ -1163,7 +1163,7 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.twilight_forest.quests35.title}"
+			title: "完结暮色森林"
 			x: 7.5d
 			y: 4.5d
 		}
@@ -1182,5 +1182,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.twilight_forest.title}"
+	title: "暮色森林"
 }

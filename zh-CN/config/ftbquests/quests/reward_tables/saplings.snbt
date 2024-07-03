@@ -259,5 +259,5 @@
 			item: "hexerei:witch_hazel_sapling"
 		}
 	]
-	title: "{ftbquests.reward_tables.saplings.title}"
+	title: "树苗"
 }

@@ -36,7 +36,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests0.description}"]
+			description: ["&b进度展示框&r是一个可以展示你进度的物品！将展示框放在你的展厅里，只需简单的&6右击&r他即可选择一项进度来展示。"]
 			id: "177BA74185841456"
 			rewards: [
 				{
@@ -51,7 +51,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests0.subtitle}"
+			subtitle: "炫耀一下吧"
 			tasks: [
 				{
 					id: "520945E2236F2CD7"
@@ -59,14 +59,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests0.title}"
+			title: "获得一个进度展示框"
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests1.description0}"
-				"{ftbquests.chapter.building__decorating.quests1.description1}"
+				"&lFantasy的家具&r加入了很多美丽又精致的家具来供你装饰。"
+				"合成系统和平时稍微有点不同。比如每个配方只需要花费1个&b黏土、圆石和木板&r，且必须在&b家具加工台&r制作。它可以在&a锻造台&r使用&b工作台&r和&b皮革&r合成。"
 			]
 			id: "7D4BC2C21F70DF65"
 			rewards: [
@@ -91,7 +91,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.building__decorating.quests1.subtitle}"
+			subtitle: "思如泉涌"
 			tasks: [
 				{
 					id: "0EBD3CF1F9CB7FCD"
@@ -104,8 +104,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests2.description0}"
-				"{ftbquests.chapter.building__decorating.quests2.description1}"
+				"&b建筑小帮手&r可以帮助你更快地建造大型建筑。它可以一次从物品栏获取并放置多个方块。潜行并右击一个方块，将其设置为建造方块。"
+				"&b更替小帮手&r是一种可以用你&a物品栏指定的方块来更换世界中的方块&r的工具。和建筑小帮手一样，先&6潜行右击指定替换后的方块&r，然后你就可以直接&6右击&r使用小工具进行工作了。"
 			]
 			id: "1AFE0FBF887D22FD"
 			rewards: [
@@ -123,7 +123,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.building__decorating.quests2.subtitle}"
+			subtitle: "建筑小帮手与更替小帮手"
 			tasks: [
 				{
 					id: "4060C5FB1511ED4E"
@@ -162,16 +162,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests2.title}"
+			title: "小帮手（1）"
 			x: 5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
 			description: [
-				"{ftbquests.chapter.building__decorating.quests3.description0}"
-				"{ftbquests.chapter.building__decorating.quests3.description1}"
-				"{ftbquests.chapter.building__decorating.quests3.description2}"
+				"&b复制粘贴小帮手&r是一个复杂而又强大的工具。这可以让你自动搭建&a在网络上找到的结构&r，当然也可以-可能你已经猜到了-&a复制粘贴那些你搭建过的结构&r。"
+				"为了使用它，你需要准备&b纸&r和&b模板管理器&r。"
+				"我不能在任务描述中放下所有的信息。 &o更多信息请见Youtube上Direwolf20的视频“Mod_Spotlight_Building_Gadgets_v2“的8分12秒&r。（译注：国内无法正常访问Youtube"
 			]
 			id: "1184EA40A20DEB5D"
 			rewards: [
@@ -186,7 +186,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "{ftbquests.chapter.building__decorating.quests3.subtitle}"
+			subtitle: "复制粘贴，但是建筑"
 			tasks: [
 				{
 					id: "329EA864CDCD816B"
@@ -212,13 +212,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests3.title}"
+			title: "小帮手（2）"
 			x: 7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1184EA40A20DEB5D"]
-			description: ["{ftbquests.chapter.building__decorating.quests4.description}"]
+			description: ["&b破坏小帮手&r十分危险，使用它将&a彻底地移除方块&r。它一般用于清理建筑物的大面积区域中的方块。"]
 			id: "7CB901D8FE793DF6"
 			rewards: [
 				{
@@ -228,7 +228,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests4.subtitle}"
+			subtitle: "删除！破坏！毁灭！"
 			tasks: [
 				{
 					id: "6E1F006DF7BBCF80"
@@ -250,9 +250,9 @@
 		{
 			dependencies: ["1184EA40A20DEB5D"]
 			description: [
-				"{ftbquests.chapter.building__decorating.quests5.description0}"
-				"{ftbquests.chapter.building__decorating.quests5.description1}"
-				"{ftbquests.chapter.building__decorating.quests5.description2}"
+				"&b构建黏膏&r使你可以在没有方块的情况下建造一个形似的构建方块"
+				"当你粘贴一个结构的时候，如果你的建筑中有缺失的方块，但是还有剩余的&b黏膏&r，就会&a等效替代这个方块&r。当他被破坏时，它就会掉落&b构建黏膏&r。"
+				"&b黏膏容器&r可容纳的黏膏比你自己要多的多。"
 			]
 			id: "255D49A0CC045204"
 			rewards: [
@@ -269,7 +269,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests5.subtitle}"
+			subtitle: "不要吃黏糕"
 			tasks: [
 				{
 					id: "243D764629FA7983"
@@ -288,8 +288,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests6.description0}"
-				"{ftbquests.chapter.building__decorating.quests6.description1}"
+				"像正常的展示框一样，这些&b玻璃物品展示框&r在没有物品时会拥有边框，但是在有物品放入后，他们的边框会&a变得不可见&r。"
+				"对着展示框&6放一个旗帜&r来展示它的图案吧。"
 			]
 			id: "72409602FE85C718"
 			rewards: [
@@ -305,7 +305,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests6.subtitle}"
+			subtitle: "我被框住了！"
 			tasks: [
 				{
 					id: "639DF06AF0A0073D"
@@ -318,12 +318,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests6.title}"
+			title: "获得一个玻璃物品展示框"
 			x: -6.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests7.description}"]
+			description: ["&6右击&r&b抹泥铲&r会放置你快捷栏中的一个随机方块，这对你&a随机化你的建筑色调&r非常有帮助。"]
 			id: "0D02D4FAE63BABE6"
 			rewards: [
 				{
@@ -333,7 +333,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests7.subtitle}"
+			subtitle: "建筑师们的梦想"
 			tasks: [
 				{
 					id: "65E88FE1A733B2AB"
@@ -341,12 +341,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests7.title}"
+			title: "获得一个抹泥铲"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests8.description}"]
+			description: ["灯笼现在可以被放置在墙上！多棒的一件事啊。"]
 			id: "567E7D29BF4EAEFA"
 			rewards: [
 				{
@@ -361,7 +361,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests8.subtitle}"
+			subtitle: "我喜欢灯笼"
 			tasks: [
 				{
 					id: "312129CECD99EE4F"
@@ -369,12 +369,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests8.title}"
+			title: "获得一个灯笼"
 			x: -4.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests9.description}"]
+			description: ["这里有两种&b花箱&r。一种可以存放两朵花，另一种则可以存放三朵。"]
 			id: "4F9A1B244734638F"
 			rewards: [
 				{
@@ -405,7 +405,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests10.description}"]
+			description: ["在每个世界中，地球仪的外观都是独一无二的。当你与它交互或给它红石信号时它就会开始旋转。"]
 			id: "3E509A27A92746F4"
 			rewards: [
 				{
@@ -420,7 +420,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests10.subtitle}"
+			subtitle: "是时候使用地球上投了（这也许不好，我很抱歉）"
 			tasks: [
 				{
 					id: "480C6E3F2F44680E"
@@ -432,7 +432,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests11.description}"]
+			description: ["和&b陈列柜&r相似，&b展示台&r是一个可以展示单个物品的方法。当然，你也可以把它堆叠起来做成一根柱子。"]
 			id: "063AD4FD6E8FB943"
 			rewards: [
 				{
@@ -443,7 +443,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests11.subtitle}"
+			subtitle: "别把人放在这些台子上展示"
 			tasks: [
 				{
 					id: "73A92B9FA9D46C9C"
@@ -456,8 +456,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests12.description0}"
-				"{ftbquests.chapter.building__decorating.quests12.description1}"
+				"&b挂牌&r是一个多功能的装饰方块，可以挂在方块的上方或下方。"
+				"你可以用&a空手右击它&r来输入文字，或者你可以&a拿着一个物品右击它&r把它当做一个物品展示框来使用。"
 			]
 			id: "7E936E10896FA3D5"
 			rewards: [
@@ -468,7 +468,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests12.subtitle}"
+			subtitle: "它使我眼目一新"
 			tasks: [
 				{
 					id: "6CDC566DF6303032"
@@ -479,19 +479,19 @@
 							value: "supplementaries:hanging_signs"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests12.tasks0.title}"
+					title: "任意#supplementaries:hanging_signs"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests12.title}"
+			title: "获得一个挂牌"
 			x: -3.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests13.description0}"
-				"{ftbquests.chapter.building__decorating.quests13.description1}"
-				"{ftbquests.chapter.building__decorating.quests13.description2}"
+				"最多可以放置两个&b路标&r在任何栅栏方块上，以形成方向标志！"
+				"对放置的路标&6潜行右击&r以扭转它的方向。"
+				"如果你&6拿着指南针右击它&r，它的方向将变成指南针所指向的地方。这对指向重生点或磁石的方向很有帮助！"
 			]
 			id: "0E28D4A9544EAF0E"
 			rewards: [
@@ -502,7 +502,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests13.subtitle}"
+			subtitle: "指引你的方向"
 			tasks: [
 				{
 					id: "644B3E0D6B13C8D4"
@@ -513,18 +513,18 @@
 							value: "supplementaries:sign_posts"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests13.tasks0.title}"
+					title: "任意#supplementaries:sign_posts"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests13.title}"
+			title: "获得一个路标"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests14.description0}"
-				"{ftbquests.chapter.building__decorating.quests14.description1}"
+				"在&b黑板&r上你可以绘制16x16的黑白图像。非常适合作为一个创意标牌！"
+				"这会在&a损坏时保留其图像&r，可以将他与&b水桶&r合成来清洗它。"
 			]
 			id: "1E53C205AD76513E"
 			rewards: [
@@ -542,7 +542,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests14.subtitle}"
+			subtitle: "最后，你的校舍将会完成"
 			tasks: [
 				{
 					id: "3F88887F48083E3E"
@@ -555,7 +555,7 @@
 		}
 		{
 			dependencies: ["7D82FBD000D41F84"]
-			description: ["{ftbquests.chapter.building__decorating.quests15.description}"]
+			description: ["对普通的床感到平平无奇？做一个&a精致的&r床吧！为了制作精致的&b床&r，你需要一些木板、羊毛和&b一个垫子&r！"]
 			id: "226368447EC1C9A9"
 			rewards: [
 				{
@@ -582,17 +582,17 @@
 							value: "handcrafted:fancy_beds"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests15.tasks0.title}"
+					title: "任意#handcrafted:fancy_beds"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests15.title}"
+			title: "自定义你的床"
 			x: -7.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["226368447EC1C9A9"]
-			description: ["{ftbquests.chapter.building__decorating.quests16.description}"]
+			description: ["你的床可能稍显简陋。为什么不制作一个&b床单&r和&b垫子&r放在上面？这些可以被你&a喜欢的染料染色&r。"]
 			id: "15781BD4547097E9"
 			rewards: [
 				{
@@ -611,7 +611,7 @@
 							value: "handcrafted:cushions"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests16.tasks0.title}"
+					title: "任意#handcrafted:cushions"
 					type: "item"
 				}
 				{
@@ -623,20 +623,20 @@
 							value: "handcrafted:sheets"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests16.tasks1.title}"
+					title: "任意#handcrafted:sheets"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests16.title}"
+			title: "制作你的床"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["32DCF4F0C230C940"]
 			description: [
-				"{ftbquests.chapter.building__decorating.quests17.description0}"
-				"{ftbquests.chapter.building__decorating.quests17.description1}"
-				"{ftbquests.chapter.building__decorating.quests17.description2}"
+				"喜欢这个“狩猎小屋”的样子么？想要展示你最棒的一次狩猎？想让大家知道你真的很讨厌很讨厌&e山羊&r么？"
+				"那为什么不用这些&a吸引人的战利品来装饰你的房子&r呢。"
+				"（在这个任务中，只有某些动物被击杀才会被计算）"
 			]
 			id: "30C8AAFCE9EB2BA6"
 			rewards: [
@@ -653,7 +653,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests17.subtitle}"
+			subtitle: "获得荣耀"
 			tasks: [
 				{
 					id: "63B16A64CB3AE4F8"
@@ -664,18 +664,18 @@
 							value: "handcrafted:trophies"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests17.tasks0.title}"
+					title: "任意#handcrafted:trophies"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests17.title}"
+			title: "解锁战利品"
 			x: -2.5d
 			y: -1.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.building__decorating.quests18.description0}"
-				"{ftbquests.chapter.building__decorating.quests18.description1}"
+				"要开始制造&l精巧手艺模组&r的家具，你需要一些&b板材&r。只需要&6把木板扔到&b锯木机&r上即可获得。"
+				"你可以&6拿着&b锤子&r右击精巧手艺模组的方块来&a改变它们的外观&r。"
 			]
 			id: "7D82FBD000D41F84"
 			rewards: [
@@ -697,20 +697,20 @@
 							value: "handcrafted:boards"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests18.tasks0.title}"
+					title: "任意#handcrafted:boards"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests18.title}"
+			title: "动手装饰你的屋子"
 			x: -7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["15781BD4547097E9"]
 			description: [
-				"{ftbquests.chapter.building__decorating.quests19.description0}"
-				"{ftbquests.chapter.building__decorating.quests19.description1}"
-				"{ftbquests.chapter.building__decorating.quests19.description2}"
+				"&b床单&r和&b垫子&r并不是只能放在床上！"
+				"举个例子，拿着&b床单&6右击&r一张&b桌子&r可以使它成为一块&a桌布&r。"
+				"你也可以&a对&b椅子&r使用一个&b垫子&r来使&b椅子&r更加的舒适！为什么不看看其他你可以定制的东西呢……"
 			]
 			id: "32DCF4F0C230C940"
 			rewards: [
@@ -737,7 +737,7 @@
 							value: "handcrafted:tables"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests19.tasks0.title}"
+					title: "任意#handcrafted:tables"
 					type: "item"
 				}
 				{
@@ -749,11 +749,11 @@
 							value: "handcrafted:chairs"
 						}
 					}
-					title: "{ftbquests.chapter.building__decorating.quests19.tasks1.title}"
+					title: "任意#handcrafted:chairs"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.building__decorating.quests19.title}"
+			title: "多种装饰方法"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -772,7 +772,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.building__decorating.quests21.description}"]
+			description: ["需要一次性清理大量的水么？为什么不尝试一下&b蛞蝓粘液块&r？它会&a吸收附近的水，将其转换为晶体&r。如果这个方块被移走的话，粘液也会被清除，什么都不会留下。"]
 			id: "64973EA482E1BA7D"
 			rewards: [
 				{
@@ -782,7 +782,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.building__decorating.quests21.subtitle}"
+			subtitle: "#powerscantparry"
 			tasks: [
 				{
 					id: "1B15D2919E0FB7D1"
@@ -800,7 +800,7 @@
 		}
 		{
 			dependencies: ["1AFE0FBF887D22FD"]
-			description: ["{ftbquests.chapter.building__decorating.quests22.description}"]
+			description: ["&b充能站&r可以&a燃烧燃料为你的建筑小帮手充电&r。"]
 			id: "6D3D3329A2772A3F"
 			rewards: [
 				{
@@ -825,5 +825,5 @@
 			y: 1.5d
 		}
 	]
-	title: "{ftbquests.chapter.building__decorating.title}"
+	title: "建筑与装饰"
 }

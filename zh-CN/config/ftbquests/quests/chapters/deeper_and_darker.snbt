@@ -25,8 +25,8 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests0.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests0.description1}"
+				"你想探索&c幽冥&r世界么？这是一个黑暗又危险的维度，只有通过&d远古城市的传送门&r才能够进入。要打开这个传送门，你只需要&6杀死监守者&r。这当然是一个很简单的任务，对吧？"
+				"首先，你需要找到你的&c远古城市&r，它的旁边通常有一些&b幽匿块&r作为代表特征。"
 			]
 			id: "4C2DDEC05C13A3FB"
 			rewards: [
@@ -39,7 +39,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quests0.subtitle}"
+			subtitle: "打开前往幽冥的道路"
 			tasks: [
 				{
 					icon: "minecraft:sculk"
@@ -50,15 +50,15 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests0.title}"
+			title: "前往更深处更黑暗的地方"
 			x: -6.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4C2DDEC05C13A3FB"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests1.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests1.description1}"
+				"&c深暗之域&r的鲜明特征是有大量&b幽匿块&r，这是一个可以生成&c远古城市&r的生物群系，在这里只有幽匿相关的方块和生物生成。"
+				"&b幽匿块&r具体从哪里来的并不是很清楚……但是我们知道的信息是&l它还活着&r。"
 			]
 			id: "001E117581BE05D5"
 			rewards: [
@@ -76,13 +76,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests1.title}"
+			title: "幽匿块制造工艺"
 			x: -6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["001E117581BE05D5"]
-			description: ["{ftbquests.chapter.deeper_and_darker.quests2.description}"]
+			description: ["一旦你获得了&b回响碎片&r，你就可以&6向&b幽匿催发体&6喂食经验球&r以生成属于你的&b幽匿块&r和&b幽匿脉络&r，这个催发体在吞噬经验球的同时能&a转化周围的方块&r。最好方法是&6在附近杀死怪物&r来喂食经验。"]
 			id: "767A4A04E0D72FBE"
 			rewards: [
 				{
@@ -92,7 +92,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quests2.subtitle}"
+			subtitle: "幽匿块也有他们自己的催化剂。"
 			tasks: [
 				{
 					id: "0A1EDEAC75343862"
@@ -100,15 +100,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests2.title}"
+			title: "制造更多的幽匿块"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["767A4A04E0D72FBE"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests3.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests3.description1}"
+				"&b幽匿感测体&r是一个可爱-也许稍微有点吓人-的方块，它会在&a被触发时发出红石信号&r。它会监听附近的声音，比如&a脚步声，方块放置或被破坏的声音，或者打开箱子的声音&r。"
+				"你可以&6使用羊毛来掩盖它的听觉&r，或者有更直接的办法，&6把它用羊毛包裹住&r来使它们宕机。"
 			]
 			id: "22929AEECAF3B467"
 			rewards: [
@@ -119,7 +119,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quests3.subtitle}"
+			subtitle: "这可能对你自动化有帮助"
 			tasks: [
 				{
 					id: "5490EAF572C61B6A"
@@ -127,15 +127,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests3.title}"
+			title: "制作一个幽匿感测体"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2384853DE131A8A7"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests4.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests4.description1}"
+				"&e监守者&r拳拳到肉。这很容易一击就杀死一名毫无准备的女巫，同时它的生命值也是&a出奇的高&r。然而只要做好应对措施，对付他就不成问题。"
+				"&e监守者&r的弱点在于它不拥有视觉，而是通过他敏锐的&a嗅觉和听觉来寻找玩家。如果它在1分钟内没有找到任何玩家，她会&a重新钻回地底&r。"
 			]
 			id: "386BBE6DCF3DAB78"
 			rewards: [
@@ -161,15 +161,15 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests4.title}"
+			title: "杀死监守者"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["386BBE6DCF3DAB78"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests5.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests5.description1}"
+				"拥有一颗&b监守者刷怪蛋&r，然后将它&6塞进刷怪笼里&r，接下来你就可以和&a更多的&e监守者&a作战了&r。"
+				"杀死100个监守者来赢得一套&a强到过分的&b盔甲&r和一个&b独特的头颅&r。"
 			]
 			id: "450F3E6A4A93E2AA"
 			rewards: [
@@ -258,7 +258,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quests5.subtitle}"
+			subtitle: "真的么？"
 			tasks: [
 				{
 					entity: "minecraft:warden"
@@ -267,16 +267,16 @@
 					value: 100L
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests5.title}"
+			title: "绝不可能完成的任务"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6CB7050DA080301E"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests6.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests6.description1}"
-				"{ftbquests.chapter.deeper_and_darker.quests6.description2}"
+				"&c幽冥&r是一个黑暗又危险的地方。你很可能&a看不见&r离你几步远的地方。"
+				"幸好，&b监守者头盔&r会缓解这个问题。"
+				"在幽冥有&a三个不同的生物群系&r，每一个都不欢迎外来者。"
 			]
 			id: "5F0CA7A2F5C478F0"
 			tasks: [
@@ -287,15 +287,15 @@
 					type: "dimension"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests6.title}"
+			title: "探索幽冥"
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["77C585EDABB88B3E"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests7.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests7.description1}"
+				"为了勇敢面对&c幽冥&r维度，你需要做好一切准备，最重要的一项是制作一个&b监守者头盔&r。"
+				"除了需要它的护甲值和护甲韧性以外，它还可以帮助你&b免疫失明和黑暗效果&r，使你在黑暗中也能看见东西。"
 			]
 			id: "6CB7050DA080301E"
 			rewards: [
@@ -319,13 +319,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests7.title}"
+			title: "制作一个监守者头盔"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4C2DDEC05C13A3FB"]
-			description: ["{ftbquests.chapter.deeper_and_darker.quests8.description}"]
+			description: ["你已经找到了进入一座&b远古城市&r的路。祝你好运，冒险家，因为这里有许多宝藏与风险并存。"]
 			id: "2384853DE131A8A7"
 			rewards: [
 				{
@@ -350,8 +350,8 @@
 		{
 			dependencies: ["2384853DE131A8A7"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests9.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests9.description1}"
+				"&b远古花瓶&r是一个战利品容器，它在极少数情况下装有&b监守者甲壳&r。这可以帮助你在你击杀&e监守者&r之前&a制作监守者头盔&r。"
+				"然而要小心，&a因为每次打破花瓶&r都会有概率生成一个&e潜行者&r，也许它和&e监守者&r有亲戚关系也说不定。"
 			]
 			id: "352E14C80B863AF3"
 			rewards: [
@@ -377,8 +377,8 @@
 		{
 			dependencies: ["386BBE6DCF3DAB78"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests10.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests10.description1}"
+				"在&c远古城市的中心&r有一个&a巨大的传送门&r。为了使用它，你第一步必须&6清除这些&b幽匿脉络&r。"
+				"当清理完毕后，你可以&6使用&b深渊之心&6对着传送门右击来激活它。"
 			]
 			id: "77C585EDABB88B3E"
 			tasks: [
@@ -391,13 +391,13 @@
 					value: 1L
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests10.title}"
+			title: "清扫幽匿"
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3BED9B52B38D87AC"]
-			description: ["{ftbquests.chapter.deeper_and_darker.quests11.description}"]
+			description: ["站在一个&b幽暗间歇泉上&r，他会把你&a发射到空中&r然后&a让你慢慢降落&r一段时间。"]
 			id: "27223492884E5638"
 			rewards: [
 				{
@@ -407,7 +407,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.deeper_and_darker.quests11.subtitle}"
+			subtitle: "小心你的菊花"
 			tasks: [
 				{
 					icon: "deeperdarker:gloomy_geyser"
@@ -418,16 +418,16 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests11.title}"
+			title: "观察间歇泉"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["766AE03208AE8F4B"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests12.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests12.description1}"
-				"{ftbquests.chapter.deeper_and_darker.quests12.description2}"
+				"在&c幽匿深渊&r中击杀&e幽匿蜈蚣&r来收集&b幽匿之骨&r。"
+				"“但是等等，”我了解你的想法。“蜈蚣并没有骨头啊！”"
+				"我的回答是，“它们可能最近吃了什么带骨头的猎物。”从他们的肚子里获取还没有消化完的东西吧，我们&a真的很需要它们&r。"
 			]
 			id: "292410101F374A38"
 			rewards: [
@@ -450,8 +450,8 @@
 		{
 			dependencies: ["292410101F374A38"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests13.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests13.description1}"
+				"从&c回响森林&r中的&e碎裂者&r取得&b灵魂之尘&r，还有杀死&e潜行者&r获取&b灵魂水晶&r，以及从&e幽匿蜈蚣&r身上取得&b幽匿之骨&r。"
+				"一旦你有了这些材料，你就可以将你的&b鞘翅&r转换为&b灵魂鞘翅&r，当你在半空时有时会为你提供动力，&a从而减少对烟花的需求&r。"
 			]
 			id: "5998F88F411634AE"
 			rewards: [
@@ -481,9 +481,9 @@
 		{
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests14.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests14.description1}"
-				"{ftbquests.chapter.deeper_and_darker.quests14.description2}"
+				"根据古代文献："
+				"这个生物群系通常由&b幽匿块，幽匿石和回响土&r组成。回响树遍布生物群系，它们紫色的叶子和&b幽匿发光体&r使幽冥变得生机勃勃。这个生物群系的雾像它们的树叶一样是紫色的，且&a只有&e碎裂者&r一种敌对生物生成。这和幽冥其他生物群系相比，对进入他们的玩家来说是比较友好的。"
+				"然而，这片区域在有&e监守者&a的情况下也不是这么安全&r。"
 			]
 			id: "3A279B0A5E1E6805"
 			rewards: [
@@ -507,15 +507,15 @@
 					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests14.title}"
+			title: "回响森林"
 			x: 6.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests15.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests15.description1}"
+				"根据古代文献："
+				"&c蔽日巨柱&r是一片广阔的，无人居住的废土。它由许多琥珀色的巨型柱子组成，且拥有生物群系独有的&b琥珀结晶&r。蔽日巨柱也有很多&b幽暗间歇泉&r散布在整个地形，他们由&b幽暗板岩&r和&b幽暗块&r组成。因为这里充满着&a敌意和贫瘠&r，没有人会在这里生活。"
 			]
 			id: "3BED9B52B38D87AC"
 			rewards: [
@@ -545,16 +545,16 @@
 					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests15.title}"
+			title: "蔽日巨柱"
 			x: 5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5F0CA7A2F5C478F0"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests16.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests16.description1}"
-				"{ftbquests.chapter.deeper_and_darker.quests16.description2}"
+				"根据古代文献："
+				"第一个生物群系被称作&c幽冥深渊&r。这个深渊由非常多的&b幽匿块&r和&b幽匿石&r构建而成。可以看到一大群的&e幻翼&r和&e幽匿啃咬者&r在这个生物群系的洞穴中飞行。&b幽匿颚口&r和&b被虫蚀的幽匿块&r在幽匿深渊中非常常见，这使得你&a难以辨别方向&r。小心那些&e尖啸蠕虫&r，他们藏在&b被虫蚀的幽匿块&r下等待猎物的到来。"
+				"当然，&e监守者&r依然可以生成在这里。"
 			]
 			id: "766AE03208AE8F4B"
 			rewards: [
@@ -578,15 +578,15 @@
 					type: "biome"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests16.title}"
+			title: "幽冥深渊"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["766AE03208AE8F4B"]
 			description: [
-				"{ftbquests.chapter.deeper_and_darker.quests17.description0}"
-				"{ftbquests.chapter.deeper_and_darker.quests17.description1}"
+				"在&c幽冥深渊&r生物群系中，你可以发现一座&a远古神庙&r。这个建筑有很多&a来自古代的战利品&r。"
+				"在&d神庙的中心&r，有很多方块阻碍了你下去的路，当你将它们破坏后，你就可以进入&6神庙的更深处&r。"
 			]
 			id: "010F9401493DDB2B"
 			rewards: [
@@ -610,14 +610,14 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests17.title}"
+			title: "发现远古神庙"
 			x: 5.5d
 			y: 3.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["386BBE6DCF3DAB78"]
-			description: ["{ftbquests.chapter.deeper_and_darker.quests18.description}"]
+			description: ["不要问我为什么，但是我确实需要&a很多很多&b深渊之心&r。用这个&a可重复任务&r和我交易，我可以给你一些幽匿风格的奖励。"]
 			id: "5AA23C847AD13B06"
 			rewards: [
 				{
@@ -642,10 +642,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.deeper_and_darker.quests18.title}"
+			title: "深渊之心"
 			x: 0.5d
 			y: -2.0d
 		}
 	]
-	title: "{ftbquests.chapter.deeper_and_darker.title}"
+	title: "深暗之域"
 }

@@ -25,9 +25,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests0.description0}"
-				"{ftbquests.chapter.farmers_delight.quests0.description1}"
-				"{ftbquests.chapter.farmers_delight.quests0.description2}"
+				"你已经获得了一些&b种子&r，恭喜你！ 成为一名成功农民的第一步就是有一些可以种植的种子。"
+				"作为奖励，试着将种子种植在&b沃土&r上。沃土通过&b有机肥料&r自然降解而成，非常适合种植作物！"
+				"它会对作物&a生长过程随机加速&r（只要附近有水），而且&a沃土耕地不会被踩踏退化回沃土&r。它还可以在&a完全黑暗的环境中&b种植蘑菇&r。"
 			]
 			id: "4930ECD60EA9ED8D"
 			rewards: [
@@ -40,7 +40,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.farmers_delight.quests0.subtitle}"
+			subtitle: "一些破烂"
 			tasks: [
 				{
 					id: "536499531C4C43D5"
@@ -51,17 +51,17 @@
 							value: "forge:seeds"
 						}
 					}
-					title: "{ftbquests.chapter.farmers_delight.quests0.tasks0.title}"
+					title: "任意#forge:seeds"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests0.title}"
+			title: "获取一些种子"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["{ftbquests.chapter.farmers_delight.quests1.description}"]
+			description: ["蘑菇菌落可以在&a黑暗环境的&r&b沃土&r上生长。如果你&6用剪刀采掘&r它，则会收获整个蘑菇菌落。如果你&6用手采掘&r它，则会掉落5个蘑菇。蘑菇万岁！"]
 			id: "435BD760D0F2E010"
 			rewards: [
 				{
@@ -76,7 +76,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests1.subtitle}"
+			subtitle: "在一起很开心"
 			tasks: [
 				{
 					id: "2A31AF7FF7ED741F"
@@ -87,19 +87,19 @@
 							value: "forge:mushcolony"
 						}
 					}
-					title: "{ftbquests.chapter.farmers_delight.quests1.tasks0.title}"
+					title: "任意#forge:mushcolony"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests1.title}"
+			title: "获得一个蘑菇菌落"
 			x: 5.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests2.description0}"
-				"{ftbquests.chapter.farmers_delight.quests2.description1}"
+				"这个模组中的&b派&r有两种食用方式，你可以把它像&b蛋糕&r一样放在地上，然后一片一片的吃。也可以把它们放在&b砧板&r上，用刀切成&b便捷的切片&r。"
+				"吃下它后，会获得一个短暂的速度提升。"
 			]
 			id: "57B830324890E32C"
 			rewards: [
@@ -128,7 +128,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests2.subtitle}"
+			subtitle: "味道特别好，好吃到让一个男人吃了会哭"
 			tasks: [
 				{
 					id: "2DD8FA7DB6BE126D"
@@ -136,13 +136,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests2.title}"
+			title: "制作一个派"
 			x: -2.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["{ftbquests.chapter.farmers_delight.quests3.description}"]
+			description: ["&b草秆&r可以用来制作&b绳子&r，这非常有用。它还可以用来制作&b粗布&r、&b有机肥料&r以及像&b粗灰泥&r的建筑材料。"]
 			id: "3AE0F1C1159FBDDE"
 			rewards: [
 				{
@@ -152,7 +152,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests3.subtitle}"
+			subtitle: "不要拔短的那根"
 			tasks: [
 				{
 					id: "55C6E492715281CF"
@@ -160,13 +160,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests3.title}"
+			title: "获得草秆"
 			x: -3.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			description: ["{ftbquests.chapter.farmers_delight.quests4.description}"]
+			description: ["&b粗布&r是一种多功能材料，可以用于制作&b榻榻米垫&r和&b粗布告示牌&r等等东西！"]
 			id: "548376041885F6D1"
 			rewards: [
 				{
@@ -176,7 +176,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests4.subtitle}"
+			subtitle: "粗布是一个很强大的东西"
 			tasks: [
 				{
 					id: "7B4B34EE649076A3"
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["3AE0F1C1159FBDDE"]
-			description: ["{ftbquests.chapter.farmers_delight.quests5.description}"]
+			description: ["&b绳索&r可用于制造诸如&b安全网&r之类的工具，落在安全网上时&a不会受到摔落伤害&r。它也可以被制作成&b绳索箭矢&r，箭落地之后，它将一段绳子展开至下方的地面，让你可以爬上去。"]
 			id: "141887F26E89BAE8"
 			rewards: [
 				{
@@ -205,7 +205,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests5.subtitle}"
+			subtitle: "绳索始终安全"
 			tasks: [
 				{
 					id: "45328BF090DF76BC"
@@ -213,13 +213,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests5.title}"
+			title: "获得绳子"
 			x: -5.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			description: ["{ftbquests.chapter.farmers_delight.quests6.description}"]
+			description: ["作物可以很轻松的装入袋子或箱子中，以便&a节省存储空间&r。&6每种作物放9个平铺到工作台中&r即可合成箱装作物或袋装作物！"]
 			id: "0545DF70043D964A"
 			rewards: [
 				{
@@ -279,7 +279,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests6.subtitle}"
+			subtitle: "压缩的作物"
 			tasks: [
 				{
 					id: "0B3D4A89F7573E0A"
@@ -357,13 +357,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests6.title}"
+			title: "压实你的作物"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["{ftbquests.chapter.farmers_delight.quests7.description}"]
+			description: ["农夫乐事添加了4种新作物：&b番茄&r，&b稻米&r，&b卷心菜&r和&b洋葱&r。在探索时可以找到它们的野生版本，然后你可以将它们种植在家里的花园里！"]
 			id: "2CA80140F624D0AE"
 			rewards: [
 				{
@@ -373,7 +373,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests7.subtitle}"
+			subtitle: "更多，给我更多"
 			tasks: [
 				{
 					id: "7E1608CE39644619"
@@ -396,17 +396,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests7.title}"
+			title: "获得新的作物"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests8.description0}"
-				"{ftbquests.chapter.farmers_delight.quests8.description1}"
-				"{ftbquests.chapter.farmers_delight.quests8.description2}"
-				"{ftbquests.chapter.farmers_delight.quests8.description3}"
+				"在这个模组的作用下，作物会有小概率生变异成&a巨型作物&r，类似于星露谷物语中的效果。这种情况更有可能&a发生在被月光照耀的成熟作物上&r。"
+				"用&b锄&r破坏，会获得比平常更多的其对应作物。用&b斧&r或者用手直接破坏，会获得这个巨型作物。然后，你可以对它们进行&a烹饪&r，&a剥皮&r，或者将它们放在&b砧板&r上切开获得作物。"
+				"在使用&b种植盆&r耕种的时候，你甚至有一定几率获得巨型作物！"
+				"&b沃土耕地&r会增加作物生长成巨型作物的几率。"
 			]
 			id: "780D09CCF1A8D814"
 			rewards: [
@@ -421,7 +421,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.farmers_delight.quests8.subtitle}"
+			subtitle: "每个人都会喜欢胖乎乎的胡萝卜"
 			tasks: [
 				{
 					id: "1F0CA54801833BEB"
@@ -432,19 +432,19 @@
 							value: "forge:overweightcrops"
 						}
 					}
-					title: "{ftbquests.chapter.farmers_delight.quests8.tasks0.title}"
+					title: "任意#forge:overweightcrops"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests8.title}"
+			title: "丰硕作物"
 			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests9.description0}"
-				"{ftbquests.chapter.farmers_delight.quests9.description1}"
+				"&b草帽&r可以从&a农民&r处交换得到，佩戴它将会给你提供种植加成——一个额外的生长成&a巨型作物&r的几率！"
+				"它还提供了繁殖出双胞胎或三胞胎的几率！……对于动物，多半不是对你。"
 			]
 			id: "41ACB7D51D1AC9A9"
 			rewards: [
@@ -466,7 +466,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests9.subtitle}"
+			subtitle: "好好查查，这叫时尚（汗）"
 			tasks: [
 				{
 					id: "7355E2367EA1596C"
@@ -486,8 +486,8 @@
 		{
 			dependencies: ["780D09CCF1A8D814"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests10.description0}"
-				"{ftbquests.chapter.farmers_delight.quests10.description1}"
+				"给你的&b巨型作物&r去皮以得到不同模样的作物方块，还能获得能用来&e喂猪&r或者做成&b堆肥&r的&b果蔬皮&r！"
+				"用&b斧&r给&b西瓜&r去皮可以去除它们的种子，然后&6用玻璃瓶右击它们&r来榨汁。"
 			]
 			id: "4B733744EBC620FC"
 			rewards: [
@@ -506,13 +506,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests10.title}"
+			title: "给巨型胡萝卜去皮"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
-			description: ["{ftbquests.chapter.farmers_delight.quests11.description}"]
+			description: ["无论是作为装饰方块还是实用工具，&b种植盆&r都很有用。它可以实现无水栽培，而且不用担心作物遭到践踏。"]
 			id: "3D221ECD9106F792"
 			rewards: [
 				{
@@ -555,7 +555,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests11.subtitle}"
+			subtitle: "嗯，太能种植了"
 			tasks: [
 				{
 					id: "1A82E50D8BBEB46D"
@@ -569,8 +569,8 @@
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests12.description0}"
-				"{ftbquests.chapter.farmers_delight.quests12.description1}"
+				"人们说，不要把你的钻石浪费在锄头上。但你已经更进了一步。"
+				"为了表彰你的奉献，请领取这一奖励。"
 			]
 			id: "2186A6F69ADBE795"
 			rewards: [
@@ -600,7 +600,7 @@
 		}
 		{
 			dependencies: ["780D09CCF1A8D814"]
-			description: ["{ftbquests.chapter.farmers_delight.quests13.description}"]
+			description: ["收集既可当作装饰也可在&b砧板&r上&6切开&r的&b巨型作物&6每种各一个&r"]
 			id: "34C84EC0EC5B8A2E"
 			rewards: [
 				{
@@ -672,7 +672,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests13.title}"
+			title: "收集胖乎乎的巨型作物"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -680,8 +680,8 @@
 			can_repeat: true
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests14.description0}"
-				"{ftbquests.chapter.farmers_delight.quests14.description1}"
+				"你有&6自动化你的农场&r吗？那样的话你很可能会明白农作物堆积过多的痛苦。&6将你的农作物通过这个任务提交&r来赚取奖励。"
+				"[可重复任务]"
 			]
 			id: "6630D27FC9E3F285"
 			rewards: [
@@ -802,13 +802,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests14.title}"
+			title: "运走你的作物"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2CA80140F624D0AE"]
-			description: ["{ftbquests.chapter.farmers_delight.quests15.description}"]
+			description: ["类似&b箱装农作物&r，许多农作物可以被压缩成&b袋装农作物&r，这些袋装农作物可以用作装饰性方块或者&a用来释放你的储物空间&r！"]
 			id: "2973338AB622C5D6"
 			rewards: [
 				{
@@ -865,16 +865,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests15.title}"
+			title: "装袋"
 			x: 7.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests16.description0}"
-				"{ftbquests.chapter.farmers_delight.quests16.description1}"
-				"{ftbquests.chapter.farmers_delight.quests16.description2}"
+				"这里提供一种&a更快地种植农作物&r的方法！如果你&6制作一些肥料&r并且将它&6放在水的周围&r，它会缓慢地转换成&b沃土&r，这个过程可以用&b时间之瓶&r加速。"
+				"耕作后，&b沃土&r将会为你的作物&a提供额外的生长速度&r。它&a不会被践踏破坏&r，也&a不会因缺水干涸&r。"
+				"如果你正打算种植一些&b蘑菇菌落&r，你也会需要它的。"
 			]
 			id: "02F91E51E86F71F6"
 			rewards: [
@@ -903,8 +903,8 @@
 		{
 			dependencies: ["02F91E51E86F71F6"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests17.description0}"
-				"{ftbquests.chapter.farmers_delight.quests17.description1}"
+				"就像它的棕色兄弟一样，&b灵魂沃土&r由&b灵魂堆肥&r在下界自然转化而成（译注：可以被周围的熔岩，火堆和催化剂加速，详见JEI）。"
+				"你可以用它让&b下界作物&r生长得更快！"
 			]
 			id: "60445E736AE3B5B4"
 			rewards: [
@@ -947,15 +947,15 @@
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests19.description0}"
-				"{ftbquests.chapter.farmers_delight.quests19.description1}"
-				"{ftbquests.chapter.farmers_delight.quests19.description2}"
-				"{ftbquests.chapter.farmers_delight.quests19.description3}"
-				"{ftbquests.chapter.farmers_delight.quests19.description4}"
-				"{ftbquests.chapter.farmers_delight.quests19.description5}"
-				"{ftbquests.chapter.farmers_delight.quests19.description6}"
-				"{ftbquests.chapter.farmers_delight.quests19.description7}"
-				"{ftbquests.chapter.farmers_delight.quests19.description8}"
+				"&b收割镰工具&r，在某些（死神）圈子内又被称作镰刀，使你能够施展被称为&a收割&r的剔除魔术。"
+				"使用&b镰刀&r&6右击&r动物来收割它。如果成功，你将会&a获得它的掉落物且不杀死它&r，取而代之的是窃取它的年龄并将它转化成幼年形态。然而，如果你失败了，&a顺其自然地动物会死掉&r。"
+				"能确信的是&a更好的材料&r意味着&a更高的成功几率&r，&b下界合金制&r的提供了几乎100%%的成功率，&6光标悬停在工具上使按住Shift&r可以看到它们的基础失败率。"
+				"这种神秘的仪式并不适用于没有幼年阶段的生物，例如&e鳕鱼&r。同样也不适用于&e敌对生物&r，就算它们有幼年阶段。"
+				"如果你&d收割了一只幼年动物，它就会死亡&r，所以不要贪婪！记住，可持续农业的关键是&a负责地收获&r。"
+				"&d发射器&r也可以使用&b收割镰&r。"
+				"将&b收割镰&r放在&b附魔台&r上，&d99%%的概率都会是耐久&r。最好是用附魔书敲铁砧来附魔。"
+				"如你所料，&b收割镰&r可以附魔&a经验修补、锋利和耐久&r。"
+				"但是，它可以附魔&a刽子手&r，虽然&d目前并无作用&r。"
 			]
 			id: "78CB4E7CEB48941A"
 			rewards: [
@@ -967,7 +967,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests19.subtitle}"
+			subtitle: "没必要害怕这把镰刀……真的"
 			tasks: [
 				{
 					id: "006BA9F88102C536"
@@ -978,20 +978,20 @@
 							value: "forge:scythe"
 						}
 					}
-					title: "{ftbquests.chapter.farmers_delight.quests19.tasks0.title}"
+					title: "任意#forge:scythe"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests19.title}"
+			title: "获得一个收割镰"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests20.description0}"
-				"{ftbquests.chapter.farmers_delight.quests20.description1}"
+				"你知道生活中的调味料是什么吗？那么，你知道谁最喜欢这种调味料吗？你猜对了——就是&e蜜蜂&r。"
+				"哦？和你想的不太一样吗？"
 				""
-				"{ftbquests.chapter.farmers_delight.quests20.description3}"
+				"算了，别管那个了。收集每一种类型的&b蜂箱&r，就等着看你的&e蜜蜂们&r会有多感激你。"
 			]
 			id: "1FF3A036CE58CCC9"
 			rewards: [
@@ -1016,9 +1016,9 @@
 		{
 			dependencies: ["4930ECD60EA9ED8D"]
 			description: [
-				"{ftbquests.chapter.farmers_delight.quests21.description0}"
-				"{ftbquests.chapter.farmers_delight.quests21.description1}"
-				"{ftbquests.chapter.farmers_delight.quests21.description2}"
+				"&b两种马车&r对于&a物品和生物&r的运输很有用，无论骑马或者徒步，只要在马车周围&6按“R”&r就能&a拉马车&r，再次按R放下马车。"
+				"&b马车&r的功能是不言而喻的，&6潜行右击马车&r打开马车物品栏，然后&a将物品装载上去&r！然后你就可以陆路运输这些物品。然而，&a破坏马车&r会使马车装载的物品全部掉落。"
+				"&b牲畜运载马车&r能帮助你&a运输生物&r！用牲畜运载马车&6对着你想运载的生物右击&r，然后就像普通马车那样开始拉它吧。&a破坏马车&r将会释放动物。"
 				"{image:cottagewitch:textures/cart.png width:100 height:100 align:1 fit:true}"
 			]
 			id: "04BD2724E24B4125"
@@ -1035,7 +1035,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.farmers_delight.quests21.subtitle}"
+			subtitle: "可以用来运载物品和动物"
 			tasks: [
 				{
 					id: "099CE793A38F980E"
@@ -1046,14 +1046,14 @@
 							value: "forge:carts"
 						}
 					}
-					title: "{ftbquests.chapter.farmers_delight.quests21.tasks0.title}"
+					title: "任意#forge:carts"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.farmers_delight.quests21.title}"
+			title: "造一架马车"
 			x: 0.0d
 			y: 3.0d
 		}
 	]
-	title: "{ftbquests.chapter.farmers_delight.title}"
+	title: "农业与园艺"
 }

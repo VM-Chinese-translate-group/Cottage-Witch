@@ -54,5 +54,5 @@
 			item: "pipez:basic_upgrade"
 		}
 	]
-	title: "{ftbquests.reward_tables.t1_choice.title}"
+	title: "T1 奖励选择"
 }

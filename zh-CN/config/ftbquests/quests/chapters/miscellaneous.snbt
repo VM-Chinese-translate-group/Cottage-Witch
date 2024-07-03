@@ -85,12 +85,12 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests0.description0}"
-				"{ftbquests.chapter.miscellaneous.quests0.description1}"
+				"你可以给朋友发送信件和快递包裹了！你可以使用&b蜗牛信箱&r来&a接收和发送邮件&r。把他放下并认领它，你甚至可以&6右击它&r在输入姓名栏为它命名。"
+				"如果要&a发送邮件&r，你需要一个&b邮票&r和一个&b拆开信封&r。这些信封能被重复使用所以并不会污染环境。&6把信封放在&b蜗牛信箱&6的右上角&r。然后点击“&6拆开信封&r”。"
 				"{image:cottagewitch:textures/snailmail1.png width:250 height:300 align:1}"
-				"{ftbquests.chapter.miscellaneous.quests0.description3}"
+				"在这里，你可以放你的邮件内容！你可以发送&b名片，包裹，还有其他更多东西&r！&a不要忘记贴一张邮票&r！输入收件人的名字，有需要的话你也可以写上你的名字，然后&6按下Esc来返回上一个界面&r！"
 				"{image:cottagewitch:textures/snailmail2.png width:250 height:200 align:1}"
-				"{ftbquests.chapter.miscellaneous.quests0.description5}"
+				"你按了&dEsc&r以后，你可以&a选择你要发送到的蜗牛信箱&r，漂亮！恭喜你完成！"
 				"{image:cottagewitch:textures/snailmail3.png width:250 height:80 align:1}"
 				"{image:cottagewitch:textures/snailmail4.png width:250 height:150 align:1}"
 			]
@@ -123,7 +123,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.miscellaneous.quests0.subtitle}"
+			subtitle: "多人游戏中的通讯方式"
 			tasks: [
 				{
 					id: "47B16BD50607E0B8"
@@ -131,14 +131,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests0.title}"
+			title: "蜗牛邮政"
 			x: -3.25d
 			y: 4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests1.description0}"
-				"{ftbquests.chapter.miscellaneous.quests1.description1}"
+				"这个&b沙堡&r可以被放置在&b海龟蛋上&r让它们免收僵尸的踩踏。"
+				"然而，这里有一个&dBUG&r，他会阻止在&b沙堡&r里的海龟蛋继续孵化。（译注：那有啥用？）"
 			]
 			id: "012D4FE416DC8BE7"
 			rewards: [
@@ -155,7 +155,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests1.subtitle}"
+			subtitle: "你想建一座……嗯……沙堡么？"
 			tasks: [
 				{
 					id: "33B1F2EE602D5EAB"
@@ -168,10 +168,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests2.description0}"
-				"{ftbquests.chapter.miscellaneous.quests2.description1}"
-				"{ftbquests.chapter.miscellaneous.quests2.description2}"
-				"{ftbquests.chapter.miscellaneous.quests2.description3}"
+				"一块&b雕花软玉&r可以让你储存你的经验，防止在死亡时丢失和递减。将多个&b雕花软玉&r连接在一起储存可以更多的经验。"
+				"这当然也可以让你&a和其他玩家分享经验&r！"
+				"此外，你也可以在&b软玉戒指&r存储30级的经验。"
+				"站在&b软玉虹吸台&r上排除你体内的经验值，激活&b软玉喷流口&r并沐浴在经验中来取回经验值。"
 			]
 			icon: "spelunkery:carved_nephrite"
 			id: "4FA002CF34586849"
@@ -199,7 +199,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.miscellaneous.quests2.subtitle}"
+			subtitle: "不幸的是这保存的不是你简历上的经验"
 			tasks: [
 				{
 					id: "3976A5AEC45B2235"
@@ -217,12 +217,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests2.title}"
+			title: "保存你的经验"
 			x: -7.5d
 			y: -3.75d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests3.description}"]
+			description: ["&b铁丝网&r会把动物关在里面，因为它们会害怕走过它，尽管你可以使用&b栓绳&r强迫他们穿过铁丝网。&a掉落物会穿过铁丝网&r。"]
 			id: "0D7B3090032B6F0E"
 			rewards: [
 				{
@@ -233,7 +233,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests3.subtitle}"
+			subtitle: "区区铁丝网"
 			tasks: [
 				{
 					count: 4L
@@ -242,12 +242,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests3.title}"
+			title: "获得一些铁丝网"
 			x: 2.5d
 			y: 2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests4.description}"]
+			description: ["被发现在箱子中的战利品，&b古卷&r是古老的知识书籍，它可以让你&a提升一些原版附魔等级的上限&r，将它和&b附魔书&r一起在&b铁砧&r上组合吧。"]
 			id: "3765768BE87D28DE"
 			rewards: [
 				{
@@ -257,7 +257,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests4.subtitle}"
+			subtitle: "别卷了"
 			tasks: [
 				{
 					id: "64FA279BD75A7C9B"
@@ -268,18 +268,18 @@
 							value: "forge:tomes"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests4.tasks0.title}"
+					title: "任意#forge:tomes"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests4.title}"
+			title: "获得一个古卷"
 			x: 1.5d
 			y: 4.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests5.description0}"
-				"{ftbquests.chapter.miscellaneous.quests5.description1}"
+				"你可以上升到&a云层高度&r&6对着空气右击&r来获得&a瓶中云&r。"
+				"你可以对着空气右击手上的瓶中云将它释放。但是过一会云就会消失不见。然而，如果云&6被其他方块覆盖&r，它会返回瓶中。这可以使你&a悬空放置方块&r。"
 			]
 			id: "24B3EE21C9B6292B"
 			rewards: [
@@ -290,7 +290,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests5.subtitle}"
+			subtitle: "玻璃瓶可以诉说很多故事"
 			tasks: [
 				{
 					id: "60F3F63E08A8D71B"
@@ -303,9 +303,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests6.description0}"
-				"{ftbquests.chapter.miscellaneous.quests6.description1}"
-				"{ftbquests.chapter.miscellaneous.quests6.description2}"
+				"&b余烬熔炉&r是一个&a只在&e烬壳龟&a背上生效的物品&r，这个生物居住在下界荒地。"
+				"你可以和他们做朋友并用&b下界菌类&r使他们繁殖-请小心，他们一次会生出好多好多幼崽。"
+				"如果你将&b余烬熔炉&r放在&e烬壳龟&r的背上，就可以使用它们背上的火山提供热量，&a这意味着你不再需要提供燃料&r！"
 			]
 			id: "7B40E7022A67BC86"
 			rewards: [
@@ -316,7 +316,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests6.subtitle}"
+			subtitle: "烬壳龟，烬壳龟，哦我超爱我们家烬壳龟"
 			tasks: [
 				{
 					id: "67131CB5294C5493"
@@ -329,8 +329,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests7.description0}"
-				"{ftbquests.chapter.miscellaneous.quests7.description1}"
+				"你知道怎样&a提升方块每一刻的工作速度么&r？这可以帮助你像&b使用肥料&r一样来使他们加快速度。"
+				"制作一个&b时间之瓶&r放在你的物品栏里积累时间。过一段时间后你可以&6潜行右击&r将时间分配给某些方块。"
 			]
 			id: "00BDE15DD24045A6"
 			rewards: [
@@ -361,12 +361,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests7.title}"
+			title: "将时间存储在瓶子里"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests8.description}"]
+			description: ["&b笼子&r和&b捕获笼&r很像，你可以&6对着小生物右击&r来将它装起来运输。然后你可以&6右击一个方块来释放&r这个生物，或者你可以&6潜行右击&r来放下&b笼子&r把你的新朋友作为一个展示品！"]
 			id: "2AD60B373912C5A4"
 			rewards: [
 				{
@@ -382,7 +382,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests8.subtitle}"
+			subtitle: "尽管我现在火冒三丈，但我依然是……你知道的"
 			tasks: [
 				{
 					id: "69932938B19DB961"
@@ -395,8 +395,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests9.description0}"
-				"{ftbquests.chapter.miscellaneous.quests9.description1}"
+				"你知道你可以去除&b附魔金苹果&r的附魔么？"
+				"本来试着这么做会让别人觉得你疯了，但是现在……"
 			]
 			id: "7DD918D36463CF71"
 			rewards: [
@@ -426,8 +426,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests10.description0}"
-				"{ftbquests.chapter.miscellaneous.quests10.description1}"
+				"&b扳手&r是一个可以使&a方块旋转&r的工具。只需要使用&b扳手&6右击方块&r，他会根据你点击的位置来调整方向。"
+				"不适用于所有面的纹理都是一样的方块（比如木板）。"
 			]
 			id: "1547891EBE53934F"
 			rewards: [
@@ -457,8 +457,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests11.description0}"
-				"{ftbquests.chapter.miscellaneous.quests11.description1}"
+				"&b睡袋&r是一个允许你&a跳过夜晚&r但不设置重生点的物品。你只需要携带它然后&6右击把它放在地上&r使用它。"
+				"你可以&6潜行右击&r放下它而不是直接钻到里面睡大觉。"
 			]
 			id: "34E82F6EBE6762A3"
 			rewards: [
@@ -470,7 +470,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests11.subtitle}"
+			subtitle: "星海之下睡眠"
 			tasks: [
 				{
 					id: "38FDE24FC2D7BDCF"
@@ -481,16 +481,16 @@
 							value: "comforts:sleeping_bags"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests11.tasks0.title}"
+					title: "任意#comforts:sleeping_bags"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests11.title}"
+			title: "艰苦岁月"
 			x: 3.0d
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests12.description}"]
+			description: ["制作一个&b吊床&r来&a跳过白天&r，直接进入夜晚。现在是时候起床搞点恶作剧了！"]
 			id: "4BCAADA647D7D85A"
 			rewards: [
 				{
@@ -514,16 +514,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests12.title}"
+			title: "做白日梦！"
 			x: 2.0d
 			y: 5.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests13.description0}"
-				"{ftbquests.chapter.miscellaneous.quests13.description1}"
-				"{ftbquests.chapter.miscellaneous.quests13.description2}"
-				"{ftbquests.chapter.miscellaneous.quests13.description3}"
+				"你有没有爱上过一个生物群系的色调，但你的基地却完全建在别的地方了？别担心了！你可以用&b群系罐子&r来&6提取并搬运群系！&r"
+				"用&b群系罐子&r右击你想要带走的群系的地面。等待足够长的时间——“它好用m……”"
+				"&l&d砰！&r是的，它好用！提取完毕后，&6右击它&r即可拾取。"
+				"然后，拿着你的罐子，在你想要转化为这个新群系的地方&6右击它&r。"
 			]
 			id: "642A47408175527E"
 			rewards: [
@@ -541,15 +541,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests13.title}"
+			title: "随身携带生物群系"
 			x: -3.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests14.description0}"
-				"{ftbquests.chapter.miscellaneous.quests14.description1}"
+				"&a变成僵尸后又被治愈的&r村民会给你&a显著的折扣&r。"
+				"如果你发现了一个&e僵尸村民&r，&6用喷溅型虚弱药水丢他&r，然后&6喂他吃金苹果&r。一段时间后，他就会被治愈了！"
 			]
 			id: "16797E1EF5450E7E"
 			rewards: [
@@ -560,7 +560,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests14.subtitle}"
+			subtitle: "砍价大神"
 			tasks: [
 				{
 					advancement: "minecraft:story/cure_zombie_villager"
@@ -574,8 +574,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests15.description0}"
-				"{ftbquests.chapter.miscellaneous.quests15.description1}"
+				"&b绿宝石&r！这是生活在这个世界的&e村民&r的生计所在。你需要用到绿宝石来获取一些稀有物品，比如新的&b末影之眼&r。"
+				"要查看&a村民的职业和他们的工作方块&r的清单，将鼠标悬停在&b绿宝石&r上&6按“U”&r，然后&6选择带有村民头的顶部标签&r即可。"
 				"{image:cottagewitch:textures/villagers.png width:200 height:200 align:1}"
 			]
 			id: "70C4F17973F6492E"
@@ -602,13 +602,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests15.title}"
+			title: "经济基础"
 			x: 8.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			description: ["{ftbquests.chapter.miscellaneous.quests16.description}"]
+			description: ["当你第一次和一个村民交易时，他的&a职业和交易就会被锁定&r。这可以很好地确保，一个卖&b经验修补&r的&a图书管理员&r不会突然辞职加入马戏团。"]
 			id: "3705ABBD8EE1A369"
 			rewards: [
 				{
@@ -627,13 +627,13 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests16.title}"
+			title: "与村民交易"
 			x: 6.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
-			description: ["{ftbquests.chapter.miscellaneous.quests17.description}"]
+			description: ["哥布林商人是友善的家伙，他们愿意与人类做生意！不过，他们不太聪明，所以总是会提供相当不错的交易。"]
 			id: "160EE610C4B660D8"
 			rewards: [
 				{
@@ -648,7 +648,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests17.subtitle}"
+			subtitle: "又菜又爱玩"
 			tasks: [
 				{
 					icon: "goblintraders:goblin_trader_spawn_egg"
@@ -659,12 +659,12 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests17.title}"
+			title: "遇见哥布林商人"
 			x: 11.0d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests18.description}"]
+			description: ["正如其名，&b红石随机器&r会随机决定将信号&a向左还是向右&r输出。"]
 			id: "18D9BBE334549285"
 			rewards: [
 				{
@@ -691,7 +691,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests18.subtitle}"
+			subtitle: "扔个硬币。或者拉下拉杆。"
 			tasks: [
 				{
 					id: "75EF1DAD98E4D222"
@@ -699,12 +699,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests18.title}"
+			title: "获得红石随机器"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests19.description}"]
+			description: ["&b齿轮方块&r和&b放置下来的红石粉&r具有同样的功能。不过，它不会被水冲走，而且可以垂直放置以向上和向下传递信号。"]
 			id: "781003E78C236E0D"
 			rewards: [
 				{
@@ -727,7 +727,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests19.subtitle}"
+			subtitle: "你知道我想开什么玩笑。"
 			tasks: [
 				{
 					id: "03A7ABED5015F645"
@@ -740,8 +740,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests20.description0}"
-				"{ftbquests.chapter.miscellaneous.quests20.description1}"
+				"这个装饰方块会根据天气输出红石信号。"
+				"&a雨天&r时，它会输出强度为1的信号。&a雷雨天&r时，它会输出强度为2的信号。"
 			]
 			id: "6DBD018A4FB32DD8"
 			rewards: [
@@ -764,7 +764,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests20.subtitle}"
+			subtitle: "让它下雨"
 			tasks: [
 				{
 					id: "6BFD2D33AD5AA3DA"
@@ -777,8 +777,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests21.description0}"
-				"{ftbquests.chapter.miscellaneous.quests21.description1}"
+				"&b风箱&r是一个可以&a加速熔炉&r，&a阻止火焰熄灭&r，甚至&a推动实体&r的方块。"
+				"风箱输出的速率由它接收的&a红石信号&r的强度决定。"
 			]
 			id: "50E64308D7D56C48"
 			rewards: [
@@ -806,7 +806,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests21.subtitle}"
+			subtitle: "大喊大叫"
 			tasks: [
 				{
 					id: "274DAEA1048998F7"
@@ -819,8 +819,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests22.description0}"
-				"{ftbquests.chapter.miscellaneous.quests22.description1}"
+				"这大概显而易见，&b转台&r在接收到红石信号时，会旋转它接触的方块。"
+				"放在旁边时，它可以将&b沙漏&r翻转重置。"
 			]
 			id: "6C7EB11A659D7914"
 			rewards: [
@@ -843,7 +843,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests22.subtitle}"
+			subtitle: "逆转乾坤！"
 			tasks: [
 				{
 					id: "46A8B4EA03512795"
@@ -855,7 +855,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests23.description}"]
+			description: ["&b红石照明器&r是一个默认打开的光源。随着它接收到的&a红石信号&r的增强，它会渐渐变暗。使用&b曲柄&r代替&b拉杆&r以实现更精细的控制。"]
 			id: "1371F9B501187A91"
 			rewards: [
 				{
@@ -877,7 +877,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests23.subtitle}"
+			subtitle: "小心y射线的能量"
 			tasks: [
 				{
 					id: "7696927D53015E8F"
@@ -890,8 +890,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests24.description0}"
-				"{ftbquests.chapter.miscellaneous.quests24.description1}"
+				"&b水龙头&r可以&a从方块&r（存储方块、蜂箱或者罐子）&a的侧面提取并掉落出物品&r。这与漏斗相反，漏斗只能从方块的底部提取。"
+				"它也可以像&b滴水石锥&r那样，慢慢将液体滴入下方的炼药锅中。"
 			]
 			id: "5A0A46815A9FE05D"
 			rewards: [
@@ -908,7 +908,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests24.subtitle}"
+			subtitle: "希望它不漏"
 			tasks: [
 				{
 					id: "5F118DB99C9B4861"
@@ -916,12 +916,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests24.title}"
+			title: "获得一个水龙头"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests25.description}"]
+			description: ["当&a玩家直视它时&r，&b末影侦测器&r会发出红石信号。信号的强度取决于玩家与它的距离。"]
 			id: "416C9C912FDB1ADC"
 			rewards: [
 				{
@@ -984,8 +984,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests26.description0}"
-				"{ftbquests.chapter.miscellaneous.quests26.description1}"
+				"&b铁杆&r不只是个装饰，它也有实用功能。放在&b黏性活塞&r上时，它会&a破坏&r活塞推动时它触及的&a方块&r。"
+				"这只对那些可以被推动的方块有效，所以像&b黑曜石&r这样的方块是无法被破坏的。"
 			]
 			id: "593CA14F58A43AEB"
 			rewards: [
@@ -1014,7 +1014,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests26.subtitle}"
+			subtitle: "这是我约gay软件的网名"
 			tasks: [
 				{
 					id: "7BA7E1B4A0BEB6D1"
@@ -1022,12 +1022,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests26.title}"
+			title: "获得一根铁杆"
 			x: 1.0d
 			y: -4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests27.description}"]
+			description: ["&b黑曜石压力板&a只会被玩家激活&r，这使得它在基地入口之类的地方非常有用。"]
 			id: "129EB9D48551AA2E"
 			rewards: [
 				{
@@ -1055,7 +1055,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests27.subtitle}"
+			subtitle: "它能感受到你的知觉"
 			tasks: [
 				{
 					id: "38E9461ED962DF18"
@@ -1063,12 +1063,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests27.title}"
+			title: "玩家限定的压力板"
 			x: 1.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests28.description}"]
+			description: ["这个独特的被施了末影魔法的东西只会&a在接收到红石信号时掉落&r。如果它接收到了红石信号但&a无法下落，它就会转而往天上落去&r。"]
 			id: "3C38D37B0E1FD22C"
 			rewards: [
 				{
@@ -1096,7 +1096,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests28.subtitle}"
+			subtitle: "这个沙子不在乎你的规矩"
 			tasks: [
 				{
 					count: 5L
@@ -1105,12 +1105,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests28.title}"
+			title: "反重力沙"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests29.description}"]
+			description: ["这些特别的按钮的功能和其它的&b按钮&r差不多，除了&b铁按钮&r会提供比通常&a持久很多的信号&r，而&b金按钮&r会提供比通常&a短暂很多的信号&r。"]
 			id: "03A72717715E8A5D"
 			rewards: [
 				{
@@ -1132,7 +1132,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests29.subtitle}"
+			subtitle: "信号根本停不下来"
 			tasks: [
 				{
 					id: "4F9668A0016EC26A"
@@ -1145,14 +1145,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests29.title}"
+			title: "获得铁按钮和金按钮"
 			x: 1.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests30.description0}"
-				"{ftbquests.chapter.miscellaneous.quests30.description1}"
+				"&b溜槽&r是一个可以从上方接收物品，然后&a将物品&r从它下方的正中心&a漏出&r的方块。"
+				"可以使用红石信号或者在它下面放置方块来关闭它。"
 			]
 			id: "2E4C149DAE459F03"
 			rewards: [
@@ -1179,7 +1179,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests30.subtitle}"
+			subtitle: "求你了，别溜了！"
 			tasks: [
 				{
 					id: "46353D8C4E64C59C"
@@ -1187,7 +1187,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests30.title}"
+			title: "获得一个溜槽"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -1208,14 +1208,14 @@
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests32.description0}"
+				"你不再需要为了刷新村民的交易而破坏他们的工作方块了。只需要&a友好地询问&r（&6按刷新交易按钮&r）即可。"
 				"{image:cottagewitch:textures/tradecycle.png width:200 height:150 align:1}"
 			]
 			id: "08F9BA2E3066C5FB"
 			tasks: [
 				{
 					id: "6436F337BFCACE09"
-					title: "{ftbquests.chapter.miscellaneous.quests32.tasks0.title}"
+					title: "刷新交易"
 					type: "checkmark"
 				}
 			]
@@ -1224,9 +1224,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests33.description0}"
-				"{ftbquests.chapter.miscellaneous.quests33.description1}"
-				"{ftbquests.chapter.miscellaneous.quests33.description2}"
+				"&b明信片&r和&b包裹&r来自&l往来&r模组。不幸的是，这个模组的&b邮箱&d总是会变成无人认领的&r，所以&d没有人能收到邮件&r。不过，它们还可以通过&l蜗牛邮政&r进行寄送，这是一个极其聪明的女巫想出的主意。"
+				"明信片可&a在流浪商人处获得&r或者通过任务奖励获得。你可以手持它&6右击&r来在上面写字。"
+				"你可以用&b包装纸&r来包装礼物。每个包裹可以装4个物品。使用&l蜗牛邮政&r时，普通的包装纸和末影包装纸没有功能上的区别。"
 			]
 			id: "190B6687A0C04CEF"
 			rewards: [
@@ -1251,12 +1251,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests33.title}"
+			title: "通过蜗牛邮政进行“往来”（译注：“蜗牛邮政”和“往来”均为模组名）"
 			x: -2.5d
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests34.description}"]
+			description: ["玩一个有趣的游戏是自己的奖励，但这里有一个额外的奖励，因为你花了这么多时间和我们在一起玩！"]
 			id: "1DB7D51E15454923"
 			rewards: [
 				{
@@ -1280,8 +1280,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests35.description0}"
-				"{ftbquests.chapter.miscellaneous.quests35.description1}"
+				"虽然并非所有的美人鱼都是女巫，但也有一些&a可感知的例子来说明哪些是&r。你也可以在&b海之项链&r的帮助下在海底保留一个苦力怕农场，它将为你装备一条&a属于你自己的尾巴！&r 它还将&a赋予你游速加成&r以及&a无限时间的水下呼吸&r."
+				"制作它需要用到&b蓝洋结晶&r，这东西你在寻宝时运气好一点就能做出来！"
 			]
 			id: "3E72CBC6D658F80E"
 			rewards: [
@@ -1313,21 +1313,21 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests35.title}"
+			title: "海洋女巫"
 			x: -1.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["70C4F17973F6492E"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests36.description0}"
+				"如果你是与其他人一起玩的，你可以用&lApple Crates&r模组的货架来&a向别人出售物品&r！"
 				"{image:cottagewitch:textures/applecrates.png width:200 height:130 align:1}"
-				"{ftbquests.chapter.miscellaneous.quests36.description2}"
-				"{ftbquests.chapter.miscellaneous.quests36.description3}"
-				"{ftbquests.chapter.miscellaneous.quests36.description4}"
-				"{ftbquests.chapter.miscellaneous.quests36.description5}"
-				"{ftbquests.chapter.miscellaneous.quests36.description6}"
-				"{ftbquests.chapter.miscellaneous.quests36.description7}"
+				"A）这个槽位是&a你想&r作为付款&a收取的物品&r。放一个到槽位里面。"
+				"B）这是&a你正在交易的物品&r。堆叠数量很重要——在这个例子中是&a1个绿宝石换64个芝士汉堡&r。"
+				"C）这是&a你的物品栏&r。"
+				"D）你需要&6按下这个按钮来锁定你的交易&r。"
+				"E）这是&a货架的存储空间&r。把你要出售的物品都放到这儿来。"
+				"F）这是你的&a收入存储的地方&r。当人们向你买东西时，他们用于付款的物品就会存到这里来。"
 			]
 			id: "5C5768D4346FD3FE"
 			rewards: [
@@ -1352,16 +1352,16 @@
 							value: "forge:apple_crates"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests36.tasks0.title}"
+					title: "任意#forge:apple_crates"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests36.title}"
+			title: "交易和装饰用的箱装苹果！"
 			x: 10.0d
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests37.description}"]
+			description: ["你有没有见过一个&a绑着气球在天上飞的箱子&r？你可以&6把它射下来&r！记得把弓带在身上。"]
 			icon: "starbunclemania:star_balloon"
 			id: "50E79E7487CD3738"
 			rewards: [
@@ -1379,7 +1379,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "{ftbquests.chapter.miscellaneous.quests37.subtitle}"
+			subtitle: "你现在欠浣熊一笔钱"
 			tasks: [
 				{
 					id: "410E1917008F61C8"
@@ -1402,7 +1402,7 @@
 		}
 		{
 			dependencies: ["50E79E7487CD3738"]
-			description: ["{ftbquests.chapter.miscellaneous.quests38.description}"]
+			description: ["如果你是欧皇，也许你能击落一个&b稀有气球宝箱&r！"]
 			id: "218B13F9470F9733"
 			rewards: [
 				{
@@ -1434,11 +1434,11 @@
 		{
 			dependencies: ["3E72CBC6D658F80E"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests39.description0}"
-				"{ftbquests.chapter.miscellaneous.quests39.description1}"
-				"{ftbquests.chapter.miscellaneous.quests39.description2}"
-				"{ftbquests.chapter.miscellaneous.quests39.description3}"
-				"{ftbquests.chapter.miscellaneous.quests39.description4}"
+				"现在你已经获得了你的第一块&b蓝洋结晶&r，你可以将它做成&b海之项链&r。它可以装备在&a胸甲槽位&r或&a作为饰品佩戴&r。"
+				"佩戴这条项链可以&a在水中把你变成美人鱼&r。这可以让你&a游得很快&r并且&a可以在水下呼吸&r。"
+				"你也可以通过将&b项链&r与&b升级物品&r进行合成来&6升级你的外观&r。"
+				"你可以通过将&b项链&r与不同的&b染料&6进行合成&r来给你的尾巴染色，就像&b皮革盔甲&r那样。"
+				"要&d移除染料或升级&r，你需要将&6项链&r拿在手里然后&6右击&r。"
 			]
 			id: "32235F4557C97245"
 			rewards: [
@@ -1453,7 +1453,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.miscellaneous.quests39.subtitle}"
+			subtitle: "懒？蓝洋结晶！"
 			tasks: [
 				{
 					id: "05B780BD03A97741"
@@ -1461,13 +1461,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests39.title}"
+			title: "获得蓝洋结晶"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["32235F4557C97245"]
-			description: ["{ftbquests.chapter.miscellaneous.quests40.description}"]
+			description: ["这个&b闪耀珍珠&r可以让你成为最漂亮的美人鱼，而且你的尾巴会像&a附魔了&r一样闪闪发光！"]
 			id: "446D2A3C8B066099"
 			rewards: [
 				{
@@ -1489,7 +1489,7 @@
 		}
 		{
 			dependencies: ["32235F4557C97245"]
-			description: ["{ftbquests.chapter.miscellaneous.quests41.description}"]
+			description: ["用这个东西来让你看起来在H2O中：只要加点水！"]
 			id: "2ABFB8A3E57C7F1A"
 			rewards: [
 				{
@@ -1511,7 +1511,7 @@
 		}
 		{
 			dependencies: ["32235F4557C97245"]
-			description: ["{ftbquests.chapter.miscellaneous.quests42.description}"]
+			description: ["当你给你的尾巴染色之后，你可以将&6这个物品与一个&b染料&6进行合成&r，然后再将它&6与你的项链合成&r，就可以给你的尾巴&a添加渐变&r。"]
 			id: "082F39C7CD7A47D9"
 			rewards: [
 				{
@@ -1533,7 +1533,7 @@
 		}
 		{
 			dependencies: ["32235F4557C97245"]
-			description: ["{ftbquests.chapter.miscellaneous.quests43.description}"]
+			description: ["想成为小美人鱼？这个升级可以&a让你变成爱丽儿的样子&r。"]
 			id: "3C874A7A82622DA3"
 			rewards: [
 				{
@@ -1555,7 +1555,7 @@
 		}
 		{
 			dependencies: ["32235F4557C97245"]
-			description: ["{ftbquests.chapter.miscellaneous.quests44.description}"]
+			description: ["将你的项链与这个配件合成来&a给美人鱼形态的你穿上文胸&r！"]
 			id: "7F994A9008E7F84D"
 			rewards: [
 				{
@@ -1577,9 +1577,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests45.description0}"
-				"{ftbquests.chapter.miscellaneous.quests45.description1}"
-				"{ftbquests.chapter.miscellaneous.quests45.description2}"
+				"&b维度之泪&r是一种液体，会&a将实体传送&r到它的源点。如果&e玩家&r设置了&a重生点&r，它就会将他传送到那。如果他没有，以及对于&e其他所有实体&r，它会将他们传送至&c世界出生点&r。"
+				"你可以从&a特定的箱子&r中获得这个物品，或者&6用瓶子右击&b哭泣的黑曜石&r或激活的&b重生锚&r来获得。"
+				"要使用它，你可以&6直接喝掉&r或&6将它倒在炼药锅中&r然后跳进去。"
 			]
 			id: "7D8A8CE389AE21D1"
 			rewards: [
@@ -1615,9 +1615,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests46.description0}"
-				"{ftbquests.chapter.miscellaneous.quests46.description1}"
-				"{ftbquests.chapter.miscellaneous.quests46.description2}"
+				"&b荧光棒&r是一种可被&a放置在任何表面上&r或是&a像雪球一样扔出来&r（它会自动放置在落地的地方）的光源。"
+				"它可以&a在水中投掷和放置&r，这使它成为深海探索的理想选择。"
+				"荧光棒还有着像荧光墨囊一样的16种颜色，这使它成为&a标记&r前往不同地点的&a路径&r的理想选择。"
 			]
 			id: "0697B419AB22174A"
 			rewards: [
@@ -1629,7 +1629,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests46.subtitle}"
+			subtitle: "和平，热爱，团结，喝彩"
 			tasks: [
 				{
 					id: "59BDD56EDDDACA8F"
@@ -1640,19 +1640,19 @@
 							value: "spelunkery:glowsticks"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests46.tasks0.title}"
+					title: "任意#spelunkery:glowsticks"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests46.title}"
+			title: "获得一根荧光棒"
 			x: -8.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["43C76F7F1994F0E0"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests47.description0}"
-				"{ftbquests.chapter.miscellaneous.quests47.description1}"
+				"&b磁铁矿&r在地下深处以小团的形式生成，而且被&b熔岩&r和&b深层铁矿石&r环绕，包裹在&b黑曜石&r外壳中。这种晶洞十分稀有。"
+				"你需要&a精准采集&r或者&b锤和凿&r来采集方块，不然你会得到&b磁铁碎块&r，可用于合成物品。"
 			]
 			id: "77EAB36408ACB7A1"
 			rewards: [
@@ -1670,7 +1670,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests47.title}"
+			title: "获得磁铁矿"
 			x: -10.5d
 			y: -6.0d
 		}
@@ -1680,8 +1680,8 @@
 				"48E170D061AE51F6"
 			]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests48.description0}"
-				"{ftbquests.chapter.miscellaneous.quests48.description1}"
+				"这个用&b朱砂&r和&b磁铁矿&r合成的极其有用的工具可以&a将掉落物吸向你&r以便捡起来！ "
+				"&6手持它右击&r以激活，然后&a将它放在你的物品栏中&r。你可以用同样的方法关掉它。"
 			]
 			id: "1B8AFC09F97B6D48"
 			rewards: [
@@ -1709,7 +1709,7 @@
 		}
 		{
 			dependencies: ["43C76F7F1994F0E0"]
-			description: ["{ftbquests.chapter.miscellaneous.quests49.description}"]
+			description: ["挖&b红石矿&r会掉落&b待加工朱砂&r。&6在砂轮上打磨它&r以获取精炼版本。"]
 			id: "48E170D061AE51F6"
 			rewards: [
 				{
@@ -1727,13 +1727,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests49.title}"
+			title: "获得朱砂"
 			x: -9.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1F496C3BE6AA3F4D"]
-			description: ["{ftbquests.chapter.miscellaneous.quests50.description}"]
+			description: ["&b钻石砂轮&r可以更精细地打磨，因此更适用于&a稀有的宝石&r，比如&b钻石&r和&b绿宝石&r。"]
 			id: "5F76FC5927EDF85F"
 			rewards: [
 				{
@@ -1750,7 +1750,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests50.title}"
+			title: "打磨待加工的宝石（2）"
 			x: -6.0d
 			y: -2.5d
 		}
@@ -1775,20 +1775,20 @@
 							value: "spelunkery:diamond_grindable"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests51.tasks0.title}"
+					title: "任意#spelunkery:diamond_grindable"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests51.title}"
+			title: "待加工的稀有宝石"
 			x: -6.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["43C76F7F1994F0E0"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests52.description0}"
-				"{ftbquests.chapter.miscellaneous.quests52.description1}"
-				"{ftbquests.chapter.miscellaneous.quests52.description2}"
+				"&b砂轮&r的其他作用之一，就是可以用来&a打磨待加工的矿物&r，只要它们不太珍贵。"
+				"&6手持物品右击&b砂轮&r进行打磨，可以试试打磨&b待加工的青金石或者朱砂&r。"
+				"注意，你也可以使用&b砂纸&r打磨这些宝石。"
 			]
 			id: "5892F99033AB929C"
 			rewards: [
@@ -1806,7 +1806,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests52.title}"
+			title: "打磨待加工的宝石（1）"
 			x: -6.5d
 			y: -5.5d
 		}
@@ -1832,21 +1832,21 @@
 							value: "spelunkery:grindable"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests53.tasks0.title}"
+					title: "任意#spelunkery:grindable"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests53.title}"
+			title: "待加工的普通宝石"
 			x: -8.25d
 			y: -6.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests54.description0}"
-				"{ftbquests.chapter.miscellaneous.quests54.description1}"
-				"{ftbquests.chapter.miscellaneous.quests54.description2}"
-				"{ftbquests.chapter.miscellaneous.quests54.description3}"
-				"{ftbquests.chapter.miscellaneous.quests54.description4}"
+				"好吧，我承认我对炼药上瘾。那你能把我怎么样？"
+				"总之，&b强化炼药锅&r有一些与众不同的特点。"
+				"当灌装&b空瓶&r时，它&a起到无限水的作用&r。"
+				"它也可以用药水填充，但别尝试把不同药水混合起来！"
+				"据说有一种方法可以把武器浸入其中，但现在似乎已经失传了。"
 			]
 			id: "55B5B1FF2E582197"
 			rewards: [
@@ -1872,8 +1872,8 @@
 		{
 			dependencies: ["55B5B1FF2E582197"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests55.description0}"
-				"{ftbquests.chapter.miscellaneous.quests55.description1}"
+				"&b基础手套&r是一件本身并不令人印象深刻的武器。不过，&a给它升级&r可以释放它真正的潜力！"
+				"正如此，它&a相当于一把&b铁剑&r。"
 			]
 			id: "17E7E31CA9913B11"
 			rewards: [
@@ -1902,7 +1902,7 @@
 		}
 		{
 			dependencies: ["17E7E31CA9913B11"]
-			description: ["{ftbquests.chapter.miscellaneous.quests56.description}"]
+			description: ["&b下界合金手套&r比对应的剑稍微强大一点，但真正令人印象深刻的是&a它的终极版本&r：&b药剂师手套&r。"]
 			id: "2678B12013B210AE"
 			rewards: [
 				{
@@ -1931,11 +1931,11 @@
 		{
 			dependencies: ["2678B12013B210AE"]
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests57.description0}"
-				"{ftbquests.chapter.miscellaneous.quests57.description1}"
-				"{ftbquests.chapter.miscellaneous.quests57.description2}"
-				"{ftbquests.chapter.miscellaneous.quests57.description3}"
-				"{ftbquests.chapter.miscellaneous.quests57.description4}"
+				"&b药剂师手套&r配合&a药水注射器&r可以&a使你的攻击附带药水效果&r。可以注入最多6种&b滞留型药水&r。"
+				"当使用这副手套攻击时，你可以同时造成近战伤害和药水效果的伤害。&6shift+右击&r以开关药水效果。"
+				"使用完一种药水后，它将在几秒后自动装载下一种药水。"
+				"它们会按照&a在药水注射器UI中放置的顺序&r进行装载，药水不会被消耗，但在使用后需要冷却。"
+				"要给你的手套补给药水，请在&b药水注射器&r中放入&b烈焰粉&r。"
 			]
 			id: "025915069DC65690"
 			rewards: [
@@ -1967,9 +1967,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests58.description0}"
-				"{ftbquests.chapter.miscellaneous.quests58.description1}"
-				"{ftbquests.chapter.miscellaneous.quests58.description2}"
+				"那些试图改变自己状态的人可能会发现自己正处于这样的状态，而并不很清楚自己是怎么变成这样的。"
+				"这个成就需要你同时获得&a所有的原版效果&r，以及如下的模组添加的效果："
+				"隐匿（Deeper And Darker模组）、恐慌和宁静（自然环境模组）、生命提升、稳定（夸克模组）。"
 			]
 			id: "3B84722A9CD28821"
 			rewards: [
@@ -2006,7 +2006,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests59.description}"]
+			description: ["即便是最诚实的女巫偶尔也需要偷偷摸摸地行动。但是你……呃，你潜行得&3太多了&r。"]
 			id: "38285B9280444C60"
 			rewards: [
 				{
@@ -2036,12 +2036,12 @@
 					value: 99999
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests59.title}"
+			title: "鬼鬼祟祟"
 			x: -9.0d
 			y: 3.0d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests60.description}"]
+			description: ["哇，你抓了999条鱼？简直是疯了。"]
 			id: "1FDD653A3C13DFDF"
 			rewards: [
 				{
@@ -2060,14 +2060,14 @@
 					value: 999
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests60.title}"
+			title: "一网打尽（还有得抓）"
 			x: -7.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests61.description0}"
-				"{ftbquests.chapter.miscellaneous.quests61.description1}"
+				"还有什么比室内植物更能抚慰心灵？"
+				"在基础花盆（译注：原版花盆或镶框花盆）中种上&a50株迷人的绿色（或粉红色蓝色）植物伙伴&r（译注：实际上任何花都能完成任务）。"
 			]
 			id: "5A1DD637C09F0D13"
 			tasks: [
@@ -2084,10 +2084,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests62.description0}"
-				"{ftbquests.chapter.miscellaneous.quests62.description1}"
-				"{ftbquests.chapter.miscellaneous.quests62.description2}"
-				"{ftbquests.chapter.miscellaneous.quests62.description3}"
+				"&b卓越火炬&r是一种一劳永逸的防止刷怪的方法。"
+				"&b钻石卓越火炬&r可阻止&e敌对生物&r生成。"
+				"&b绿宝石卓越火炬&r可阻止&e中立和被动生物&r生成。"
+				"&b紫水晶卓越火炬&r可阻止&l所有&r生物生成。"
 			]
 			id: "592DF5A6484F1988"
 			rewards: [
@@ -2098,7 +2098,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.miscellaneous.quests62.subtitle}"
+			subtitle: "鼠尾草灼烧盘的替代品"
 			tasks: [
 				{
 					id: "37923B7F68C4E19F"
@@ -2109,19 +2109,19 @@
 							value: "forge:magnum_torches"
 						}
 					}
-					title: "{ftbquests.chapter.miscellaneous.quests62.tasks0.title}"
+					title: "任意#forge:magnum_torches"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests62.title}"
+			title: "防止刷怪"
 			x: 1.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.miscellaneous.quests63.description0}"
+				"为什么不骑猪旅行一会儿呢？它可能不快，不高效，甚至不怎么有趣。"
 				""
-				"{ftbquests.chapter.miscellaneous.quests63.description2}"
+				"不，就这样，这就是整句话。"
 			]
 			id: "7E2641B15D6AF49E"
 			rewards: [
@@ -2150,12 +2150,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests63.title}"
+			title: "猪背上的旅行"
 			x: -11.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.miscellaneous.quests64.description}"]
+			description: ["在&a袭击&r中获胜是一个令人满意的挑战。更好的是，赢得很多次袭击，你还会获得奖励！"]
 			id: "5B185B1B72278050"
 			rewards: [
 				{
@@ -2176,7 +2176,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.miscellaneous.quests64.subtitle}"
+			subtitle: "请问有人需要治疗吗"
 			tasks: [
 				{
 					id: "5826833749DA8FAE"
@@ -2185,10 +2185,10 @@
 					value: 10
 				}
 			]
-			title: "{ftbquests.chapter.miscellaneous.quests64.title}"
+			title: "偷袭大神"
 			x: -9.0d
 			y: 6.5d
 		}
 	]
-	title: "{ftbquests.chapter.miscellaneous.title}"
+	title: "杂项"
 }

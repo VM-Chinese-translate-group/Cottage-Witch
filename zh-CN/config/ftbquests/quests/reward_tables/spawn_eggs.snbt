@@ -94,5 +94,5 @@
 			item: "minecraft:allay_spawn_egg"
 		}
 	]
-	title: "{ftbquests.reward_tables.spawn_eggs.title}"
+	title: "刷怪蛋"
 }

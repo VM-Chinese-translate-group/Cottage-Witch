@@ -30,9 +30,9 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests0.description0}"
-				"{ftbquests.chapter.hexerei.quests0.description1}"
-				"{ftbquests.chapter.hexerei.quests0.description2}"
+				"巫师手里最重要的工具之一是&b暗影之书&r，它们在其中记录沿途的知识和经验。"
+				"关于你所在的这个世界上的魔法，这本书很有帮助地&a提供了许多信息&r，尽管这并不是一个完整的指南。"
+				"要阅读你的&b暗影之书&r，你必须将其放在一个书坛上。"
 			]
 			id: "0BD409AFD13534B3"
 			rewards: [
@@ -43,7 +43,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests0.subtitle}"
+			subtitle: "巫师最好的朋友"
 			tasks: [
 				{
 					id: "528DF902FAC0B2BA"
@@ -60,7 +60,7 @@
 		}
 		{
 			dependencies: ["0BD409AFD13534B3"]
-			description: ["{ftbquests.chapter.hexerei.quests1.description}"]
+			description: ["你需要一个&b书坛&r来放置你的&b暗影之书&r。要制作这个魔法基座，你需要在&a丛林&r生物群系找到一棵&b桃花心树&r。"]
 			id: "047370ADE354D8DB"
 			rewards: [
 				{
@@ -76,7 +76,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests1.subtitle}"
+			subtitle: "魔法的焦点"
 			tasks: [
 				{
 					id: "6D8496FFCD25B7E8"
@@ -89,8 +89,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.hexerei.quests2.description0}"
-				"{ftbquests.chapter.hexerei.quests2.description1}"
+				"用来定位这个mod中的多数内容，其一，先定位一片&a沼泽&r或&a丛林&r生物群系。这些都能通过&b自然指南针&r或&b探测棒&r找到。"
+				"当它面向&r上述任一生物群系时，&b探测棒&r的叶子会&a改变颜色。如果你将它做成&b自然指南针&r，你就能&a搜索周围地区&r的任何生物群系。"
 			]
 			id: "082D264993F18EDB"
 			rewards: [
@@ -107,7 +107,7 @@
 			]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "{ftbquests.chapter.hexerei.quests2.subtitle}"
+			subtitle: "指明道路的神奇指南针"
 			tasks: [
 				{
 					id: "0EFEF3BCA9D8406D"
@@ -115,15 +115,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests2.title}"
+			title: "合成一根探测棒"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests3.description0}"
-				"{ftbquests.chapter.hexerei.quests3.description1}"
+				"&b月光石&r只能在&a丛林&r或&a沼泽&r生物群系的晶洞中找到。月光石是一种有着强大净化特性的水晶。"
+				"月光石能用来做&b下界合金扫帚头&r，也可以酿造&b瓶装奶&r，或是&a洗染色玻璃&r。"
 			]
 			id: "07C5DED85B5B7B31"
 			rewards: [
@@ -141,7 +141,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests3.subtitle}"
+			subtitle: "白 月 光"
 			tasks: [
 				{
 					id: "39690311AC307209"
@@ -155,8 +155,8 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests4.description0}"
-				"{ftbquests.chapter.hexerei.quests4.description1}"
+				"炼药锅够用了，但你会想得到更神奇的东西。要制作这个高级合成工具，只需要用&b铁锭&r和&b火把&r增强一口普通的&b炼药锅&r。"
+				"&d当心！不要对着混合锅使用无限水桶！&r这会消耗水桶的水和附魔。"
 			]
 			id: "327D93798A7BE211"
 			rewards: [
@@ -178,7 +178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests4.subtitle}"
+			subtitle: "能右击打开的炼药锅！"
 			tasks: [
 				{
 					id: "488C14AA07A91B92"
@@ -186,15 +186,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests4.title}"
+			title: "做一个混合锅"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests5.description0}"
-				"{ftbquests.chapter.hexerei.quests5.description1}"
+				"&b储物箱&r是一种存储物品的箱子，与&b潜影盒&r类似，它被破坏后&a也能保留其中的物品&r。当玩家靠近时，它还会&a展示内部物品&r，既实用又好看！"
+				"储物箱还支持染色和重命名。"
 			]
 			id: "2E5DB4D84367E11B"
 			rewards: [
@@ -206,7 +206,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests5.subtitle}"
+			subtitle: "比棺材好多了"
 			tasks: [
 				{
 					id: "15EC7F22F2909AA0"
@@ -218,13 +218,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests5.title}"
+			title: "获得一个储物箱"
 			x: 4.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
-			description: ["{ftbquests.chapter.hexerei.quests6.description}"]
+			description: ["&b注魔织物&r是你打造第一套&b女巫长袍&r的基础材料。尽管是用布料做的，但这套长袍经纱和纬纱纵横交织，给予了额外的防御力。"]
 			id: "427FD234857AEBE8"
 			rewards: [
 				{
@@ -234,7 +234,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests6.subtitle}"
+			subtitle: "当然是黑色"
 			tasks: [
 				{
 					id: "76507BA19151F1B1"
@@ -242,16 +242,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests6.title}"
+			title: "制作注魔织物"
 			x: 6.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests7.description0}"
-				"{ftbquests.chapter.hexerei.quests7.description1}"
-				"{ftbquests.chapter.hexerei.quests7.description2}"
+				"&b蘸注器&r用于制作蜡烛。它能放置在&b混合锅&r上，向锅中填充&b油脂&r（由动物脂肪熬制而成）并将线挂在上面就能&6制作蜡烛&r。"
+				"不同于原版蜡烛，它们可以与不同颜色的蜡烛放在一起并且可以单独点燃！"
+				"在混合锅中使用&b动物油脂和蜜脾&r能合成&b油脂&r。"
 			]
 			id: "0CE78F66E92FB026"
 			rewards: [
@@ -269,7 +269,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests7.subtitle}"
+			subtitle: "一个“大蘸注器”的笑话是不是有些明显了？（译注：蘸注器的英文名为dipper）"
 			tasks: [
 				{
 					id: "7E7042B5D9EA5B06"
@@ -277,15 +277,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests7.title}"
+			title: "制造一个蘸注器"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0CE78F66E92FB026"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests8.description0}"
-				"{ftbquests.chapter.hexerei.quests8.description1}"
+				"&b烛台&r是一个装饰方块，能够放在方块上或吊在方块下，用于照亮周遭区域。"
+				"它可以和&b锁链&r无缝连接。"
 			]
 			id: "512C813AEE3A5BCD"
 			rewards: [
@@ -303,7 +303,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests8.subtitle}"
+			subtitle: "蜡留着下次烧！"
 			tasks: [
 				{
 					id: "6D8F60A172E688C7"
@@ -311,13 +311,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests8.title}"
+			title: "制作一个烛台"
 			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
-			description: ["{ftbquests.chapter.hexerei.quests9.description}"]
+			description: ["&b研钵&r是研磨草药的工具。现在，它的主要作用是制作&b混合种子&r以驯服&a乌鸦&r。非常值！"]
 			id: "24C19E2033095FFA"
 			rewards: [
 				{
@@ -351,7 +351,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests9.subtitle}"
+			subtitle: "白研相看"
 			tasks: [
 				{
 					id: "45ECD184E676ED09"
@@ -359,13 +359,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests9.title}"
+			title: "制作一个研钵"
 			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
-			description: ["{ftbquests.chapter.hexerei.quests10.description}"]
+			description: ["你可以用&b干燥架&r&6将草药晾干&r。它同样是一个可爱的装饰。"]
 			id: "621ACA8319D6CB93"
 			rewards: [
 				{
@@ -393,7 +393,7 @@
 		}
 		{
 			dependencies: ["327D93798A7BE211"]
-			description: ["{ftbquests.chapter.hexerei.quests11.description}"]
+			description: ["&b鼠尾草灼烧盘&r允许你燃烧&b鼠尾草&r，可以在大范围内&a阻止敌对怪物生成&r。"]
 			id: "34670D78DC22EC27"
 			rewards: [
 				{
@@ -420,17 +420,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests11.title}"
+			title: "制作一个鼠尾草灼烧盘"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["34670D78DC22EC27"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests12.description0}"
-				"{ftbquests.chapter.hexerei.quests12.description1}"
-				"{ftbquests.chapter.hexerei.quests12.description2}"
-				"{ftbquests.chapter.hexerei.quests12.description3}"
+				"燃烧鼠尾草是一种古老的、有记载的净化暗能或是邪量的方法。在这个世界中，这能&a在灼烧盘附近相当大的范围内阻止怪物生成&r。"
+				"要点燃&b鼠尾草捆&r，首先要把它挂在&b干燥架&r上，直到水分消失并且叶子干燥。接下来，把这捆草放到&b鼠尾草灼烧盘&r上并用&b打火石&r点燃。"
+				"在白天，这捆草能够被&a熄灭&r（&6空手shift右击&r）并&a保留耐久度&r，可供下一晚再次使用。"
+				"附注：烧鼠尾草是一种多元文化的做法，不应与烧烟草混为一谈。烧烟草是一种在封闭空间恐吓原住民的做法，不应在Minecraft中尝试。"
 			]
 			id: "2AABE6469023F950"
 			rewards: [
@@ -451,7 +451,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests12.subtitle}"
+			subtitle: "苏喂苏喂苏喂"
 			tasks: [
 				{
 					id: "6271D4424F4DE0CD"
@@ -459,13 +459,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests12.title}"
+			title: "制作一捆鼠尾草"
 			x: -3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
-			description: ["{ftbquests.chapter.hexerei.quests13.description}"]
+			description: ["每个巫师都需要一顶好的&b帽子&r。你可以用&b注魔布料&r制作你的，或者在沼泽的&d巫师公会&r找到它。"]
 			id: "30CF344B2B4C22E8"
 			rewards: [
 				{
@@ -475,7 +475,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests13.subtitle}"
+			subtitle: "符文、神话、传说"
 			tasks: [
 				{
 					id: "2E4DAE009735A9AE"
@@ -494,7 +494,7 @@
 		}
 		{
 			dependencies: ["30CF344B2B4C22E8"]
-			description: ["{ftbquests.chapter.hexerei.quests14.description}"]
+			description: ["用蘑菇装饰帽子的人审美一定很不错，尽管这没有任何的实际好处。"]
 			id: "12BD390D5D9BA40F"
 			rewards: [
 				{
@@ -504,7 +504,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests14.subtitle}"
+			subtitle: "说真的，这是最牛的升级"
 			tasks: [
 				{
 					id: "7BD71B4C57FB882C"
@@ -518,15 +518,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests14.title}"
+			title: "用蘑菇装饰你的帽子"
 			x: 9.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests15.description0}"
-				"{ftbquests.chapter.hexerei.quests15.description1}"
+				"&b长袍&r是&b巫师三件套&r的第二件。这套装备比&b钻石套&r稍微弱一点，但比&b铁套&r更强因为它有自带魔法保护效果。"
+				"不幸的是，巫师似乎不关心裤子—— 如果你想要，你就必须去其他地方转转。"
 			]
 			id: "56D87707F4EA479B"
 			rewards: [
@@ -540,7 +540,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests15.subtitle}"
+			subtitle: "力量，永不过时"
 			tasks: [
 				{
 					id: "530E75B6474DD630"
@@ -554,15 +554,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests15.title}"
+			title: "女巫长袍"
 			x: 8.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["427FD234857AEBE8"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests16.description0}"
-				"{ftbquests.chapter.hexerei.quests16.description1}"
+				"&b巫师套&a套装奖励&r取决于你穿着多少单件（总共3件）"
+				"在套装中的任意一件上按住shift来查看套装加成。"
 			]
 			id: "593B80E42F663D6A"
 			rewards: [
@@ -572,7 +572,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests16.subtitle}"
+			subtitle: "这些靴子是为巫师制作的"
 			tasks: [
 				{
 					id: "286AD377C5E2B47A"
@@ -592,10 +592,10 @@
 		{
 			dependencies: ["327D93798A7BE211"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests17.description0}"
-				"{ftbquests.chapter.hexerei.quests17.description1}"
-				"{ftbquests.chapter.hexerei.quests17.description2}"
-				"{ftbquests.chapter.hexerei.quests17.description3}"
+				"在&b混合锅&r中融化8块&b沙子&r可以制作&b药草罐&r。每个药草罐&a仅能装一种&r草药，但能&a装1024份&r这种草药！"
+				"药草罐能&a展示内部所存物品&r，并且能够通过&b铁砧&r命名。被破坏后，药草罐能够保存其中的物品。"
+				"&6左击&r药草罐可以拿取一个物品。&6潜行左击&r可以拿取一组。"
+				"如果药草罐内的按钮（&6潜行右击&r以打开界面）被按下，&e驯服的乌鸦&r会&a采集和存放收获的草药&r。"
 			]
 			id: "05772A2D60C9FF3D"
 			rewards: [
@@ -607,7 +607,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests17.subtitle}"
+			subtitle: "满上，哥们"
 			tasks: [
 				{
 					id: "436CB6E46B3B076B"
@@ -619,16 +619,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests17.title}"
+			title: "制作一个草药罐"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests18.description0}"
-				"{ftbquests.chapter.hexerei.quests18.description1}"
-				"{ftbquests.chapter.hexerei.quests18.description2}"
+				"乌鸦喜欢音乐！如果你找不到你的乌鸦，你可以通过使用&b乌鸦竖笛&r来立刻召唤它们。你需要&b桃花心木&r和一些&b染料&r来合成这个。"
+				"&6拿着竖笛右击&r演奏一段曲子来召唤你的&e乌鸦&r。"
+				"如果你&6用竖笛潜行右击一只乌鸦&r，你就能通过&a选择&r按钮选择它。接着，你可以选择&a栖息&r，然后&6用竖笛潜行右击一个方块/物品栏中物品&r以告诉你的乌鸦你栖息的位置。乌鸦在被告知&a收集&r时会把物品带回栖息点。"
 			]
 			id: "2C760E07C84C91F2"
 			rewards: [
@@ -638,7 +638,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests18.subtitle}"
+			subtitle: "十分迷人"
 			tasks: [
 				{
 					id: "01F04DAC0D910CBC"
@@ -655,7 +655,7 @@
 		}
 		{
 			dependencies: ["24C19E2033095FFA"]
-			description: ["{ftbquests.chapter.hexerei.quests19.description}"]
+			description: ["合成一些&b混合种子&r来驯服&e野生乌鸦&r。一旦你驯服了一只乌鸦，它将帮助你完成营地附近的任务！"]
 			id: "18FD7541912B5772"
 			rewards: [
 				{
@@ -665,7 +665,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests19.subtitle}"
+			subtitle: "乌鸦大叫的原因"
 			tasks: [
 				{
 					id: "6BB279A5AA82F107"
@@ -673,7 +673,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests19.title}"
+			title: "在臼中混合一些种子"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -683,12 +683,12 @@
 				"13B72F5C0CF9E9FB"
 			]
 			description: [
-				"{ftbquests.chapter.hexerei.quests20.description0}"
-				"{ftbquests.chapter.hexerei.quests20.description1}"
-				"{ftbquests.chapter.hexerei.quests20.description2}"
-				"{ftbquests.chapter.hexerei.quests20.description3}"
-				"{ftbquests.chapter.hexerei.quests20.description4}"
-				"{ftbquests.chapter.hexerei.quests20.description5}"
+				"&b扫帚&r有三种，&a柳木&r、&a金缕梅木&r、以及&a桃花心木&r。金缕梅木和柳木扫帚制作容易，但是骑着稍慢并且易燃。桃花心木扫帚更快并且抗火——很值得升级！"
+				"你可以&6潜行右击&r你的扫帚来查看它的自定义选项，同样能把它从&a悬浮&r模式转换到&a放置模式&r，这决定了你下扫帚的时候扫帚会怎样。"
+				"你同样会需要一个&b扫帚口哨&r。"
+				"弄丢了你的扫帚？别担心！把它召唤到你身边只需要&6右击&r你的&b扫帚口哨&r！"
+				"首先你需要把&b口哨&6和&b扫帚&6放在合成栏中&r来将其绑定。你可以&a取消绑定&r通过&6单独合成&b口哨&r。"
+				"注意&d当你的扫帚在视野内时，这个方法是最奏效的&r。它会尝试飞向你，但它仅仅只是一把扫帚，因此它&a不是很聪明&r会经常撞到东西。"
 			]
 			id: "1698226644682207"
 			rewards: [
@@ -704,7 +704,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests20.subtitle}"
+			subtitle: "时刻准备着！"
 			tasks: [
 				{
 					id: "7DCEB8A6B4301FD3"
@@ -726,17 +726,17 @@
 							value: "forge:brooms"
 						}
 					}
-					title: "{ftbquests.chapter.hexerei.quests20.tasks1.title}"
+					title: "任意#forge:brooms"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests20.title}"
+			title: "制作一把扫帚和口哨"
 			x: 0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1698226644682207"]
-			description: ["{ftbquests.chapter.hexerei.quests21.description}"]
+			description: ["通常情况下，当你飞行时进入水中，你会从扫帚上摔下来。但是，通过在一端加上这个扫帚头，就能在有限时间内防止你掉在水中。"]
 			id: "12C571F5FBC6B57C"
 			rewards: [
 				{
@@ -747,7 +747,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests21.subtitle}"
+			subtitle: "你也可以成为一名海中巫师"
 			tasks: [
 				{
 					id: "675DC589F6C9FEB6"
@@ -761,17 +761,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests21.title}"
+			title: "制作防水扫帚头"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1698226644682207"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests22.description0}"
-				"{ftbquests.chapter.hexerei.quests22.description1}"
-				"{ftbquests.chapter.hexerei.quests22.description2}"
-				"{ftbquests.chapter.hexerei.quests22.description3}"
+				"你可以在你的&b扫帚&r上添加一个&b挎包&r，两者都是非常可爱的装饰，可以作为一种旅途中一种储存物品的方式！"
+				"挎包一共有三种：&b小型挎包&r，&b中型挎包&r，&b大型挎包&r。扫帚只能装备一种挎包。"
+				"中型挎包需要一个小型挎包来合成。大型挎包需要一个中型挎包和一个小型挎包，把他们结合起装在你的扫帚上。"
+				"潜行右击你的扫帚可以打开它的&a配饰和物品栏&r。"
 			]
 			id: "02CA3D4397E8BA25"
 			rewards: [
@@ -781,7 +781,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests22.subtitle}"
+			subtitle: "随身口袋"
 			tasks: [
 				{
 					id: "74C05E33A1A78FDF"
@@ -789,13 +789,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests22.title}"
+			title: "制作一个小挎包"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7793743B2F9DE215"]
-			description: ["{ftbquests.chapter.hexerei.quests23.description}"]
+			description: ["&b增强扫帚尾&r有更高的耐久。做出来别忘了把它晾干！"]
 			id: "056F7888052BBEF2"
 			rewards: [
 				{
@@ -804,7 +804,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests23.subtitle}"
+			subtitle: "绚烂夺目的拖尾"
 			tasks: [
 				{
 					id: "3B0F714724380504"
@@ -818,15 +818,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests23.title}"
+			title: "制作一个增强扫帚尾"
 			x: 3.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests24.description0}"
-				"{ftbquests.chapter.hexerei.quests24.description1}"
+				"&b曼德拉草根&r通常用于升级你的&b扫帚&r同样也能用于&b堆肥&r。"
+				"它也能在&b坩埚&r中参与&a秘方制作&r！更多信息参见&dMystic_Alchemy&r章节。（译注：Mystic_Alchemy章节及该mod是此整合包mc1.18版本专属内容，现版本已失效。）"
 			]
 			id: "5857E5BBCF888CDE"
 			rewards: [
@@ -878,9 +878,9 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests25.description0}"
-				"{ftbquests.chapter.hexerei.quests25.description1}"
-				"{ftbquests.chapter.hexerei.quests25.description2}"
+				"鲜血符印用于为仪式收集血液。由&b红石&r和&b磨制黑石&r制成。"
+				"一旦做出一个符文，你就可以把它放在&b混合锅&r的底部（&a右击混合锅并把它放在合成界面左边那个槽位&r）。"
+				"安装好后，确保混合锅内没有流体，然后&a跳进去&r。血液必须来自一名自愿者，也就是你！跳三次可以获得足够一瓶的血液。接着，用&b玻璃瓶&r右击混合锅来收集它。"
 			]
 			id: "13B72F5C0CF9E9FB"
 			rewards: [
@@ -904,13 +904,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests25.title}"
+			title: "制作一个嗜血符文"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["12C571F5FBC6B57C"]
-			description: ["{ftbquests.chapter.hexerei.quests26.description}"]
+			description: ["与防水扫帚头相似，&b下界合金扫帚头&r不会让玩家掉入熔岩中。强烈建议装在&b桃花心木扫帚&r上，因为它防火。"]
 			id: "76A73E61526B9EE1"
 			rewards: [
 				{
@@ -931,7 +931,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.hexerei.quests26.subtitle}"
+			subtitle: "我侍奉炎魔之王！"
 			tasks: [
 				{
 					id: "5159842F9DC7FD8C"
@@ -945,13 +945,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests26.title}"
+			title: "制作下界合金扫帚头"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1698226644682207"]
-			description: ["{ftbquests.chapter.hexerei.quests27.description}"]
+			description: ["随着扫帚的使用，扫帚尾的耐久会慢慢减少并需要替换。首先要做一个&b湿的扫帚尾&r，可以立刻把它升级为&b增强扫帚尾&r或者在&b干燥架&r上使它干燥。"]
 			id: "7793743B2F9DE215"
 			rewards: [
 				{
@@ -960,7 +960,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests27.subtitle}"
+			subtitle: "让你的爱帚再次翱翔"
 			tasks: [
 				{
 					id: "78EC7021D87AB697"
@@ -968,15 +968,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests27.title}"
+			title: "制作一个可替换的扫帚尾"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests28.description0}"
-				"{ftbquests.chapter.hexerei.quests28.description1}"
+				"&b颠茄花&r用于升级你的&b扫帚&r，也可用于&b堆肥&r。"
+				"不过，要小心！&a这种浆果是有毒的&r。"
 			]
 			id: "41B2EB805FCD2C60"
 			rewards: [
@@ -1005,8 +1005,8 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests29.description0}"
-				"{ftbquests.chapter.hexerei.quests29.description1}"
+				"&b黄色酸模&r用于升级你的&b扫帚&r，也可用于&b堆肥&r。"
+				"它也能在&b坩埚&r中参与&a秘方制作&r！更多信息参见&dMystic_Alchemy&r章节。（译注：Mystic_Alchemy章节及该mod是此整合包mc1.18版本专属内容，现版本已失效。）"
 			]
 			id: "10936C04ABFAA5B1"
 			rewards: [
@@ -1035,8 +1035,8 @@
 		{
 			dependencies: ["082D264993F18EDB"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests30.description0}"
-				"{ftbquests.chapter.hexerei.quests30.description1}"
+				"&b艾嵩&r用于升级你的&b扫帚&r，也可用于&b堆肥&r。"
+				"它也能在&b坩埚&r中参与&a秘方制作&r！更多信息参见&dMystic_Alchemy&r章节。译注：Mystic_Alchemy章节及该mod是此整合包mc1.18版本专属内容，现版本已失效。"
 			]
 			id: "04331D16FB50EEE3"
 			rewards: [
@@ -1065,12 +1065,12 @@
 		{
 			dependencies: ["18FD7541912B5772"]
 			description: [
-				"{ftbquests.chapter.hexerei.quests31.description0}"
-				"{ftbquests.chapter.hexerei.quests31.description1}"
-				"{ftbquests.chapter.hexerei.quests31.description2}"
-				"{ftbquests.chapter.hexerei.quests31.description3}"
+				"一旦你遇见&e乌鸦&r，你就能够驯服它。只需要给他一堆&b混合种子&r，它们胃口可能有点大！"
+				"驯服乌鸦后，你就能&6潜行右击它&r来&a打开它的菜单&r。"
+				"如果&6直接右击&r，就会&a改变其模式&r为坐下、跟随以及更多。你也可以在菜单中改变这些。一般情况下，乌鸦会跟随你，并坐在你的肩膀上，除非你潜行。"
+				"在菜单界面同样能&a为乌鸦装备帽子和武器&r。它会穿戴绝大多数头盔，也能使用绝大多数近战武器。"
 				"{image:hexerei:textures/book/pictures/crow_gui.png width:100 height:100 align:1}"
-				"{ftbquests.chapter.hexerei.quests31.description5}"
+				"通过菜单，你可以命令你的&e爱鸦&r帮助你收获作物、跟着你去打架，甚至去&a偷村民的东西&r。"
 			]
 			id: "2F933DC876021A85"
 			rewards: [
@@ -1082,7 +1082,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.hexerei.quests31.subtitle}"
+			subtitle: "似曾相识"
 			tasks: [
 				{
 					icon: "hexerei:crow_spawn_egg"
@@ -1093,13 +1093,13 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests31.title}"
+			title: "遇到乌鸦"
 			x: 5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
-			description: ["{ftbquests.chapter.hexerei.quests32.description}"]
+			description: ["你可以通过给两只驯服的&e乌鸦&r其中的一只一小块&b金粒&r来繁殖乌鸦。它会拿着金粒去找它的潜在配偶，然后它们就会交配！"]
 			id: "2EF910B028DA06B7"
 			rewards: [
 				{
@@ -1113,7 +1113,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "{ftbquests.chapter.hexerei.quests32.subtitle}"
+			subtitle: "亮瞎了！"
 			tasks: [
 				{
 					id: "389497740C370A4A"
@@ -1121,13 +1121,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests32.title}"
+			title: "繁殖乌鸦"
 			x: 4.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["082D264993F18EDB"]
-			description: ["{ftbquests.chapter.hexerei.quests33.description}"]
+			description: ["&c沼泽&r深处藏着&c黑暗巫师公会&r，这是一个&c黑暗巫师&r的聚集地。如果你&6穿着他们的长袍&r，他们会忽视你。但是任何他们认为不是自己人的人都会被当做敌人。"]
 			id: "196ECF57CAC465DF"
 			rewards: [
 				{
@@ -1195,13 +1195,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.hexerei.quests33.title}"
+			title: "发现黑暗巫师公会"
 			x: -9.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["02CA3D4397E8BA25"]
-			description: ["{ftbquests.chapter.hexerei.quests34.description}"]
+			description: ["&b替换者挎包&r意外地有用，因为它会用其中的扫帚尾来&a替换损坏的&b扫帚尾&r，左上角的物品优先参与替换。"]
 			id: "257F1DCDEC619664"
 			rewards: [
 				{
@@ -1228,7 +1228,7 @@
 		}
 		{
 			dependencies: ["02CA3D4397E8BA25"]
-			description: ["{ftbquests.chapter.hexerei.quests35.description}"]
+			description: ["&b末影挎包&r是一个存储升级，&a它能访问你的末影箱！&r"]
 			id: "434E391D87C3EBD9"
 			rewards: [
 				{
@@ -1255,7 +1255,7 @@
 		}
 		{
 			dependencies: ["2F933DC876021A85"]
-			description: ["{ftbquests.chapter.hexerei.quests36.description}"]
+			description: ["给你的&e乌鸦&r装备这个&b十字护符&r会让其从危险中逃脱。就像&b不死图腾&r一样，乌鸦死亡时，它会假死并&a重生&r。"]
 			id: "0D8DA3376EF50A60"
 			rewards: [
 				{
@@ -1296,5 +1296,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter.hexerei.title}"
+	title: "魔法巫师"
 }

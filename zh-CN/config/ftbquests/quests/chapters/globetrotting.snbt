@@ -60,7 +60,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests0.description}"]
+			description: ["忍者与女巫之间有交集吗？我不确定，但这套护甲真的很酷，为什么不停下疑问并仅仅完成任务呢，嗯哼？不知天高地厚的年轻女巫，去&6攀爬90000厘米&r来证明自己的价值。"]
 			id: "240FB022501AAC3B"
 			rewards: [
 				{
@@ -109,7 +109,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests0.subtitle}"
+			subtitle: "欲穷千里目，更上九万楼"
 			tasks: [
 				{
 					id: "3FD5ABFC21E1C5FB"
@@ -118,12 +118,12 @@
 					value: 90000
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests0.title}"
+			title: "隐藏在木叶村的女巫"
 			x: -6.5d
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests1.description}"]
+			description: ["恭喜你，你已经打开了10个陷阱箱！这是个值得庆祝的成就。现在收拾好心情吧。"]
 			id: "4470E2B09DB2B676"
 			rewards: [
 				{
@@ -147,12 +147,12 @@
 					value: 10
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests1.title}"
+			title: "是不幸还是单纯的蠢"
 			x: -7.5d
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests2.description}"]
+			description: ["这个古朴的&c渔夫湖边小屋&r是固定在水里的，这里是钓鱼的好地方。"]
 			id: "653C7B872B33A477"
 			rewards: [
 				{
@@ -176,8 +176,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests3.description0}"
-				"{ftbquests.chapter.globetrotting.quests3.description1}"
+				"只有亲眼所见，人们才会相信&c远古矿洞&r这样的一个地方。一个巨大的地下裂缝，曾经住着那些贪得无厌和深度挖掘的人。小心现在住在那里的东西。"
+				"&d春晓之巫：巨型洞穴蜈蚣&r。虽然它们在大多数整合包中都是被禁用的，这个结构会有一个巨型洞穴蜈蚣的刷怪笼。当你在里面的时候要时刻警惕。"
 			]
 			id: "7EB4DAB78F4A04F3"
 			rewards: [
@@ -235,8 +235,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests4.description0}"
-				"{ftbquests.chapter.globetrotting.quests4.description1}"
+				"&c掠夺者堡垒&r最好是和朋友组队一起来。然而，一个能力出众且坚韧不拔的女巫肯定会一个人去。"
+				"&6记得检查隐蔽的墙壁&r。"
 			]
 			id: "64D0EFCC9BE460DE"
 			rewards: [
@@ -288,8 +288,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests5.description0}"
-				"{ftbquests.chapter.globetrotting.quests5.description1}"
+				"要想找到&c蛇宫&r，你必须从村民那买张地图。"
+				"不过，你要小心。那里面危险重重，甚至还有一个最终boss！"
 			]
 			id: "4A83D94AEF11125B"
 			rewards: [
@@ -330,8 +330,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests6.description0}"
-				"{ftbquests.chapter.globetrotting.quests6.description1}"
+				"这个世界有很多不同的自然结构供你去遇到！有些是危险的，还有一些只有&a一丢丢危险&r。"
+				"其中大多数包含&a大量战利品&r！为什么不试着找到所有的结构呢？"
 			]
 			id: "4EE44DF5D0E5BD53"
 			optional: true
@@ -347,7 +347,7 @@
 			tasks: [
 				{
 					id: "08B6A44D9D1A4B9F"
-					title: "{ftbquests.chapter.globetrotting.quests6.tasks0.title}"
+					title: "离开这里"
 					type: "checkmark"
 				}
 			]
@@ -355,7 +355,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests7.description}"]
+			description: ["找到&c药剂师住所&r，一座有奇怪机器和大量&e掠夺者&r的大型结构。"]
 			id: "3577B78260820DA0"
 			rewards: [
 				{
@@ -411,7 +411,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests8.description}"]
+			description: ["如果不去&c女巫的树桩&r，你的生活还算完整吗？不完整。不幸的是，在那里安家的女巫并不友好。但是一旦你征服了他们，你就可以利用他们的物品来达到自己的目的。"]
 			id: "28AAD7D3C76F2FE2"
 			rewards: [
 				{
@@ -456,7 +456,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests9.description}"]
+			description: ["爬上&c法师尖塔&r你可能会发现以前的居民所发生的事。此外，还要注意有地下室。"]
 			id: "12A79C72CA9EF466"
 			rewards: [
 				{
@@ -482,7 +482,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests10.description}"]
+			description: ["最棒的女巫总是见多识广的。因此，&6通关探索所有原版群系来证明你的勇气吧&r！"]
 			id: "369DEAD83BD150DA"
 			rewards: [
 				{
@@ -543,7 +543,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests10.subtitle}"
+			subtitle: "海外女巫"
 			tasks: [
 				{
 					advancement: "minecraft:adventure/adventuring_time"
@@ -552,12 +552,12 @@
 					type: "advancement"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests10.title}"
+			title: "到达所有原版的生物群系"
 			x: -7.0d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests11.description}"]
+			description: ["周游所有下界群系"]
 			id: "7EF7EE2181ECA4E9"
 			rewards: [
 				{
@@ -591,7 +591,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests12.description}"]
+			description: ["发现&c附魔师之塔&r，一个小而舒适且有魔法扭曲的尖塔。"]
 			id: "418199C728BB5312"
 			rewards: [
 				{
@@ -614,7 +614,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests13.description}"]
+			description: ["&b城堡&r是许多友善的&e村民&r的家，他们的统治者坐在石制的宝座上。"]
 			id: "2990F79A11CD8ED8"
 			rewards: [
 				{
@@ -642,7 +642,7 @@
 			y: 7.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests14.description}"]
+			description: ["发现&c地下墓穴&r，一个&a爬满大量亡灵&r的地方，但是有隐藏宝藏！"]
 			id: "3533886FEAAAE291"
 			rewards: [
 				{
@@ -688,9 +688,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests15.description0}"
+				"找到&c亡灵要塞&r，并存活下来！*"
 				""
-				"{ftbquests.chapter.globetrotting.quests15.description2}"
+				"*存活是可选项"
 			]
 			id: "06689552C75A9825"
 			rewards: [
@@ -736,7 +736,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests16.description}"]
+			description: ["在某个森林中，树木不仅仅是活着，而且还可以讲话！你自己去发现吧。"]
 			id: "5D8A16DE54B55BEA"
 			invisible: true
 			rewards: [
@@ -748,7 +748,7 @@
 				}
 			]
 			shape: "heart"
-			subtitle: "{ftbquests.chapter.globetrotting.quests16.subtitle}"
+			subtitle: "说实话智慧并不常在"
 			tasks: [
 				{
 					icon: "mysticaloaktree:wise_oak"
@@ -759,12 +759,12 @@
 					type: "observation"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests16.title}"
+			title: "发现智慧橡树"
 			x: -8.5d
 			y: -6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests17.description}"]
+			description: ["好奇特的雕像。是谁做的呢？目的又是什么呢？"]
 			id: "38460BA08907533F"
 			rewards: [
 				{
@@ -782,7 +782,7 @@
 					id: "75641BA6E29894EE"
 					observe_type: 0
 					timer: 0L
-					title: "{ftbquests.chapter.globetrotting.quests17.tasks0.title}"
+					title: "找到一个复活节岛石像"
 					to_observe: "moyai:moyai"
 					type: "observation"
 				}
@@ -791,7 +791,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests18.description}"]
+			description: ["旅途的起始应将你带到耸立于周围陆地的&c高塔&r，最常在平原，森林和山地间发现。这些高塔&a蕴藏着无数财宝&r，也包括了&b前往下一座地牢的地图……&r"]
 			id: "4609AFE9E0472C33"
 			rewards: [
 				{
@@ -816,13 +816,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests18.title}"
+			title: "找到高塔"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["4609AFE9E0472C33"]
-			description: ["{ftbquests.chapter.globetrotting.quests19.description}"]
+			description: ["&c复苏废墟&c有&a三种类型&r。&a你解锁的新地图&r决定你将要完成哪一个。你只用找到其中的一个就能完成此任务，但如果你想&a收集完所有的遗物&r，你需要&6探寻更多的遗迹&r！"]
 			hide: true
 			id: "2BAEDCFF3F99C4F0"
 			min_required_tasks: 1
@@ -854,13 +854,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests19.title}"
+			title: "复苏废墟"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["{ftbquests.chapter.globetrotting.quests20.description}"]
+			description: ["我在这些地下城中发现的日记里这样写道：“我们在&c沙漠&r中发现了这具&c古老的骨架&r，它们的下面隐藏着一个秘密。探索古庙，&a寻找其中的宝藏&r。传说这里就是&b利维坦骨刃&r的埋藏之地。除了珍贵的宝藏，这里生成的&e尸壳&r还会&a掉落&b沙子&r”"]
 			hide: true
 			id: "4E1F4BA7F58DCAC8"
 			rewards: [
@@ -885,7 +885,7 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests20.title}"
+			title: "利维坦骸骨"
 			x: -2.0d
 			y: -4.5d
 		}
@@ -896,7 +896,7 @@
 				"24BA87E903CB3B76"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ftbquests.chapter.globetrotting.quests21.description}"]
+			description: ["我在这些地下城中发现的日记里这样写道：“这座&c废弃的古老神庙&r早已被&e流浪者&r接管。在庙顶，你能发现&b霜冻风帽&r，它在战斗中能助你一臂之力。在这个结构内生成的流浪者会在死亡时&a掉落&b冰块&r，也有小概率掉落&b浮冰&r，整座神庙中只有这种生物。”"]
 			hide: true
 			id: "7185E4EBAB87EBF0"
 			rewards: [
@@ -907,7 +907,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.globetrotting.quests21.subtitle}"
+			subtitle: "这可不是雪屋和丛林神庙生的孩子"
 			tasks: [
 				{
 					icon: {
@@ -922,13 +922,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests21.title}"
+			title: "冰雪神庙"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2BAEDCFF3F99C4F0"]
-			description: ["{ftbquests.chapter.globetrotting.quests22.description}"]
+			description: ["我在这些地下城中发现的日记里这样写道：“这个&c海底小镇&r的框架现在是许多挥舞斧头的&e溺尸&r的家园，同时也提供了&b珊瑚块&r的可再生来源。&b诡异之斧&r——这把被遗忘的武器仍然可以在里面找到。”"]
 			hide: true
 			id: "24BA87E903CB3B76"
 			rewards: [
@@ -939,7 +939,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "{ftbquests.chapter.globetrotting.quests22.subtitle}"
+			subtitle: "并不在下界中"
 			tasks: [
 				{
 					icon: {
@@ -954,13 +954,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests22.title}"
+			title: "诡异之园"
 			x: 2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["4609AFE9E0472C33"]
-			description: ["{ftbquests.chapter.globetrotting.quests23.description}"]
+			description: ["我在这些地下城中发现的日记里这样写道：“击败末影龙并进入&c外岛&r之后，你可能会有幸找到这座&c破旧的建筑&r。里面没有多少战利品，但你可以在塔顶找到一个&b龙蛋&r。不过要小心，里面的&e末影人&a并不像建筑外面的人那么和平&r。”"]
 			hide: true
 			id: "17D7F6B86B4AAD39"
 			rewards: [
@@ -979,13 +979,13 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests23.title}"
+			title: "末地废墟"
 			x: -2.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["4609AFE9E0472C33"]
-			description: ["{ftbquests.chapter.globetrotting.quests24.description}"]
+			description: ["我在这些地下城中发现的日记里这样写道：“在下界&c灵魂沙峡谷&r的岩浆湖中，你可能会发现这座&c囚困灵魂的监牢&r。由于周围有很多&e恶魂&r，试图接近塔顶，拿得奖励可能是一项不简单的任务。一定要小心，因为恶魂也会用他们的火球破坏&a你周围的建筑&r。倘若你最终活下来了，便可以带着&b灵魂加农炮&r离开。”"]
 			hide: true
 			id: "0531D54C99BEF0A9"
 			rewards: [
@@ -1010,14 +1010,14 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests24.title}"
+			title: "灵魂监牢"
 			x: 2.0d
 			y: -6.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests25.description0}"
-				"{ftbquests.chapter.globetrotting.quests25.description1}"
+				"&b探险家指南针&r可以代替&b末影之眼&r来寻找&a要塞和别的结构&r。"
+				"只需要&6拿着它右击&r就能搜索你想要寻找的结构。"
 			]
 			id: "292B26978E644D9F"
 			rewards: [
@@ -1039,14 +1039,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests25.title}"
+			title: "使用探险家指南针寻找结构"
 			x: -11.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests26.description0}"
-				"{ftbquests.chapter.globetrotting.quests26.description1}"
+				"&b自然罗盘&r是一种神奇的工具，类似&b探测棒&r，它能让你找到前往某一特定生物群系的方位。"
+				"只需要&6拿着它右击&r就能搜索你想要寻找的生物群系。"
 			]
 			id: "1F4569590B7666F5"
 			rewards: [
@@ -1073,7 +1073,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests26.title}"
+			title: "使用自然罗盘寻找生物群系"
 			x: -10.5d
 			y: -5.0d
 		}
@@ -1094,8 +1094,8 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
-				"{ftbquests.chapter.globetrotting.quests28.description0}"
-				"{ftbquests.chapter.globetrotting.quests28.description1}"
+				"&b传送石盘&r与&b调谐燧石&r一同工作，让你在两个指定地点之间来回传送。放置并右击后，传送石盘会制作一个绑定了该石盘的调谐燧石。调谐燧石会&a刻上一个独一无二的符文&r，该符文与石盘界面右上角的符文一致。"
+				"当你&6将调谐燧石插入另一块传送石盘中&r时，它会将你传送到燧石所对应的石盘上。你可以使用&b燧石&r和&b传送粉尘&r制作多个调谐燧石。"
 			]
 			id: "06DC33669C98F5A4"
 			rewards: [
@@ -1112,7 +1112,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests28.subtitle}"
+			subtitle: "快速往返"
 			tasks: [
 				{
 					id: "59AC7FC2C8A63192"
@@ -1120,14 +1120,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests28.title}"
+			title: "获得一个传送石盘"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests29.description0}"
-				"{ftbquests.chapter.globetrotting.quests29.description1}"
+				"&b指路石&r是一种在世界各地之间快速旅行的方法。只要一个指路石被&a激活&r，就可以从任意一个指路石那边或使用其他方法传送到那里。"
+				"&b指路石&r会自然生成在&d村庄&r中，但它也可以被制作。"
 			]
 			id: "722C9A16509E524B"
 			rewards: [
@@ -1158,8 +1158,8 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
-				"{ftbquests.chapter.globetrotting.quests30.description0}"
-				"{ftbquests.chapter.globetrotting.quests30.description1}"
+				"&b绑定卷轴&r是一个可以将你传送至&a它所绑定的指路石&r的一次性道具，只需要&6潜行并右击&r指路石即可绑定卷轴，每个卷轴需要单独绑定。不过，你可以制作&b返回卷轴&r"
+				"&6拿着该物品长按右键&r即可使用它。如果你在使用时受到伤害或移动位置，&d传送就会被取消&r。"
 			]
 			id: "133D48874069E59B"
 			rewards: [
@@ -1177,16 +1177,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests30.title}"
+			title: "获得一个绑定卷轴"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
-				"{ftbquests.chapter.globetrotting.quests31.description0}"
-				"{ftbquests.chapter.globetrotting.quests31.description1}"
-				"{ftbquests.chapter.globetrotting.quests31.description2}"
+				"&b传送卷轴&r是一个可以&a从世界上任何地方传送至指路石&r的一次性道具，它没有冷却时间，但在使用时会消耗该物品。"
+				"&6拿着该物品长按右键&r即可使用它。如果你在使用时受到伤害或移动位置，&d传送就会被取消&r。"
+				"注意不要与&d新生魔艺&r的&b折跃卷轴&r混淆，它们的名字类似但功能不同。"
 			]
 			id: "7527E0A9EF5C3697"
 			rewards: [
@@ -1204,15 +1204,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests31.title}"
+			title: "获得一个传送卷轴"
 			x: 8.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
-				"{ftbquests.chapter.globetrotting.quests32.description0}"
-				"{ftbquests.chapter.globetrotting.quests32.description1}"
+				"&b传送石&r是一个可以让你&a在世界各地传送到任意一个指路石&r的物品。可以多次使用，每次使用间有冷却时间。"
+				"&6拿着该物品长按右键&r即可使用它。如果你在使用时受到伤害或移动位置，&d传送就会被取消&r。"
 			]
 			id: "2E1A6A93F48AAF58"
 			rewards: [
@@ -1236,13 +1236,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests32.title}"
+			title: "获得一个传送石"
 			x: 10.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["722C9A16509E524B"]
-			description: ["{ftbquests.chapter.globetrotting.quests33.description}"]
+			description: ["&b传送石&r是一种传送到指路石的旅行方式，但别人不能传送到它这里。"]
 			id: "7B4772B066474C41"
 			rewards: [
 				{
@@ -1265,8 +1265,8 @@
 		{
 			dependencies: ["722C9A16509E524B"]
 			description: [
-				"{ftbquests.chapter.globetrotting.quests34.description0}"
-				"{ftbquests.chapter.globetrotting.quests34.description1}"
+				"&b同族指路石&r可以&a相同颜色组成的网络&r中旅行。你可以从一个红色同族指路石传送到另一个红色同族指路石。但是你不能传送到橙色同族指路石。"
+				"这对于拥有一个私人或者独立的旅行网络非常有用。任何&b传送石&r或者&b卷轴&r都对它们无效。"
 			]
 			id: "2E07A04D5589B674"
 			rewards: [
@@ -1284,14 +1284,14 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests34.title}"
+			title: "获得一个同族指路石"
 			x: 12.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests35.description0}"
-				"{ftbquests.chapter.globetrotting.quests35.description1}"
+				"很久以前，流浪部落的&a村民们&r掌握了&a飞行魔法&r，所以现在生活在横跨大地的&c天空之城&r上。"
+				"如果你有&b飞行扫帚&r，你将很容易到达那里！"
 			]
 			id: "081CE468F6E6F2C1"
 			rewards: [
@@ -1315,12 +1315,12 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests35.title}"
+			title: "发现天空村庄"
 			x: -5.0d
 			y: 4.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests36.description}"]
+			description: ["为你自己合成一些&b绳梯&r和&b木轨&r来帮助你小心地穿越困难的地形——好做又好放置，而且还可以在没有支撑方块的情况下&a凭空放置并链接&r。垂直和水平出行从未如此方便！两者都可以类似于&b脚手架&r那样放置——&6右击一个来放置另一个&r并且会朝着你面向的方向放置。你甚至可以右击顶部的部分&a将绳梯向上拉动&r！"]
 			id: "764EC9973027FFD1"
 			rewards: [
 				{
@@ -1331,7 +1331,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests36.subtitle}"
+			subtitle: "这可能很有用，对吧？"
 			tasks: [
 				{
 					id: "150E63B474A42DA9"
@@ -1344,12 +1344,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests36.title}"
+			title: "获得绳梯和木轨"
 			x: -9.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests37.description}"]
+			description: ["&b磁铁矿&r在地下以小簇的形式生成，周围一般是熔岩和深板岩铁矿，&a包裹在黑曜石的外壳中&r。用你的镐挖掘这种稀有的矿石获得磁铁块……或者对&b磁铁矿矿石&r使用锤子+凿子（或&a精准采集&r）。这两个物品都能帮助你发现一些，奇怪的而又有吸引力的新制作配方！"]
 			id: "55481D0A52C6BD09"
 			rewards: [
 				{
@@ -1360,7 +1360,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests37.subtitle}"
+			subtitle: "磁铁，我选择了你！"
 			tasks: [
 				{
 					id: "250F48C70BB57499"
@@ -1368,12 +1368,12 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests37.title}"
+			title: "获得磁铁矿"
 			x: -11.5d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests38.description}"]
+			description: ["在这个可爱的小洞穴里，和熊一起惬意地玩耍吧！这可能是安全的！他们是无害的！可能！"]
 			id: "40FFFF9DE0AA9305"
 			rewards: [
 				{
@@ -1396,14 +1396,14 @@
 					type: "structure"
 				}
 			]
-			title: "{ftbquests.chapter.globetrotting.quests38.title}"
+			title: "找到森林兽穴"
 			x: 3.0d
 			y: 7.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests39.description0}"
-				"{ftbquests.chapter.globetrotting.quests39.description1}"
+				"&c工匠的工坊&r乍一看是一个相当正常的地方。也许曾经有一个&e工程师&r住在这里。现在也许有人不那么……理智了。"
+				"当心&e掠夺者&r，如果你能找到梯子……好吧，&a小心行事&r。也许应该带上你的扫帚。"
 			]
 			id: "7ECEEEA9EB338ABC"
 			rewards: [
@@ -1427,7 +1427,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.globetrotting.quests40.description}"]
+			description: ["如果你遇到一辆非常大的货车，一定要问候它的主人！这些&e有趣的人&r 是游牧民而且&a带来礼物&r给世界各地的冒险家。"]
 			id: "49665722F39B7A53"
 			rewards: [
 				{
@@ -1446,7 +1446,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "{ftbquests.chapter.globetrotting.quests40.subtitle}"
+			subtitle: "一辆节日旅行货车"
 			tasks: [
 				{
 					advancement: "idas:winter_wagon"
@@ -1460,8 +1460,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.globetrotting.quests41.description0}"
-				"{ftbquests.chapter.globetrotting.quests41.description1}"
+				"&a深板岩层&r有个结构被称为&c异界之门&r。这个雕刻的深板岩结构包含着通往别的维度的传送门，例如&c下界&r和 &c暮色森林&r。"
+				"这些传送门都是损坏的，需要修补。但不幸的是，似乎&a大部分传送门都被不可挽回地破坏了&r，这些世界都无法前往了。"
 			]
 			id: "5DD1FFEE7029315F"
 			rewards: [
@@ -1490,5 +1490,5 @@
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.globetrotting.title}"
+	title: "周游世界"
 }

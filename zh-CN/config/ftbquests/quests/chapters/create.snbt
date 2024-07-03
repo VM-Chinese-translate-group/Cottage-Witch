@@ -25,9 +25,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.create.quests0.description0}"
-				"{ftbquests.chapter.create.quests0.description1}"
-				"{ftbquests.chapter.create.quests0.description2}"
+				"&l机械动力&r是一个令人难以置信且专注于低科技自动化和机械方面的模组。我觉得无需向你解释物理、科学和魔法之间密切关联性了吧？ 何不尝试一下&a科技巫术&r呢？机械动力与大多数模组有些区别，机械动力使用的基础能源是可以用多种方式产生的&a旋转力&r。"
+				"这个任务将会帮助你掌握机械动力的基础知识，而最终成果则完全取决于你以及你丰富的想象力！幸运的是，机械动力还提供了强大内置教学系统——&d思索&r，只需对着物品栏或者JEI&6的物品按住w键&r就能获取物品的使用信息。请务必确保光标未在文本框中！"
+				"首先，拿着这把&b扳手&r。你可以&6右击大部分机械动力的方块&r来旋转它们或者修改操作。&d并根据你所点击的那个面&r来决定旋转轴心位置。此外，你可以&6shift+右击&r大多数机械动力物品（或者一些原版物品，如拉杆和漏斗）&a就可以立即放入物品栏中&r。非常便捷！"
 			]
 			id: "01896E1F4E0B7F2F"
 			rewards: [
@@ -42,20 +42,20 @@
 			tasks: [
 				{
 					id: "22EB54AB0E27E048"
-					title: "{ftbquests.chapter.create.quests0.tasks0.title}"
+					title: "我准备好了！"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests0.title}"
+			title: "开始机械动力之旅"
 			x: -9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["090B731F01A14C75"]
 			description: [
-				"{ftbquests.chapter.create.quests1.description0}"
-				"{ftbquests.chapter.create.quests1.description1}"
-				"{ftbquests.chapter.create.quests1.description2}"
+				"你想要建造的第一台机器之一就是&b动力辊压机&r。动力辊压机可以辊压物品为类似于&b黄铜或铁板&r的金属板，这可能是你未来的计划中所需要的。"
+				"首先，制作一个&b手摇曲柄&r来给它提供应力。以后，你将会&a自动化你的应力&r，但在紧要关头，一些体力劳动也能起到同样的作用。"
+				"把&b铁锭&r放在&b动力辊压机&r下面。"
 			]
 			icon: "create:mechanical_press"
 			id: "21D14DACAA03665A"
@@ -85,15 +85,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests1.title}"
+			title: "你的第一台机器"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.create.quests2.description0}"
-				"{ftbquests.chapter.create.quests2.description1}"
-				"{ftbquests.chapter.create.quests2.description2}"
+				"&b安山岩&r是开始机械动力最基础的方块之一。虽然安山岩本身很坚硬，但是它并不具有延展性。所以最好是把它和&b铁&r混合在一起，用来制造一个更多功能的材料：&b安山合金&r。"
+				"用两个&b安山合金&r来制作&b传动杆&r（用来制作&b齿轮&r），并且可以用来加固去皮原木使之成为&b安山机壳&r。这些共同构成了这个模组中大多数合成配方的基础。"
+				"&6在饰品栏中装备护目镜&r就可以轻松地看到关于机械的&a细节信息&r。"
 			]
 			id: "283B3A75443BDA35"
 			rewards: [
@@ -117,13 +117,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests2.title}"
+			title: "更好的石头"
 			x: -7.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["283B3A75443BDA35"]
-			description: ["{ftbquests.chapter.create.quests3.description}"]
+			description: ["&b传动杆&r可以传递&a应力&r，并且&b齿轮&r可以&6传递并操控&r应力。许多机器都有内置齿轮，这就需要外部&b齿轮&r来给他们动力。之后就能连接&b传动杆&r或者在侧面连接&b齿轮&r。"]
 			id: "1EB53FD55A3973BF"
 			rewards: [
 				{
@@ -140,16 +140,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests3.title}"
+			title: "获取传动杆"
 			x: -5.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
-				"{ftbquests.chapter.create.quests4.description0}"
-				"{ftbquests.chapter.create.quests4.description1}"
-				"{ftbquests.chapter.create.quests4.description2}"
+				"如前面所说的那样，&b齿轮&r可以&a传递和操控应力&r。"
+				"连接&b齿轮&r的方式非常简单：&b小齿轮&r有两种连接模式(即，连接在侧面以及连接在轴上)。&b大齿轮和小齿轮&r可以对角线连接，以及轴上连接。"
+				"如果你在对角连接的&b小齿轮&r的轴上再连接&b大齿轮&r，这将会&a增加旋转速度&r。可以如次&d堆叠多次&r，通过&6放置第二个小齿轮在大齿轮对角上&r，然后大齿轮放在轴上。如果你有空间就可以持续多次。"
 			]
 			id: "0B539C0958C0AE9F"
 			rewards: [
@@ -173,10 +173,10 @@
 		{
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
-				"{ftbquests.chapter.create.quests5.description0}"
-				"{ftbquests.chapter.create.quests5.description1}"
-				"{ftbquests.chapter.create.quests5.description2}"
-				"{ftbquests.chapter.create.quests5.description3}"
+				"如前面所说的那样，&b齿轮&r可以&a传递和操控应力&r。"
+				"连接&b齿轮&r的方式非常简单：&b大齿轮&r垂直连接另一个，可以让你在没有&b齿轮箱&r（稍后会详细介绍）的情况下&a从水平转换为垂直旋转&r。&b大齿轮和小齿轮&r可以对角线连接，以及轴上连接。"
+				"&b大齿轮&r特别的有用，因为它们可以连接到&b转速控制器&r的顶部，可以让你&6自定义后面机器每分钟的旋转数-rpm-&r。"
+				"如果你在对角连接的&b小齿轮&r的轴上再连接&b大齿轮&r，这将会&a增加旋转速度&r。可以如次&d堆叠多次&r，通过&6放置第二个小齿轮在大齿轮对角上&r，然后大齿轮放在轴上。如果你有空间就可以持续多次。"
 			]
 			id: "053309454320882E"
 			rewards: [
@@ -200,14 +200,14 @@
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"{ftbquests.chapter.create.quests6.description0}"
+				"在游戏早期产生应力需要使用水车，它们需要&a至少一格流动水方块&r才能发挥作用。任何额外的水方块&a都不会产生额外的应力或者提高转速&r。两种水车分别是标准&b水车&r和&b大型水车&r。标准的&b水车&r在&a8rpm&r的转速下固定产生&a256su&r的应力，而&b大型水车&r则是在&a4rpm&r的转速下固定产生&a512su&r的应力。"
 				""
 				""
 				"{image:cottagewitch:textures/lgwaterwheel.png width:100 height:100 align:1}"
 				""
-				"{ftbquests.chapter.create.quests6.description5}"
+				"你可以在水车的中心连接像&b传动杆&r，&b齿轮&r，或者&b齿轮箱&r这样的物品，这使你可以将旋转力传递给其他的机器。"
 				""
-				"{ftbquests.chapter.create.quests6.description7}"
+				"你也可以用一块&b木板&r去&6右击&r水车来改变水车的木制纹理。请记住，如果使用模组添加的木板&d可能会导致一些奇怪纹理&r。"
 			]
 			id: "2DC641E0D0A72439"
 			rewards: [
@@ -225,24 +225,24 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests6.title}"
+			title: "旋转力：水"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"{ftbquests.chapter.create.quests7.description0}"
+				"游戏中期产生选择力的方法是使用风车。小型风车的建造相对容易，并且可以在以后进行扩展以产生更多的应力。"
 				""
-				"{ftbquests.chapter.create.quests7.description2}"
+				"风车需要一个&b风车轴承&r，它可以&a面向任何方向&r放置。轴承的正面是粘性的，&6放置在上面的方块&r将成为风车的一部分。轴承的背面是传动杆可以连接的地方，用来传递风车的旋转力。"
 				""
-				"{ftbquests.chapter.create.quests7.description4}"
+				"&d现在你有两个选项&r，使用&b风帆&r或&b羊毛&r作为“帆状”方块。"
 				""
-				"{ftbquests.chapter.create.quests7.description6}"
+				"一旦你连接了8个以上的&b风帆&r或类似帆的方块，&6右击&b风车轴承&r以激活风车结构&r。&6按住右键同时观察轴承的侧面&r来配置风车的旋转方向。如果使用&b羊毛&r，你必须&6涂上强力胶将羊毛连接在一起&r，因为它们不会像风帆那样自动连接。"
 				""
-				"{ftbquests.chapter.create.quests7.description8}"
+				"你可以将风车扩展到128个风帆/帆状方块，以&a16rpm&r的速度产生最大&a8192su&r的应力。任何额外的&b风帆&r或&b羊毛&r&a都不会产生更多的应力或转速&r。"
 				""
-				"{ftbquests.chapter.create.quests7.description10}"
+				"其他非&b风帆&r或&b羊毛&r方块也可以连接到风车结构上。这些额外的方块不会影响风车的效率，所以可以随意装饰风车！"
 			]
 			id: "7653B8A3BFBA6E2C"
 			rewards: [
@@ -271,15 +271,15 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests7.title}"
+			title: "旋转力：风"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["576AE3823B89AE8E"]
 			description: [
-				"{ftbquests.chapter.create.quests8.description0}"
-				"{ftbquests.chapter.create.quests8.description1}"
+				"另一个应力源可以选择&b星宝石兽跑轮&r。事实证明，&e星宝石兽&r不仅仅喜欢收集和转移物品——它们还&a喜欢奔跑&r。"
+				"给它们一个&a水车来让它们在里面奔跑&r，并且它们能够产生的应力量为&d256su&r。"
 			]
 			id: "4E3C2382B7035B7D"
 			rewards: [
@@ -297,13 +297,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests8.title}"
+			title: "应力：运动"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			description: ["{ftbquests.chapter.create.quests9.description}"]
+			description: ["&b安山机壳&r是三种等级的机壳之一，用于合成各种各样的机器。对&b去皮原木&r使用&b安山合金&r来合成它。你可以&6手动的在地上放置&b去皮原木&r并且&6右击使用&b安山合金&r。你也可以用&b机械手&r自动完成。"]
 			id: "090B731F01A14C75"
 			rewards: [
 				{
@@ -325,7 +325,7 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			description: ["{ftbquests.chapter.create.quests10.description}"]
+			description: ["转动&b手摇曲柄&r是一项饥饿的工作！快，在你晕过去之前把这个吃了。"]
 			id: "50B994830A8846FA"
 			rewards: [
 				{
@@ -349,8 +349,8 @@
 		{
 			dependencies: ["1EB53FD55A3973BF"]
 			description: [
-				"{ftbquests.chapter.create.quests11.description0}"
-				"{ftbquests.chapter.create.quests11.description1}"
+				"这个&b齿轮箱&r占据很小的空间，能帮助你通过&a一个正确的角度&r为2个以上的&b齿轮&r或&b传动杆&r&a操控应力&r。"
+				"这个&b齿轮箱&r可以被&6旋转为水平或者垂直&r来帮助你&d转弯&r和&a改变方向&r。"
 			]
 			id: "1371BBAA8FDBC0B2"
 			rewards: [
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["1EB53FD55A3973BF"]
-			description: ["{ftbquests.chapter.create.quests12.description}"]
+			description: ["除其他方法外，&b齿轮箱&r可以让你&a反转旋转的方向&r，你需要通过在两个&b传动杆&r或者&b齿轮&r之间，并&6给它一个红石信号&r。"]
 			id: "5177165688541586"
 			rewards: [
 				{
@@ -398,7 +398,7 @@
 			y: -0.5d
 		}
 		{
-			description: ["{ftbquests.chapter.create.quests13.description}"]
+			description: ["恭喜你在工程方面完成的造诣！你已经做地非常好了，所以我们把这套盔甲作为奖励送给你。"]
 			id: "0C8B40405806EEB4"
 			invisible: true
 			rewards: [
@@ -461,7 +461,7 @@
 		}
 		{
 			dependencies: ["21D14DACAA03665A"]
-			description: ["{ftbquests.chapter.create.quests14.description}"]
+			description: ["祝贺你操作了第一台机器！如果之前你感到害怕，希望你现在感觉更自信了。"]
 			id: "6B62CA860B15D956"
 			rewards: [
 				{
@@ -486,8 +486,8 @@
 		{
 			dependencies: ["21D14DACAA03665A"]
 			description: [
-				"{ftbquests.chapter.create.quests15.description0}"
-				"{ftbquests.chapter.create.quests15.description1}"
+				"&a应力&r用于测量&d压力的单位，简称su&r。产生的应力越多，产生的su也就越多。每个机器都需要一定量的su来运作，如果你放置太多机器在一个应力网络中，你的系统就会变成&d超载&r状态。你可以通过&6佩戴护目镜&r来查看各个部分，但是我建议你合成一个&b应力表&r来连接到你的网络中。"
+				"应力表可以让你&a看到应力网络中最大的su和能维持需要多少su&r。"
 			]
 			id: "576AE3823B89AE8E"
 			rewards: [
@@ -505,13 +505,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests15.title}"
+			title: "应力的功率"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["720F0BC4F45BA69B"]
-			description: ["{ftbquests.chapter.create.quests16.description}"]
+			description: ["这只是魔法工程方面你能做的基础。探索你自己的路，看看你可以合成什么样的&a神秘机械&r。"]
 			icon: {
 				Count: 1b
 				id: "supplementaries:wrench"
@@ -535,15 +535,15 @@
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests16.title}"
+			title: "继续前进"
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2DC641E0D0A72439"]
 			description: [
-				"{ftbquests.chapter.create.quests17.description0}"
-				"{ftbquests.chapter.create.quests17.description1}"
+				"&b蒸汽引擎&r是另一个产生应力的方法，但是&a难度明显更高&r，所以并不推荐初期使用。"
+				"要了解如何为&b蒸汽引擎&r提供动力，以及如何&d升级输出&r，请在&6&lJEI&r&6搜索&r“蒸汽引擎”并&6按住“w”键思索&r。"
 			]
 			id: "265265A0C4DFD728"
 			rewards: [
@@ -567,10 +567,10 @@
 		{
 			dependencies: ["21D14DACAA03665A"]
 			description: [
-				"{ftbquests.chapter.create.quests18.description0}"
-				"{ftbquests.chapter.create.quests18.description1}"
-				"{ftbquests.chapter.create.quests18.description2}"
-				"{ftbquests.chapter.create.quests18.description3}"
+				"&b动力搅拌器&r常用于多种用途，例如&a合成合金&r或&a自动合成无序配方&r。"
+				"这必须配合着&b工作盆&r使用，因为工作盆能够放入材料然后搅拌。"
+				"让我们通过&d制作一些&b巧克力棒&r来测试它。"
+				"带着这些材料并且&6把你的盆放在热源上方&r。这应该是一桶&b融化的巧克力&r。你可以使用&b泵&r或者&b桶&r&6来提取它&r。"
 			]
 			id: "5859015DE7AD5512"
 			rewards: [
@@ -610,16 +610,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests18.title}"
+			title: "混合然后合成"
 			x: 2.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
 			description: [
-				"{ftbquests.chapter.create.quests19.description0}"
-				"{ftbquests.chapter.create.quests19.description1}"
-				"{ftbquests.chapter.create.quests19.description2}"
+				"很多&b搅拌&r配方需要&a加热&r。你可以用&b营火&r作为普通的热源来处理特定的配方，但是很多配方需要&b烈焰人燃烧室&r来作为热源。"
+				"你需要合成一个&b空的烈焰人燃烧室&r，然后你需要&6找到一个&e烈焰人&6并且用右击它&r这样你就能获得&b烈焰人燃烧室&r。"
+				"&b烈焰人燃烧室&r必须&a喂食才能发挥作用&r。你可以通过&6用燃料右击它&r来喂食，例如&b原木&r、&b火把&r、&b烈焰棒&r和燃烧效率更高的：&b烈焰人蛋糕&r。你以后就能合成它，但是现在你就这一个。"
 			]
 			id: "5073743E21AB8738"
 			rewards: [
@@ -634,7 +634,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create.quests19.subtitle}"
+			subtitle: "你有你自己的锻法！"
 			tasks: [
 				{
 					id: "0B8587402D723175"
@@ -647,16 +647,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests19.title}"
+			title: "用烈焰人燃烧室加热"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5073743E21AB8738"]
 			description: [
-				"{ftbquests.chapter.create.quests20.description0}"
-				"{ftbquests.chapter.create.quests20.description1}"
-				"{ftbquests.chapter.create.quests20.description2}"
+				"现在你有了&b液体巧克力&r，你可能需要用&b动力辊压机&r&6把它辊压成巧克力棒&r。"
+				"在&b动力辊压机&r下放置&b工作盆&r并把液态巧克力&a泵入或用桶倒入&r至工作盆中。"
+				"在应力足够的情况下，&b动力辊压机&r自动地把液态巧克力辊压成&b巧克力棒&r，可以通过&6空手右击&r取出巧克力棒。"
 			]
 			id: "14877C882C4D9E9E"
 			rewards: [
@@ -680,16 +680,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests20.title}"
+			title: "通过辊压把液体转换为实体"
 			x: 4.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
 			description: [
-				"{ftbquests.chapter.create.quests21.description0}"
-				"{ftbquests.chapter.create.quests21.description1}"
-				"{ftbquests.chapter.create.quests21.description2}"
+				"有些配方需要使用&b流体&r，所以你需要&b流体储罐&r、&b流体管道&r和&b动力泵&r。"
+				"想要测试这个，为什么不&d搞一个无限&b熔岩&r？使用&b滴水石锥&r和&b炼药锅&r弄一个&a熔岩生产机&r。"
+				"然后，放一个&b动力泵&r并放一些&b流体管道&r在旁边，然后用&b流体储罐&r存储流体。给动力泵应力并且&6用扳手改变动力泵的方向&r。"
 			]
 			id: "7AD3F51BD3B16B9F"
 			rewards: [
@@ -732,16 +732,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests21.title}"
+			title: "移动和存储流体"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
 			description: [
-				"{ftbquests.chapter.create.quests22.description0}"
-				"{ftbquests.chapter.create.quests22.description1}"
-				"{ftbquests.chapter.create.quests22.description2}"
+				"另一种重要的&a合金&r就是&b黄铜&r，由&b铜锭&r和&b锌锭&r混合而成。"
+				"合成这个你需要一个下面放置了&b烈焰人燃烧室&r的&b动力搅拌器&r。把材料放入搅拌器并&6给烈焰人燃烧室喂食&r，还要确保&b动力搅拌器&r有足够的应力才能进行搅拌。"
+				"你可以通过放置&b传送带&r来取出最终产物，或者通过&6空手右击&r。"
 			]
 			id: "196015594CAFB1C6"
 			rewards: [
@@ -770,7 +770,7 @@
 		}
 		{
 			dependencies: ["5859015DE7AD5512"]
-			description: ["{ftbquests.chapter.create.quests23.description}"]
+			description: ["&b玫瑰石英&r是一个有用且具有装饰功能的玻璃晶体。绝大多数情况下都是用于&b电子管&r，可以用来给&a“智能”机器&r充能的东西。"]
 			id: "777BD51D55A705BC"
 			rewards: [
 				{
@@ -798,9 +798,9 @@
 		{
 			dependencies: ["777BD51D55A705BC"]
 			description: [
-				"{ftbquests.chapter.create.quests24.description0}"
+				"&b电子管&r是魔法科技的源头，可以让机器&a完成那些只有玩家才能完成的行为&r，例如：&b机械手&r可以使用很多工具：剪刀、桶、剑和其他别的。"
 				""
-				"{ftbquests.chapter.create.quests24.description2}"
+				"&b电子管&r为&l机械动力的&r分拣机器提供了基础，或者其它需要实现&a智能功能&r的机器。"
 			]
 			id: "21D3406A746CF116"
 			rewards: [
@@ -822,7 +822,7 @@
 		}
 		{
 			dependencies: ["196015594CAFB1C6"]
-			description: ["{ftbquests.chapter.create.quests25.description}"]
+			description: ["&b黄铜手部零件&r是用来合成&b机械手&r和&b伸缩机械手&r的零件，伸缩机械手可以&a增加你主手的触及范围&r。这非常额……非常有用，我可以看到我自己的手。"]
 			id: "55F04B5FF196DD28"
 			rewards: [
 				{
@@ -846,7 +846,7 @@
 				"55F04B5FF196DD28"
 				"21D3406A746CF116"
 			]
-			description: ["{ftbquests.chapter.create.quests26.description}"]
+			description: ["&b机械手&r经常用来自动合成&b机壳&r，或是合成&b精密构件&r，也可以用来&a模拟右击和左击&r。因为这样，所以使得&b机械手&r可以自动化&l新生魔艺&r做不到的。"]
 			id: "244FE0B3FC20D15C"
 			rewards: [
 				{
@@ -878,9 +878,9 @@
 		{
 			dependencies: ["5859015DE7AD5512"]
 			description: [
-				"{ftbquests.chapter.create.quests27.description0}"
-				"{ftbquests.chapter.create.quests27.description1}"
-				"{ftbquests.chapter.create.quests27.description2}"
+				"&b传送带&r可以在机器和容器之间&a水平地或对角地&r传递物品。物品被放置在&b传送带&r上后将会粘在上面并且不会像掉落物一样。"
+				"&b溜槽&r可以&a垂直地或对角地&r传输物品。通常情况下溜槽是向下传输物品，但是&6把它们与&b鼓风机&r&6连接起来&r就可以改变方向。溜槽不能像漏斗那样有多个物品栏位，但是可以一次传输多个物品。"
+				"你可以&6按住“w”键思索&r来学习更多关于溜槽的使用方法。"
 			]
 			id: "27B39B900D3D7572"
 			rewards: [
@@ -925,17 +925,17 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests27.title}"
+			title: "运输物品"
 			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["244FE0B3FC20D15C"]
 			description: [
-				"{ftbquests.chapter.create.quests28.description0}"
-				"{ftbquests.chapter.create.quests28.description1}"
+				"&b精密构件&r通过用&b传送带&r和&b三个机械手&r合成。"
+				"你可以通过&lJEI&r来查看&d“序列组装”&r的合成顺序。"
 				"{image:cottagewitch:textures/precisionmechanism.png width:150 height:150 align:1}"
-				"{ftbquests.chapter.create.quests28.description3}"
+				"第一个机械手需要放置&b齿轮&r，第二个机械手放置&b大齿轮&r，而第三个机械手放置&b铁粒&r。每道工序需要&6重复进行5次&r。而且只要&d80%%的几率获得&r最终产物。"
 			]
 			id: "5CCE41AE05329A9A"
 			rewards: [
@@ -958,9 +958,9 @@
 		{
 			dependencies: ["5CCE41AE05329A9A"]
 			description: [
-				"{ftbquests.chapter.create.quests29.description0}"
-				"{ftbquests.chapter.create.quests29.description1}"
-				"{ftbquests.chapter.create.quests29.description2}"
+				"&b转速控制器&r是一个可以&a增加，降低或者反转&r速度和旋转方向的机器。"
+				"&6把它放置下来并且连接其中一边&r来接入你的应力网络。然后，&6连上一个&b大齿轮&r就像图片展示的那样，并且&6之后的机器&r连接&b齿轮&r。"
+				"那些机器将会同步你在&a控制器设置的&r速度。&6用滚轮滚到负数则为反向&r。"
 				"{image:cottagewitch:textures/rotationalspeed.png width:150 height:150 align:1}"
 			]
 			id: "0EBD468481C32221"
@@ -984,7 +984,7 @@
 		}
 		{
 			dependencies: ["283B3A75443BDA35"]
-			description: ["{ftbquests.chapter.create.quests30.description}"]
+			description: ["你可以通过结合既漂亮又实用且具有连接纹理的&b玻璃机壳&r来提升机械动力的机器。"]
 			id: "3FCDDF81FEEE6D6A"
 			rewards: [
 				{
@@ -1004,11 +1004,11 @@
 							value: "forge:glass_casings"
 						}
 					}
-					title: "{ftbquests.chapter.create.quests30.tasks0.title}"
+					title: "任意#forge:glass_casings"
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests30.title}"
+			title: "玻璃机壳作为装饰"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -1029,13 +1029,13 @@
 		{
 			dependencies: ["21D3406A746CF116"]
 			description: [
-				"{ftbquests.chapter.create.quests32.description0}"
+				"是否还在为&a想要自动合成但是没有&e薇克精&r而烦恼？来试试&b动力合成器&r吧。"
 				""
-				"{ftbquests.chapter.create.quests32.description2}"
+				"将它们设置为正确的方向，并为他们提供&a旋转力&r来让他们运作起来。你可以使用许多方式将物品放入其中——&b动力臂、漏斗、管道&r或是别的！"
 				""
-				"{ftbquests.chapter.create.quests32.description4}"
+				"你需要使用&b扳手&r来确保&6物品的排列方向正确&r，以至于让它从&a一个口输出&r。这是它们工作所必需的。"
 				"{image:cottagewitch:textures/mechanicalcrafter.png width:100 height:100 align:1 fit:true}"
-				"{ftbquests.chapter.create.quests32.description6}"
+				"这张图片只是一个你可以放置它们的形状的&a例子&r。你也可以做一个简单的3x3来处理大部分配方，但是&d在下一个任务中，你将需要下述设置&r。"
 			]
 			id: "65974046CAFDD536"
 			rewards: [
@@ -1059,16 +1059,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests32.title}"
+			title: "除工作台以外的合成"
 			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["65974046CAFDD536"]
 			description: [
-				"{ftbquests.chapter.create.quests33.description0}"
+				"其中需要&b动力合成器&r合成的配方就是&b粉碎轮&r。一对粉碎轮就可以&a加工矿石和许多其他物品&r，可以让你在加工过程中获得&a副产物&r。"
 				""
-				"{ftbquests.chapter.create.quests33.description2}"
+				"你将会需要粉碎轮来完成&a制作&b烈焰人蛋糕&r的任务。拿着这个&b下界岩&r并把它丢去&b粉碎&r！"
 			]
 			id: "7F65DC32D9AC4B73"
 			rewards: [
@@ -1087,16 +1087,16 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests33.title}"
+			title: "粉碎之力"
 			x: 8.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["7F65DC32D9AC4B73"]
 			description: [
-				"{ftbquests.chapter.create.quests34.description0}"
+				"这是&b烈焰人蛋糕&r制作的起点，也就是说烈焰人蛋糕&b基础&r就是蛋糕胚。这是由&b余烬面粉&r、&b糖&r和&b蛋&r&a辊压&r而成。"
 				""
-				"{ftbquests.chapter.create.quests34.description2}"
+				"使用&b动力辊压机&r让合成变得更轻松吧！"
 			]
 			id: "6AD27F2A2490D29D"
 			rewards: [
@@ -1118,18 +1118,18 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests34.title}"
+			title: "制作胚"
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7AD3F51BD3B16B9F"]
 			description: [
-				"{ftbquests.chapter.create.quests35.description0}"
+				"现在你有了&b动力泵和流体管道&r，你想要怎么使用那些流体？"
 				""
-				"{ftbquests.chapter.create.quests35.description2}"
+				"很好，现在你有如下选择。你可以用&b动力辊压机&r&a把流体辊压&r成固体（请查看另一个任务！），或者你可以用&b注液器&r把&a流体输入物品或容器中&r存储起来。"
 				""
-				"{ftbquests.chapter.create.quests35.description4}"
+				"注液器可以制作&b巧克力包层浆果&r、&b蜜渍苹果&r、&b甜甜圈&r甚至是&b烈焰人蛋糕&r！"
 			]
 			id: "7410C775CE6FE615"
 			rewards: [
@@ -1156,7 +1156,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests35.title}"
+			title: "处理流体"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -1165,7 +1165,7 @@
 				"7410C775CE6FE615"
 				"6AD27F2A2490D29D"
 			]
-			description: ["{ftbquests.chapter.create.quests36.description}"]
+			description: ["使用&b注液器&r可以更轻松的&a把熔岩倒入&b烈焰人蛋糕胚&r！就能合成最终产物&b烈焰人蛋糕&r，这是最重要的&b烈焰人燃烧室&r热力来源。"]
 			id: "335926C3AE4F314C"
 			rewards: [
 				{
@@ -1174,7 +1174,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create.quests36.subtitle}"
+			subtitle: "烘培出一个漂亮的蛋糕易如反掌"
 			tasks: [
 				{
 					id: "00D512A074CEE081"
@@ -1182,7 +1182,7 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests36.title}"
+			title: "烘培蛋糕"
 			x: 6.5d
 			y: 4.0d
 		}
@@ -1190,9 +1190,9 @@
 			can_repeat: true
 			dependencies: ["335926C3AE4F314C"]
 			description: [
-				"{ftbquests.chapter.create.quests37.description0}"
+				"你想过有一个&a取之不尽的&b烈焰蛋糕&r吗？通常它只在创造模式才有可能，但现在你可以拿100个普通的&b烈焰蛋糕&r&6换取一个&r。"
 				""
-				"{ftbquests.chapter.create.quests37.description2}"
+				"这个任务是可重复的。"
 			]
 			icon: "create:creative_blaze_cake"
 			id: "720F0BC4F45BA69B"
@@ -1203,7 +1203,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{ftbquests.chapter.create.quests37.subtitle}"
+			subtitle: "灼烧它hhh"
 			tasks: [
 				{
 					consume_items: true
@@ -1213,10 +1213,10 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.create.quests37.title}"
+			title: "一个富有创意的烹饪方法"
 			x: 5.0d
 			y: 4.0d
 		}
 	]
-	title: "{ftbquests.chapter.create.title}"
+	title: "机械动力"
 }
