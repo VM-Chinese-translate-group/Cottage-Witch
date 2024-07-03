@@ -151,11 +151,6 @@
 					type: "item"
 				}
 				{
-					id: "58A832C3B1121346"
-					item: "byg:california_poppy"
-					type: "item"
-				}
-				{
 					id: "30695DC4B56127A5"
 					item: "environmental:orange_hibiscus"
 					type: "item"
@@ -175,14 +170,18 @@
 			id: "1FD157BDA5AF3BE9"
 			rewards: [
 				{
-					id: "43F9EA89E7A7A7CA"
-					type: "xp_levels"
-					xp_levels: 5
+					id: "211B9906B5553F7D"
+					item: {
+						Count: 1b
+						id: "portablejukebox:portable_jukebox"
+						tag: { }
+					}
+					type: "item"
 				}
 				{
-					id: "7DCECB41814CB556"
-					table_id: 1739670786502713488L
-					type: "choice"
+					id: "1234717FF1A25D0F"
+					item: "sophisticatedbackpacks:jukebox_upgrade"
+					type: "item"
 				}
 			]
 			shape: "hexagon"
@@ -302,11 +301,6 @@
 					type: "item"
 				}
 				{
-					id: "5085417582A9F1DB"
-					item: "byg:yellow_daffodil"
-					type: "item"
-				}
-				{
 					id: "28DEDEDDFC8906E3"
 					item: "byg:lollipop_flower"
 					type: "item"
@@ -319,6 +313,11 @@
 				{
 					id: "705E3F57D0837B0E"
 					item: "environmental:yellow_hibiscus"
+					type: "item"
+				}
+				{
+					id: "134B00DEED93CCA4"
+					item: "byg:yellow_daffodil"
 					type: "item"
 				}
 			]
@@ -424,11 +423,6 @@
 					type: "item"
 				}
 				{
-					id: "74D8C3F4EFD36EBC"
-					item: "byg:winter_cyclamen"
-					type: "item"
-				}
-				{
 					id: "1392ED8C679B190B"
 					item: "byg:winter_scilla"
 					type: "item"
@@ -436,6 +430,11 @@
 				{
 					id: "4635551D704B51AE"
 					item: "minecraft:cornflower"
+					type: "item"
+				}
+				{
+					id: "47C10CB9C612B73A"
+					item: "environmental:blue_delphinium"
 					type: "item"
 				}
 			]
@@ -489,11 +488,6 @@
 				{
 					id: "591F0CC5A4BDF195"
 					item: "byg:bistort"
-					type: "item"
-				}
-				{
-					id: "35AFD30EA609AFEA"
-					item: "byg:delphinium"
 					type: "item"
 				}
 				{
@@ -633,11 +627,6 @@
 					type: "item"
 				}
 				{
-					id: "4F04652292E1EED6"
-					item: "byg:silver_vase_flower"
-					type: "item"
-				}
-				{
 					id: "12C99762585A1223"
 					item: "byg:peach_leather_flower"
 					type: "item"
@@ -675,11 +664,6 @@
 				{
 					id: "33D4967870A26D32"
 					item: "byg:pink_anemone"
-					type: "item"
-				}
-				{
-					id: "17AA907FBDF0B888"
-					item: "byg:silver_vase_flower"
 					type: "item"
 				}
 				{
@@ -731,18 +715,8 @@
 					type: "item"
 				}
 				{
-					id: "58E24CAFEDD82137"
-					item: "byg:protea_flower"
-					type: "item"
-				}
-				{
 					id: "00C3514B84784668"
 					item: "byg:osiria_rose"
-					type: "item"
-				}
-				{
-					id: "71D0D6ACDA9BD216"
-					item: "byg:pink_daffodil"
 					type: "item"
 				}
 				{
@@ -819,18 +793,8 @@
 					type: "item"
 				}
 				{
-					id: "31461715D340973C"
-					item: "byg:winter_rose"
-					type: "item"
-				}
-				{
 					id: "2DF45E5B989AF291"
 					item: "byg:white_anemone"
-					type: "item"
-				}
-				{
-					id: "13ADD47E0742D9D0"
-					item: "byg:snowdrops"
 					type: "item"
 				}
 				{
@@ -1192,7 +1156,6 @@
 				"04973320B5F27BD7"
 				"6BED02ADA79C4A8D"
 				"692725454B955B4C"
-				"5C9725DEED609E88"
 			]
 			description: [
 				"当你收集了所有的花朵，勾选这个框，就能得到&d终极奖励&r。"
@@ -1282,40 +1245,6 @@
 			y: 2.0d
 		}
 		{
-			description: ["收集游戏中的每一种花朵，赢取奖励！"]
-			id: "5C9725DEED609E88"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7FD09028A87B535B"
-					table_id: 6941837675484043489L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "225CBA3ED518E8D8"
-					table_id: 987967038148964353L
-					type: "random"
-				}
-			]
-			shape: "hexagon"
-			tasks: [
-				{
-					id: "6E8DFC017382CBDE"
-					item: "byg:snowdrops"
-					type: "item"
-				}
-				{
-					id: "7E435FF42D1B8906"
-					item: "environmental:blue_delphinium"
-					type: "item"
-				}
-			]
-			title: "采花：淡蓝色"
-			x: -1.5d
-			y: -1.5d
-		}
-		{
 			id: "3ADA19F1E7F84DD6"
 			invisible: true
 			secret: true
@@ -1329,6 +1258,35 @@
 			x: -1.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			description: ["这些花&a不再在世界中自然生成&r……但是错过它们正式太可惜了！这个可重复的任务能使你能&6用任意种类的种子交易&r到在这个列表中的随机一种花。"]
+			id: "3AEC890246D64B36"
+			rewards: [{
+				icon: "byg:delphinium"
+				id: "7B82D80BA8F31C8B"
+				table_id: 1730732928162380317L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				consume_items: true
+				id: "58A7676CE6FC0B2B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "额外花卉"
+			x: 2.5d
+			y: -1.5d
+		}
+
 	]
 	title: "收藏品"
 }

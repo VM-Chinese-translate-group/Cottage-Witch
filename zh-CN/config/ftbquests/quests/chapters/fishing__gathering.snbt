@@ -1209,25 +1209,6 @@
 			x: 0.5d
 			y: 0.5d
 		}
-		{
-			description: [
-				"要开始你的&a螃蟹之旅&r，你需要一个&b捕蟹笼&r。将它放置在水中并&a用饵料填充它&r以吸引生物。"
-				""
-				"You can use &bregular Fish&r as bait to obtain &bKelp and Nautilus Shells&r, but if you want to catch &eCrabs&r, &bClams&r, &bShrimp&r, or &bClawsters&r, you'll need &b&lChum&r&r."
-			]
-			id: "602AECDEE9755175"
-			subtitle: "这是个陷阱！"
-			tasks: [
-				{
-					id: "2205B9EDEE5F7A89"
-					item: "crabbersdelight:crab_trap"
-					type: "item"
-				}
-			]
-			title: "捉螃蟹新手"
-			x: 14.5d
-			y: -1.0d
-		}
 	]
 	title: "钓鱼与采集"
 }

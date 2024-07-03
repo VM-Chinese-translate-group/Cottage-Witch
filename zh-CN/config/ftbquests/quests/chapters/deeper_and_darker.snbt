@@ -376,10 +376,7 @@
 		}
 		{
 			dependencies: ["386BBE6DCF3DAB78"]
-			description: [
-				"在&c远古城市的中心&r有一个&a巨大的传送门&r。为了使用它，你第一步必须&6清除这些&b幽匿脉络&r。"
-				"当清理完毕后，你可以&6使用&b深渊之心&6对着传送门右击来激活它。"
-			]
+			description: ["想展示自己的强悍实力吗？击败100只坚守者以赢得&a极具声望的&b盔甲套装&r和&b独特的头&r。"]
 			id: "77C585EDABB88B3E"
 			tasks: [
 				{
@@ -432,11 +429,12 @@
 			id: "292410101F374A38"
 			rewards: [
 				{
-					id: "00045A739F0284CF"
-					item: "deeperdarker:sculk_bone"
-					type: "item"
+				id: "4A5E1F1A7CF8F332"
+				item: "fantasyfurniture:decorations/bone_skeleton_pile"
+				type: "item"
 				}
 			]
+			subtitle: "them bones them bones"
 			tasks: [
 				{
 					id: "6656F9B1F1635666"
@@ -572,7 +570,7 @@
 			]
 			tasks: [
 				{
-					biome: "deeperdarker:otherside_deeplands"
+					biome: "deeperdarker:deeplands"
 					icon: "minecraft:sculk"
 					id: "5E1E3DC987B09351"
 					type: "biome"

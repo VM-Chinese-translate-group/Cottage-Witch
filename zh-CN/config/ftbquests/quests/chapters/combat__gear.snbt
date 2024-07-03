@@ -1668,7 +1668,11 @@
 		}
 		{
 			dependencies: ["66BFC51EB4E7FDFB"]
-			description: ["虽然制作比较困难，但是&b塔罗牌包&r在&a装备到饰品栏后&r，可以让你把&a你所有的塔罗牌堆在一个栏位中&r。"]
+			description: [
+				"虽然制作比较困难，但是&b塔罗牌包&r在&a装备到饰品栏后&r，可以让你把&a你所有的塔罗牌堆在一个栏位中&r。"
+				""
+				"&d警告：带着物品栏中的塔罗牌牌组进入创造模式会清空牌组。装备至饰品栏后将不会出现此错误。&r"
+			]
 			id: "5107C3DE453627D5"
 			rewards: [
 				{
@@ -2435,28 +2439,12 @@
 				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b垂钓者符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "1F590EDF058BB8A8"
-			rewards: [
-				{
-					id: "3EE5B84BA839D659"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:adventurer_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "47C857002217D229"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47C857002217D229"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "冒险就在前方"
 			tasks: [
@@ -2500,28 +2488,12 @@
 				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b垂钓者符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "5B075D9C9BE8F2AE"
-			rewards: [
-				{
-					id: "6240E89CABA84E2B"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:angler_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "707DAB33BE9A46E5"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "707DAB33BE9A46E5"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "钓大鱼咯"
 			tasks: [
@@ -2579,28 +2551,12 @@
 				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b皇家符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "67655D11D7908671"
-			rewards: [
-				{
-					id: "37CBD619998F1D6D"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:household_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "598E4FEA003A138D"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "598E4FEA003A138D"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "符在家在"
 			tasks: [
@@ -2658,28 +2614,12 @@
 				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b矿工符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "6F7BC76D2BAC0926"
-			rewards: [
-				{
-					id: "1426A82F42227C92"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:miner_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6511CE8FFABF441E"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6511CE8FFABF441E"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "它不是矿工的壮举"
 			tasks: [
@@ -2737,28 +2677,12 @@
 				"你可以将&a重复的配件合成&r，这样就有机会能得到一个拥有&a更高属性&r的配件！为了收益最大化，我们建议&a先对单个材料配件进行提升&r，以此制作更强的&b自然符文&r。相同的符文也可以&a相互合成&r以增强它们的效果。"
 			]
 			id: "68279BFDA33B6996"
-			rewards: [
-				{
-					id: "7A990DD56C2FAC21"
-					item: {
-						Count: 1b
-						id: "majruszsaccessories:nature_rune"
-						tag: {
-							Bonus: {
-								Boosters: [ ]
-								Value: -0.6f
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0993290DEEA66068"
-					table_id: 8588988388222696349L
-					type: "loot"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0993290DEEA66068"
+				table_id: 8588988388222696349L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			subtitle: "让我们超自然"
 			tasks: [
@@ -2919,8 +2843,6 @@
 				"&b赌博卡&r是一张根据最后的加成范围重新抽取加成值的卡片。 "
 				""
 				"&b移除卡&r可以返还任意饰品上安装的所有&b饰品配件&r。 "
-				""
-				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "46B5DAA070A0675F"
 			rewards: [
@@ -2956,8 +2878,6 @@
 				"&b饰品配件&r可为&1Majrusz的饰品&r添加额外的增益！标准的饰品只能安装一个强化——但&b符文&r和&b世界之魂&r可以安装2个甚至3个！多个强化的效果可叠加。"
 				""
 				"&6将饰品与配件在工作台上合成&r即可安装强化。移除配件需要用&b移除卡&r。"
-				""
-				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "24E903048FE8AC10"
 			rewards: [
@@ -2993,8 +2913,6 @@
 				"欢迎来到&1Majruzs的饰品&r的世界。尽管乍一看，它们可能显得无关紧要或毫无帮助，但它们真正的力量在于它们&a能够结合在一起&r。 "
 				""
 				"&6将两个或以上的同种饰品在工作台上合成&r以增强它的力量。你可以使用&b饰品配件&r和&b卡片&r对其进行进一步的增强和修饰。"
-				""
-				"&d目前有一个漏洞会损坏这个标签的材质，但是它仍然能正常使用。&r"
 			]
 			id: "40070F7DE43BA4FF"
 			rewards: [

@@ -1357,7 +1357,7 @@
 		}
 		{
 			dependencies: ["2615CD06E32EC741"]
-			description: ["&b煎锅&r让你可以随时随地做饭！只需要&6站在热源附近&r然后&6添加食材&r即可！"]
+			description: ["要完成该任务，你需要用你的&b煎锅&r做一些真正的方便烹饪以触发进度。只需&6站在热源旁边&r（&b营火&r，&b岩浆块&r，&b岩浆&r，以及其他你能想到的！），&6主手拿着煎锅&r，&6副手拿着原材料&r！按住右键即可开始煎烤。"]
 			id: "7E532A89B21B20D1"
 			rewards: [
 				{
@@ -2735,6 +2735,39 @@
 			]
 			x: 5.0d
 			y: 15.0d
+		}
+		{
+			description: [
+				"一个普通&b午餐袋&r可升级为铁或金午餐盒，方便你随身携带各种食物。你可以&a直接&r从它内部取出随机零食&a吃掉&r！"
+				""
+				"警告……不要相信海鸥。它们会俯冲下来&a从你的物品栏中偷走食物&r；甚至整个午餐盒！"
+				""
+				"&d警告：带着你物品栏中的午餐盒进入创造模式，会导致它内部物品被清空。&r"
+			]
+			id: "6525629D7A4C5CB7"
+			rewards: [{
+				id: "2FD851E12DBD8E32"
+				item: "delightful:deluxe_cheeseburger"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "带好午餐！"
+			tasks: [{
+				id: "53F66B4C628290B7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solsweetpotato:lunchbag"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
 		}
 	]
 	title: "烹饪艺术"
