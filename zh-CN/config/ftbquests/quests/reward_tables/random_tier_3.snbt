@@ -57,6 +57,9 @@
 			item: "biomesinjars:empty_biome_jar"
 			weight: 40.0f
 		}
+		{ 
+			item: "refinedstorage:64k_storage_part" 
+		}
 	]
 	title: "随机 Tier 3"
 }

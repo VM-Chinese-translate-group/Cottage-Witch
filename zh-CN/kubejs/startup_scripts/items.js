@@ -6,6 +6,9 @@ event.create('lunarcoin').texture('kubejs:item/lunar_coin').maxStackSize(64).dis
 event.create('solarcoin').texture('kubejs:item/solar_coin').maxStackSize(64).displayName("太阳币")
 event.create('arcanecoin').texture('kubejs:item/arcane_coin').maxStackSize(64).displayName("奥术币")
 event.create('ticket').displayName("票据")
+event.create('pink_moon').texture('kubejs:item/pink_moon').displayName("粉月亮")
+event.create('flower_moon').texture('kubejs:item/flower_moon').displayName("花月亮")
+event.create('strawberry_moon').texture('kubejs:item/strawberry_moon').displayName("草莓月亮")
 })
 
 StartupEvents.registry('block', event => {

@@ -19,6 +19,9 @@
 			count: 4
 			item: "ends_delight:dragon_tooth"
 		}
+		{ 
+			item: "refinedstorage:64k_storage_part"
+		}
 	]
 	title: "T3 奖励选择"
 }
