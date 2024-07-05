@@ -371,9 +371,9 @@
 			id: "7D15924C5AEAC669"
 			rewards: [
 				{
-					id: "7CC75457000A1AD8"
-					item: "minecraft:diamond_horse_armor"
-					type: "item"
+					id: "646BB07E70488773"
+					type: "xp_levels"
+					xp_levels: 15
 				}
 			]
 			shape: "hexagon"

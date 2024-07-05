@@ -156,6 +156,317 @@
 			x: -0.5d
 			y: -2.5d
 		}
+		{
+			description: [
+				"&lTom的简易存储&r模组能够让你实现&a从单个界面访问你所有的存储空间&r。Tom是谁已湮没在传说中，但他的存储系统保留了下来。&l精妙存储&r同样是一个聚焦于&a在小面积内提供巨量存储空间&r的存储方案。这两套系统可以协同工作！"
+				""
+				"首先，你需要一个&lTom的&r&b存储终端&r。"
+				""
+				"然后，你需要在这两者之间做个选择——&lTom的&r&b存储整合器&r或是&l精妙存储&r的&b存储控制器&r。存储整合器支持原版与精妙存储的容器，而&b存储控制器&r只支持精妙存储的容器。不过，&b存储控制器&r的远程功能要比&b存储整合器&r的更优越。"
+				""
+				"此任务有多页，&6请翻到下一页&r。"
+				""
+				"{@pagebreak}"
+				"&b存储整合器&r与&b存储控制器&r的功能类似集线器，同所有与其相邻的存储方块进行连接。&d所有相邻的存储方块均会自动加入网络&r。"
+				""
+				"使用&b存储控制器&r配合&b存储链接&r可以连接到远处的存储容器。&b存储整合器&r通过&b存储桥接器、存储线缆和存储线缆连接器&r也能达到相同的效果。"
+				""
+				"通过&b存储终端&r可以查看与存取网络内物品。它之后可以升级为&b合成终端&r，可以直接使用网络内的物品进行合成。"
+				"{@pagebreak}"
+				"下方是&aTom的简易存储与精妙存储搭配使用&r的样例。如图所示，这个结构&d仅使用了&r&l精妙存储&r&d的存储容器&r和安装在&b精妙存储的存储控制器&r上的&bTom的简易存储的存储终端&r。"
+				""
+				"远程存储使用&b存储链接&r进行连接。"
+				"{image:cottagewitch:textures/sophstoragesetup.png width:100 height:100 align:1 fit:true}"
+				""
+				"{@pagebreak}"
+				"下方是&a仅使用Tom的简易存储&r的样例，使用原版存储容器（尽管它同样支持精妙存储的存储容器）。"
+				""
+				"远程容器通过&b存储线缆&r和&b存储线缆连接器&r连接至&b存储整合器&r。"
+				"{image:cottagewitch:textures/tomssetup.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "1B3C37BD61939C76"
+			rewards: [{
+				id: "4F0820A607503EB4"
+				table_id: 8808494820591225409L
+				type: "loot"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "网络是不可或缺的一部分"
+			tasks: [
+				{
+					id: "65E8A2B80E50F100"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "任意#forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "2268FB94B2D4789E"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+			]
+			title: "网络接口"
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["&b合成终端&r，虽然比较贵，但很值得升级，因为它可以让你直接用存储网络中的物品&a通过JEI或是配方书进行合成&r。"]
+			id: "681253D70C026027"
+			rewards: [{
+				id: "240243DEB27A110F"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			subtitle: "终到的端口——终端"
+			tasks: [{
+				id: "2B45691AED9BE323"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["&b存储桥接器&r用于填充两个连接的存储方块之间的空隙。只要桥接器一端连接可用的存储方块，另一端连接网络中的方块，它就可以将所有与之相接的方块连入存储网络。"]
+			id: "7A9A86BAA9E4A06E"
+			rewards: [{
+				id: "1E928BE5FBB5FD95"
+				table_id: 2068679807827730220L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			subtitle: "整整齐齐"
+			tasks: [{
+				count: 4L
+				id: "38E41AF45EF1C29A"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"大多数人使用&b存储桥接器&r来连接他们的网络，但你也可以使用&b存储整合器&r和&b存储线缆&r进行连接。"
+				"&6将整合器放在你想连接的方块上&r，然后&6在它们中间放上线缆&r。"
+			]
+			id: "21A2E4CA683BD232"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738482AB5370FCF4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "507AD7D665822346"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:inventory_controllers"
+						}
+					}
+					title: "任意#forge:inventory_controllers"
+					type: "item"
+				}
+				{
+					id: "266DB9CE515A1C80"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:connector"
+						}
+					}
+					title: "任意#forge:connector"
+					type: "item"
+				}
+			]
+			title: "远程连接"
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: ["&b无线终端&r是一个非常有用的物品，它可以让你&a在16格范围内&r远程地访问你的库存网络中的物品。"]
+			id: "50D94EFE04154F83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "586FDFDB6BDAD89C"
+				table_id: 8808494820591225409L
+				type: "random"
+			}]
+			subtitle: "我们处于无线状态"
+			tasks: [{
+				id: "12EE65D5450F2B69"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50D94EFE04154F83"]
+			description: [
+				"&b高级无线终端&r与普通版本相比不只是扩展了有效范围（16格变成64格），而且可以扩展为&a无限的有效范围&r，只要&6在旁边搭建一座一级信标&r。"
+				"如果你&6在旁边建了一座4级信标&r，那无线信号将可以&a跨维度&r传输了！"
+				"将它&6装备在“腰带”饰品栏&r后可以&a用快捷键打开&r。"
+			]
+			id: "5E4411D5B4EFA45B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "349BEC406970C530"
+				table_id: 5161092699925703455L
+				type: "random"
+			}]
+			subtitle: "希望灯塔"
+			tasks: [{
+				id: "55AE94FBC169D6F8"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"&b存储代理器&r是一个极好的物品，它扩展了对其相邻容器的访问，特别是&a放置的那面&r，"
+				"当容器因为在自动化系统内等因素导致访问困难时，它能够发挥很大的作用。"
+			]
+			id: "30027D97CE91BAF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C3159EAC07BBAA"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B155EBB095D85A1"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"&b存储漏斗&r可以从你的网络中输入和输出物品。"
+				"&6手持物品右击它&r以设置过滤名单。对于输入来说，这是选择性的，但输出则一定要设置过滤名单。"
+				"&6空手Shift+右击&r以清除过滤名单。"
+			]
+			id: "15F2A54EBE6EEC56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D9719DC75DBE9F9"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65D436A4BFB4E9C0"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1B3C37BD61939C76"]
+			description: [
+				"&b存储状态发信器&r可根据存储容器的内容物来发出红石信号。"
+				"这个信号是根据存储容器中内容物的数量&a是多于还是少于设定数量&r来发出的。"
+			]
+			id: "41933F01B397F9F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA0046E741F21B4"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "65AB7B90E505E5FB"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21A2E4CA683BD232"]
+			description: [
+				"&b镶框方块&r可以&a呈现另一种方块的外观&r。"
+				"放置你的&b镶框方块&r，然后&6拿着喷涂工具并潜行右击&r你要伪装成的方块。&6右击镶框方块&r将其喷涂成对应方块的样子，然后就能看到效果！"
+			]
+			id: "383A9396EDCA0ED1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "257EB530D055D451"
+				table_id: 6941837675484043489L
+				type: "random"
+			}]
+			shape: "hexagon"
+			subtitle: "别多想，没毛病"
+			tasks: [
+				{
+					id: "39246456F6D4B955"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+				{
+					id: "4138B74E75AC4B9D"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "74B9AFE8924F9CCF"
+					item: {
+						Count: 1b
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Framed Blocks"
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			description: [
+				"要开始你的&a螃蟹之旅&r，你需要一个&b捕蟹笼&r。将它放置在水中并&a用饵料填充它&r以吸引生物。"
+				""
+				"你可以使用&b普通的鱼&r作为饵料以获得&b海带和鹦鹉螺壳&r，但如果你想捕获&e螃蟹&r，&b蛤蜊&r或者&b龙虾&r，你需要&b&l诱饵&r。"
+			]
+			id: "602AECDEE9755175"
+			subtitle: "这是个陷阱！"
+			tasks: [{
+				id: "2205B9EDEE5F7A89"
+				item: "crabbersdelight:crab_trap"
+				type: "item"
+			}]
+			title: "捉螃蟹新手"
+			x: 3.5d
+			y: -7.0d
+		}
+
 	]
 	title: "未完成"
 }

@@ -2664,14 +2664,14 @@
 			y: 7.5d
 		}
 		{
-			description: ["可以在&c丛林&r中找到这种强劲又敏捷的生物。&6小心地接近它&r，用&b甜浆果&r或&b西瓜片&e来赢得他们的好感。"]
+			description: ["可以在&c丛林&r中找到这种强劲又敏捷的生物。&6小心地接近它&r，用&b甜浆果&r&e来赢得他们的好感。"]
 			icon: "mythicmounts:courierbird_spawn_egg"
 			id: "65AA3625C4BFB209"
 			rewards: [
 				{
 					count: 5
-					id: "2F0C69D6DD0DECE8"
-					item: "minecraft:melon_slice"
+					id: "4766B845E11CA27C"
+					item: "minecraft:sweet_berries"
 					type: "item"
 				}
 			]
@@ -2774,6 +2774,14 @@
 			description: ["这种温顺又贪吃的蜥蜴喜欢在&c高山上的洞穴里&r休养生息，也喜欢吃&b南瓜或者看着像南瓜的东西&r。用&b南瓜&r、&b西瓜&r或者&b干草块&r来&6驯服它们&r，拥有一个自己的蜥蜴朋友。"]
 			id: "1782885E17C84F8F"
 			shape: "heart"
+			rewards: [
+				{
+					count: 5
+					id: "680E7489BFFFB8CC"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+			]
 			subtitle: "节省15％以上"
 			tasks: [
 				{
@@ -2844,13 +2852,13 @@
 			y: 6.5d
 		}
 		{
-			description: ["在&c下界的菌林&r中寻找这些蝙蝠。它们作为杂食动物，会吃各种各样的东西，从&b蘑菇&r到&b鸡蛋&r再到&b蜘蛛眼&r……&a一定要带上些小零食&r，因为它们&d对玩家充满敌意&r！"]
+			description: ["在&c下界的菌林&r中寻找这些蝙蝠。它们作为杂食动物，会吃各种各样的东西，但你需要&b生猪排&r来驯服它们！……&a一定要带上些小零食&r，因为它们&d对玩家充满敌意&r！"]
 			id: "04BBB86977655EB7"
 			rewards: [
 				{
 					count: 5
-					id: "0D0AA2FDF5D3901B"
-					item: "minecraft:spider_eye"
+					id: "33F378C57D020AEC"
+					item: "minecraft:porkchop"
 					type: "item"
 				}
 			]
@@ -2871,7 +2879,7 @@
 			y: 3.5d
 		}
 		{
-			description: ["要想轻松地穿越下界，可以找一只梦魇带你走，你可以在&c灵魂沙峡谷&r和&c玄武岩三角洲&r中找到它，并且该坐骑可以&a在熔岩上行走&r。用&b骨头&r或者&b煤炭&r和它&6做朋友&r吧。"]
+			description: ["要想轻松地穿越下界，可以找一只梦魇带你走，你可以在&c灵魂沙峡谷&r和&c玄武岩三角洲&r中找到它，并且该坐骑可以&a在熔岩上行走&r。用&b骨头&r，&b煤炭&r或&b木炭&r和它&6做朋友&r吧。"]
 			id: "19B9CB7C3611E68B"
 			rewards: [
 				{
@@ -2898,13 +2906,13 @@
 			y: 3.0d
 		}
 		{
-			description: ["这些&c珊瑚礁居民&r都很友善，它们是能干的游泳运动员，还有有很多花纹和颜色！可以用&b海带&6驯服&r一只水生坐骑！"]
+			description: ["这些&c珊瑚礁居民&r都很友善，它们是能干的游泳运动员，还有有很多花纹和颜色！可以用&b海草&6驯服&r一只水生坐骑！"]
 			id: "4820853CA82E0A49"
 			rewards: [
 				{
 					count: 5
-					id: "2CC01EBAD9775DED"
-					item: "minecraft:kelp"
+					id: "0A041EAA6116B291"
+					item: "minecraft:seagrass"
 					type: "item"
 				}
 			]
@@ -2999,7 +3007,7 @@
 				{
 					icon: "crittersandcompanions:silk_cocoon"
 					id: "237BF2170AFAE280"
-					observe_type: 0
+					observe_type: 5
 					timer: 0L
 					to_observe: "crittersandcompanions:jumping_spider"
 					type: "observation"

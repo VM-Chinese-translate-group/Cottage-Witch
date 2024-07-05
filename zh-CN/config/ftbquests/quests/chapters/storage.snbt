@@ -1266,7 +1266,7 @@
 					type: "item"
 				}
 			]
-			Ft
+			shape: "rsquare"
 			size: 2.0d
 			subtitle: "终于！"
 			tasks: [
